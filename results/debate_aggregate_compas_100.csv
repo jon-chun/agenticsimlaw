@@ -1,0 +1,901 @@
+model_name,case_id,repeat_id,dataset,prediction,confidence,ground_truth,n_judge_opinions
+gemini/gemini-2.5-flash,0,1,compas,YES,80.0,True,6
+gemini/gemini-2.5-flash,0,2,compas,YES,85.0,True,6
+gemini/gemini-2.5-flash,0,3,compas,YES,85.0,True,6
+gemini/gemini-2.5-flash,10,1,compas,YES,85.0,False,6
+gemini/gemini-2.5-flash,10,2,compas,YES,75.0,False,6
+gemini/gemini-2.5-flash,10,3,compas,UNKNOWN,75.0,False,6
+gemini/gemini-2.5-flash,11,1,compas,NO,90.0,False,6
+gemini/gemini-2.5-flash,11,2,compas,NO,88.0,False,6
+gemini/gemini-2.5-flash,11,3,compas,NO,90.0,False,6
+gemini/gemini-2.5-flash,12,1,compas,YES,75.0,False,6
+gemini/gemini-2.5-flash,12,2,compas,YES,75.0,False,6
+gemini/gemini-2.5-flash,12,3,compas,YES,75.0,False,6
+gemini/gemini-2.5-flash,13,1,compas,NO,95.0,False,0
+gemini/gemini-2.5-flash,13,2,compas,NO DECISION,0.0,False,0
+gemini/gemini-2.5-flash,13,3,compas,NO DECISION,0.0,False,0
+gemini/gemini-2.5-flash,14,1,compas,YES,85.0,True,6
+gemini/gemini-2.5-flash,14,2,compas,YES,80.0,True,6
+gemini/gemini-2.5-flash,14,3,compas,YES,75.0,True,6
+gemini/gemini-2.5-flash,15,1,compas,NO,95.0,False,6
+gemini/gemini-2.5-flash,15,2,compas,NO,95.0,False,6
+gemini/gemini-2.5-flash,15,3,compas,NO,95.0,False,6
+gemini/gemini-2.5-flash,16,1,compas,NO DECISION,0.0,True,4
+gemini/gemini-2.5-flash,16,2,compas,NO DECISION,0.0,True,4
+gemini/gemini-2.5-flash,16,3,compas,NO DECISION,0.0,True,4
+gemini/gemini-2.5-flash,17,1,compas,NO,70.0,True,0
+gemini/gemini-2.5-flash,17,2,compas,NO DECISION,0.0,True,0
+gemini/gemini-2.5-flash,17,3,compas,NO DECISION,0.0,True,0
+gemini/gemini-2.5-flash,18,1,compas,UNKNOWN,75.0,True,6
+gemini/gemini-2.5-flash,18,2,compas,NO,60.0,True,6
+gemini/gemini-2.5-flash,18,3,compas,NO,75.0,True,6
+gemini/gemini-2.5-flash,19,1,compas,NO DECISION,0.0,False,0
+gemini/gemini-2.5-flash,19,2,compas,NO DECISION,0.0,False,0
+gemini/gemini-2.5-flash,19,3,compas,NO DECISION,0.0,False,0
+gemini/gemini-2.5-flash,1,1,compas,YES,85.0,True,2
+gemini/gemini-2.5-flash,1,2,compas,YES,80.0,True,2
+gemini/gemini-2.5-flash,1,3,compas,YES,85.0,True,2
+gemini/gemini-2.5-flash,20,1,compas,NO,85.0,False,6
+gemini/gemini-2.5-flash,20,2,compas,NO,85.0,False,6
+gemini/gemini-2.5-flash,20,3,compas,NO,85.0,False,6
+gemini/gemini-2.5-flash,21,1,compas,YES,65.0,True,3
+gemini/gemini-2.5-flash,21,2,compas,NO,65.0,True,3
+gemini/gemini-2.5-flash,21,3,compas,NO,65.0,True,3
+gemini/gemini-2.5-flash,22,1,compas,NO,75.0,True,6
+gemini/gemini-2.5-flash,22,2,compas,NO,75.0,True,6
+gemini/gemini-2.5-flash,22,3,compas,NO,75.0,True,6
+gemini/gemini-2.5-flash,23,1,compas,YES,65.0,True,4
+gemini/gemini-2.5-flash,23,2,compas,NO,65.0,True,4
+gemini/gemini-2.5-flash,23,3,compas,YES,70.0,True,5
+gemini/gemini-2.5-flash,24,1,compas,NO DECISION,0.0,True,0
+gemini/gemini-2.5-flash,24,2,compas,NO DECISION,0.0,True,0
+gemini/gemini-2.5-flash,24,3,compas,NO DECISION,0.0,True,0
+gemini/gemini-2.5-flash,25,1,compas,NO DECISION,0.0,False,0
+gemini/gemini-2.5-flash,25,2,compas,NO DECISION,0.0,False,0
+gemini/gemini-2.5-flash,25,3,compas,NO DECISION,0.0,False,0
+gemini/gemini-2.5-flash,26,1,compas,YES,65.0,False,6
+gemini/gemini-2.5-flash,26,2,compas,YES,70.0,False,6
+gemini/gemini-2.5-flash,26,3,compas,NO,60.0,False,6
+gemini/gemini-2.5-flash,27,1,compas,NO DECISION,0.0,False,0
+gemini/gemini-2.5-flash,27,2,compas,NO DECISION,0.0,False,0
+gemini/gemini-2.5-flash,27,3,compas,NO DECISION,0.0,False,0
+gemini/gemini-2.5-flash,28,1,compas,NO,90.0,False,6
+gemini/gemini-2.5-flash,28,2,compas,NO,95.0,False,6
+gemini/gemini-2.5-flash,28,3,compas,NO,90.0,False,6
+gemini/gemini-2.5-flash,29,1,compas,YES,90.0,False,2
+gemini/gemini-2.5-flash,29,2,compas,YES,90.0,False,2
+gemini/gemini-2.5-flash,29,3,compas,YES,90.0,False,2
+gemini/gemini-2.5-flash,2,1,compas,YES,90.0,True,3
+gemini/gemini-2.5-flash,2,2,compas,YES,90.0,True,4
+gemini/gemini-2.5-flash,2,3,compas,YES,90.0,True,4
+gemini/gemini-2.5-flash,30,1,compas,YES,90.0,True,6
+gemini/gemini-2.5-flash,30,2,compas,YES,85.0,True,6
+gemini/gemini-2.5-flash,30,3,compas,YES,85.0,True,6
+gemini/gemini-2.5-flash,31,1,compas,NO,95.0,False,6
+gemini/gemini-2.5-flash,31,2,compas,NO,92.0,False,6
+gemini/gemini-2.5-flash,31,3,compas,NO,95.0,False,6
+gemini/gemini-2.5-flash,32,1,compas,NO DECISION,0.0,False,0
+gemini/gemini-2.5-flash,32,2,compas,NO DECISION,0.0,False,0
+gemini/gemini-2.5-flash,32,3,compas,NO DECISION,0.0,False,0
+gemini/gemini-2.5-flash,33,1,compas,YES,80.0,True,6
+gemini/gemini-2.5-flash,33,2,compas,YES,85.0,True,6
+gemini/gemini-2.5-flash,33,3,compas,YES,80.0,True,6
+gemini/gemini-2.5-flash,34,1,compas,NO DECISION,0.0,True,2
+gemini/gemini-2.5-flash,34,2,compas,NO DECISION,0.0,True,2
+gemini/gemini-2.5-flash,34,3,compas,NO DECISION,0.0,True,2
+gemini/gemini-2.5-flash,35,1,compas,NO,90.0,False,6
+gemini/gemini-2.5-flash,35,2,compas,NO DECISION,0.0,False,5
+gemini/gemini-2.5-flash,35,3,compas,NO DECISION,0.0,False,5
+gemini/gemini-2.5-flash,36,1,compas,NO DECISION,0.0,False,0
+gemini/gemini-2.5-flash,36,2,compas,YES,75.0,False,0
+gemini/gemini-2.5-flash,36,3,compas,NO DECISION,0.0,False,0
+gemini/gemini-2.5-flash,37,1,compas,YES,88.0,True,1
+gemini/gemini-2.5-flash,37,2,compas,YES,90.0,True,1
+gemini/gemini-2.5-flash,37,3,compas,YES,85.0,True,1
+gemini/gemini-2.5-flash,38,1,compas,NO DECISION,0.0,False,0
+gemini/gemini-2.5-flash,38,2,compas,NO DECISION,0.0,False,0
+gemini/gemini-2.5-flash,38,3,compas,NO DECISION,0.0,False,0
+gemini/gemini-2.5-flash,39,1,compas,NO,85.0,False,6
+gemini/gemini-2.5-flash,39,2,compas,NO,95.0,False,6
+gemini/gemini-2.5-flash,39,3,compas,NO,88.0,False,6
+gemini/gemini-2.5-flash,3,1,compas,NO DECISION,0.0,True,0
+gemini/gemini-2.5-flash,3,2,compas,NO DECISION,0.0,True,0
+gemini/gemini-2.5-flash,3,3,compas,NO DECISION,0.0,True,0
+gemini/gemini-2.5-flash,40,1,compas,NO,90.0,False,6
+gemini/gemini-2.5-flash,40,2,compas,NO,90.0,False,6
+gemini/gemini-2.5-flash,40,3,compas,NO,85.0,False,6
+gemini/gemini-2.5-flash,41,1,compas,NO DECISION,0.0,False,0
+gemini/gemini-2.5-flash,41,2,compas,NO DECISION,0.0,False,0
+gemini/gemini-2.5-flash,41,3,compas,NO DECISION,0.0,False,0
+gemini/gemini-2.5-flash,42,1,compas,YES,90.0,True,6
+gemini/gemini-2.5-flash,42,2,compas,YES,75.0,True,6
+gemini/gemini-2.5-flash,42,3,compas,YES,85.0,True,6
+gemini/gemini-2.5-flash,43,1,compas,NO DECISION,0.0,False,0
+gemini/gemini-2.5-flash,43,2,compas,NO DECISION,0.0,False,0
+gemini/gemini-2.5-flash,43,3,compas,NO DECISION,0.0,False,0
+gemini/gemini-2.5-flash,44,1,compas,NO,98.0,False,6
+gemini/gemini-2.5-flash,44,2,compas,NO,95.0,False,6
+gemini/gemini-2.5-flash,44,3,compas,NO,95.0,False,6
+gemini/gemini-2.5-flash,45,1,compas,YES,85.0,False,6
+gemini/gemini-2.5-flash,45,2,compas,YES,85.0,False,6
+gemini/gemini-2.5-flash,45,3,compas,YES,85.0,False,6
+gemini/gemini-2.5-flash,46,1,compas,NO DECISION,0.0,True,0
+gemini/gemini-2.5-flash,46,2,compas,NO DECISION,0.0,True,0
+gemini/gemini-2.5-flash,46,3,compas,NO DECISION,0.0,True,0
+gemini/gemini-2.5-flash,47,1,compas,UNKNOWN,75.0,False,6
+gemini/gemini-2.5-flash,47,2,compas,NO,70.0,False,6
+gemini/gemini-2.5-flash,47,3,compas,NO,65.0,False,6
+gemini/gemini-2.5-flash,48,1,compas,NO DECISION,0.0,True,0
+gemini/gemini-2.5-flash,48,2,compas,NO DECISION,0.0,True,0
+gemini/gemini-2.5-flash,48,3,compas,NO DECISION,0.0,True,0
+gemini/gemini-2.5-flash,49,1,compas,NO DECISION,0.0,False,4
+gemini/gemini-2.5-flash,49,2,compas,NO DECISION,0.0,False,3
+gemini/gemini-2.5-flash,49,3,compas,NO DECISION,0.0,False,3
+gemini/gemini-2.5-flash,4,1,compas,NO,95.0,False,6
+gemini/gemini-2.5-flash,4,2,compas,NO,95.0,False,6
+gemini/gemini-2.5-flash,4,3,compas,NO,98.0,False,6
+gemini/gemini-2.5-flash,50,1,compas,NO DECISION,0.0,False,0
+gemini/gemini-2.5-flash,50,2,compas,NO DECISION,0.0,False,0
+gemini/gemini-2.5-flash,50,3,compas,NO DECISION,0.0,False,0
+gemini/gemini-2.5-flash,51,1,compas,YES,88.0,True,6
+gemini/gemini-2.5-flash,51,2,compas,YES,85.0,True,6
+gemini/gemini-2.5-flash,51,3,compas,YES,90.0,True,6
+gemini/gemini-2.5-flash,52,1,compas,YES,70.0,True,2
+gemini/gemini-2.5-flash,52,2,compas,YES,75.0,True,3
+gemini/gemini-2.5-flash,52,3,compas,YES,75.0,True,3
+gemini/gemini-2.5-flash,53,1,compas,NO,95.0,False,6
+gemini/gemini-2.5-flash,53,2,compas,NO,95.0,False,6
+gemini/gemini-2.5-flash,53,3,compas,NO,95.0,False,6
+gemini/gemini-2.5-flash,54,1,compas,NO DECISION,0.0,False,0
+gemini/gemini-2.5-flash,54,2,compas,NO DECISION,0.0,False,0
+gemini/gemini-2.5-flash,54,3,compas,NO DECISION,0.0,False,0
+gemini/gemini-2.5-flash,55,1,compas,YES,85.0,True,6
+gemini/gemini-2.5-flash,55,2,compas,YES,85.0,True,6
+gemini/gemini-2.5-flash,55,3,compas,YES,90.0,True,6
+gemini/gemini-2.5-flash,56,1,compas,NO DECISION,0.0,False,0
+gemini/gemini-2.5-flash,56,2,compas,NO DECISION,0.0,False,0
+gemini/gemini-2.5-flash,56,3,compas,NO DECISION,0.0,False,0
+gemini/gemini-2.5-flash,57,1,compas,NO DECISION,0.0,True,0
+gemini/gemini-2.5-flash,57,2,compas,NO DECISION,0.0,True,0
+gemini/gemini-2.5-flash,57,3,compas,NO DECISION,0.0,True,0
+gemini/gemini-2.5-flash,58,1,compas,NO DECISION,0.0,True,0
+gemini/gemini-2.5-flash,58,2,compas,NO DECISION,0.0,True,0
+gemini/gemini-2.5-flash,58,3,compas,NO DECISION,0.0,True,0
+gemini/gemini-2.5-flash,59,1,compas,NO DECISION,0.0,True,0
+gemini/gemini-2.5-flash,59,2,compas,NO DECISION,0.0,True,0
+gemini/gemini-2.5-flash,59,3,compas,NO DECISION,0.0,True,0
+gemini/gemini-2.5-flash,5,1,compas,YES,70.0,True,6
+gemini/gemini-2.5-flash,5,2,compas,NO,65.0,True,6
+gemini/gemini-2.5-flash,5,3,compas,YES,75.0,True,6
+gemini/gemini-2.5-flash,60,1,compas,NO,95.0,False,6
+gemini/gemini-2.5-flash,60,2,compas,NO,98.0,False,6
+gemini/gemini-2.5-flash,60,3,compas,NO,95.0,False,6
+gemini/gemini-2.5-flash,61,1,compas,NO DECISION,0.0,True,0
+gemini/gemini-2.5-flash,61,2,compas,NO DECISION,0.0,True,0
+gemini/gemini-2.5-flash,61,3,compas,NO DECISION,0.0,True,0
+gemini/gemini-2.5-flash,62,1,compas,NO DECISION,0.0,False,0
+gemini/gemini-2.5-flash,62,2,compas,NO DECISION,0.0,False,0
+gemini/gemini-2.5-flash,62,3,compas,NO DECISION,0.0,False,0
+gemini/gemini-2.5-flash,63,1,compas,NO DECISION,0.0,False,0
+gemini/gemini-2.5-flash,63,2,compas,NO DECISION,0.0,False,0
+gemini/gemini-2.5-flash,63,3,compas,NO DECISION,0.0,False,0
+gemini/gemini-2.5-flash,64,1,compas,NO DECISION,0.0,False,0
+gemini/gemini-2.5-flash,64,2,compas,NO DECISION,0.0,False,0
+gemini/gemini-2.5-flash,64,3,compas,NO DECISION,0.0,False,0
+gemini/gemini-2.5-flash,65,1,compas,YES,70.0,False,6
+gemini/gemini-2.5-flash,65,2,compas,NO,75.0,False,6
+gemini/gemini-2.5-flash,65,3,compas,YES,75.0,False,6
+gemini/gemini-2.5-flash,66,1,compas,NO,85.0,False,6
+gemini/gemini-2.5-flash,66,2,compas,NO,85.0,False,6
+gemini/gemini-2.5-flash,66,3,compas,NO,85.0,False,6
+gemini/gemini-2.5-flash,67,1,compas,NO DECISION,0.0,False,0
+gemini/gemini-2.5-flash,67,2,compas,NO DECISION,0.0,False,0
+gemini/gemini-2.5-flash,67,3,compas,NO DECISION,0.0,False,0
+gemini/gemini-2.5-flash,68,1,compas,NO DECISION,0.0,False,0
+gemini/gemini-2.5-flash,68,2,compas,NO DECISION,0.0,False,0
+gemini/gemini-2.5-flash,68,3,compas,NO DECISION,0.0,False,0
+gemini/gemini-2.5-flash,69,1,compas,YES,90.0,False,6
+gemini/gemini-2.5-flash,69,2,compas,YES,95.0,False,6
+gemini/gemini-2.5-flash,69,3,compas,YES,90.0,False,6
+gemini/gemini-2.5-flash,6,1,compas,NO DECISION,0.0,False,0
+gemini/gemini-2.5-flash,6,2,compas,NO DECISION,0.0,False,0
+gemini/gemini-2.5-flash,6,3,compas,NO DECISION,0.0,False,0
+gemini/gemini-2.5-flash,70,1,compas,NO,95.0,False,6
+gemini/gemini-2.5-flash,70,2,compas,NO,95.0,False,6
+gemini/gemini-2.5-flash,70,3,compas,NO,90.0,False,6
+gemini/gemini-2.5-flash,71,1,compas,YES,85.0,True,6
+gemini/gemini-2.5-flash,71,2,compas,YES,85.0,True,6
+gemini/gemini-2.5-flash,71,3,compas,YES,85.0,True,6
+gemini/gemini-2.5-flash,72,1,compas,YES,70.0,False,6
+gemini/gemini-2.5-flash,72,2,compas,YES,75.0,False,6
+gemini/gemini-2.5-flash,72,3,compas,UNKNOWN,75.0,False,6
+gemini/gemini-2.5-flash,73,1,compas,YES,88.0,True,6
+gemini/gemini-2.5-flash,73,2,compas,YES,85.0,True,6
+gemini/gemini-2.5-flash,73,3,compas,YES,85.0,True,6
+gemini/gemini-2.5-flash,74,1,compas,UNKNOWN,75.0,False,6
+gemini/gemini-2.5-flash,74,2,compas,UNKNOWN,75.0,False,6
+gemini/gemini-2.5-flash,74,3,compas,UNKNOWN,75.0,False,6
+gemini/gemini-2.5-flash,75,1,compas,NO DECISION,0.0,False,0
+gemini/gemini-2.5-flash,75,2,compas,NO DECISION,0.0,False,0
+gemini/gemini-2.5-flash,75,3,compas,NO DECISION,0.0,False,0
+gemini/gemini-2.5-flash,76,1,compas,YES,90.0,True,6
+gemini/gemini-2.5-flash,76,2,compas,YES,90.0,True,6
+gemini/gemini-2.5-flash,76,3,compas,YES,85.0,True,6
+gemini/gemini-2.5-flash,77,1,compas,YES,85.0,False,6
+gemini/gemini-2.5-flash,77,2,compas,YES,90.0,False,6
+gemini/gemini-2.5-flash,77,3,compas,YES,85.0,False,6
+gemini/gemini-2.5-flash,78,1,compas,NO DECISION,0.0,True,0
+gemini/gemini-2.5-flash,78,2,compas,NO DECISION,0.0,True,0
+gemini/gemini-2.5-flash,78,3,compas,NO DECISION,0.0,True,0
+gemini/gemini-2.5-flash,79,1,compas,NO DECISION,0.0,True,0
+gemini/gemini-2.5-flash,79,2,compas,NO DECISION,0.0,True,0
+gemini/gemini-2.5-flash,79,3,compas,NO DECISION,0.0,True,0
+gemini/gemini-2.5-flash,7,1,compas,NO DECISION,0.0,False,1
+gemini/gemini-2.5-flash,7,2,compas,NO DECISION,0.0,False,1
+gemini/gemini-2.5-flash,7,3,compas,NO DECISION,0.0,False,1
+gemini/gemini-2.5-flash,80,1,compas,NO,65.0,False,6
+gemini/gemini-2.5-flash,80,2,compas,YES,65.0,False,6
+gemini/gemini-2.5-flash,80,3,compas,YES,70.0,False,6
+gemini/gemini-2.5-flash,81,1,compas,NO DECISION,0.0,False,0
+gemini/gemini-2.5-flash,81,2,compas,NO DECISION,0.0,False,0
+gemini/gemini-2.5-flash,81,3,compas,NO DECISION,0.0,False,0
+gemini/gemini-2.5-flash,82,1,compas,YES,65.0,False,6
+gemini/gemini-2.5-flash,82,2,compas,NO,70.0,False,6
+gemini/gemini-2.5-flash,82,3,compas,NO,85.0,False,6
+gemini/gemini-2.5-flash,83,1,compas,UNKNOWN,75.0,False,6
+gemini/gemini-2.5-flash,83,2,compas,YES,95.0,False,6
+gemini/gemini-2.5-flash,83,3,compas,YES,90.0,False,6
+gemini/gemini-2.5-flash,84,1,compas,NO,90.0,True,0
+gemini/gemini-2.5-flash,84,2,compas,NO,95.0,True,0
+gemini/gemini-2.5-flash,84,3,compas,NO,95.0,True,0
+gemini/gemini-2.5-flash,85,1,compas,YES,65.0,False,6
+gemini/gemini-2.5-flash,85,2,compas,YES,65.0,False,6
+gemini/gemini-2.5-flash,85,3,compas,YES,65.0,False,6
+gemini/gemini-2.5-flash,86,1,compas,NO,95.0,False,6
+gemini/gemini-2.5-flash,86,2,compas,NO,95.0,False,6
+gemini/gemini-2.5-flash,86,3,compas,NO,98.0,False,6
+gemini/gemini-2.5-flash,87,1,compas,NO,75.0,False,5
+gemini/gemini-2.5-flash,87,2,compas,NO,90.0,False,5
+gemini/gemini-2.5-flash,87,3,compas,UNKNOWN,75.0,False,6
+gemini/gemini-2.5-flash,88,1,compas,YES,85.0,True,6
+gemini/gemini-2.5-flash,88,2,compas,YES,80.0,True,6
+gemini/gemini-2.5-flash,88,3,compas,YES,90.0,True,6
+gemini/gemini-2.5-flash,89,1,compas,NO DECISION,0.0,True,0
+gemini/gemini-2.5-flash,89,2,compas,NO DECISION,0.0,True,0
+gemini/gemini-2.5-flash,89,3,compas,NO DECISION,0.0,True,0
+gemini/gemini-2.5-flash,8,1,compas,NO DECISION,0.0,False,0
+gemini/gemini-2.5-flash,8,2,compas,NO DECISION,0.0,False,0
+gemini/gemini-2.5-flash,8,3,compas,NO DECISION,0.0,False,0
+gemini/gemini-2.5-flash,90,1,compas,YES,85.0,False,6
+gemini/gemini-2.5-flash,90,2,compas,YES,85.0,False,6
+gemini/gemini-2.5-flash,90,3,compas,YES,75.0,False,6
+gemini/gemini-2.5-flash,91,1,compas,YES,90.0,True,6
+gemini/gemini-2.5-flash,91,2,compas,YES,85.0,True,6
+gemini/gemini-2.5-flash,91,3,compas,UNKNOWN,75.0,True,6
+gemini/gemini-2.5-flash,92,1,compas,NO,60.0,True,6
+gemini/gemini-2.5-flash,92,2,compas,YES,65.0,True,6
+gemini/gemini-2.5-flash,92,3,compas,NO,60.0,True,6
+gemini/gemini-2.5-flash,93,1,compas,YES,65.0,True,6
+gemini/gemini-2.5-flash,93,2,compas,YES,70.0,True,6
+gemini/gemini-2.5-flash,93,3,compas,UNKNOWN,75.0,True,6
+gemini/gemini-2.5-flash,94,1,compas,NO DECISION,0.0,True,0
+gemini/gemini-2.5-flash,94,2,compas,NO DECISION,0.0,True,0
+gemini/gemini-2.5-flash,94,3,compas,NO DECISION,0.0,True,0
+gemini/gemini-2.5-flash,95,1,compas,NO DECISION,0.0,True,0
+gemini/gemini-2.5-flash,95,2,compas,NO DECISION,0.0,True,0
+gemini/gemini-2.5-flash,95,3,compas,NO DECISION,0.0,True,0
+gemini/gemini-2.5-flash,96,1,compas,NO,80.0,True,6
+gemini/gemini-2.5-flash,96,2,compas,NO,80.0,True,6
+gemini/gemini-2.5-flash,96,3,compas,NO,85.0,True,6
+gemini/gemini-2.5-flash,97,1,compas,NO DECISION,0.0,True,0
+gemini/gemini-2.5-flash,97,2,compas,NO DECISION,0.0,True,0
+gemini/gemini-2.5-flash,97,3,compas,NO DECISION,0.0,True,0
+gemini/gemini-2.5-flash,98,1,compas,NO DECISION,0.0,True,0
+gemini/gemini-2.5-flash,98,2,compas,NO DECISION,0.0,True,0
+gemini/gemini-2.5-flash,98,3,compas,NO DECISION,0.0,True,0
+gemini/gemini-2.5-flash,99,1,compas,NO DECISION,0.0,True,0
+gemini/gemini-2.5-flash,99,2,compas,NO DECISION,0.0,True,0
+gemini/gemini-2.5-flash,99,3,compas,NO DECISION,0.0,True,0
+gemini/gemini-2.5-flash,9,1,compas,NO,65.0,True,6
+gemini/gemini-2.5-flash,9,2,compas,YES,65.0,True,6
+gemini/gemini-2.5-flash,9,3,compas,YES,65.0,True,6
+gpt-4.1-mini,0,1,compas,YES,75.0,True,6
+gpt-4.1-mini,0,2,compas,YES,75.0,True,6
+gpt-4.1-mini,0,3,compas,YES,75.0,True,6
+gpt-4.1-mini,10,1,compas,NO,70.0,False,6
+gpt-4.1-mini,10,2,compas,YES,70.0,False,6
+gpt-4.1-mini,10,3,compas,YES,75.0,False,6
+gpt-4.1-mini,11,1,compas,NO,85.0,False,6
+gpt-4.1-mini,11,2,compas,NO,75.0,False,6
+gpt-4.1-mini,11,3,compas,NO,85.0,False,6
+gpt-4.1-mini,12,1,compas,YES,75.0,False,6
+gpt-4.1-mini,12,2,compas,YES,75.0,False,6
+gpt-4.1-mini,12,3,compas,YES,70.0,False,6
+gpt-4.1-mini,13,1,compas,NO,95.0,False,6
+gpt-4.1-mini,13,2,compas,NO,95.0,False,6
+gpt-4.1-mini,13,3,compas,NO,95.0,False,6
+gpt-4.1-mini,14,1,compas,YES,70.0,True,6
+gpt-4.1-mini,14,2,compas,YES,70.0,True,6
+gpt-4.1-mini,14,3,compas,YES,70.0,True,6
+gpt-4.1-mini,15,1,compas,NO,90.0,False,6
+gpt-4.1-mini,15,2,compas,NO,95.0,False,6
+gpt-4.1-mini,15,3,compas,NO,95.0,False,6
+gpt-4.1-mini,16,1,compas,YES,75.0,True,6
+gpt-4.1-mini,16,2,compas,YES,75.0,True,6
+gpt-4.1-mini,16,3,compas,YES,75.0,True,6
+gpt-4.1-mini,17,1,compas,NO,70.0,True,6
+gpt-4.1-mini,17,2,compas,NO,70.0,True,6
+gpt-4.1-mini,17,3,compas,NO,75.0,True,6
+gpt-4.1-mini,18,1,compas,NO,75.0,True,6
+gpt-4.1-mini,18,2,compas,NO,75.0,True,6
+gpt-4.1-mini,18,3,compas,NO,75.0,True,6
+gpt-4.1-mini,19,1,compas,NO,85.0,False,6
+gpt-4.1-mini,19,2,compas,NO,85.0,False,6
+gpt-4.1-mini,19,3,compas,NO,85.0,False,6
+gpt-4.1-mini,1,1,compas,YES,75.0,True,6
+gpt-4.1-mini,1,2,compas,YES,85.0,True,6
+gpt-4.1-mini,1,3,compas,YES,75.0,True,6
+gpt-4.1-mini,20,1,compas,NO,85.0,False,6
+gpt-4.1-mini,20,2,compas,NO,85.0,False,6
+gpt-4.1-mini,20,3,compas,NO,85.0,False,6
+gpt-4.1-mini,21,1,compas,NO,65.0,True,6
+gpt-4.1-mini,21,2,compas,NO,75.0,True,6
+gpt-4.1-mini,21,3,compas,NO,65.0,True,6
+gpt-4.1-mini,22,1,compas,NO,75.0,True,6
+gpt-4.1-mini,22,2,compas,NO,75.0,True,6
+gpt-4.1-mini,22,3,compas,NO,75.0,True,6
+gpt-4.1-mini,23,1,compas,NO,65.0,True,6
+gpt-4.1-mini,23,2,compas,NO,65.0,True,6
+gpt-4.1-mini,23,3,compas,NO,65.0,True,6
+gpt-4.1-mini,24,1,compas,YES,75.0,True,6
+gpt-4.1-mini,24,2,compas,YES,75.0,True,6
+gpt-4.1-mini,24,3,compas,YES,75.0,True,6
+gpt-4.1-mini,25,1,compas,NO,95.0,False,6
+gpt-4.1-mini,25,2,compas,NO,90.0,False,6
+gpt-4.1-mini,25,3,compas,NO,95.0,False,6
+gpt-4.1-mini,26,1,compas,NO,65.0,False,6
+gpt-4.1-mini,26,2,compas,YES,70.0,False,6
+gpt-4.1-mini,26,3,compas,NO,65.0,False,6
+gpt-4.1-mini,27,1,compas,NO,75.0,False,6
+gpt-4.1-mini,27,2,compas,NO,75.0,False,6
+gpt-4.1-mini,27,3,compas,NO,75.0,False,6
+gpt-4.1-mini,28,1,compas,NO,85.0,False,6
+gpt-4.1-mini,28,2,compas,NO,75.0,False,6
+gpt-4.1-mini,28,3,compas,NO,85.0,False,6
+gpt-4.1-mini,29,1,compas,YES,85.0,False,6
+gpt-4.1-mini,29,2,compas,YES,85.0,False,6
+gpt-4.1-mini,29,3,compas,YES,85.0,False,6
+gpt-4.1-mini,2,1,compas,YES,85.0,True,6
+gpt-4.1-mini,2,2,compas,YES,85.0,True,6
+gpt-4.1-mini,2,3,compas,YES,85.0,True,6
+gpt-4.1-mini,30,1,compas,YES,80.0,True,6
+gpt-4.1-mini,30,2,compas,YES,75.0,True,6
+gpt-4.1-mini,30,3,compas,YES,75.0,True,6
+gpt-4.1-mini,31,1,compas,NO,90.0,False,6
+gpt-4.1-mini,31,2,compas,NO,85.0,False,6
+gpt-4.1-mini,31,3,compas,NO,85.0,False,6
+gpt-4.1-mini,32,1,compas,NO,65.0,False,6
+gpt-4.1-mini,32,2,compas,NO,65.0,False,6
+gpt-4.1-mini,32,3,compas,NO,70.0,False,6
+gpt-4.1-mini,33,1,compas,YES,75.0,True,6
+gpt-4.1-mini,33,2,compas,YES,75.0,True,6
+gpt-4.1-mini,33,3,compas,YES,75.0,True,6
+gpt-4.1-mini,34,1,compas,YES,85.0,True,6
+gpt-4.1-mini,34,2,compas,YES,85.0,True,6
+gpt-4.1-mini,34,3,compas,YES,85.0,True,6
+gpt-4.1-mini,35,1,compas,NO,95.0,False,6
+gpt-4.1-mini,35,2,compas,NO,95.0,False,6
+gpt-4.1-mini,35,3,compas,NO,95.0,False,6
+gpt-4.1-mini,36,1,compas,NO,65.0,False,6
+gpt-4.1-mini,36,2,compas,YES,75.0,False,6
+gpt-4.1-mini,36,3,compas,NO,70.0,False,6
+gpt-4.1-mini,37,1,compas,YES,75.0,True,6
+gpt-4.1-mini,37,2,compas,YES,75.0,True,6
+gpt-4.1-mini,37,3,compas,YES,75.0,True,6
+gpt-4.1-mini,38,1,compas,NO,90.0,False,6
+gpt-4.1-mini,38,2,compas,NO,85.0,False,6
+gpt-4.1-mini,38,3,compas,NO,85.0,False,6
+gpt-4.1-mini,39,1,compas,NO,85.0,False,6
+gpt-4.1-mini,39,2,compas,NO,85.0,False,6
+gpt-4.1-mini,39,3,compas,NO,85.0,False,6
+gpt-4.1-mini,3,1,compas,YES,75.0,True,6
+gpt-4.1-mini,3,2,compas,YES,75.0,True,6
+gpt-4.1-mini,3,3,compas,YES,75.0,True,6
+gpt-4.1-mini,40,1,compas,NO,85.0,False,6
+gpt-4.1-mini,40,2,compas,NO,85.0,False,6
+gpt-4.1-mini,40,3,compas,NO,85.0,False,6
+gpt-4.1-mini,41,1,compas,NO,90.0,False,6
+gpt-4.1-mini,41,2,compas,NO,95.0,False,6
+gpt-4.1-mini,41,3,compas,NO,90.0,False,6
+gpt-4.1-mini,42,1,compas,YES,85.0,True,6
+gpt-4.1-mini,42,2,compas,YES,85.0,True,6
+gpt-4.1-mini,42,3,compas,YES,80.0,True,6
+gpt-4.1-mini,43,1,compas,NO,90.0,False,6
+gpt-4.1-mini,43,2,compas,NO,95.0,False,6
+gpt-4.1-mini,43,3,compas,NO,90.0,False,6
+gpt-4.1-mini,44,1,compas,NO,90.0,False,6
+gpt-4.1-mini,44,2,compas,NO,95.0,False,6
+gpt-4.1-mini,44,3,compas,NO,95.0,False,6
+gpt-4.1-mini,45,1,compas,NO,70.0,False,6
+gpt-4.1-mini,45,2,compas,NO,70.0,False,6
+gpt-4.1-mini,45,3,compas,NO,70.0,False,6
+gpt-4.1-mini,46,1,compas,NO,85.0,True,6
+gpt-4.1-mini,46,2,compas,NO,90.0,True,6
+gpt-4.1-mini,46,3,compas,NO,85.0,True,6
+gpt-4.1-mini,47,1,compas,NO,70.0,False,6
+gpt-4.1-mini,47,2,compas,NO,70.0,False,6
+gpt-4.1-mini,47,3,compas,NO,70.0,False,6
+gpt-4.1-mini,48,1,compas,NO,90.0,True,6
+gpt-4.1-mini,48,2,compas,NO,90.0,True,6
+gpt-4.1-mini,48,3,compas,NO,85.0,True,6
+gpt-4.1-mini,49,1,compas,NO,65.0,False,6
+gpt-4.1-mini,49,2,compas,NO,75.0,False,6
+gpt-4.1-mini,49,3,compas,NO,65.0,False,6
+gpt-4.1-mini,4,1,compas,NO,95.0,False,6
+gpt-4.1-mini,4,2,compas,NO,95.0,False,6
+gpt-4.1-mini,4,3,compas,NO,95.0,False,6
+gpt-4.1-mini,50,1,compas,NO,95.0,False,6
+gpt-4.1-mini,50,2,compas,NO,90.0,False,6
+gpt-4.1-mini,50,3,compas,NO,90.0,False,6
+gpt-4.1-mini,51,1,compas,YES,80.0,True,6
+gpt-4.1-mini,51,2,compas,YES,85.0,True,6
+gpt-4.1-mini,51,3,compas,YES,75.0,True,6
+gpt-4.1-mini,52,1,compas,YES,75.0,True,6
+gpt-4.1-mini,52,2,compas,YES,75.0,True,6
+gpt-4.1-mini,52,3,compas,YES,75.0,True,6
+gpt-4.1-mini,53,1,compas,NO,95.0,False,6
+gpt-4.1-mini,53,2,compas,NO,95.0,False,6
+gpt-4.1-mini,53,3,compas,NO,95.0,False,6
+gpt-4.1-mini,54,1,compas,NO,65.0,False,6
+gpt-4.1-mini,54,2,compas,NO,70.0,False,6
+gpt-4.1-mini,54,3,compas,NO,75.0,False,6
+gpt-4.1-mini,55,1,compas,YES,75.0,True,6
+gpt-4.1-mini,55,2,compas,YES,80.0,True,6
+gpt-4.1-mini,55,3,compas,YES,75.0,True,6
+gpt-4.1-mini,56,1,compas,NO,90.0,False,6
+gpt-4.1-mini,56,2,compas,NO,85.0,False,6
+gpt-4.1-mini,56,3,compas,NO,85.0,False,6
+gpt-4.1-mini,57,1,compas,NO,75.0,True,6
+gpt-4.1-mini,57,2,compas,NO,75.0,True,6
+gpt-4.1-mini,57,3,compas,NO,75.0,True,6
+gpt-4.1-mini,58,1,compas,NO,65.0,True,6
+gpt-4.1-mini,58,2,compas,NO,70.0,True,6
+gpt-4.1-mini,58,3,compas,NO,65.0,True,6
+gpt-4.1-mini,59,1,compas,NO,75.0,True,6
+gpt-4.1-mini,59,2,compas,NO,75.0,True,6
+gpt-4.1-mini,59,3,compas,NO,75.0,True,6
+gpt-4.1-mini,5,1,compas,NO,70.0,True,6
+gpt-4.1-mini,5,2,compas,NO,75.0,True,6
+gpt-4.1-mini,5,3,compas,YES,70.0,True,6
+gpt-4.1-mini,60,1,compas,NO,95.0,False,6
+gpt-4.1-mini,60,2,compas,NO,95.0,False,6
+gpt-4.1-mini,60,3,compas,NO,95.0,False,6
+gpt-4.1-mini,61,1,compas,YES,75.0,True,6
+gpt-4.1-mini,61,2,compas,YES,85.0,True,6
+gpt-4.1-mini,61,3,compas,YES,85.0,True,6
+gpt-4.1-mini,62,1,compas,NO,75.0,False,6
+gpt-4.1-mini,62,2,compas,NO,75.0,False,6
+gpt-4.1-mini,62,3,compas,NO,75.0,False,6
+gpt-4.1-mini,63,1,compas,NO,90.0,False,6
+gpt-4.1-mini,63,2,compas,NO,95.0,False,6
+gpt-4.1-mini,63,3,compas,NO,90.0,False,6
+gpt-4.1-mini,64,1,compas,YES,75.0,False,6
+gpt-4.1-mini,64,2,compas,YES,75.0,False,6
+gpt-4.1-mini,64,3,compas,YES,75.0,False,6
+gpt-4.1-mini,65,1,compas,NO,70.0,False,6
+gpt-4.1-mini,65,2,compas,NO,65.0,False,6
+gpt-4.1-mini,65,3,compas,NO,65.0,False,6
+gpt-4.1-mini,66,1,compas,NO,85.0,False,6
+gpt-4.1-mini,66,2,compas,NO,85.0,False,6
+gpt-4.1-mini,66,3,compas,NO,85.0,False,6
+gpt-4.1-mini,67,1,compas,NO,85.0,False,6
+gpt-4.1-mini,67,2,compas,NO,90.0,False,6
+gpt-4.1-mini,67,3,compas,NO,90.0,False,6
+gpt-4.1-mini,68,1,compas,NO,75.0,False,6
+gpt-4.1-mini,68,2,compas,NO,75.0,False,6
+gpt-4.1-mini,68,3,compas,NO,75.0,False,6
+gpt-4.1-mini,69,1,compas,YES,85.0,False,6
+gpt-4.1-mini,69,2,compas,YES,85.0,False,6
+gpt-4.1-mini,69,3,compas,YES,85.0,False,6
+gpt-4.1-mini,6,1,compas,NO,90.0,False,6
+gpt-4.1-mini,6,2,compas,NO,95.0,False,6
+gpt-4.1-mini,6,3,compas,NO,95.0,False,6
+gpt-4.1-mini,70,1,compas,NO,90.0,False,6
+gpt-4.1-mini,70,2,compas,NO,90.0,False,6
+gpt-4.1-mini,70,3,compas,NO,85.0,False,6
+gpt-4.1-mini,71,1,compas,NO,70.0,True,6
+gpt-4.1-mini,71,2,compas,YES,75.0,True,6
+gpt-4.1-mini,71,3,compas,YES,75.0,True,6
+gpt-4.1-mini,72,1,compas,YES,65.0,False,6
+gpt-4.1-mini,72,2,compas,YES,65.0,False,6
+gpt-4.1-mini,72,3,compas,YES,70.0,False,6
+gpt-4.1-mini,73,1,compas,YES,85.0,True,6
+gpt-4.1-mini,73,2,compas,YES,80.0,True,6
+gpt-4.1-mini,73,3,compas,YES,75.0,True,6
+gpt-4.1-mini,74,1,compas,NO,65.0,False,6
+gpt-4.1-mini,74,2,compas,YES,75.0,False,6
+gpt-4.1-mini,74,3,compas,YES,75.0,False,6
+gpt-4.1-mini,75,1,compas,NO,90.0,False,6
+gpt-4.1-mini,75,2,compas,NO,95.0,False,6
+gpt-4.1-mini,75,3,compas,NO,95.0,False,6
+gpt-4.1-mini,76,1,compas,YES,80.0,True,6
+gpt-4.1-mini,76,2,compas,YES,75.0,True,6
+gpt-4.1-mini,76,3,compas,YES,80.0,True,6
+gpt-4.1-mini,77,1,compas,YES,75.0,False,6
+gpt-4.1-mini,77,2,compas,YES,75.0,False,6
+gpt-4.1-mini,77,3,compas,YES,75.0,False,6
+gpt-4.1-mini,78,1,compas,YES,85.0,True,6
+gpt-4.1-mini,78,2,compas,YES,85.0,True,6
+gpt-4.1-mini,78,3,compas,YES,80.0,True,6
+gpt-4.1-mini,79,1,compas,YES,70.0,True,6
+gpt-4.1-mini,79,2,compas,YES,75.0,True,6
+gpt-4.1-mini,79,3,compas,YES,75.0,True,6
+gpt-4.1-mini,7,1,compas,NO,90.0,False,6
+gpt-4.1-mini,7,2,compas,NO,90.0,False,6
+gpt-4.1-mini,7,3,compas,NO,95.0,False,6
+gpt-4.1-mini,80,1,compas,NO,70.0,False,6
+gpt-4.1-mini,80,2,compas,NO,70.0,False,6
+gpt-4.1-mini,80,3,compas,NO,65.0,False,6
+gpt-4.1-mini,81,1,compas,NO,70.0,False,6
+gpt-4.1-mini,81,2,compas,NO,65.0,False,6
+gpt-4.1-mini,81,3,compas,NO,65.0,False,6
+gpt-4.1-mini,82,1,compas,NO,75.0,False,6
+gpt-4.1-mini,82,2,compas,NO,75.0,False,6
+gpt-4.1-mini,82,3,compas,NO,75.0,False,6
+gpt-4.1-mini,83,1,compas,YES,85.0,False,6
+gpt-4.1-mini,83,2,compas,YES,85.0,False,6
+gpt-4.1-mini,83,3,compas,YES,85.0,False,6
+gpt-4.1-mini,84,1,compas,NO,90.0,True,6
+gpt-4.1-mini,84,2,compas,NO,90.0,True,6
+gpt-4.1-mini,84,3,compas,NO,85.0,True,6
+gpt-4.1-mini,85,1,compas,NO,70.0,False,6
+gpt-4.1-mini,85,2,compas,NO,70.0,False,6
+gpt-4.1-mini,85,3,compas,NO,70.0,False,6
+gpt-4.1-mini,86,1,compas,NO,90.0,False,6
+gpt-4.1-mini,86,2,compas,NO,95.0,False,6
+gpt-4.1-mini,86,3,compas,NO,90.0,False,6
+gpt-4.1-mini,87,1,compas,NO,75.0,False,6
+gpt-4.1-mini,87,2,compas,NO,75.0,False,6
+gpt-4.1-mini,87,3,compas,NO,85.0,False,6
+gpt-4.1-mini,88,1,compas,YES,75.0,True,6
+gpt-4.1-mini,88,2,compas,YES,75.0,True,6
+gpt-4.1-mini,88,3,compas,YES,75.0,True,6
+gpt-4.1-mini,89,1,compas,YES,75.0,True,6
+gpt-4.1-mini,89,2,compas,YES,75.0,True,6
+gpt-4.1-mini,89,3,compas,YES,70.0,True,6
+gpt-4.1-mini,8,1,compas,NO,70.0,False,6
+gpt-4.1-mini,8,2,compas,NO,65.0,False,6
+gpt-4.1-mini,8,3,compas,NO,65.0,False,6
+gpt-4.1-mini,90,1,compas,YES,75.0,False,6
+gpt-4.1-mini,90,2,compas,YES,75.0,False,6
+gpt-4.1-mini,90,3,compas,YES,75.0,False,6
+gpt-4.1-mini,91,1,compas,YES,85.0,True,6
+gpt-4.1-mini,91,2,compas,YES,85.0,True,6
+gpt-4.1-mini,91,3,compas,YES,85.0,True,6
+gpt-4.1-mini,92,1,compas,NO,70.0,True,6
+gpt-4.1-mini,92,2,compas,NO,75.0,True,6
+gpt-4.1-mini,92,3,compas,NO,70.0,True,6
+gpt-4.1-mini,93,1,compas,NO,70.0,True,6
+gpt-4.1-mini,93,2,compas,NO,70.0,True,6
+gpt-4.1-mini,93,3,compas,NO,65.0,True,6
+gpt-4.1-mini,94,1,compas,YES,85.0,True,6
+gpt-4.1-mini,94,2,compas,YES,85.0,True,6
+gpt-4.1-mini,94,3,compas,YES,85.0,True,6
+gpt-4.1-mini,95,1,compas,NO,75.0,True,6
+gpt-4.1-mini,95,2,compas,NO,75.0,True,6
+gpt-4.1-mini,95,3,compas,NO,75.0,True,6
+gpt-4.1-mini,96,1,compas,NO,75.0,True,6
+gpt-4.1-mini,96,2,compas,NO,70.0,True,6
+gpt-4.1-mini,96,3,compas,NO,70.0,True,6
+gpt-4.1-mini,97,1,compas,YES,85.0,True,6
+gpt-4.1-mini,97,2,compas,YES,85.0,True,6
+gpt-4.1-mini,97,3,compas,YES,80.0,True,6
+gpt-4.1-mini,98,1,compas,YES,75.0,True,6
+gpt-4.1-mini,98,2,compas,YES,75.0,True,6
+gpt-4.1-mini,98,3,compas,YES,75.0,True,6
+gpt-4.1-mini,99,1,compas,NO,65.0,True,6
+gpt-4.1-mini,99,2,compas,NO,65.0,True,6
+gpt-4.1-mini,99,3,compas,NO,65.0,True,6
+gpt-4.1-mini,9,1,compas,NO,65.0,True,6
+gpt-4.1-mini,9,2,compas,YES,65.0,True,6
+gpt-4.1-mini,9,3,compas,YES,70.0,True,6
+gpt-4o-mini,0,1,compas,YES,75.0,True,6
+gpt-4o-mini,0,2,compas,YES,75.0,True,6
+gpt-4o-mini,0,3,compas,YES,75.0,True,6
+gpt-4o-mini,10,1,compas,YES,75.0,False,6
+gpt-4o-mini,10,2,compas,YES,75.0,False,6
+gpt-4o-mini,10,3,compas,YES,75.0,False,6
+gpt-4o-mini,11,1,compas,NO,85.0,False,6
+gpt-4o-mini,11,2,compas,NO,85.0,False,6
+gpt-4o-mini,11,3,compas,NO,85.0,False,6
+gpt-4o-mini,12,1,compas,YES,70.0,False,6
+gpt-4o-mini,12,2,compas,YES,75.0,False,6
+gpt-4o-mini,12,3,compas,YES,70.0,False,6
+gpt-4o-mini,13,1,compas,NO,85.0,False,6
+gpt-4o-mini,13,2,compas,NO,90.0,False,6
+gpt-4o-mini,13,3,compas,NO,85.0,False,6
+gpt-4o-mini,14,1,compas,YES,75.0,True,6
+gpt-4o-mini,14,2,compas,NO,75.0,True,6
+gpt-4o-mini,14,3,compas,YES,75.0,True,6
+gpt-4o-mini,15,1,compas,NO,85.0,False,6
+gpt-4o-mini,15,2,compas,NO,85.0,False,6
+gpt-4o-mini,15,3,compas,NO,85.0,False,6
+gpt-4o-mini,16,1,compas,YES,75.0,True,6
+gpt-4o-mini,16,2,compas,YES,75.0,True,6
+gpt-4o-mini,16,3,compas,YES,75.0,True,6
+gpt-4o-mini,17,1,compas,NO,75.0,True,6
+gpt-4o-mini,17,2,compas,NO,75.0,True,6
+gpt-4o-mini,17,3,compas,NO,75.0,True,6
+gpt-4o-mini,18,1,compas,NO,80.0,True,6
+gpt-4o-mini,18,2,compas,NO,75.0,True,6
+gpt-4o-mini,18,3,compas,NO,75.0,True,6
+gpt-4o-mini,19,1,compas,NO,85.0,False,6
+gpt-4o-mini,19,2,compas,NO,85.0,False,6
+gpt-4o-mini,19,3,compas,NO,85.0,False,6
+gpt-4o-mini,1,1,compas,YES,85.0,True,6
+gpt-4o-mini,1,2,compas,YES,75.0,True,6
+gpt-4o-mini,1,3,compas,YES,75.0,True,6
+gpt-4o-mini,20,1,compas,NO,85.0,False,6
+gpt-4o-mini,20,2,compas,NO,85.0,False,6
+gpt-4o-mini,20,3,compas,NO,85.0,False,6
+gpt-4o-mini,21,1,compas,NO,75.0,True,6
+gpt-4o-mini,21,2,compas,NO,75.0,True,6
+gpt-4o-mini,21,3,compas,NO,75.0,True,6
+gpt-4o-mini,22,1,compas,NO,75.0,True,6
+gpt-4o-mini,22,2,compas,NO,75.0,True,6
+gpt-4o-mini,22,3,compas,NO,70.0,True,6
+gpt-4o-mini,23,1,compas,NO,75.0,True,6
+gpt-4o-mini,23,2,compas,NO,75.0,True,6
+gpt-4o-mini,23,3,compas,NO,75.0,True,6
+gpt-4o-mini,24,1,compas,YES,75.0,True,6
+gpt-4o-mini,24,2,compas,YES,75.0,True,6
+gpt-4o-mini,24,3,compas,YES,75.0,True,6
+gpt-4o-mini,25,1,compas,NO,85.0,False,6
+gpt-4o-mini,25,2,compas,NO,85.0,False,6
+gpt-4o-mini,25,3,compas,NO,85.0,False,6
+gpt-4o-mini,26,1,compas,NO,65.0,False,6
+gpt-4o-mini,26,2,compas,YES,75.0,False,6
+gpt-4o-mini,26,3,compas,NO,75.0,False,6
+gpt-4o-mini,27,1,compas,NO,75.0,False,6
+gpt-4o-mini,27,2,compas,NO,75.0,False,6
+gpt-4o-mini,27,3,compas,NO,75.0,False,6
+gpt-4o-mini,28,1,compas,NO,75.0,False,6
+gpt-4o-mini,28,2,compas,NO,75.0,False,6
+gpt-4o-mini,28,3,compas,NO,75.0,False,6
+gpt-4o-mini,29,1,compas,YES,85.0,False,6
+gpt-4o-mini,29,2,compas,YES,85.0,False,6
+gpt-4o-mini,29,3,compas,YES,85.0,False,6
+gpt-4o-mini,2,1,compas,YES,85.0,True,6
+gpt-4o-mini,2,2,compas,YES,85.0,True,6
+gpt-4o-mini,2,3,compas,YES,85.0,True,6
+gpt-4o-mini,30,1,compas,YES,85.0,True,6
+gpt-4o-mini,30,2,compas,YES,85.0,True,6
+gpt-4o-mini,30,3,compas,YES,75.0,True,6
+gpt-4o-mini,31,1,compas,NO,85.0,False,6
+gpt-4o-mini,31,2,compas,NO,85.0,False,6
+gpt-4o-mini,31,3,compas,NO,85.0,False,6
+gpt-4o-mini,32,1,compas,NO,75.0,False,6
+gpt-4o-mini,32,2,compas,NO,70.0,False,6
+gpt-4o-mini,32,3,compas,NO,70.0,False,6
+gpt-4o-mini,33,1,compas,YES,75.0,True,6
+gpt-4o-mini,33,2,compas,YES,75.0,True,6
+gpt-4o-mini,33,3,compas,YES,75.0,True,6
+gpt-4o-mini,34,1,compas,YES,80.0,True,6
+gpt-4o-mini,34,2,compas,YES,85.0,True,6
+gpt-4o-mini,34,3,compas,YES,85.0,True,6
+gpt-4o-mini,35,1,compas,NO,85.0,False,6
+gpt-4o-mini,35,2,compas,NO,90.0,False,6
+gpt-4o-mini,35,3,compas,NO,85.0,False,6
+gpt-4o-mini,36,1,compas,NO,75.0,False,6
+gpt-4o-mini,36,2,compas,NO,65.0,False,6
+gpt-4o-mini,36,3,compas,NO,75.0,False,6
+gpt-4o-mini,37,1,compas,YES,75.0,True,6
+gpt-4o-mini,37,2,compas,YES,75.0,True,6
+gpt-4o-mini,37,3,compas,YES,75.0,True,6
+gpt-4o-mini,38,1,compas,NO,85.0,False,6
+gpt-4o-mini,38,2,compas,NO,85.0,False,6
+gpt-4o-mini,38,3,compas,NO,85.0,False,6
+gpt-4o-mini,39,1,compas,NO,85.0,False,6
+gpt-4o-mini,39,2,compas,NO,85.0,False,6
+gpt-4o-mini,39,3,compas,NO,85.0,False,6
+gpt-4o-mini,3,1,compas,YES,85.0,True,6
+gpt-4o-mini,3,2,compas,YES,85.0,True,6
+gpt-4o-mini,3,3,compas,YES,85.0,True,6
+gpt-4o-mini,40,1,compas,NO,85.0,False,6
+gpt-4o-mini,40,2,compas,NO,85.0,False,6
+gpt-4o-mini,40,3,compas,NO,85.0,False,6
+gpt-4o-mini,41,1,compas,NO,85.0,False,6
+gpt-4o-mini,41,2,compas,NO,90.0,False,6
+gpt-4o-mini,41,3,compas,NO,85.0,False,6
+gpt-4o-mini,42,1,compas,YES,85.0,True,6
+gpt-4o-mini,42,2,compas,YES,85.0,True,6
+gpt-4o-mini,42,3,compas,YES,85.0,True,6
+gpt-4o-mini,43,1,compas,NO,85.0,False,6
+gpt-4o-mini,43,2,compas,NO,85.0,False,6
+gpt-4o-mini,43,3,compas,NO,85.0,False,6
+gpt-4o-mini,44,1,compas,NO,90.0,False,6
+gpt-4o-mini,44,2,compas,NO,85.0,False,6
+gpt-4o-mini,44,3,compas,NO,85.0,False,6
+gpt-4o-mini,45,1,compas,YES,70.0,False,6
+gpt-4o-mini,45,2,compas,YES,75.0,False,6
+gpt-4o-mini,45,3,compas,YES,75.0,False,6
+gpt-4o-mini,46,1,compas,NO,85.0,True,6
+gpt-4o-mini,46,2,compas,NO,85.0,True,6
+gpt-4o-mini,46,3,compas,NO,85.0,True,6
+gpt-4o-mini,47,1,compas,NO,75.0,False,6
+gpt-4o-mini,47,2,compas,NO,75.0,False,6
+gpt-4o-mini,47,3,compas,NO,75.0,False,6
+gpt-4o-mini,48,1,compas,NO,85.0,True,6
+gpt-4o-mini,48,2,compas,NO,85.0,True,6
+gpt-4o-mini,48,3,compas,NO,85.0,True,6
+gpt-4o-mini,49,1,compas,NO,75.0,False,6
+gpt-4o-mini,49,2,compas,NO,75.0,False,6
+gpt-4o-mini,49,3,compas,NO,70.0,False,6
+gpt-4o-mini,4,1,compas,NO,85.0,False,6
+gpt-4o-mini,4,2,compas,NO,85.0,False,6
+gpt-4o-mini,4,3,compas,NO,85.0,False,6
+gpt-4o-mini,50,1,compas,NO,85.0,False,6
+gpt-4o-mini,50,2,compas,NO,90.0,False,6
+gpt-4o-mini,50,3,compas,NO,85.0,False,6
+gpt-4o-mini,51,1,compas,YES,85.0,True,6
+gpt-4o-mini,51,2,compas,YES,85.0,True,6
+gpt-4o-mini,51,3,compas,YES,75.0,True,6
+gpt-4o-mini,52,1,compas,NO,70.0,True,6
+gpt-4o-mini,52,2,compas,YES,75.0,True,6
+gpt-4o-mini,52,3,compas,NO,75.0,True,6
+gpt-4o-mini,53,1,compas,NO,85.0,False,6
+gpt-4o-mini,53,2,compas,NO,85.0,False,6
+gpt-4o-mini,53,3,compas,NO,85.0,False,6
+gpt-4o-mini,54,1,compas,NO,75.0,False,6
+gpt-4o-mini,54,2,compas,YES,75.0,False,6
+gpt-4o-mini,54,3,compas,NO,75.0,False,6
+gpt-4o-mini,55,1,compas,YES,75.0,True,6
+gpt-4o-mini,55,2,compas,YES,75.0,True,6
+gpt-4o-mini,55,3,compas,YES,85.0,True,6
+gpt-4o-mini,56,1,compas,NO,85.0,False,6
+gpt-4o-mini,56,2,compas,NO,85.0,False,6
+gpt-4o-mini,56,3,compas,NO,85.0,False,6
+gpt-4o-mini,57,1,compas,NO,75.0,True,6
+gpt-4o-mini,57,2,compas,NO,75.0,True,6
+gpt-4o-mini,57,3,compas,NO,75.0,True,6
+gpt-4o-mini,58,1,compas,NO,75.0,True,6
+gpt-4o-mini,58,2,compas,NO,75.0,True,6
+gpt-4o-mini,58,3,compas,NO,75.0,True,6
+gpt-4o-mini,59,1,compas,NO,75.0,True,6
+gpt-4o-mini,59,2,compas,NO,80.0,True,6
+gpt-4o-mini,59,3,compas,NO,85.0,True,6
+gpt-4o-mini,5,1,compas,NO,75.0,True,6
+gpt-4o-mini,5,2,compas,YES,75.0,True,6
+gpt-4o-mini,5,3,compas,YES,75.0,True,6
+gpt-4o-mini,60,1,compas,NO,95.0,False,6
+gpt-4o-mini,60,2,compas,NO,85.0,False,6
+gpt-4o-mini,60,3,compas,NO,85.0,False,6
+gpt-4o-mini,61,1,compas,YES,85.0,True,6
+gpt-4o-mini,61,2,compas,YES,85.0,True,6
+gpt-4o-mini,61,3,compas,YES,85.0,True,6
+gpt-4o-mini,62,1,compas,NO,85.0,False,6
+gpt-4o-mini,62,2,compas,NO,85.0,False,6
+gpt-4o-mini,62,3,compas,NO,85.0,False,6
+gpt-4o-mini,63,1,compas,NO,85.0,False,6
+gpt-4o-mini,63,2,compas,NO,85.0,False,6
+gpt-4o-mini,63,3,compas,NO,85.0,False,6
+gpt-4o-mini,64,1,compas,YES,75.0,False,6
+gpt-4o-mini,64,2,compas,YES,75.0,False,6
+gpt-4o-mini,64,3,compas,NO,75.0,False,6
+gpt-4o-mini,65,1,compas,NO,70.0,False,6
+gpt-4o-mini,65,2,compas,NO,70.0,False,6
+gpt-4o-mini,65,3,compas,NO,75.0,False,6
+gpt-4o-mini,66,1,compas,NO,85.0,False,6
+gpt-4o-mini,66,2,compas,NO,85.0,False,6
+gpt-4o-mini,66,3,compas,NO,85.0,False,6
+gpt-4o-mini,67,1,compas,NO,85.0,False,6
+gpt-4o-mini,67,2,compas,NO,85.0,False,6
+gpt-4o-mini,67,3,compas,NO,85.0,False,6
+gpt-4o-mini,68,1,compas,NO,75.0,False,6
+gpt-4o-mini,68,2,compas,NO,75.0,False,6
+gpt-4o-mini,68,3,compas,NO,75.0,False,6
+gpt-4o-mini,69,1,compas,YES,85.0,False,6
+gpt-4o-mini,69,2,compas,YES,85.0,False,6
+gpt-4o-mini,69,3,compas,YES,85.0,False,6
+gpt-4o-mini,6,1,compas,NO,85.0,False,6
+gpt-4o-mini,6,2,compas,NO,85.0,False,6
+gpt-4o-mini,6,3,compas,NO,85.0,False,6
+gpt-4o-mini,70,1,compas,NO,85.0,False,6
+gpt-4o-mini,70,2,compas,NO,85.0,False,6
+gpt-4o-mini,70,3,compas,NO,85.0,False,6
+gpt-4o-mini,71,1,compas,YES,75.0,True,6
+gpt-4o-mini,71,2,compas,YES,75.0,True,6
+gpt-4o-mini,71,3,compas,YES,75.0,True,6
+gpt-4o-mini,72,1,compas,YES,70.0,False,6
+gpt-4o-mini,72,2,compas,NO,70.0,False,6
+gpt-4o-mini,72,3,compas,NO,70.0,False,6
+gpt-4o-mini,73,1,compas,YES,75.0,True,6
+gpt-4o-mini,73,2,compas,YES,75.0,True,6
+gpt-4o-mini,73,3,compas,YES,85.0,True,6
+gpt-4o-mini,74,1,compas,YES,70.0,False,6
+gpt-4o-mini,74,2,compas,NO,70.0,False,6
+gpt-4o-mini,74,3,compas,YES,75.0,False,6
+gpt-4o-mini,75,1,compas,NO,85.0,False,6
+gpt-4o-mini,75,2,compas,NO,90.0,False,6
+gpt-4o-mini,75,3,compas,NO,85.0,False,6
+gpt-4o-mini,76,1,compas,YES,75.0,True,6
+gpt-4o-mini,76,2,compas,YES,85.0,True,6
+gpt-4o-mini,76,3,compas,YES,85.0,True,6
+gpt-4o-mini,77,1,compas,YES,75.0,False,6
+gpt-4o-mini,77,2,compas,YES,75.0,False,6
+gpt-4o-mini,77,3,compas,YES,75.0,False,6
+gpt-4o-mini,78,1,compas,YES,85.0,True,6
+gpt-4o-mini,78,2,compas,YES,85.0,True,6
+gpt-4o-mini,78,3,compas,YES,85.0,True,6
+gpt-4o-mini,79,1,compas,YES,75.0,True,6
+gpt-4o-mini,79,2,compas,YES,70.0,True,6
+gpt-4o-mini,79,3,compas,YES,75.0,True,6
+gpt-4o-mini,7,1,compas,NO,85.0,False,6
+gpt-4o-mini,7,2,compas,NO,85.0,False,6
+gpt-4o-mini,7,3,compas,NO,85.0,False,6
+gpt-4o-mini,80,1,compas,NO,70.0,False,6
+gpt-4o-mini,80,2,compas,NO,75.0,False,6
+gpt-4o-mini,80,3,compas,NO,75.0,False,6
+gpt-4o-mini,81,1,compas,NO,70.0,False,6
+gpt-4o-mini,81,2,compas,NO,75.0,False,6
+gpt-4o-mini,81,3,compas,NO,75.0,False,6
+gpt-4o-mini,82,1,compas,NO,75.0,False,6
+gpt-4o-mini,82,2,compas,NO,75.0,False,6
+gpt-4o-mini,82,3,compas,YES,75.0,False,6
+gpt-4o-mini,83,1,compas,YES,85.0,False,6
+gpt-4o-mini,83,2,compas,YES,85.0,False,6
+gpt-4o-mini,83,3,compas,YES,85.0,False,6
+gpt-4o-mini,84,1,compas,NO,85.0,True,6
+gpt-4o-mini,84,2,compas,NO,85.0,True,6
+gpt-4o-mini,84,3,compas,NO,85.0,True,6
+gpt-4o-mini,85,1,compas,NO,75.0,False,6
+gpt-4o-mini,85,2,compas,NO,70.0,False,6
+gpt-4o-mini,85,3,compas,NO,75.0,False,6
+gpt-4o-mini,86,1,compas,NO,85.0,False,6
+gpt-4o-mini,86,2,compas,NO,85.0,False,6
+gpt-4o-mini,86,3,compas,NO,90.0,False,6
+gpt-4o-mini,87,1,compas,NO,85.0,False,6
+gpt-4o-mini,87,2,compas,NO,85.0,False,6
+gpt-4o-mini,87,3,compas,NO,85.0,False,6
+gpt-4o-mini,88,1,compas,YES,75.0,True,6
+gpt-4o-mini,88,2,compas,YES,75.0,True,6
+gpt-4o-mini,88,3,compas,YES,75.0,True,6
+gpt-4o-mini,89,1,compas,YES,75.0,True,6
+gpt-4o-mini,89,2,compas,YES,75.0,True,6
+gpt-4o-mini,89,3,compas,YES,75.0,True,6
+gpt-4o-mini,8,1,compas,NO,75.0,False,6
+gpt-4o-mini,8,2,compas,NO,75.0,False,6
+gpt-4o-mini,8,3,compas,NO,70.0,False,6
+gpt-4o-mini,90,1,compas,YES,75.0,False,6
+gpt-4o-mini,90,2,compas,YES,75.0,False,6
+gpt-4o-mini,90,3,compas,YES,75.0,False,6
+gpt-4o-mini,91,1,compas,YES,85.0,True,6
+gpt-4o-mini,91,2,compas,YES,85.0,True,6
+gpt-4o-mini,91,3,compas,YES,85.0,True,6
+gpt-4o-mini,92,1,compas,NO,75.0,True,6
+gpt-4o-mini,92,2,compas,NO,75.0,True,6
+gpt-4o-mini,92,3,compas,NO,75.0,True,6
+gpt-4o-mini,93,1,compas,NO,75.0,True,6
+gpt-4o-mini,93,2,compas,NO,75.0,True,6
+gpt-4o-mini,93,3,compas,NO,70.0,True,6
+gpt-4o-mini,94,1,compas,YES,85.0,True,6
+gpt-4o-mini,94,2,compas,YES,85.0,True,6
+gpt-4o-mini,94,3,compas,YES,85.0,True,6
+gpt-4o-mini,95,1,compas,NO,85.0,True,6
+gpt-4o-mini,95,2,compas,NO,80.0,True,6
+gpt-4o-mini,95,3,compas,NO,75.0,True,6
+gpt-4o-mini,96,1,compas,NO,70.0,True,6
+gpt-4o-mini,96,2,compas,NO,75.0,True,6
+gpt-4o-mini,96,3,compas,NO,75.0,True,6
+gpt-4o-mini,97,1,compas,YES,85.0,True,6
+gpt-4o-mini,97,2,compas,YES,85.0,True,6
+gpt-4o-mini,97,3,compas,YES,85.0,True,6
+gpt-4o-mini,98,1,compas,YES,75.0,True,6
+gpt-4o-mini,98,2,compas,YES,75.0,True,6
+gpt-4o-mini,98,3,compas,YES,85.0,True,6
+gpt-4o-mini,99,1,compas,NO,75.0,True,6
+gpt-4o-mini,99,2,compas,NO,70.0,True,6
+gpt-4o-mini,99,3,compas,NO,70.0,True,6
+gpt-4o-mini,9,1,compas,NO,75.0,True,6
+gpt-4o-mini,9,2,compas,NO,70.0,True,6
+gpt-4o-mini,9,3,compas,NO,70.0,True,6

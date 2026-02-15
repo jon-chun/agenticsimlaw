@@ -1,0 +1,116 @@
+# Commercial models — direct API access via LiteLLM
+commercial_models:
+  - model_id: "gpt-4o-mini"
+    display_name: "GPT-4o Mini"
+    provider: "openai"
+    max_tokens: 1024
+  - model_id: "gpt-4.1-mini"
+    display_name: "GPT-4.1 Mini"
+    provider: "openai"
+    max_tokens: 1024
+  - model_id: "gemini/gemini-2.5-flash"
+    display_name: "Gemini 2.5 Flash"
+    provider: "google"
+    max_tokens: 1024
+  - model_id: "xai/grok-4-1-fast-non-reasoning-latest"
+    display_name: "Grok 4.1 Fast"
+    provider: "xai"
+    max_tokens: 1024
+
+# Remote open-source models — cloud-hosted equivalents of the 16 small ensemble
+# models, routed through OpenRouter (prefix "openrouter/") or other providers.
+# Use ensemble name "remote-oss" to select these.
+# Only includes models verified available via cloud API as of Feb 2026.
+remote_oss_models:
+  # --- Widely available (multiple providers) ---
+  - model_id: "openrouter/meta-llama/llama-3.1-8b-instruct"
+    display_name: "Llama 3.1 8B"
+    provider: "openrouter"
+    max_tokens: 1024
+  - model_id: "openrouter/google/gemma-2-9b-it"
+    display_name: "Gemma 2 9B"
+    provider: "openrouter"
+    max_tokens: 1024
+  - model_id: "openrouter/qwen/qwen-2.5-7b-instruct"
+    display_name: "Qwen 2.5 7B"
+    provider: "openrouter"
+    max_tokens: 1024
+  - model_id: "openrouter/mistralai/mistral-7b-instruct"
+    display_name: "Mistral 7B"
+    provider: "openrouter"
+    max_tokens: 1024
+  # --- Available with limited providers ---
+  - model_id: "openrouter/microsoft/phi-4"
+    display_name: "Phi-4 14B"
+    provider: "openrouter"
+    max_tokens: 1024
+  - model_id: "openrouter/deepseek/deepseek-r1-distill-qwen-32b"
+    display_name: "DeepSeek R1 Distill 32B"
+    provider: "openrouter"
+    max_tokens: 1024
+  - model_id: "openrouter/nousresearch/deephermes-3-mistral-24b-preview"
+    display_name: "DeepHermes 3 24B"
+    provider: "openrouter"
+    max_tokens: 1024
+  - model_id: "openrouter/cohere/command-r7b-12-2024"
+    display_name: "Command-R 7B"
+    provider: "openrouter"
+    max_tokens: 1024
+  # --- Larger variant substitutes (exact 7-9B not cloud-hosted) ---
+  - model_id: "openrouter/cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+    display_name: "Dolphin Mistral 24B"
+    provider: "openrouter"
+    max_tokens: 1024
+  - model_id: "openrouter/allenai/olmo-2-0325-32b-instruct"
+    display_name: "OLMo 2 32B"
+    provider: "openrouter"
+    max_tokens: 1024
+
+# Split-provider OSS models — splits the 10 remote-oss models across 2 providers
+# for ~2x parallelism. Use ensemble "fireworks-oss" or "openrouter-oss" individually,
+# or "split-oss" to run both halves concurrently from separate processes.
+# Requires FIREWORKS_API_KEY in .env
+
+fireworks_oss_models:
+  - model_id: "fireworks_ai/accounts/fireworks/models/llama-v3p1-8b-instruct"
+    display_name: "Llama 3.1 8B"
+    provider: "fireworks"
+    max_tokens: 1024
+  - model_id: "fireworks_ai/accounts/fireworks/models/gemma2-9b-it"
+    display_name: "Gemma 2 9B"
+    provider: "fireworks"
+    max_tokens: 1024
+  - model_id: "fireworks_ai/accounts/fireworks/models/qwen2p5-7b-instruct"
+    display_name: "Qwen 2.5 7B"
+    provider: "fireworks"
+    max_tokens: 1024
+  - model_id: "fireworks_ai/accounts/fireworks/models/mistral-7b-instruct-v3"
+    display_name: "Mistral 7B"
+    provider: "fireworks"
+    max_tokens: 1024
+  - model_id: "fireworks_ai/accounts/fireworks/models/deepseek-r1-distill-llama-8b"
+    display_name: "DeepSeek R1 Distill 8B"
+    provider: "fireworks"
+    max_tokens: 1024
+
+openrouter_only_oss_models:
+  - model_id: "openrouter/microsoft/phi-4"
+    display_name: "Phi-4 14B"
+    provider: "openrouter"
+    max_tokens: 1024
+  - model_id: "openrouter/nousresearch/deephermes-3-mistral-24b-preview"
+    display_name: "DeepHermes 3 24B"
+    provider: "openrouter"
+    max_tokens: 1024
+  - model_id: "openrouter/cohere/command-r7b-12-2024"
+    display_name: "Command-R 7B"
+    provider: "openrouter"
+    max_tokens: 1024
+  - model_id: "openrouter/cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+    display_name: "Dolphin Mistral 24B"
+    provider: "openrouter"
+    max_tokens: 1024
+  - model_id: "openrouter/allenai/olmo-2-0325-32b-instruct"
+    display_name: "OLMo 2 32B"
+    provider: "openrouter"
+    max_tokens: 1024

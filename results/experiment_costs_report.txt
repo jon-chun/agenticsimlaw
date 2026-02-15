@@ -1,0 +1,92 @@
+========================================================================================================================
+AGENTICSIMLAW EXPERIMENT COST, TIMING & RESOURCE REPORT
+Generated: 2026-02-15 02:03:09
+========================================================================================================================
+
+1. EXPERIMENT SUMMARY TABLE
+------------------------------------------------------------------------------------------------------------------------
+Experiment                                           Dataset  Type        Models  Debates  API Calls       Tokens   Est Cost  Wall Time  s/debate
+------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------
+
+2. PER-MODEL BREAKDOWN
+========================================================================================================================
+
+
+3. AGGREGATE TOTALS
+========================================================================================================================
+
+  Metric                                        Commercial             OSS     Grand Total
+  ──────────────────────────────────────────────────────────────────────────────────────────
+  Total Debates                                          0               0               0
+  Total API Calls                                        0               0               0
+  Est. Input Tokens                                      0               0               0
+  Est. Output Tokens                                     0               0               0
+  Est. Total Tokens                                      0               0               0
+  Est. Cost (USD)                          $          0.00 $          0.00 $          0.00
+  Total API Duration                                  0.0s            0.0s            0.0s
+
+  Cumulative API compute time: 0.0 hours
+  Estimated total wall-clock time (all experiments): ~0.0 hours
+    (API time / ~4 for concurrency of 30 parallel debates)
+
+
+4. PER-DATASET SUMMARY
+========================================================================================================================
+
+
+5. MONITOR LOG TIMING ANALYSIS
+========================================================================================================================
+  No monitor logs found.
+
+
+6. HARDWARE & INFRASTRUCTURE
+========================================================================================================================
+
+  Experiments run on macOS (Darwin 24.6.0), API calls to OpenAI, Google, xAI
+  (direct), and OpenRouter (for OSS models). Concurrency: 30 parallel debates.
+
+  Commercial models:
+    - gpt-4o-mini (OpenAI): $0.15/$0.60 per 1M tokens (input/output)
+    - gpt-4.1-mini (OpenAI): $0.40/$1.60 per 1M tokens
+    - gemini-2.5-flash (Google): $0.15/$0.60 per 1M tokens
+    - grok-4-1-fast (xAI): $0.60/$4.00 per 1M tokens
+
+  OSS models (via OpenRouter):
+    - 7-9B models: ~$0.065/$0.065 per 1M tokens
+    - 14B models (phi-4): ~$0.14/$0.14 per 1M tokens
+    - 24B models (dolphin3.0-mistral-24b): ~$0.14/$0.14 per 1M tokens
+    - 32B models (olmo-2-0325-32b): ~$0.20/$0.20 per 1M tokens
+
+  Debate protocol: 7 speaker turns + ~6 silent judge opinions = ~13 API calls/debate
+  Token estimation: tiktoken cl100k_base where metadata counts are unavailable
+
+  NOTE: Cost estimates are approximate. Models without raw API logs have
+  tokens estimated at ~900 input / ~400 output per API call based on observed
+  averages from logged models. OpenRouter pricing uses representative rates
+  which may differ from actual charges.
+
+
+7. COMPACT TABLE FOR PAPER APPENDIX (LaTeX-ready)
+========================================================================================================================
+
+  \begin{table}[h]
+  \centering
+  \caption{Experiment resource summary.}
+  \label{tab:experiment-costs}
+  \begin{tabular}{llrrrrrr}
+  \toprule
+  Dataset & Models & Debates & API Calls & Tokens (M) & Est. Cost (\$) & s/call & s/debate$^\dagger$ \\
+  \midrule
+  \midrule
+  \textbf{Total} & & \textbf{0} & \textbf{0} & \textbf{0.00} & \textbf{0.00} & 0.0 & \\
+  \bottomrule
+  \end{tabular}
+  \vspace{2pt}
+  \footnotesize{$^\dagger$Wall-clock seconds per debate with 30-way concurrency.
+  OSS values from monitor logs; commercial values estimated from API latencies.}
+  \end{table}
+
+========================================================================================================================
+END OF REPORT
+========================================================================================================================

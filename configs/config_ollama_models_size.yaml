@@ -1,0 +1,18 @@
+ollama_pull_models:
+  - "llama3.2:1b-instruct-q4_K_M"
+  - "llama3.2:1b-instruct-fp16"
+  - "llama3.2:3b-instruct-q4_K_M"
+  - "llama3.2:3b-instruct-fp16"
+  - "llama3.1:8b-instruct-q4_K_M"
+  - "llama3.1:8b-instruct-fp16"
+  - "llama3.1:70b-instruct-q4_K_M"
+  - "llama3.3:70b-instruct-q4_K_M"
+  - "qwen2.5:0.5b-instruct-q4_K_M"
+  - "qwen2.5:1.5b-instruct-q4_K_M"
+  - "qwen2.5:3b-instruct-q4_K_M"
+  - "qwen2.5:7b-instruct-q4_K_M"
+  - "qwen2.5:14b-instruct-q4_K_M"
+  - "qwen2.5:32b-instruct-q4_K_M"
+
+ollama_rename_prefix_models:
+  - "CognitiveComputations/"

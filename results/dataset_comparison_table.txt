@@ -1,0 +1,93 @@
+============================================================================================================================================
+AgenticSimLaw - Cross-Dataset Performance Comparison (NLSY97 vs COMPAS)
+Generated: 2026-02-09 18:12:43
+============================================================================================================================================
+
+1. SIDE-BY-SIDE MODEL COMPARISON
+--------------------------------------------------------------------------------------------------------------------------------------------
+Model                                          NLSY97 Acc  NLSY97 F1     N  COMPAS Acc  COMPAS F1     N  Delta Acc  Delta F1
+--------------------------------------------------------------------------------------------------------------------------------------------
+openrouter_qwen_qwen_2_5_7b_instruct                0.703      0.157   145       0.733      0.649   150  +   0.030  +  0.492
+openrouter_google_gemma_2_9b_it                     0.699      0.535   133       0.781      0.714   128  +   0.082  +  0.179
+openrouter_microsoft_phi_4                          0.690      0.416   145       0.647      0.465   150    -0.043  +  0.049
+gpt_4o_mini                                         0.683      0.465   145       0.773      0.726   150  +   0.091  +  0.261
+openrouter_mistralai_mistral_7b_instruct            0.590      0.496   144       0.705      0.639   149  +   0.114  +  0.144
+openrouter_meta_llama_llama_3_1_8b_instruct         0.552      0.519   145       0.740      0.742   150  +   0.188  +  0.223
+gpt_4_1_mini                                        0.503      0.400   145       0.773      0.726   150  +   0.270  +  0.326
+gemini_gemini_2_5_flash                             0.467      0.400   135       0.745      0.748   145  +   0.278  +  0.348
+openrouter_allenai_olmo_2_0325_32b_instruct         0.441      0.426   145       0.740      0.688   150  +   0.299  +  0.262
+xai_grok_4_1_fast_non_reasoning_latest              0.421      0.475   145       0.747      0.716   150  +   0.326  +  0.241
+openrouter_cognitivecomputations_dolphin...         0.000      0.000   ---       0.000      0.000   ---  +   0.000  +  0.000
+openrouter_cohere_aya_expanse_8b                    0.000      0.000   ---       0.000      0.000   ---  +   0.000  +  0.000
+openrouter_deepseek_deepseek_r1_distill_...         0.000      0.000   ---       0.000      0.000   ---  +   0.000  +  0.000
+openrouter_nousresearch_hermes_3_llama_3...         0.000      0.000   ---       0.000      0.000   ---  +   0.000  +  0.000
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+  Delta = COMPAS - NLSY97 (positive means higher on COMPAS)
+  '---' indicates the model was not evaluated on that dataset
+
+
+2. AGGREGATE STATISTICS (mean +/- std across models)
+============================================================================================================================================
+
+Dataset       Models  Acc Mean  Acc Std  F1 Mean  F1 Std  Prec Mean  Prec Std  Rec Mean  Rec Std
+--------------------------------------------------------------------------------------------------------------------------------------------
+NLSY97            14     0.411    0.286    0.306   0.220      0.301     0.220     0.395    0.316
+COMPAS            14     0.527    0.348    0.487   0.327      0.555     0.368     0.447    0.315
+
+
+3. PAIRED STATISTICAL TESTS (models appearing in both datasets)
+============================================================================================================================================
+
+  Number of paired models: 14
+  Paired models: gemini_gemini_2_5_flash, gpt_4_1_mini, gpt_4o_mini, openrouter_allenai_olmo_2_0325_32b_instruct, openrouter_cognitivecomputations_dolphin3_0_mistral_24b, openrouter_cohere_aya_expanse_8b, openrouter_deepseek_deepseek_r1_distill_llama_8b, openrouter_google_gemma_2_9b_it, openrouter_meta_llama_llama_3_1_8b_instruct, openrouter_microsoft_phi_4, openrouter_mistralai_mistral_7b_instruct, openrouter_nousresearch_hermes_3_llama_3_1_8b, openrouter_qwen_qwen_2_5_7b_instruct, xai_grok_4_1_fast_non_reasoning_latest
+
+  Paired t-test (NLSY97 vs COMPAS):
+
+    Accuracy:
+      Mean difference (NLSY97 - COMPAS): -0.1168
+      t-statistic: -3.3514
+      p-value:     0.0052  **
+
+    F1 Score:
+      Mean difference (NLSY97 - COMPAS): -0.1804
+      t-statistic: -4.3435
+      p-value:     0.0008  ***
+
+  Significance: *** p<0.001, ** p<0.01, * p<0.05, n.s. not significant
+
+
+4. LATEX TABLE (for paper)
+============================================================================================================================================
+
+\begin{table}[htbp]
+\centering
+\caption{Cross-dataset comparison of AgenticSimLaw performance (NLSY97 vs COMPAS). $\Delta$ = COMPAS $-$ NLSY97.}
+\label{tab:cross-dataset}
+\begin{tabular}{l rr rr rr}
+\toprule
+& \multicolumn{2}{c}{NLSY97} & \multicolumn{2}{c}{COMPAS} & \multicolumn{2}{c}{$\Delta$} \\
+\cmidrule(lr){2-3} \cmidrule(lr){4-5} \cmidrule(lr){6-7}
+Model & Acc & F1 & Acc & F1 & $\Delta$Acc & $\Delta$F1 \\
+\midrule
+openrouter\_qwen\_qwen\_2\_5\_7b\_ins... & 0.703 & 0.157 & 0.733 & 0.649 & +0.030 & +0.492 \\
+openrouter\_google\_gemma\_2\_9b\_it & 0.699 & 0.535 & 0.781 & 0.714 & +0.082 & +0.179 \\
+openrouter\_microsoft\_phi\_4 & 0.690 & 0.416 & 0.647 & 0.465 & -0.043 & +0.049 \\
+gpt\_4o\_mini & 0.683 & 0.465 & 0.773 & 0.726 & +0.091 & +0.261 \\
+openrouter\_mistralai\_mistral\_7b\_i... & 0.590 & 0.496 & 0.705 & 0.639 & +0.114 & +0.144 \\
+openrouter\_meta\_llama\_llama\_3\_1\... & 0.552 & 0.519 & 0.740 & 0.742 & +0.188 & +0.223 \\
+gpt\_4\_1\_mini & 0.503 & 0.400 & 0.773 & 0.726 & +0.270 & +0.326 \\
+gemini\_gemini\_2\_5\_flash & 0.467 & 0.400 & 0.745 & 0.748 & +0.278 & +0.348 \\
+openrouter\_allenai\_olmo\_2\_0325\_3... & 0.441 & 0.426 & 0.740 & 0.688 & +0.299 & +0.262 \\
+xai\_grok\_4\_1\_fast\_non\_reasoning... & 0.421 & 0.475 & 0.747 & 0.716 & +0.326 & +0.241 \\
+openrouter\_cognitivecomputations\_do... & 0.000 & 0.000 & 0.000 & 0.000 & +0.000 & +0.000 \\
+openrouter\_cohere\_aya\_expanse\_8b & 0.000 & 0.000 & 0.000 & 0.000 & +0.000 & +0.000 \\
+openrouter\_deepseek\_deepseek\_r1\_d... & 0.000 & 0.000 & 0.000 & 0.000 & +0.000 & +0.000 \\
+openrouter\_nousresearch\_hermes\_3\_... & 0.000 & 0.000 & 0.000 & 0.000 & +0.000 & +0.000 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+============================================================================================================================================
+END OF REPORT
+============================================================================================================================================

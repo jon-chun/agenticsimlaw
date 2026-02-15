@@ -1,0 +1,176 @@
+AgenticSimLaw - Accuracy, F1, Precision, Recall, Confidence Statistics
+Generated: 2026-02-09 18:12:41
+
+========================================================================================================================
+Experiment: transcripts_ver26_compas_20260209-114748  (dataset: compas, 1 models)
+========================================================================================================================
+Model                                          N     Acc     Prec    Rec     F1      Conf_u  Conf_s  NoDec%
+------------------------------------------------------------------------------------------------------------------------
+gpt_4o_mini                                       1  0.000   0.000   0.000   0.000   65.0    0.0     0.0%  
+
+========================================================================================================================
+Experiment: transcripts_ver26_compas_20260209-124320  (dataset: compas, 4 models)
+========================================================================================================================
+Model                                          N     Acc     Prec    Rec     F1      Conf_u  Conf_s  NoDec%
+------------------------------------------------------------------------------------------------------------------------
+gemini_gemini_2_5_flash                         145  0.745   0.688   0.821   0.748   80.5    11.3    3.3%  
+gpt_4o_mini                                     149  0.779   0.833   0.652   0.732   78.8    6.5     0.7%  
+gpt_4_1_mini                                    150  0.773   0.833   0.643   0.726   78.6    10.4    0.0%  
+xai_grok_4_1_fast_non_reasoning_latest          150  0.747   0.750   0.686   0.716   74.1    11.1    0.0%  
+
+========================================================================================================================
+Experiment: transcripts_ver26_compas_20260209-161924  (dataset: compas, 10 models)
+========================================================================================================================
+Model                                          N     Acc     Prec    Rec     F1      Conf_u  Conf_s  NoDec%
+------------------------------------------------------------------------------------------------------------------------
+openrouter_meta_llama_llama_3_1_8b_instruct     150  0.740   0.691   0.800   0.742   76.5    8.1     0.0%  
+openrouter_google_gemma_2_9b_it                 128  0.781   0.814   0.636   0.714   71.3    6.6     14.7% 
+openrouter_allenai_olmo_2_0325_32b_instruct     150  0.740   0.782   0.614   0.688   79.1    10.4    0.0%  
+openrouter_qwen_qwen_2_5_7b_instruct            150  0.733   0.841   0.529   0.649   74.3    10.3    0.0%  
+openrouter_mistralai_mistral_7b_instruct        149  0.705   0.750   0.557   0.639   78.8    10.6    0.7%  
+openrouter_microsoft_phi_4                      150  0.647   0.793   0.329   0.465   76.9    7.0     0.0%  
+openrouter_cognitivecomputations_dolphin3_0_mistral_24b     0  0.000   0.000   0.000   0.000   N/A     N/A     100.0%
+openrouter_cohere_aya_expanse_8b                  0  0.000   0.000   0.000   0.000   N/A     N/A     100.0%
+openrouter_deepseek_deepseek_r1_distill_llama_8b     0  0.000   0.000   0.000   0.000   N/A     N/A     100.0%
+openrouter_nousresearch_hermes_3_llama_3_1_8b     0  0.000   0.000   0.000   0.000   N/A     N/A     100.0%
+
+========================================================================================================================
+Experiment: transcripts_ver26_nlsy97_20260209-124319  (dataset: nlsy97, 4 models)
+========================================================================================================================
+Model                                          N     Acc     Prec    Rec     F1      Conf_u  Conf_s  NoDec%
+------------------------------------------------------------------------------------------------------------------------
+xai_grok_4_1_fast_non_reasoning_latest          145  0.421   0.330   0.844   0.475   66.8    4.4     0.0%  
+gpt_4o_mini                                     145  0.683   0.488   0.444   0.465   73.8    2.8     0.0%  
+gemini_gemini_2_5_flash                         135  0.467   0.300   0.600   0.400   73.3    6.1     6.9%  
+gpt_4_1_mini                                    145  0.503   0.320   0.533   0.400   69.5    4.4     0.0%  
+
+========================================================================================================================
+Experiment: transcripts_ver26_nlsy97_20260209-161924  (dataset: nlsy97, 10 models)
+========================================================================================================================
+Model                                          N     Acc     Prec    Rec     F1      Conf_u  Conf_s  NoDec%
+------------------------------------------------------------------------------------------------------------------------
+openrouter_google_gemma_2_9b_it                 133  0.699   0.500   0.575   0.535   65.2    4.5     8.3%  
+openrouter_meta_llama_llama_3_1_8b_instruct     145  0.552   0.389   0.778   0.519   72.7    7.6     0.0%  
+openrouter_mistralai_mistral_7b_instruct        144  0.590   0.403   0.644   0.496   73.3    5.8     0.7%  
+openrouter_allenai_olmo_2_0325_32b_instruct     145  0.441   0.312   0.667   0.426   75.8    8.6     0.0%  
+openrouter_microsoft_phi_4                      145  0.690   0.500   0.356   0.416   75.0    4.1     0.0%  
+openrouter_qwen_qwen_2_5_7b_instruct            145  0.703   0.667   0.089   0.157   73.4    5.9     0.0%  
+openrouter_cognitivecomputations_dolphin3_0_mistral_24b     0  0.000   0.000   0.000   0.000   N/A     N/A     100.0%
+openrouter_cohere_aya_expanse_8b                  0  0.000   0.000   0.000   0.000   N/A     N/A     100.0%
+openrouter_deepseek_deepseek_r1_distill_llama_8b     0  0.000   0.000   0.000   0.000   N/A     N/A     100.0%
+openrouter_nousresearch_hermes_3_llama_3_1_8b     0  0.000   0.000   0.000   0.000   N/A     N/A     100.0%
+
+============================================================================================================================================
+Cross-Dataset Comparison (model performance across datasets)
+============================================================================================================================================
+Model                                          Acc_compas  F1_compas  N_compas  Acc_nlsy97  F1_nlsy97  N_nlsy97
+--------------------------------------------------------------------------------------------------------------------------------------------
+gemini_gemini_2_5_flash                        0.745     0.748     145     0.467     0.400     135   
+gpt_4_1_mini                                   0.773     0.726     150     0.503     0.400     145   
+gpt_4o_mini                                    0.389*    0.366*    150     0.683     0.465     145   
+openrouter_allenai_olmo_2_0325_32b_instruct    0.740     0.688     150     0.441     0.426     145   
+openrouter_cognitivecomputations_dolphin3_0_mistral_24b  0.000     0.000     0       0.000     0.000     0     
+openrouter_cohere_aya_expanse_8b               0.000     0.000     0       0.000     0.000     0     
+openrouter_deepseek_deepseek_r1_distill_llama_8b  0.000     0.000     0       0.000     0.000     0     
+openrouter_google_gemma_2_9b_it                0.781     0.714     128     0.699     0.535     133   
+openrouter_meta_llama_llama_3_1_8b_instruct    0.740     0.742     150     0.552     0.519     145   
+openrouter_microsoft_phi_4                     0.647     0.465     150     0.690     0.416     145   
+openrouter_mistralai_mistral_7b_instruct       0.705     0.639     149     0.590     0.496     144   
+openrouter_nousresearch_hermes_3_llama_3_1_8b  0.000     0.000     0       0.000     0.000     0     
+openrouter_qwen_qwen_2_5_7b_instruct           0.733     0.649     150     0.703     0.157     145   
+xai_grok_4_1_fast_non_reasoning_latest         0.747     0.716     150     0.421     0.475     145   
+
+* = averaged across multiple experiment runs for the same model+dataset
+
+========================================================================================================================
+LaTeX Tables
+========================================================================================================================
+
+\begin{table}[htbp]
+\centering
+\caption{AgenticSimLaw per-model metrics -- compas (transcripts_ver26_compas_20260209-114748)}
+\label{tab:agenticsimlaw_compas_0}
+\begin{tabular}{l r r r r r r r r}
+\toprule
+Model & N & Acc & Prec & Rec & F1 & $\mu$(Conf) & $\sigma$(Conf) & NoDec\% \\
+\midrule
+gpt\_4o\_mini & 1 & 0.000 & 0.000 & 0.000 & 0.000 & 65.0 & 0.0 & 0.0% \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[htbp]
+\centering
+\caption{AgenticSimLaw per-model metrics -- compas (transcripts_ver26_compas_20260209-124320)}
+\label{tab:agenticsimlaw_compas_1}
+\begin{tabular}{l r r r r r r r r}
+\toprule
+Model & N & Acc & Prec & Rec & F1 & $\mu$(Conf) & $\sigma$(Conf) & NoDec\% \\
+\midrule
+gemini\_gemini\_2\_5\_flash & 145 & 0.745 & 0.688 & 0.821 & 0.748 & 80.5 & 11.3 & 3.3% \\
+gpt\_4o\_mini & 149 & 0.779 & 0.833 & 0.652 & 0.732 & 78.8 & 6.5 & 0.7% \\
+gpt\_4\_1\_mini & 150 & 0.773 & 0.833 & 0.643 & 0.726 & 78.6 & 10.4 & 0.0% \\
+xai\_grok\_4\_1\_fast\_non\_reasoning\_latest & 150 & 0.747 & 0.750 & 0.686 & 0.716 & 74.1 & 11.1 & 0.0% \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[htbp]
+\centering
+\caption{AgenticSimLaw per-model metrics -- compas (transcripts_ver26_compas_20260209-161924)}
+\label{tab:agenticsimlaw_compas_2}
+\begin{tabular}{l r r r r r r r r}
+\toprule
+Model & N & Acc & Prec & Rec & F1 & $\mu$(Conf) & $\sigma$(Conf) & NoDec\% \\
+\midrule
+openrouter\_meta\_llama\_llama\_3\_1\_8b\_instruct & 150 & 0.740 & 0.691 & 0.800 & 0.742 & 76.5 & 8.1 & 0.0% \\
+openrouter\_google\_gemma\_2\_9b\_it & 128 & 0.781 & 0.814 & 0.636 & 0.714 & 71.3 & 6.6 & 14.7% \\
+openrouter\_allenai\_olmo\_2\_0325\_32b\_instruct & 150 & 0.740 & 0.782 & 0.614 & 0.688 & 79.1 & 10.4 & 0.0% \\
+openrouter\_qwen\_qwen\_2\_5\_7b\_instruct & 150 & 0.733 & 0.841 & 0.529 & 0.649 & 74.3 & 10.3 & 0.0% \\
+openrouter\_mistralai\_mistral\_7b\_instruct & 149 & 0.705 & 0.750 & 0.557 & 0.639 & 78.8 & 10.6 & 0.7% \\
+openrouter\_microsoft\_phi\_4 & 150 & 0.647 & 0.793 & 0.329 & 0.465 & 76.9 & 7.0 & 0.0% \\
+openrouter\_cognitivecomputations\_dolphin3\_0\_mistral\_24b & 0 & 0.000 & 0.000 & 0.000 & 0.000 & N/A & N/A & 100.0% \\
+openrouter\_cohere\_aya\_expanse\_8b & 0 & 0.000 & 0.000 & 0.000 & 0.000 & N/A & N/A & 100.0% \\
+openrouter\_deepseek\_deepseek\_r1\_distill\_llama\_8b & 0 & 0.000 & 0.000 & 0.000 & 0.000 & N/A & N/A & 100.0% \\
+openrouter\_nousresearch\_hermes\_3\_llama\_3\_1\_8b & 0 & 0.000 & 0.000 & 0.000 & 0.000 & N/A & N/A & 100.0% \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[htbp]
+\centering
+\caption{AgenticSimLaw per-model metrics -- nlsy97 (transcripts_ver26_nlsy97_20260209-124319)}
+\label{tab:agenticsimlaw_nlsy97_3}
+\begin{tabular}{l r r r r r r r r}
+\toprule
+Model & N & Acc & Prec & Rec & F1 & $\mu$(Conf) & $\sigma$(Conf) & NoDec\% \\
+\midrule
+xai\_grok\_4\_1\_fast\_non\_reasoning\_latest & 145 & 0.421 & 0.330 & 0.844 & 0.475 & 66.8 & 4.4 & 0.0% \\
+gpt\_4o\_mini & 145 & 0.683 & 0.488 & 0.444 & 0.465 & 73.8 & 2.8 & 0.0% \\
+gemini\_gemini\_2\_5\_flash & 135 & 0.467 & 0.300 & 0.600 & 0.400 & 73.3 & 6.1 & 6.9% \\
+gpt\_4\_1\_mini & 145 & 0.503 & 0.320 & 0.533 & 0.400 & 69.5 & 4.4 & 0.0% \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[htbp]
+\centering
+\caption{AgenticSimLaw per-model metrics -- nlsy97 (transcripts_ver26_nlsy97_20260209-161924)}
+\label{tab:agenticsimlaw_nlsy97_4}
+\begin{tabular}{l r r r r r r r r}
+\toprule
+Model & N & Acc & Prec & Rec & F1 & $\mu$(Conf) & $\sigma$(Conf) & NoDec\% \\
+\midrule
+openrouter\_google\_gemma\_2\_9b\_it & 133 & 0.699 & 0.500 & 0.575 & 0.535 & 65.2 & 4.5 & 8.3% \\
+openrouter\_meta\_llama\_llama\_3\_1\_8b\_instruct & 145 & 0.552 & 0.389 & 0.778 & 0.519 & 72.7 & 7.6 & 0.0% \\
+openrouter\_mistralai\_mistral\_7b\_instruct & 144 & 0.590 & 0.403 & 0.644 & 0.496 & 73.3 & 5.8 & 0.7% \\
+openrouter\_allenai\_olmo\_2\_0325\_32b\_instruct & 145 & 0.441 & 0.312 & 0.667 & 0.426 & 75.8 & 8.6 & 0.0% \\
+openrouter\_microsoft\_phi\_4 & 145 & 0.690 & 0.500 & 0.356 & 0.416 & 75.0 & 4.1 & 0.0% \\
+openrouter\_qwen\_qwen\_2\_5\_7b\_instruct & 145 & 0.703 & 0.667 & 0.089 & 0.157 & 73.4 & 5.9 & 0.0% \\
+openrouter\_cognitivecomputations\_dolphin3\_0\_mistral\_24b & 0 & 0.000 & 0.000 & 0.000 & 0.000 & N/A & N/A & 100.0% \\
+openrouter\_cohere\_aya\_expanse\_8b & 0 & 0.000 & 0.000 & 0.000 & 0.000 & N/A & N/A & 100.0% \\
+openrouter\_deepseek\_deepseek\_r1\_distill\_llama\_8b & 0 & 0.000 & 0.000 & 0.000 & 0.000 & N/A & N/A & 100.0% \\
+openrouter\_nousresearch\_hermes\_3\_llama\_3\_1\_8b & 0 & 0.000 & 0.000 & 0.000 & 0.000 & N/A & N/A & 100.0% \\
+\bottomrule
+\end{tabular}
+\end{table}

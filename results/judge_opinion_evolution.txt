@@ -1,0 +1,335 @@
+AgenticSimLaw - Judge Opinion Evolution Analysis
+Generated: 2026-02-09 18:12:56
+
+Turn positions:
+  T1 = After Prosecutor opening
+  T2 = After Defense rebuttal
+  T3 = After Prosecutor cross-examination
+  T4 = After Defense response
+  T5 = After Prosecutor closing
+  T6 = After Defense closing
+  T7 = Judge's final ruling
+
+==================================================================================================================================
+Mean Confidence per Turn -- transcripts_ver26_compas_20260209-114748 (dataset: compas)
+==================================================================================================================================
+Model                                          T1_Pros_Open    T2_Def_Rebut    T3_Pros_Cross   T4_Def_Resp     T5_Pros_Close   T6_Def_Close    T7_Final_Ruling
+----------------------------------------------------------------------------------------------------------------------------------
+gpt_4o_mini                                    60.0            65.0            65.0            65.0            65.0            65.0            65.0          
+
+==================================================================================================================================
+YES Rate per Turn -- transcripts_ver26_compas_20260209-114748 (dataset: compas)
+==================================================================================================================================
+Model                                          T1_Pros_Open    T2_Def_Rebut    T3_Pros_Cross   T4_Def_Resp     T5_Pros_Close   T6_Def_Close    T7_Final_Ruling
+----------------------------------------------------------------------------------------------------------------------------------
+gpt_4o_mini                                    0.0%            0.0%            100.0%          0.0%            100.0%          100.0%          0.0%          
+
+==================================================================================================================================
+Flip & Persuasion Statistics -- transcripts_ver26_compas_20260209-114748 (dataset: compas)
+==================================================================================================================================
+Model                                          N      MeanFlips   StdFlips    MaxFlips  FlipRate  Init=Fin  Persuasion
+----------------------------------------------------------------------------------------------------------------------------------
+gpt_4o_mini                                        1  4.00        0.00           4      0.667     100.0%    0.0%      
+
+==================================================================================================================================
+Mean Confidence per Turn -- transcripts_ver26_compas_20260209-124320 (dataset: compas)
+==================================================================================================================================
+Model                                          T1_Pros_Open    T2_Def_Rebut    T3_Pros_Cross   T4_Def_Resp     T5_Pros_Close   T6_Def_Close    T7_Final_Ruling
+----------------------------------------------------------------------------------------------------------------------------------
+gemini_gemini_2_5_flash                        79.9            80.1            80.2            80.2            80.5            80.3            80.4          
+gpt_4_1_mini                                   79.9            78.4            78.7            77.0            78.6            77.1            78.6          
+gpt_4o_mini                                    76.9            75.9            77.0            76.4            76.6            76.0            78.3          
+xai_grok_4_1_fast_non_reasoning_latest         77.8            76.3            74.8            74.9            74.0            74.3            74.1          
+
+==================================================================================================================================
+YES Rate per Turn -- transcripts_ver26_compas_20260209-124320 (dataset: compas)
+==================================================================================================================================
+Model                                          T1_Pros_Open    T2_Def_Rebut    T3_Pros_Cross   T4_Def_Resp     T5_Pros_Close   T6_Def_Close    T7_Final_Ruling
+----------------------------------------------------------------------------------------------------------------------------------
+gemini_gemini_2_5_flash                        52.7%           52.7%           53.3%           53.3%           53.3%           52.7%           53.3%         
+gpt_4_1_mini                                   45.3%           36.0%           58.0%           37.3%           56.7%           38.0%           36.0%         
+gpt_4o_mini                                    47.3%           42.0%           57.3%           42.0%           56.0%           44.0%           36.0%         
+xai_grok_4_1_fast_non_reasoning_latest         63.3%           32.7%           66.7%           36.0%           67.3%           37.3%           42.7%         
+
+==================================================================================================================================
+Flip & Persuasion Statistics -- transcripts_ver26_compas_20260209-124320 (dataset: compas)
+==================================================================================================================================
+Model                                          N      MeanFlips   StdFlips    MaxFlips  FlipRate  Init=Fin  Persuasion
+----------------------------------------------------------------------------------------------------------------------------------
+gemini_gemini_2_5_flash                          150  0.29        0.73           4      0.048     85.3%     14.7%     
+gpt_4_1_mini                                     150  0.93        1.69           5      0.156     89.3%     10.7%     
+gpt_4o_mini                                      150  0.74        1.40           5      0.123     86.7%     13.3%     
+xai_grok_4_1_fast_non_reasoning_latest           150  1.63        2.23           6      0.272     79.3%     20.7%     
+
+==================================================================================================================================
+Mean Confidence per Turn -- transcripts_ver26_compas_20260209-161924 (dataset: compas)
+==================================================================================================================================
+Model                                          T1_Pros_Open    T2_Def_Rebut    T3_Pros_Cross   T4_Def_Resp     T5_Pros_Close   T6_Def_Close    T7_Final_Ruling
+----------------------------------------------------------------------------------------------------------------------------------
+openrouter_allenai_olmo_2_0325_32b_instruct    78.4            78.2            80.6            79.4            81.4            79.8            79.1          
+openrouter_google_gemma_2_9b_it                71.6            70.5            71.3            70.0            71.5            70.0            71.0          
+openrouter_meta_llama_llama_3_1_8b_instruct    74.0            70.7            71.1            69.1            70.5            68.1            76.5          
+openrouter_microsoft_phi_4                     79.6            75.9            79.1            75.0            77.5            77.1            76.9          
+openrouter_mistralai_mistral_7b_instruct       79.8            77.0            78.0            77.1            76.7            76.3            78.8          
+openrouter_qwen_qwen_2_5_7b_instruct           69.9            71.5            70.2            70.7            69.1            69.9            74.3          
+
+==================================================================================================================================
+YES Rate per Turn -- transcripts_ver26_compas_20260209-161924 (dataset: compas)
+==================================================================================================================================
+Model                                          T1_Pros_Open    T2_Def_Rebut    T3_Pros_Cross   T4_Def_Resp     T5_Pros_Close   T6_Def_Close    T7_Final_Ruling
+----------------------------------------------------------------------------------------------------------------------------------
+openrouter_allenai_olmo_2_0325_32b_instruct    62.0%           26.7%           76.0%           30.7%           71.3%           37.3%           36.7%         
+openrouter_google_gemma_2_9b_it                45.3%           40.0%           63.3%           46.7%           67.3%           50.0%           28.7%         
+openrouter_meta_llama_llama_3_1_8b_instruct    55.3%           45.3%           70.0%           50.0%           76.0%           44.8%           54.0%         
+openrouter_microsoft_phi_4                     77.3%           34.0%           74.7%           36.0%           68.0%           33.3%           19.3%         
+openrouter_mistralai_mistral_7b_instruct       58.0%           42.7%           60.0%           42.0%           58.7%           38.7%           34.7%         
+openrouter_qwen_qwen_2_5_7b_instruct           50.7%           26.7%           67.3%           23.3%           66.7%           30.0%           29.3%         
+
+==================================================================================================================================
+Flip & Persuasion Statistics -- transcripts_ver26_compas_20260209-161924 (dataset: compas)
+==================================================================================================================================
+Model                                          N      MeanFlips   StdFlips    MaxFlips  FlipRate  Init=Fin  Persuasion
+----------------------------------------------------------------------------------------------------------------------------------
+openrouter_allenai_olmo_2_0325_32b_instruct      150  2.29        1.96           6      0.382     72.0%     28.0%     
+openrouter_google_gemma_2_9b_it                  150  0.51        0.91           4      0.102     66.0%     34.0%     
+openrouter_meta_llama_llama_3_1_8b_instruct      150  1.39        1.74           6      0.232     88.0%     12.0%     
+openrouter_microsoft_phi_4                       150  2.17        1.95           5      0.361     42.0%     58.0%     
+openrouter_mistralai_mistral_7b_instruct         150  1.38        1.56           5      0.230     74.0%     26.0%     
+openrouter_qwen_qwen_2_5_7b_instruct             150  1.91        1.98           6      0.321     78.7%     21.3%     
+
+==================================================================================================================================
+Mean Confidence per Turn -- transcripts_ver26_nlsy97_20260209-124319 (dataset: nlsy97)
+==================================================================================================================================
+Model                                          T1_Pros_Open    T2_Def_Rebut    T3_Pros_Cross   T4_Def_Resp     T5_Pros_Close   T6_Def_Close    T7_Final_Ruling
+----------------------------------------------------------------------------------------------------------------------------------
+gemini_gemini_2_5_flash                        68.4            69.1            69.6            69.9            69.7            69.6            73.4          
+gpt_4_1_mini                                   72.6            68.5            73.2            67.2            72.7            67.8            69.5          
+gpt_4o_mini                                    67.3            66.7            68.8            67.3            69.3            67.4            73.8          
+xai_grok_4_1_fast_non_reasoning_latest         70.0            66.2            68.2            64.9            67.1            64.7            66.8          
+
+==================================================================================================================================
+YES Rate per Turn -- transcripts_ver26_nlsy97_20260209-124319 (dataset: nlsy97)
+==================================================================================================================================
+Model                                          T1_Pros_Open    T2_Def_Rebut    T3_Pros_Cross   T4_Def_Resp     T5_Pros_Close   T6_Def_Close    T7_Final_Ruling
+----------------------------------------------------------------------------------------------------------------------------------
+gemini_gemini_2_5_flash                        55.2%           51.7%           56.6%           58.6%           63.4%           56.6%           55.2%         
+gpt_4_1_mini                                   82.1%           39.3%           97.9%           43.4%           99.3%           41.4%           51.7%         
+gpt_4o_mini                                    25.5%           33.1%           73.1%           44.8%           71.0%           49.7%           28.3%         
+xai_grok_4_1_fast_non_reasoning_latest         99.3%           44.1%           99.3%           50.3%           99.3%           57.9%           79.3%         
+
+==================================================================================================================================
+Flip & Persuasion Statistics -- transcripts_ver26_nlsy97_20260209-124319 (dataset: nlsy97)
+==================================================================================================================================
+Model                                          N      MeanFlips   StdFlips    MaxFlips  FlipRate  Init=Fin  Persuasion
+----------------------------------------------------------------------------------------------------------------------------------
+gemini_gemini_2_5_flash                          145  1.23        1.51           5      0.207     77.9%     22.1%     
+gpt_4_1_mini                                     145  2.88        2.02           6      0.480     65.5%     34.5%     
+gpt_4o_mini                                      145  1.77        1.48           5      0.294     69.7%     30.3%     
+xai_grok_4_1_fast_non_reasoning_latest           145  2.71        2.52           6      0.452     80.0%     20.0%     
+
+==================================================================================================================================
+Mean Confidence per Turn -- transcripts_ver26_nlsy97_20260209-161924 (dataset: nlsy97)
+==================================================================================================================================
+Model                                          T1_Pros_Open    T2_Def_Rebut    T3_Pros_Cross   T4_Def_Resp     T5_Pros_Close   T6_Def_Close    T7_Final_Ruling
+----------------------------------------------------------------------------------------------------------------------------------
+openrouter_allenai_olmo_2_0325_32b_instruct    75.1            71.1            79.2            73.4            80.4            74.4            75.8          
+openrouter_google_gemma_2_9b_it                55.5            59.4            64.8            61.1            65.5            61.8            64.5          
+openrouter_meta_llama_llama_3_1_8b_instruct    66.6            63.8            69.1            64.2            68.8            64.0            72.7          
+openrouter_microsoft_phi_4                     76.2            72.1            76.6            73.0            75.7            73.5            75.0          
+openrouter_mistralai_mistral_7b_instruct       76.8            72.4            75.6            71.8            74.3            72.0            73.3          
+openrouter_qwen_qwen_2_5_7b_instruct           65.6            68.2            65.7            67.8            66.4            67.4            73.4          
+
+==================================================================================================================================
+YES Rate per Turn -- transcripts_ver26_nlsy97_20260209-161924 (dataset: nlsy97)
+==================================================================================================================================
+Model                                          T1_Pros_Open    T2_Def_Rebut    T3_Pros_Cross   T4_Def_Resp     T5_Pros_Close   T6_Def_Close    T7_Final_Ruling
+----------------------------------------------------------------------------------------------------------------------------------
+openrouter_allenai_olmo_2_0325_32b_instruct    94.5%           19.3%           95.9%           37.2%           97.2%           44.8%           66.2%         
+openrouter_google_gemma_2_9b_it                26.9%           20.7%           91.0%           33.1%           91.0%           44.1%           31.7%         
+openrouter_meta_llama_llama_3_1_8b_instruct    77.2%           73.1%           99.3%           71.7%           100.0%          71.7%           62.1%         
+openrouter_microsoft_phi_4                     100.0%          24.8%           91.7%           28.3%           80.0%           29.7%           22.1%         
+openrouter_mistralai_mistral_7b_instruct       87.6%           69.0%           86.9%           64.1%           86.9%           62.8%           49.7%         
+openrouter_qwen_qwen_2_5_7b_instruct           33.1%           0.0%            80.7%           0.7%            80.7%           0.7%            4.1%          
+
+==================================================================================================================================
+Flip & Persuasion Statistics -- transcripts_ver26_nlsy97_20260209-161924 (dataset: nlsy97)
+==================================================================================================================================
+Model                                          N      MeanFlips   StdFlips    MaxFlips  FlipRate  Init=Fin  Persuasion
+----------------------------------------------------------------------------------------------------------------------------------
+openrouter_allenai_olmo_2_0325_32b_instruct      145  3.57        1.81           6      0.594     67.6%     32.4%     
+openrouter_google_gemma_2_9b_it                  145  1.65        1.47           5      0.381     31.0%     69.0%     
+openrouter_meta_llama_llama_3_1_8b_instruct      145  1.70        1.73           6      0.283     61.4%     38.6%     
+openrouter_microsoft_phi_4                       145  3.40        1.67           6      0.567     22.1%     77.9%     
+openrouter_mistralai_mistral_7b_instruct         145  1.76        1.66           6      0.293     55.2%     44.8%     
+openrouter_qwen_qwen_2_5_7b_instruct             145  3.57        1.52           6      0.595     71.0%     29.0%     
+
+==================================================================================================================================
+LaTeX Tables
+==================================================================================================================================
+
+\begin{table}[htbp]
+\centering
+\small
+\caption{Judge opinion confidence evolution -- compas (transcripts_ver26_compas_20260209-114748)}
+\label{tab:evolution_compas_0}
+\begin{tabular}{l r r r r r r r}
+\toprule
+Model & T1 & T2 & T3 & T4 & T5 & T6 & T7 \\
+\midrule
+gpt\_4o\_mini & 60.0 & 65.0 & 65.0 & 65.0 & 65.0 & 65.0 & 65.0 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[htbp]
+\centering
+\caption{Judge flip and persuasion statistics -- compas (transcripts_ver26_compas_20260209-114748)}
+\label{tab:flips_compas_0}
+\begin{tabular}{l r r r r r r}
+\toprule
+Model & N & $\mu$(Flips) & FlipRate & Init=Fin & Persuasion\% \\
+\midrule
+gpt\_4o\_mini & 1 & 4.00 & 0.667 & 100.0% & 0.0% \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[htbp]
+\centering
+\small
+\caption{Judge opinion confidence evolution -- compas (transcripts_ver26_compas_20260209-124320)}
+\label{tab:evolution_compas_1}
+\begin{tabular}{l r r r r r r r}
+\toprule
+Model & T1 & T2 & T3 & T4 & T5 & T6 & T7 \\
+\midrule
+gemini\_gemini\_2\_5\_flash & 79.9 & 80.1 & 80.2 & 80.2 & 80.5 & 80.3 & 80.4 \\
+gpt\_4\_1\_mini & 79.9 & 78.4 & 78.7 & 77.0 & 78.6 & 77.1 & 78.6 \\
+gpt\_4o\_mini & 76.9 & 75.9 & 77.0 & 76.4 & 76.6 & 76.0 & 78.3 \\
+xai\_grok\_4\_1\_fast\_non\_reasoning\_latest & 77.8 & 76.3 & 74.8 & 74.9 & 74.0 & 74.3 & 74.1 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[htbp]
+\centering
+\caption{Judge flip and persuasion statistics -- compas (transcripts_ver26_compas_20260209-124320)}
+\label{tab:flips_compas_1}
+\begin{tabular}{l r r r r r r}
+\toprule
+Model & N & $\mu$(Flips) & FlipRate & Init=Fin & Persuasion\% \\
+\midrule
+gemini\_gemini\_2\_5\_flash & 150 & 0.29 & 0.048 & 85.3% & 14.7% \\
+gpt\_4\_1\_mini & 150 & 0.93 & 0.156 & 89.3% & 10.7% \\
+gpt\_4o\_mini & 150 & 0.74 & 0.123 & 86.7% & 13.3% \\
+xai\_grok\_4\_1\_fast\_non\_reasoning\_latest & 150 & 1.63 & 0.272 & 79.3% & 20.7% \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[htbp]
+\centering
+\small
+\caption{Judge opinion confidence evolution -- compas (transcripts_ver26_compas_20260209-161924)}
+\label{tab:evolution_compas_2}
+\begin{tabular}{l r r r r r r r}
+\toprule
+Model & T1 & T2 & T3 & T4 & T5 & T6 & T7 \\
+\midrule
+openrouter\_allenai\_olmo\_2\_0325\_32b\_instruct & 78.4 & 78.2 & 80.6 & 79.4 & 81.4 & 79.8 & 79.1 \\
+openrouter\_google\_gemma\_2\_9b\_it & 71.6 & 70.5 & 71.3 & 70.0 & 71.5 & 70.0 & 71.0 \\
+openrouter\_meta\_llama\_llama\_3\_1\_8b\_instruct & 74.0 & 70.7 & 71.1 & 69.1 & 70.5 & 68.1 & 76.5 \\
+openrouter\_microsoft\_phi\_4 & 79.6 & 75.9 & 79.1 & 75.0 & 77.5 & 77.1 & 76.9 \\
+openrouter\_mistralai\_mistral\_7b\_instruct & 79.8 & 77.0 & 78.0 & 77.1 & 76.7 & 76.3 & 78.8 \\
+openrouter\_qwen\_qwen\_2\_5\_7b\_instruct & 69.9 & 71.5 & 70.2 & 70.7 & 69.1 & 69.9 & 74.3 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[htbp]
+\centering
+\caption{Judge flip and persuasion statistics -- compas (transcripts_ver26_compas_20260209-161924)}
+\label{tab:flips_compas_2}
+\begin{tabular}{l r r r r r r}
+\toprule
+Model & N & $\mu$(Flips) & FlipRate & Init=Fin & Persuasion\% \\
+\midrule
+openrouter\_allenai\_olmo\_2\_0325\_32b\_instruct & 150 & 2.29 & 0.382 & 72.0% & 28.0% \\
+openrouter\_google\_gemma\_2\_9b\_it & 150 & 0.51 & 0.102 & 66.0% & 34.0% \\
+openrouter\_meta\_llama\_llama\_3\_1\_8b\_instruct & 150 & 1.39 & 0.232 & 88.0% & 12.0% \\
+openrouter\_microsoft\_phi\_4 & 150 & 2.17 & 0.361 & 42.0% & 58.0% \\
+openrouter\_mistralai\_mistral\_7b\_instruct & 150 & 1.38 & 0.230 & 74.0% & 26.0% \\
+openrouter\_qwen\_qwen\_2\_5\_7b\_instruct & 150 & 1.91 & 0.321 & 78.7% & 21.3% \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[htbp]
+\centering
+\small
+\caption{Judge opinion confidence evolution -- nlsy97 (transcripts_ver26_nlsy97_20260209-124319)}
+\label{tab:evolution_nlsy97_3}
+\begin{tabular}{l r r r r r r r}
+\toprule
+Model & T1 & T2 & T3 & T4 & T5 & T6 & T7 \\
+\midrule
+gemini\_gemini\_2\_5\_flash & 68.4 & 69.1 & 69.6 & 69.9 & 69.7 & 69.6 & 73.4 \\
+gpt\_4\_1\_mini & 72.6 & 68.5 & 73.2 & 67.2 & 72.7 & 67.8 & 69.5 \\
+gpt\_4o\_mini & 67.3 & 66.7 & 68.8 & 67.3 & 69.3 & 67.4 & 73.8 \\
+xai\_grok\_4\_1\_fast\_non\_reasoning\_latest & 70.0 & 66.2 & 68.2 & 64.9 & 67.1 & 64.7 & 66.8 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[htbp]
+\centering
+\caption{Judge flip and persuasion statistics -- nlsy97 (transcripts_ver26_nlsy97_20260209-124319)}
+\label{tab:flips_nlsy97_3}
+\begin{tabular}{l r r r r r r}
+\toprule
+Model & N & $\mu$(Flips) & FlipRate & Init=Fin & Persuasion\% \\
+\midrule
+gemini\_gemini\_2\_5\_flash & 145 & 1.23 & 0.207 & 77.9% & 22.1% \\
+gpt\_4\_1\_mini & 145 & 2.88 & 0.480 & 65.5% & 34.5% \\
+gpt\_4o\_mini & 145 & 1.77 & 0.294 & 69.7% & 30.3% \\
+xai\_grok\_4\_1\_fast\_non\_reasoning\_latest & 145 & 2.71 & 0.452 & 80.0% & 20.0% \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[htbp]
+\centering
+\small
+\caption{Judge opinion confidence evolution -- nlsy97 (transcripts_ver26_nlsy97_20260209-161924)}
+\label{tab:evolution_nlsy97_4}
+\begin{tabular}{l r r r r r r r}
+\toprule
+Model & T1 & T2 & T3 & T4 & T5 & T6 & T7 \\
+\midrule
+openrouter\_allenai\_olmo\_2\_0325\_32b\_instruct & 75.1 & 71.1 & 79.2 & 73.4 & 80.4 & 74.4 & 75.8 \\
+openrouter\_google\_gemma\_2\_9b\_it & 55.5 & 59.4 & 64.8 & 61.1 & 65.5 & 61.8 & 64.5 \\
+openrouter\_meta\_llama\_llama\_3\_1\_8b\_instruct & 66.6 & 63.8 & 69.1 & 64.2 & 68.8 & 64.0 & 72.7 \\
+openrouter\_microsoft\_phi\_4 & 76.2 & 72.1 & 76.6 & 73.0 & 75.7 & 73.5 & 75.0 \\
+openrouter\_mistralai\_mistral\_7b\_instruct & 76.8 & 72.4 & 75.6 & 71.8 & 74.3 & 72.0 & 73.3 \\
+openrouter\_qwen\_qwen\_2\_5\_7b\_instruct & 65.6 & 68.2 & 65.7 & 67.8 & 66.4 & 67.4 & 73.4 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[htbp]
+\centering
+\caption{Judge flip and persuasion statistics -- nlsy97 (transcripts_ver26_nlsy97_20260209-161924)}
+\label{tab:flips_nlsy97_4}
+\begin{tabular}{l r r r r r r}
+\toprule
+Model & N & $\mu$(Flips) & FlipRate & Init=Fin & Persuasion\% \\
+\midrule
+openrouter\_allenai\_olmo\_2\_0325\_32b\_instruct & 145 & 3.57 & 0.594 & 67.6% & 32.4% \\
+openrouter\_google\_gemma\_2\_9b\_it & 145 & 1.65 & 0.381 & 31.0% & 69.0% \\
+openrouter\_meta\_llama\_llama\_3\_1\_8b\_instruct & 145 & 1.70 & 0.283 & 61.4% & 38.6% \\
+openrouter\_microsoft\_phi\_4 & 145 & 3.40 & 0.567 & 22.1% & 77.9% \\
+openrouter\_mistralai\_mistral\_7b\_instruct & 145 & 1.76 & 0.293 & 55.2% & 44.8% \\
+openrouter\_qwen\_qwen\_2\_5\_7b\_instruct & 145 & 3.57 & 0.595 & 71.0% & 29.0% \\
+\bottomrule
+\end{tabular}
+\end{table}

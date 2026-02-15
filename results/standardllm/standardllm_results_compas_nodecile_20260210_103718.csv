@@ -1,0 +1,711 @@
+model_name,prompt_type,case_id,repeat_id,dataset,ground_truth,prediction,confidence,is_correct,response_time_sec,prompt_tokens,completion_tokens,total_tokens,raw_response,error,timestamp
+openai/gpt-4o-mini,system1,27,0,two_year_recid,True,YES,75,True,2.7357139587402344,151,16,167,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 75
+}",,2026-02-10T10:31:41.898566
+openai/gpt-4o-mini,system1,15,0,two_year_recid,True,NO,75,False,0.8709530830383301,150,16,166,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 75
+}",,2026-02-10T10:31:44.634943
+openai/gpt-4o-mini,system1,23,0,two_year_recid,False,YES,75,False,0.9582557678222656,151,16,167,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 75
+}",,2026-02-10T10:31:45.506122
+openai/gpt-4o-mini,system1,17,0,two_year_recid,False,NO,85,True,0.5733039379119873,151,16,167,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 85
+}",,2026-02-10T10:31:46.464611
+openai/gpt-4o-mini,system1,8,0,two_year_recid,True,YES,75,True,2.3442718982696533,151,16,167,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 75
+}",,2026-02-10T10:31:47.038355
+openai/gpt-4o-mini,system1,9,0,two_year_recid,True,YES,75,True,0.6741790771484375,151,16,167,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 75
+}",,2026-02-10T10:31:49.383073
+openai/gpt-4o-mini,system1,28,0,two_year_recid,False,YES,75,False,1.149271011352539,151,16,167,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 75
+}",,2026-02-10T10:31:50.057570
+openai/gpt-4o-mini,system1,24,0,two_year_recid,False,NO,85,True,0.6280157566070557,151,16,167,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 85
+}",,2026-02-10T10:31:51.207111
+openai/gpt-4o-mini,system1,12,0,two_year_recid,False,YES,75,False,0.6455051898956299,151,16,167,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 75
+}",,2026-02-10T10:31:51.835495
+openai/gpt-4o-mini,system1,0,0,two_year_recid,False,NO,85,True,0.7341351509094238,151,16,167,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 85
+}",,2026-02-10T10:31:52.482344
+openai/gpt-4o-mini,system1,4,0,two_year_recid,True,YES,75,True,0.6982882022857666,151,16,167,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 75
+}",,2026-02-10T10:31:53.216722
+openai/gpt-4o-mini,system1,16,0,two_year_recid,True,YES,85,True,0.588860034942627,151,16,167,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 85
+}",,2026-02-10T10:31:53.915500
+openai/gpt-4o-mini,system1,5,0,two_year_recid,False,NO,85,True,0.6377286911010742,151,16,167,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 85
+}",,2026-02-10T10:31:54.504832
+openai/gpt-4o-mini,system1,13,0,two_year_recid,True,YES,75,True,0.5027599334716797,151,16,167,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 75
+}",,2026-02-10T10:31:55.143035
+openai/gpt-4o-mini,system1,11,0,two_year_recid,True,YES,75,True,0.6295642852783203,151,16,167,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 75
+}",,2026-02-10T10:31:55.646386
+openai/gpt-4o-mini,system1,22,0,two_year_recid,False,NO,85,True,0.6056289672851562,150,16,166,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 85
+}",,2026-02-10T10:31:56.276538
+openai/gpt-4o-mini,system1,1,0,two_year_recid,False,NO,85,True,0.5359759330749512,150,16,166,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 85
+}",,2026-02-10T10:31:56.882650
+openai/gpt-4o-mini,system1,2,0,two_year_recid,False,NO,75,True,0.5298922061920166,151,16,167,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 75
+}",,2026-02-10T10:31:57.419226
+openai/gpt-4o-mini,system1,25,0,two_year_recid,True,YES,85,True,0.519057035446167,151,16,167,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 85
+}",,2026-02-10T10:31:57.949362
+openai/gpt-4o-mini,system1,3,0,two_year_recid,True,NO,75,False,0.42279815673828125,151,16,167,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 75
+}",,2026-02-10T10:31:58.470051
+openai/gpt-4o-mini,system1,21,0,two_year_recid,False,NO,75,True,0.6553547382354736,151,16,167,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 75
+}",,2026-02-10T10:31:58.893347
+openai/gpt-4o-mini,system1,26,0,two_year_recid,True,YES,75,True,0.7141208648681641,151,16,167,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 75
+}",,2026-02-10T10:31:59.549225
+openai/gpt-4o-mini,system1,18,0,two_year_recid,False,NO,85,True,0.6145000457763672,151,16,167,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 85
+}",,2026-02-10T10:32:00.263960
+openai/gpt-4o-mini,system1,29,0,two_year_recid,True,YES,85,True,0.5569710731506348,151,16,167,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 85
+}",,2026-02-10T10:32:00.878978
+openai/gpt-4o-mini,system1,20,0,two_year_recid,True,YES,75,True,0.6437089443206787,150,16,166,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 75
+}",,2026-02-10T10:32:01.436356
+openai/gpt-4o-mini,system1,7,0,two_year_recid,False,NO,85,True,0.6290791034698486,150,16,166,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 85
+}",,2026-02-10T10:32:02.081103
+openai/gpt-4o-mini,system1,10,0,two_year_recid,False,NO,85,True,0.6638627052307129,151,16,167,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 85
+}",,2026-02-10T10:32:02.710796
+openai/gpt-4o-mini,system1,14,0,two_year_recid,False,NO,75,True,0.6019299030303955,151,16,167,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 75
+}",,2026-02-10T10:32:03.375153
+openai/gpt-4o-mini,system1,19,0,two_year_recid,False,NO,75,True,0.5218629837036133,151,16,167,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 75
+}",,2026-02-10T10:32:03.977589
+openai/gpt-4o-mini,system1,6,0,two_year_recid,True,YES,75,True,0.6926219463348389,151,16,167,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 75
+}",,2026-02-10T10:32:04.500451
+openai/gpt-4o-mini,cot,27,0,two_year_recid,True,YES,65,True,5.230393171310425,222,282,504,"{
+  ""risk_factors"": [
+    [""age"", ""medium"", ""At 21 years old, the individual is in a demographic that typically has a higher risk of recidivism compared to older age groups.""],
+    [""sex"", ""high"", ""Males generally have higher recidivism rates than females, which contributes significantly to the risk assessment.""],
+    [""race"", ""medium"", ""While race itself is not a direct predictor, statistical trends indicate that certain racial groups may experience higher recidivism rates due to systemic factors.""],
+    [""juv fel count"", ""low"", ""Having no juvenile felony counts suggests a lower risk associated with serious prior offenses during youth.""],
+    [""juv misd count"", ""low"", ""No juvenile misdemeanor counts indicate a lack of prior minor offenses, which is a positive factor.""],
+    [""juv other count"", ""low"", ""No other juvenile counts further supports a lower risk profile in terms of past juvenile behavior.""],
+    [""priors count"", ""medium"", ""Having one prior offense indicates some level of cri",,2026-02-10T10:32:05.232880
+openai/gpt-4o-mini,cot,15,0,two_year_recid,True,YES,70,True,4.8925817012786865,221,290,511,"{
+  ""risk_factors"": [
+    [""age"", ""medium"", ""At 24 years old, the individual is in a demographic that typically has a higher risk of recidivism compared to older age groups.""],
+    [""sex"", ""high"", ""Males generally have higher recidivism rates compared to females, which contributes significantly to the risk assessment.""],
+    [""race"", ""medium"", ""While race itself is not a direct predictor of recidivism, systemic factors may influence outcomes, and Hispanic males may face different societal challenges.""],
+    [""juv fel count"", ""low"", ""Having no juvenile felony counts indicates a lower risk associated with serious prior offenses during youth.""],
+    [""juv misd count"", ""low"", ""No juvenile misdemeanor counts suggest a lack of prior minor offenses, which is a positive indicator.""],
+    [""juv other count"", ""low"", ""No other juvenile offenses further supports a lower risk profile in terms of past behavior.""],
+    [""priors count"", ""medium"", ""Having one prior offense indicates some level of crimi",,2026-02-10T10:32:10.463829
+openai/gpt-4o-mini,cot,23,0,two_year_recid,False,YES,75,False,4.462194204330444,222,266,488,"{
+  ""risk_factors"": [
+    [""age"", ""medium"", ""At 24 years old, the individual is in a demographic that typically has a higher risk of recidivism compared to older age groups.""],
+    [""sex"", ""high"", ""Males generally have higher recidivism rates compared to females, making this a significant risk factor.""],
+    [""race"", ""low"", ""Race alone is not a strong predictor of recidivism; thus, it is assigned a low weight.""],
+    [""juv fel count"", ""low"", ""Having no juvenile felony counts indicates a lower risk associated with past serious offenses.""],
+    [""juv misd count"", ""low"", ""No juvenile misdemeanor counts suggest a lack of prior minor offenses, which is a positive indicator.""],
+    [""juv other count"", ""low"", ""No other juvenile offenses further supports a lower risk profile.""],
+    [""priors count"", ""high"", ""Having 8 prior offenses is a strong indicator of potential recidivism, significantly raising the risk.""],
+    [""c charge degree"", ""high"", ""A felony charge is associated with a higher likel",,2026-02-10T10:32:15.357098
+openai/gpt-4o-mini,cot,17,0,two_year_recid,False,NO,85,True,3.795414924621582,222,256,478,"{
+  ""risk_factors"": [
+    [""age"", ""medium"", ""At 21 years old, the individual is still in a demographic that has a higher likelihood of recidivism compared to older age groups.""],
+    [""sex"", ""low"", ""Females generally have lower recidivism rates compared to males.""],
+    [""race"", ""low"", ""Caucasian individuals do not show a significant increase in recidivism risk compared to other races.""],
+    [""juv fel count"", ""low"", ""Having no juvenile felony counts indicates a lower risk of future criminal behavior.""],
+    [""juv misd count"", ""low"", ""No juvenile misdemeanor counts further support a lower risk profile.""],
+    [""juv other count"", ""low"", ""No other juvenile offenses suggest a lack of prior delinquent behavior.""],
+    [""priors count"", ""low"", ""Having no prior criminal history is a strong indicator of lower recidivism risk.""],
+    [""c charge degree"", ""medium"", ""A felony charge indicates a more serious offense, which can contribute to a higher risk of recidivism compared to misdemeanors.""]
+  ",,2026-02-10T10:32:19.819660
+openai/gpt-4o-mini,cot,8,0,two_year_recid,True,YES,65,True,5.578585147857666,222,309,531,"{
+  ""risk_factors"": [
+    [""age"", ""medium"", ""At age 29, the individual is in a demographic that has a moderate risk of recidivism compared to younger individuals, but not as high as those in their late teens or early twenties.""],
+    [""sex"", ""medium"", ""Males generally have a higher recidivism rate compared to females, contributing to a medium risk factor.""],
+    [""race"", ""medium"", ""While race can be a factor in systemic biases within the criminal justice system, it is not a direct predictor of recidivism. However, African-American males have historically faced higher rates of incarceration and recidivism.""],
+    [""juv fel count"", ""low"", ""Having no juvenile felony counts indicates a lower risk associated with early criminal behavior.""],
+    [""juv misd count"", ""low"", ""No juvenile misdemeanor counts suggest a lack of early criminal involvement, which is a positive indicator.""],
+    [""juv other count"", ""low"", ""No other juvenile counts further supports a lower risk profile.""],
+    [""priors ",,2026-02-10T10:32:23.616470
+openai/gpt-4o-mini,cot,9,0,two_year_recid,True,YES,75,True,4.678557872772217,222,282,504,"{
+  ""risk_factors"": [
+    [""age"", ""medium"", ""At 26, the individual is in a demographic that may have a higher risk of recidivism compared to older age groups, but not as high as younger individuals.""],
+    [""sex"", ""medium"", ""Males generally have higher recidivism rates compared to females, contributing to a medium risk.""],
+    [""race"", ""medium"", ""While race itself is not a direct predictor, statistical trends show that African-American individuals may face systemic issues that correlate with higher recidivism rates.""],
+    [""juv fel count"", ""low"", ""Having no juvenile felony counts indicates a lower risk associated with past serious offenses during youth.""],
+    [""juv misd count"", ""low"", ""No juvenile misdemeanor counts suggest a lack of prior minor offenses, indicating lower risk.""],
+    [""juv other count"", ""low"", ""No other juvenile counts further support a lower risk profile.""],
+    [""priors count"", ""high"", ""Having 3 prior offenses significantly increases the risk of recidivism, indica",,2026-02-10T10:32:29.195762
+openai/gpt-4o-mini,cot,28,0,two_year_recid,False,YES,75,False,5.284562826156616,222,290,512,"{
+  ""risk_factors"": [
+    [""age"", ""medium"", ""At age 31, the individual is in a demographic that may have a higher risk of recidivism compared to older individuals, but younger individuals typically have higher rates.""],
+    [""sex"", ""high"", ""Males generally have higher recidivism rates compared to females, making this a significant risk factor.""],
+    [""race"", ""medium"", ""While race can be correlated with systemic issues in the criminal justice system, it is not a direct predictor of recidivism on its own.""],
+    [""juv fel count"", ""low"", ""Having no juvenile felony counts indicates a lower risk associated with early criminal behavior.""],
+    [""juv misd count"", ""low"", ""No juvenile misdemeanor counts suggest a lack of early criminal involvement, which is a positive indicator.""],
+    [""juv other count"", ""low"", ""No other juvenile counts further support a lower risk profile in terms of early criminal history.""],
+    [""priors count"", ""high"", ""Having 5 prior offenses is a strong indicator of pot",,2026-02-10T10:32:33.874922
+openai/gpt-4o-mini,cot,24,0,two_year_recid,False,NO,85,True,4.955527067184448,222,248,470,"{
+  ""risk_factors"": [
+    [""age"", ""low"", ""Older individuals, particularly those over 50, generally have lower recidivism rates.""],
+    [""sex"", ""medium"", ""Males tend to have higher recidivism rates compared to females, but this factor alone is not determinative.""],
+    [""race"", ""low"", ""Race itself is not a direct predictor of recidivism; thus, it is considered low risk.""],
+    [""juv fel count"", ""low"", ""Having no juvenile felony counts indicates a lower risk of future offenses.""],
+    [""juv misd count"", ""low"", ""No juvenile misdemeanor counts further support a low risk profile.""],
+    [""juv other count"", ""low"", ""No other juvenile offenses suggest a lack of problematic behavior in youth.""],
+    [""priors count"", ""low"", ""Having no prior convictions is a strong indicator of lower recidivism risk.""],
+    [""c charge degree"", ""medium"", ""A felony charge indicates a serious offense, which can contribute to recidivism risk, but context matters.""]
+  ],
+  ""prediction"": ""NO"",
+  ""confidence"": 85
+}",,2026-02-10T10:32:39.160066
+openai/gpt-4o-mini,cot,12,0,two_year_recid,False,YES,65,False,5.18808126449585,222,271,493,"{
+  ""risk_factors"": [
+    [""age"", ""medium"", ""At age 20, individuals are generally at a higher risk for recidivism compared to older age groups, but this is not the highest risk factor.""],
+    [""sex"", ""medium"", ""Males tend to have higher recidivism rates than females, contributing to a medium risk level.""],
+    [""race"", ""low"", ""While race can be a factor in systemic biases, it does not directly correlate with recidivism risk in a predictive model.""],
+    [""juv fel count"", ""low"", ""Having no juvenile felony counts indicates a lower risk, as prior serious offenses are strong predictors of future behavior.""],
+    [""juv misd count"", ""low"", ""No juvenile misdemeanor counts further support a lower risk assessment.""],
+    [""juv other count"", ""low"", ""No juvenile other counts suggest a lack of prior problematic behavior in youth.""],
+    [""priors count"", ""medium"", ""Having one prior offense indicates some level of risk, but it is not excessively high.""],
+    [""c charge degree"", ""medium"", ""A misdemea",,2026-02-10T10:32:44.116546
+openai/gpt-4o-mini,cot,0,0,two_year_recid,False,NO,70,True,6.460279226303101,222,309,531,"{
+  ""risk_factors"": [
+    [""age"", ""medium"", ""At 21 years old, the individual is still in a developmental stage where impulsivity and risk-taking behaviors can be more prevalent, which may contribute to a moderate risk of recidivism.""],
+    [""sex"", ""low"", ""Female offenders generally have lower recidivism rates compared to male offenders, indicating a lower risk factor.""],
+    [""race"", ""low"", ""Caucasian individuals do not have a specific correlation with higher recidivism rates compared to other races, suggesting a neutral impact on risk.""],
+    [""juv fel count"", ""low"", ""Having no juvenile felony counts indicates a lower risk, as prior serious offenses are strong predictors of future behavior.""],
+    [""juv misd count"", ""medium"", ""Two juvenile misdemeanor counts suggest some level of prior engagement with the justice system, which may indicate a moderate risk.""],
+    [""juv other count"", ""low"", ""A count of two in other juvenile offenses does not significantly elevate risk, especially in th",,2026-02-10T10:32:49.305718
+openai/gpt-4o-mini,cot,4,0,two_year_recid,True,YES,65,True,6.029669284820557,222,291,513,"{
+  ""risk_factors"": [
+    [""age"", ""medium"", ""At age 25, the individual is in a demographic that has a higher likelihood of recidivism compared to older individuals, but not as high as younger individuals.""],
+    [""sex"", ""medium"", ""Males generally have higher recidivism rates compared to females, contributing to a medium risk.""],
+    [""race"", ""medium"", ""While race can be a factor in systemic biases within the criminal justice system, it is not a direct predictor of recidivism on its own.""],
+    [""juv fel count"", ""low"", ""Having no juvenile felony counts indicates a lower risk associated with past serious offenses during youth.""],
+    [""juv misd count"", ""low"", ""No juvenile misdemeanor counts suggest a lack of prior minor offenses, indicating lower risk.""],
+    [""juv other count"", ""low"", ""No other juvenile counts further support a lower risk profile.""],
+    [""priors count"", ""medium"", ""Having one prior offense indicates some level of risk, but it is not high enough to suggest a strong likel",,2026-02-10T10:32:55.773131
+openai/gpt-4o-mini,cot,16,0,two_year_recid,True,YES,85,True,4.751661062240601,222,293,515,"{
+  ""risk_factors"": [
+    [""age"", ""medium"", ""At 34 years old, the individual is in a demographic that may have a higher likelihood of recidivism compared to older age groups, but not as high as younger individuals.""],
+    [""sex"", ""high"", ""Males generally have higher recidivism rates compared to females, which contributes significantly to the overall risk assessment.""],
+    [""race"", ""medium"", ""While race can be a factor in systemic biases within the criminal justice system, it is not a direct predictor of recidivism on its own.""],
+    [""juv fel count"", ""low"", ""Having no juvenile felony counts indicates a lower risk associated with early criminal behavior.""],
+    [""juv misd count"", ""low"", ""No juvenile misdemeanor counts further suggest a lack of early criminal involvement.""],
+    [""juv other count"", ""low"", ""No other juvenile offenses indicate a clean juvenile record, which is a positive factor.""],
+    [""priors count"", ""high"", ""Having 12 prior offenses is a strong indicator of a high risk",,2026-02-10T10:33:01.803716
+openai/gpt-4o-mini,cot,5,0,two_year_recid,False,NO,85,True,4.830804109573364,222,257,479,"{
+  ""risk_factors"": [
+    [""age"", ""low"", ""Older individuals, particularly those over 60, generally have lower recidivism rates.""],
+    [""sex"", ""medium"", ""Males tend to have higher recidivism rates compared to females, but this factor alone is not determinative.""],
+    [""race"", ""medium"", ""While race can be a factor in systemic biases, it does not directly correlate with recidivism risk.""],
+    [""juv fel count"", ""low"", ""A juvenile felony count of 0 indicates no prior serious offenses during youth, which is a positive indicator.""],
+    [""juv misd count"", ""low"", ""A juvenile misdemeanor count of 0 suggests no prior minor offenses, indicating lower risk.""],
+    [""juv other count"", ""low"", ""No other juvenile offenses further supports a lower risk profile.""],
+    [""priors count"", ""low"", ""Having no prior adult convictions is a strong indicator of lower recidivism risk.""],
+    [""c charge degree"", ""medium"", ""A misdemeanor charge indicates a less severe offense, but it still carries some risk.""]
+  ",,2026-02-10T10:33:06.555665
+openai/gpt-4o-mini,cot,13,0,two_year_recid,True,YES,65,True,5.675158977508545,222,269,491,"{
+  ""risk_factors"": [
+    [""age"", ""medium"", ""At age 39, the individual is in a demographic that typically has lower recidivism rates compared to younger individuals, but still has some risk.""],
+    [""sex"", ""medium"", ""Males generally have higher recidivism rates than females, contributing to a medium risk.""],
+    [""race"", ""low"", ""Caucasian individuals tend to have lower recidivism rates compared to other racial groups, suggesting a lower risk.""],
+    [""juv fel count"", ""low"", ""Having no juvenile felony counts indicates a lower risk of recidivism.""],
+    [""juv misd count"", ""low"", ""No juvenile misdemeanor counts further support a lower risk profile.""],
+    [""juv other count"", ""low"", ""No other juvenile offenses suggest a clean juvenile record, indicating lower risk.""],
+    [""priors count"", ""medium"", ""Having 3 prior offenses indicates a medium level of risk, as prior offenses are a significant predictor of recidivism.""],
+    [""c charge degree"", ""high"", ""A felony charge is associated with hig",,2026-02-10T10:33:11.388373
+openai/gpt-4o-mini,cot,11,0,two_year_recid,True,YES,75,True,5.401341915130615,222,275,497,"{
+  ""risk_factors"": [
+    [""age"", ""medium"", ""At 23 years old, the individual is in a demographic that often shows higher recidivism rates compared to older individuals.""],
+    [""sex"", ""high"", ""Males generally have higher recidivism rates than females, which contributes significantly to risk assessment.""],
+    [""race"", ""medium"", ""While race itself is not a direct predictor, systemic factors may influence recidivism rates among different racial groups.""],
+    [""juv fel count"", ""low"", ""Having no juvenile felony counts indicates a lower risk associated with serious offenses during youth.""],
+    [""juv misd count"", ""low"", ""A low count of juvenile misdemeanors suggests minimal prior engagement with the justice system during adolescence.""],
+    [""juv other count"", ""medium"", ""A count of 1 in other juvenile offenses indicates some prior involvement, but it is not severe.""],
+    [""priors count"", ""high"", ""Having 4 prior offenses significantly increases the likelihood of recidivism, indicating a pa",,2026-02-10T10:33:17.064046
+openai/gpt-4o-mini,cot,22,0,two_year_recid,False,NO,85,True,4.8214781284332275,221,264,485,"{
+  ""risk_factors"": [
+    [""age"", ""medium"", ""At 32 years old, the individual is in a demographic that may have a moderate risk of recidivism compared to younger individuals, but not as high as older individuals.""],
+    [""sex"", ""medium"", ""Males generally have a higher recidivism rate compared to females, which contributes to a medium risk assessment.""],
+    [""race"", ""low"", ""Race alone does not significantly predict recidivism; thus, it is assigned a low risk.""],
+    [""juv fel count"", ""low"", ""Having no juvenile felony counts indicates a lower risk of recidivism.""],
+    [""juv misd count"", ""low"", ""No juvenile misdemeanor counts further support a low risk assessment.""],
+    [""juv other count"", ""low"", ""No other juvenile offenses suggest a clean juvenile record, indicating low risk.""],
+    [""priors count"", ""low"", ""With no prior offenses, the individual is at a low risk for recidivism.""],
+    [""c charge degree"", ""medium"", ""A misdemeanor charge indicates some level of criminal behavior, contrib",,2026-02-10T10:33:22.465886
+openai/gpt-4o-mini,cot,1,0,two_year_recid,False,NO,85,True,5.402009010314941,221,263,484,"{
+  ""risk_factors"": [
+    [""age"", ""medium"", ""At age 32, the individual is in a demographic that may have a moderate risk of recidivism compared to younger individuals, but not as high as older individuals.""],
+    [""sex"", ""low"", ""Female offenders generally have lower recidivism rates compared to male offenders.""],
+    [""race"", ""low"", ""The category 'Other' does not indicate a specific risk factor and is generally not associated with higher recidivism.""],
+    [""juv fel count"", ""low"", ""Having no juvenile felony counts indicates a lower risk of future criminal behavior.""],
+    [""juv misd count"", ""low"", ""Having no juvenile misdemeanor counts further supports a lower risk profile.""],
+    [""juv other count"", ""low"", ""No juvenile other counts suggest a lack of prior delinquent behavior.""],
+    [""priors count"", ""low"", ""Having no prior convictions is a strong indicator of lower recidivism risk.""],
+    [""c charge degree"", ""medium"", ""A misdemeanor charge indicates some level of criminal behavior, bu",,2026-02-10T10:33:27.287710
+openai/gpt-4o-mini,cot,2,0,two_year_recid,False,NO,65,True,4.479262113571167,222,274,496,"{
+  ""risk_factors"": [
+    [""age"", ""medium"", ""At age 39, the individual is in a demographic that typically has lower recidivism rates compared to younger individuals, but still has some risk.""],
+    [""sex"", ""medium"", ""Males generally have higher recidivism rates than females, contributing to a medium risk.""],
+    [""race"", ""low"", ""Caucasian individuals have varied recidivism rates, but race alone is not a strong predictor of recidivism.""],
+    [""juv fel count"", ""low"", ""Having no juvenile felony counts indicates a lower risk of recidivism.""],
+    [""juv misd count"", ""low"", ""No juvenile misdemeanor counts further suggest a lower risk profile.""],
+    [""juv other count"", ""low"", ""No other juvenile offenses indicate a clean juvenile record, which is a positive factor.""],
+    [""priors count"", ""medium"", ""Having one prior offense suggests some risk, but it is not high enough to indicate a strong likelihood of recidivism.""],
+    [""c charge degree"", ""medium"", ""A felony charge indicates a serious off",,2026-02-10T10:33:32.690192
+openai/gpt-4o-mini,cot,25,0,two_year_recid,True,YES,75,True,4.744640111923218,222,294,516,"{
+  ""risk_factors"": [
+    [""age"", ""medium"", ""At age 40, the individual is generally considered to be at a lower risk for recidivism compared to younger individuals, but not as low as older age groups.""],
+    [""sex"", ""medium"", ""Males typically have higher recidivism rates compared to females, which contributes to a medium risk assessment.""],
+    [""race"", ""low"", ""Race itself is not a direct risk factor for recidivism; thus, it is assigned a low weight.""],
+    [""juv fel count"", ""low"", ""Having no juvenile felony counts indicates a lower risk, as prior serious offenses in youth can be predictive of future behavior.""],
+    [""juv misd count"", ""low"", ""No juvenile misdemeanor counts further support a lower risk assessment.""],
+    [""juv other count"", ""low"", ""No other juvenile offenses suggest a lack of early criminal behavior, contributing to a lower risk.""],
+    [""priors count"", ""high"", ""Having 10 prior offenses is a significant risk factor, indicating a pattern of criminal behavior that strong",,2026-02-10T10:33:37.170223
+openai/gpt-4o-mini,cot,3,0,two_year_recid,True,YES,65,True,4.381556987762451,222,277,499,"{
+  ""risk_factors"": [
+    [""age"", ""medium"", ""At 28 years old, the individual is in a demographic that has a moderate risk of recidivism compared to younger individuals, who typically have higher rates.""],
+    [""sex"", ""medium"", ""Males generally have higher recidivism rates than females, contributing to a medium risk assessment.""],
+    [""race"", ""low"", ""Caucasian individuals tend to have lower recidivism rates compared to other racial groups, which suggests a lower risk.""],
+    [""juv fel count"", ""low"", ""Having no juvenile felony counts indicates a lower risk of future criminal behavior.""],
+    [""juv misd count"", ""low"", ""No juvenile misdemeanor counts further support a lower risk profile.""],
+    [""juv other count"", ""low"", ""No other juvenile offenses suggest a lack of early criminal behavior, indicating lower risk.""],
+    [""priors count"", ""medium"", ""Having one prior offense indicates some level of risk, but it is not high enough to suggest a strong likelihood of recidivism.""],
+    [""c charg",,2026-02-10T10:33:41.916206
+openai/gpt-4o-mini,cot,21,0,two_year_recid,False,NO,75,True,6.766433238983154,222,306,528,"{
+  ""risk_factors"": [
+    [""age"", ""medium"", ""At 23 years old, the individual is in a demographic that may have a higher propensity for recidivism compared to older individuals, but age alone does not indicate a high risk.""],
+    [""sex"", ""medium"", ""Males generally have higher recidivism rates compared to females, which contributes to a medium risk assessment.""],
+    [""race"", ""medium"", ""While race itself is not a direct predictor of recidivism, statistical trends show that certain racial groups may experience higher rates of incarceration and recidivism.""],
+    [""juv fel count"", ""low"", ""Having no juvenile felony counts indicates a lower risk factor, suggesting a lack of serious prior offenses during youth.""],
+    [""juv misd count"", ""low"", ""No juvenile misdemeanor counts further support a lower risk assessment, indicating minimal prior engagement with the justice system.""],
+    [""juv other count"", ""low"", ""No other juvenile counts suggest a clean record in youth, which is a positive indica",,2026-02-10T10:33:46.298275
+openai/gpt-4o-mini,cot,26,0,two_year_recid,True,YES,75,True,4.009121656417847,222,275,497,"{
+  ""risk_factors"": [
+    [""age"", ""medium"", ""At 23 years old, the individual is in a demographic that often shows higher recidivism rates compared to older individuals.""],
+    [""sex"", ""high"", ""Males generally have higher recidivism rates compared to females, making this a significant risk factor.""],
+    [""race"", ""medium"", ""While race itself is not a direct predictor, systemic factors may influence recidivism rates among different racial groups.""],
+    [""juv fel count"", ""low"", ""Having no juvenile felony counts indicates a lower risk associated with past serious offenses during youth.""],
+    [""juv misd count"", ""low"", ""No juvenile misdemeanor counts suggest a lack of prior minor offenses, which is a positive indicator.""],
+    [""juv other count"", ""low"", ""No other juvenile counts further supports a lower risk profile in terms of past juvenile behavior.""],
+    [""priors count"", ""high"", ""Having 6 prior offenses is a strong indicator of potential recidivism, significantly raising the risk.""],
+ ",,2026-02-10T10:33:53.065150
+openai/gpt-4o-mini,cot,18,0,two_year_recid,False,NO,75,True,6.306172847747803,222,286,508,"{
+  ""risk_factors"": [
+    [""age"", ""medium"", ""At age 31, the individual is in a demographic that may have a moderate risk of recidivism compared to younger individuals, but not as high as those in their late 30s or older.""],
+    [""sex"", ""medium"", ""Males generally have a higher recidivism rate compared to females, which contributes to a medium risk assessment.""],
+    [""race"", ""medium"", ""While race itself is not a direct predictor of recidivism, systemic factors may influence outcomes, leading to a medium risk classification.""],
+    [""juv fel count"", ""low"", ""Having no juvenile felony counts indicates a lower risk of recidivism.""],
+    [""juv misd count"", ""low"", ""No juvenile misdemeanor counts further support a low risk assessment.""],
+    [""juv other count"", ""low"", ""No other juvenile offenses suggest a clean record during formative years, indicating lower risk.""],
+    [""priors count"", ""low"", ""With no prior offenses, this significantly lowers the risk of recidivism.""],
+    [""c charge degree""",,2026-02-10T10:33:57.074781
+openai/gpt-4o-mini,cot,29,0,two_year_recid,True,YES,85,True,5.474133014678955,222,317,539,"{
+  ""risk_factors"": [
+    [""age"", ""medium"", ""At 37 years old, the individual is in a demographic that may have a higher likelihood of recidivism compared to older age groups, but not as high as younger individuals.""],
+    [""sex"", ""high"", ""Males generally have higher recidivism rates compared to females, making this a significant risk factor.""],
+    [""race"", ""medium"", ""While race itself is not a direct predictor of recidivism, systemic factors may influence outcomes, and African-American individuals often face higher rates of incarceration.""],
+    [""juv fel count"", ""medium"", ""Having 1 juvenile felony indicates some serious past behavior, which can correlate with future offenses.""],
+    [""juv misd count"", ""high"", ""8 juvenile misdemeanors suggest a pattern of delinquent behavior during formative years, which is a strong indicator of future criminal activity.""],
+    [""juv other count"", ""medium"", ""5 other juvenile offenses indicate a history of various types of misconduct, contributing to o",,2026-02-10T10:34:03.381320
+openai/gpt-4o-mini,cot,20,0,two_year_recid,True,YES,65,True,3.5150935649871826,221,277,498,"{
+  ""risk_factors"": [
+    [""age"", ""medium"", ""At age 25, the individual is in a demographic that has a higher likelihood of recidivism compared to older individuals, but not as high as younger individuals.""],
+    [""sex"", ""high"", ""Males generally have higher recidivism rates compared to females, making this a significant risk factor.""],
+    [""race"", ""low"", ""Race as a standalone factor does not have a direct correlation with recidivism rates and is often influenced by other factors.""],
+    [""juv fel count"", ""low"", ""Having no juvenile felony counts indicates a lower risk associated with serious past offenses.""],
+    [""juv misd count"", ""low"", ""No juvenile misdemeanor counts suggest a lack of prior minor offenses, which is a positive indicator.""],
+    [""juv other count"", ""low"", ""No other juvenile offenses further supports a lower risk profile.""],
+    [""priors count"", ""medium"", ""Having 2 prior offenses indicates some level of criminal behavior, which raises the risk of recidivism.""],
+    [""c ",,2026-02-10T10:34:08.855915
+openai/gpt-4o-mini,cot,7,0,two_year_recid,False,NO,85,True,4.291633367538452,221,251,472,"{
+  ""risk_factors"": [
+    [""age"", ""low"", ""Older individuals, particularly those over 50, generally have lower recidivism rates compared to younger individuals.""],
+    [""sex"", ""medium"", ""Males tend to have higher recidivism rates than females, but this factor alone does not indicate a high risk.""],
+    [""race"", ""low"", ""Race itself is not a direct predictor of recidivism; thus, it is considered low risk.""],
+    [""juv fel count"", ""low"", ""Having no juvenile felony counts indicates a lower risk of future criminal behavior.""],
+    [""juv misd count"", ""low"", ""No juvenile misdemeanor counts further support a low risk assessment.""],
+    [""juv other count"", ""low"", ""No other juvenile offenses suggest a clean record during formative years.""],
+    [""priors count"", ""low"", ""Having no prior convictions is a strong indicator of low recidivism risk.""],
+    [""c charge degree"", ""medium"", ""A misdemeanor charge indicates some level of criminal behavior, but it is less severe than a felony."" ]
+  ],
+  ""predict",,2026-02-10T10:34:12.371409
+openai/gpt-4o-mini,cot,10,0,two_year_recid,False,NO,85,True,4.9250969886779785,222,254,476,"{
+  ""risk_factors"": [
+    [""age"", ""low"", ""Older individuals, particularly those over 50, tend to have lower recidivism rates compared to younger individuals.""],
+    [""sex"", ""low"", ""Females generally have lower recidivism rates than males.""],
+    [""race"", ""medium"", ""While race can be a factor in some contexts, it is not a definitive predictor of recidivism on its own.""],
+    [""juv fel count"", ""low"", ""Having no juvenile felony counts indicates a lower risk, as prior serious offenses in youth can correlate with future behavior.""],
+    [""juv misd count"", ""low"", ""No juvenile misdemeanor counts further support a lower risk profile.""],
+    [""juv other count"", ""low"", ""No other juvenile offenses suggest a lack of problematic behavior in youth.""],
+    [""priors count"", ""low"", ""Having no prior criminal history is a strong indicator of lower recidivism risk.""],
+    [""c charge degree"", ""medium"", ""A felony charge can indicate a higher risk, but without prior offenses, the risk is mitigated.""]
+  ],
+  ",,2026-02-10T10:34:16.663358
+openai/gpt-4o-mini,cot,14,0,two_year_recid,False,NO,75,True,6.2337422370910645,222,281,503,"{
+  ""risk_factors"": [
+    [""age"", ""medium"", ""At age 25, the individual is in a demographic that may have a higher risk of recidivism compared to older individuals, but not as high as younger individuals.""],
+    [""sex"", ""medium"", ""Males generally have higher recidivism rates compared to females, contributing to a medium risk.""],
+    [""race"", ""medium"", ""While race itself is not a direct predictor, statistical trends indicate that African-American individuals may face systemic issues that can correlate with higher recidivism rates.""],
+    [""juv fel count"", ""low"", ""Having no juvenile felony counts indicates a lower risk associated with past serious offenses.""],
+    [""juv misd count"", ""low"", ""No juvenile misdemeanor counts suggest a lack of prior minor offenses, indicating lower risk.""],
+    [""juv other count"", ""low"", ""No other juvenile counts further support a lower risk profile.""],
+    [""priors count"", ""low"", ""Having no prior adult convictions is a strong indicator of lower recidivism ris",,2026-02-10T10:34:21.589456
+openai/gpt-4o-mini,cot,19,0,two_year_recid,False,NO,70,True,4.934308767318726,222,275,497,"{
+  ""risk_factors"": [
+    [""age"", ""low"", ""Older individuals, particularly those over 50, generally have lower recidivism rates compared to younger individuals.""],
+    [""sex"", ""medium"", ""Males tend to have higher recidivism rates than females, but this factor alone does not indicate a high risk.""],
+    [""race"", ""low"", ""Race itself is not a direct predictor of recidivism; thus, it is assigned a low weight.""],
+    [""juv fel count"", ""low"", ""Having no juvenile felony counts indicates a lower risk, as prior serious offenses in youth can correlate with future behavior.""],
+    [""juv misd count"", ""low"", ""No juvenile misdemeanor counts further support a lower risk profile.""],
+    [""juv other count"", ""low"", ""No other juvenile offenses suggest a lack of problematic behavior in youth.""],
+    [""priors count"", ""medium"", ""Having one prior offense indicates some level of risk, but it is not high enough to suggest a strong likelihood of recidivism.""],
+    [""c charge degree"", ""high"", ""A felony charge is ",,2026-02-10T10:34:27.823668
+openai/gpt-4o-mini,cot,6,0,two_year_recid,True,YES,70,True,5.693449258804321,222,299,521,"{
+  ""risk_factors"": [
+    [""age"", ""medium"", ""At 26 years old, the individual is in a demographic that has a moderate risk of recidivism compared to younger individuals, who typically have higher rates.""],
+    [""sex"", ""high"", ""Males generally have a higher recidivism rate compared to females, which contributes significantly to the overall risk assessment.""],
+    [""race"", ""low"", ""Race itself is not a direct risk factor for recidivism; however, it can be correlated with systemic issues that may influence outcomes.""],
+    [""juv fel count"", ""low"", ""Having no juvenile felony counts indicates a lower risk associated with past serious offenses during youth.""],
+    [""juv misd count"", ""low"", ""No juvenile misdemeanor counts suggest a lack of prior minor offenses, which typically correlates with lower recidivism risk.""],
+    [""juv other count"", ""low"", ""No other juvenile offenses further supports a lower risk profile in terms of past behavior.""],
+    [""priors count"", ""medium"", ""Having 2 prior offen",,2026-02-10T10:34:32.758674
+openai/gpt-4o-mini,cot-nshot,27,0,two_year_recid,True,YES,65,True,5.260694980621338,2175,262,2437,"{
+  ""risk_factors"": [
+    [""age"", ""medium"", ""At age 21, the individual is in a demographic that has shown a higher tendency for recidivism, particularly among younger males.""],
+    [""sex"", ""medium"", ""Being male is associated with higher recidivism rates compared to females.""],
+    [""race"", ""medium"", ""African-American individuals have been observed to have higher recidivism rates in the data.""],
+    [""juv fel count"", ""low"", ""A juvenile felony count of 0 indicates a lack of serious prior offenses, which is a positive factor.""],
+    [""juv misd count"", ""low"", ""A juvenile misdemeanor count of 0 suggests minimal prior delinquency.""],
+    [""juv other count"", ""low"", ""A juvenile other count of 0 indicates no additional juvenile offenses.""],
+    [""priors count"", ""medium"", ""Having 1 prior offense suggests some level of criminal history, which can increase recidivism risk.""],
+    [""c charge degree"", ""medium"", ""A felony charge degree (F) is associated with higher recidivism risk compared to misdeme",,2026-02-10T10:34:38.458921
+openai/gpt-4o-mini,cot-nshot,15,0,two_year_recid,True,YES,65,True,5.713625192642212,2174,286,2460,"{
+  ""risk_factors"": [
+    [""age"", ""medium"", ""At age 24, the individual is in a demographic that has shown a moderate risk of recidivism based on the provided data.""],
+    [""sex"", ""medium"", ""Being male is associated with a higher risk of recidivism, as seen in the majority of recidivated cases.""],
+    [""race"", ""medium"", ""Hispanic individuals in the dataset have a mixed outcome, but the risk is not significantly higher or lower compared to other races.""],
+    [""juv fel count"", ""low"", ""A juvenile felony count of 0 indicates a lower risk factor for recidivism.""],
+    [""juv misd count"", ""low"", ""A juvenile misdemeanor count of 0 also indicates a lower risk factor.""],
+    [""juv other count"", ""low"", ""A juvenile other count of 0 suggests no prior juvenile offenses, contributing to a lower risk.""],
+    [""priors count"", ""medium"", ""Having 1 prior offense indicates a moderate risk, as prior offenses are a significant predictor of recidivism.""],
+    [""c charge degree"", ""medium"", ""A felony charge deg",,2026-02-10T10:34:43.720114
+openai/gpt-4o-mini,cot-nshot,23,0,two_year_recid,False,NO,65,True,5.611284017562866,2175,277,2452,"{
+  ""risk_factors"": [
+    [""age"", ""medium"", ""At age 24, the individual is still relatively young, which can be associated with higher recidivism rates, but not as high as younger ages.""],
+    [""sex"", ""medium"", ""Being male is generally associated with higher recidivism rates compared to females.""],
+    [""race"", ""low"", ""Race itself is not a direct predictor of recidivism, but it can be influenced by systemic factors.""],
+    [""juv fel count"", ""low"", ""A juvenile felony count of 0 indicates no prior serious offenses during youth, which is a positive factor.""],
+    [""juv misd count"", ""low"", ""A juvenile misdemeanor count of 0 suggests no prior minor offenses, which is favorable.""],
+    [""juv other count"", ""low"", ""A juvenile other count of 0 indicates no other juvenile offenses, which is a positive sign.""],
+    [""priors count"", ""high"", ""Having 8 prior offenses is a significant risk factor, indicating a pattern of criminal behavior.""],
+    [""c charge degree"", ""medium"", ""A felony charge degree i",,2026-02-10T10:34:49.434153
+openai/gpt-4o-mini,cot-nshot,17,0,two_year_recid,False,NO,85,True,4.143718004226685,2175,258,2433,"{
+  ""risk_factors"": [
+    [""age"", ""low"", ""Younger individuals, particularly those in their early 20s, tend to have lower recidivism rates compared to older individuals.""],
+    [""sex"", ""low"", ""Females generally have lower recidivism rates compared to males.""],
+    [""race"", ""low"", ""Caucasian individuals in this dataset have shown lower recidivism rates compared to other racial groups.""],
+    [""juv fel count"", ""low"", ""A juvenile felony count of 0 indicates no prior serious offenses, which is a positive indicator.""],
+    [""juv misd count"", ""low"", ""A juvenile misdemeanor count of 0 suggests minimal prior delinquent behavior.""],
+    [""juv other count"", ""low"", ""A juvenile other count of 0 indicates no additional juvenile offenses.""],
+    [""priors count"", ""low"", ""Having no prior offenses is a strong indicator of lower risk for recidivism.""],
+    [""c charge degree"", ""medium"", ""While the charge degree is a felony, the absence of prior offenses and the individual's profile suggest a lower risk.""]",,2026-02-10T10:34:55.046380
+openai/gpt-4o-mini,cot-nshot,8,0,two_year_recid,True,YES,65,True,5.08807897567749,2175,277,2452,"{
+  ""risk_factors"": [
+    [""age"", ""medium"", ""At age 29, the individual is in a demographic that has shown varied recidivism rates, but younger individuals tend to have higher rates.""],
+    [""sex"", ""medium"", ""Males generally have higher recidivism rates compared to females.""],
+    [""race"", ""medium"", ""African-American individuals have shown higher recidivism rates in some studies, but this is influenced by various socio-economic factors.""],
+    [""juv fel count"", ""low"", ""A juvenile felony count of 0 indicates no serious prior offenses during youth, which is a positive factor.""],
+    [""juv misd count"", ""low"", ""A juvenile misdemeanor count of 0 suggests no prior minor offenses, which is favorable.""],
+    [""juv other count"", ""low"", ""No other juvenile offenses indicate a lack of problematic behavior in youth.""],
+    [""priors count"", ""medium"", ""Having 2 prior offenses suggests some level of criminal behavior, which increases the risk of recidivism.""],
+    [""c charge degree"", ""medium"", ""A felon",,2026-02-10T10:34:59.190680
+openai/gpt-4o-mini,cot-nshot,9,0,two_year_recid,True,YES,75,True,5.6336119174957275,2175,294,2469,"{
+  ""risk_factors"": [
+    [""age"", ""medium"", ""At age 26, the individual is still relatively young, which can be associated with higher recidivism rates, but not as high as younger individuals.""],
+    [""sex"", ""medium"", ""Males generally have higher recidivism rates compared to females, contributing to a medium risk.""],
+    [""race"", ""medium"", ""Race can be a factor in recidivism statistics, and African-American males have been shown to have higher recidivism rates in some studies.""],
+    [""juv fel count"", ""low"", ""A juvenile felony count of 0 indicates no prior serious offenses, which lowers the risk.""],
+    [""juv misd count"", ""low"", ""A juvenile misdemeanor count of 0 also indicates a lack of prior minor offenses, further lowering the risk.""],
+    [""juv other count"", ""low"", ""No juvenile other offenses suggest a clean juvenile record, which is a positive factor.""],
+    [""priors count"", ""high"", ""Having 3 prior offenses significantly increases the risk of recidivism, as it indicates a pattern o",,2026-02-10T10:35:04.279191
+openai/gpt-4o-mini,cot-nshot,28,0,two_year_recid,False,YES,75,False,6.199950933456421,2175,282,2457,"{
+  ""risk_factors"": [
+    [""age"", ""medium"", ""At age 31, the individual is in a demographic that has shown varied recidivism rates, but is not in the highest risk age group.""],
+    [""sex"", ""medium"", ""Being male is associated with higher recidivism rates, but it is not the sole determining factor.""],
+    [""race"", ""medium"", ""Race can influence recidivism outcomes due to systemic factors, but it is not a direct predictor.""],
+    [""juv fel count"", ""low"", ""A juvenile felony count of 0 indicates no prior serious offenses during youth, which is a positive factor.""],
+    [""juv misd count"", ""low"", ""A juvenile misdemeanor count of 0 suggests no prior minor offenses, which is favorable.""],
+    [""juv other count"", ""low"", ""A juvenile other count of 0 indicates no other juvenile offenses, which is a positive sign.""],
+    [""priors count"", ""high"", ""Having 5 prior offenses is a significant risk factor, indicating a pattern of criminal behavior.""],
+    [""c charge degree"", ""medium"", ""A charge degree of M ",,2026-02-10T10:35:09.913295
+openai/gpt-4o-mini,cot-nshot,24,0,two_year_recid,False,NO,85,True,5.385357141494751,2175,261,2436,"{
+  ""risk_factors"": [
+    [""age"", ""low"", ""Older individuals, particularly those over 50, tend to have lower recidivism rates based on the data.""],
+    [""sex"", ""low"", ""Males have a higher recidivism rate than females, but this factor alone does not indicate a high risk.""],
+    [""race"", ""low"", ""Race does not appear to be a strong predictor of recidivism in this dataset.""],
+    [""juv fel count"", ""low"", ""A juvenile felony count of 0 indicates no prior serious offenses, which is a positive indicator.""],
+    [""juv misd count"", ""low"", ""A juvenile misdemeanor count of 0 further supports a lower risk of recidivism.""],
+    [""juv other count"", ""low"", ""No juvenile other offenses suggest a lack of problematic behavior in youth.""],
+    [""priors count"", ""low"", ""Having no prior offenses is a strong indicator of lower recidivism risk.""],
+    [""c charge degree"", ""medium"", ""While the charge degree is felony, the absence of prior offenses and age suggest a lower risk.""]
+  ],
+  ""prediction"": ""NO"",
+  ""confi",,2026-02-10T10:35:16.113807
+openai/gpt-4o-mini,cot-nshot,12,0,two_year_recid,False,NO,65,True,6.535753965377808,2175,297,2472,"{
+  ""risk_factors"": [
+    [""age"", ""low"", ""Younger individuals, particularly those in their late teens to early twenties, tend to have a higher risk of recidivism, but at age 20, this individual is still relatively young compared to others in the dataset.""],
+    [""sex"", ""medium"", ""Males generally have higher recidivism rates compared to females, which suggests a medium risk factor.""],
+    [""race"", ""medium"", ""Race can be a factor in recidivism rates, with African-American individuals showing varied outcomes in the dataset, indicating a medium risk.""],
+    [""juv fel count"", ""low"", ""Having no juvenile felony counts suggests a lower risk of recidivism.""],
+    [""juv misd count"", ""low"", ""No juvenile misdemeanor counts further indicate a lower risk.""],
+    [""juv other count"", ""low"", ""No other juvenile counts suggest a lower risk.""],
+    [""priors count"", ""medium"", ""Having one prior offense indicates some level of risk, but it is not high enough to suggest a strong likelihood of recidivism.""],
+ ",,2026-02-10T10:35:21.499679
+openai/gpt-4o-mini,cot-nshot,0,0,two_year_recid,False,NO,85,True,5.938163995742798,2175,290,2465,"{
+  ""risk_factors"": [
+    [""age"", ""low"", ""Younger individuals, particularly those in their early 20s, tend to have lower recidivism rates compared to older individuals.""],
+    [""sex"", ""low"", ""Females generally have lower recidivism rates compared to males.""],
+    [""race"", ""low"", ""Race alone is not a strong predictor of recidivism; however, Caucasian individuals in this dataset have shown lower recidivism rates.""],
+    [""juv fel count"", ""low"", ""A juvenile felony count of 0 indicates no prior serious offenses, which is a positive indicator.""],
+    [""juv misd count"", ""low"", ""A juvenile misdemeanor count of 0 suggests minimal prior delinquent behavior.""],
+    [""juv other count"", ""medium"", ""While there are 2 other juvenile counts, they are not felonies or misdemeanors, indicating some prior issues but not severe.""],
+    [""priors count"", ""low"", ""Having no prior adult convictions is a strong positive indicator for lower recidivism.""],
+    [""c charge degree"", ""medium"", ""The charge degree is a ",,2026-02-10T10:35:28.036760
+openai/gpt-4o-mini,cot-nshot,4,0,two_year_recid,True,YES,65,True,5.836298942565918,2175,273,2448,"{
+  ""risk_factors"": [
+    [""age"", ""medium"", ""At age 25, the individual is still relatively young, which can be associated with higher recidivism rates, particularly for males.""],
+    [""sex"", ""medium"", ""Males generally have higher recidivism rates compared to females, contributing to a medium risk.""],
+    [""race"", ""medium"", ""Race can be a factor in recidivism statistics, with African-American males showing higher rates in some studies.""],
+    [""juv fel count"", ""low"", ""A juvenile felony count of 0 indicates no serious prior offenses, suggesting lower risk.""],
+    [""juv misd count"", ""low"", ""A juvenile misdemeanor count of 0 further supports a lower risk profile.""],
+    [""juv other count"", ""low"", ""No juvenile other offenses indicate a clean juvenile record, contributing to lower risk.""],
+    [""priors count"", ""medium"", ""Having 1 prior offense suggests some criminal history, which increases the risk of recidivism.""],
+    [""c charge degree"", ""medium"", ""A felony charge degree (F) is serious an",,2026-02-10T10:35:33.975377
+openai/gpt-4o-mini,cot-nshot,16,0,two_year_recid,True,YES,85,True,6.6514527797698975,2175,284,2459,"{
+  ""risk_factors"": [
+    [""age"", ""medium"", ""At age 34, the individual is in a demographic that has shown varied recidivism rates, but age alone does not strongly predict recidivism.""],
+    [""sex"", ""medium"", ""Being male is associated with higher recidivism rates, but it is not the sole determining factor.""],
+    [""race"", ""medium"", ""Race can influence recidivism outcomes due to systemic factors, but it is not a direct predictor.""],
+    [""juv fel count"", ""low"", ""A juvenile felony count of 0 indicates no prior serious offenses during youth, which is a positive factor.""],
+    [""juv misd count"", ""low"", ""A juvenile misdemeanor count of 0 suggests a lack of minor offenses in youth, which is favorable.""],
+    [""juv other count"", ""low"", ""A juvenile other count of 0 indicates no additional juvenile offenses, which is a positive sign.""],
+    [""priors count"", ""high"", ""Having 12 prior offenses is a significant risk factor, indicating a pattern of criminal behavior.""],
+    [""c charge degree"", ""mediu",,2026-02-10T10:35:39.812779
+openai/gpt-4o-mini,cot-nshot,5,0,two_year_recid,False,NO,85,True,6.015258073806763,2175,284,2459,"{
+  ""risk_factors"": [
+    [""age"", ""low"", ""Individuals aged 63 are generally less likely to recidivate compared to younger individuals, as older age is often associated with reduced criminal behavior.""],
+    [""sex"", ""low"", ""Males have a higher recidivism rate than females, but the absence of other significant risk factors may mitigate this.""],
+    [""race"", ""low"", ""Race alone is not a strong predictor of recidivism; other factors play a more significant role.""],
+    [""juv fel count"", ""low"", ""A juvenile felony count of 0 indicates no prior serious offenses during youth, which is a positive indicator.""],
+    [""juv misd count"", ""low"", ""A juvenile misdemeanor count of 0 suggests no prior minor offenses, further indicating lower risk.""],
+    [""juv other count"", ""low"", ""A juvenile other count of 0 shows no prior offenses of any kind, which is favorable.""],
+    [""priors count"", ""low"", ""Having 0 prior offenses is a strong indicator of lower recidivism risk.""],
+    [""c charge degree"", ""medium"", """,,2026-02-10T10:35:46.464688
+openai/gpt-4o-mini,cot-nshot,13,0,two_year_recid,True,NO,65,False,6.065830945968628,2175,299,2474,"{
+  ""risk_factors"": [
+    [""age"", ""medium"", ""At age 39, the individual is in a demographic that has shown varied recidivism rates, but is not in the highest risk age group.""],
+    [""sex"", ""medium"", ""Males generally have higher recidivism rates compared to females, but this factor alone does not determine the outcome.""],
+    [""race"", ""medium"", ""Caucasian individuals have shown a mix of recidivism outcomes in the data, indicating a moderate risk.""],
+    [""juv fel count"", ""low"", ""A juvenile felony count of 0 indicates a lower risk associated with past serious offenses.""],
+    [""juv misd count"", ""low"", ""A juvenile misdemeanor count of 0 suggests no prior minor offenses, contributing to a lower risk.""],
+    [""juv other count"", ""low"", ""A juvenile other count of 0 indicates no prior non-felony or non-misdemeanor offenses, which is a positive sign.""],
+    [""priors count"", ""medium"", ""Having 3 prior offenses indicates some level of risk, but it is not excessively high compared to others with mor",,2026-02-10T10:35:52.480357
+openai/gpt-4o-mini,cot-nshot,11,0,two_year_recid,True,YES,75,True,4.659353256225586,2175,268,2443,"{
+  ""risk_factors"": [
+    [""age"", ""medium"", ""At age 23, the individual is still relatively young, which can be associated with higher recidivism rates, particularly for males.""],
+    [""sex"", ""medium"", ""Males generally have higher recidivism rates compared to females.""],
+    [""race"", ""medium"", ""African-American individuals have been observed to have higher recidivism rates in some studies.""],
+    [""juv fel count"", ""low"", ""A juvenile felony count of 0 indicates no serious prior offenses during youth, which is a positive factor.""],
+    [""juv misd count"", ""low"", ""A juvenile misdemeanor count of 0 suggests no minor offenses during youth, which is also a positive factor.""],
+    [""juv other count"", ""low"", ""A juvenile other count of 1 is minimal and does not indicate a significant risk.""],
+    [""priors count"", ""high"", ""Having 4 prior offenses is a strong indicator of potential recidivism.""],
+    [""c charge degree"", ""medium"", ""A misdemeanor charge degree (M) is generally less severe than a felo",,2026-02-10T10:35:58.546670
+openai/gpt-4o-mini,cot-nshot,22,0,two_year_recid,False,NO,85,True,5.440593242645264,2174,277,2451,"{
+  ""risk_factors"": [
+    [""age"", ""medium"", ""At age 32, the individual is in a demographic that has shown varied recidivism rates, but generally, younger individuals tend to have higher recidivism rates.""],
+    [""sex"", ""medium"", ""Males generally have higher recidivism rates compared to females, which suggests a medium risk.""],
+    [""race"", ""low"", ""Race alone is not a strong predictor of recidivism; thus, it is assigned a low weight.""],
+    [""juv fel count"", ""low"", ""A juvenile felony count of 0 indicates no prior serious offenses, suggesting a lower risk.""],
+    [""juv misd count"", ""low"", ""A juvenile misdemeanor count of 0 further supports a lower risk profile.""],
+    [""juv other count"", ""low"", ""No juvenile other offenses indicate a clean juvenile record, contributing to a lower risk.""],
+    [""priors count"", ""low"", ""Having no prior offenses is a strong indicator of lower recidivism risk.""],
+    [""c charge degree"", ""medium"", ""A misdemeanor charge degree is generally associated with lower ",,2026-02-10T10:36:03.206598
+openai/gpt-4o-mini,cot-nshot,1,0,two_year_recid,False,NO,85,True,5.075584173202515,2174,285,2459,"{
+  ""risk_factors"": [
+    [""age"", ""medium"", ""At age 32, the individual is in a demographic that has shown varied recidivism rates, but generally, younger individuals tend to have higher recidivism rates.""],
+    [""sex"", ""low"", ""Being female typically correlates with lower recidivism rates compared to males.""],
+    [""race"", ""low"", ""The 'Other' category does not have a significant correlation with recidivism based on the provided data.""],
+    [""juv fel count"", ""low"", ""A juvenile felony count of 0 indicates no prior serious offenses during youth, which is a positive indicator.""],
+    [""juv misd count"", ""low"", ""A juvenile misdemeanor count of 0 further supports a lower risk of recidivism.""],
+    [""juv other count"", ""low"", ""Having no other juvenile offenses is a strong indicator of lower risk.""],
+    [""priors count"", ""low"", ""With 0 prior offenses, this individual has no history of criminal behavior, which significantly lowers recidivism risk.""],
+    [""c charge degree"", ""medium"", ""A misdemean",,2026-02-10T10:36:08.647733
+openai/gpt-4o-mini,cot-nshot,2,0,two_year_recid,False,NO,75,True,4.809078931808472,2175,301,2476,"{
+  ""risk_factors"": [
+    [""age"", ""medium"", ""At age 39, the individual is in a demographic that has shown varied recidivism rates, but older individuals tend to have lower recidivism compared to younger ones.""],
+    [""sex"", ""medium"", ""Males generally have higher recidivism rates than females, but this factor alone does not strongly predict recidivism.""],
+    [""race"", ""low"", ""Race has been shown to have less predictive power in recidivism when controlling for other factors.""],
+    [""juv fel count"", ""low"", ""A juvenile felony count of 0 indicates no prior serious offenses during youth, which is a positive indicator.""],
+    [""juv misd count"", ""low"", ""A juvenile misdemeanor count of 0 further supports the lack of prior offenses, suggesting lower risk.""],
+    [""juv other count"", ""low"", ""A juvenile other count of 0 indicates no other juvenile offenses, which is favorable.""],
+    [""priors count"", ""medium"", ""Having 1 prior offense suggests some risk, but it is relatively low compared to individ",,2026-02-10T10:36:13.723791
+openai/gpt-4o-mini,cot-nshot,25,0,two_year_recid,True,YES,85,True,5.0533058643341064,2175,301,2476,"{
+  ""risk_factors"": [
+    [""age"", ""medium"", ""At age 40, the individual is in a demographic that has shown varied recidivism rates, but older individuals tend to have lower recidivism compared to younger ones.""],
+    [""sex"", ""medium"", ""Males generally have higher recidivism rates than females, but this factor alone does not strongly predict recidivism.""],
+    [""race"", ""low"", ""Race has been shown to have less predictive power in recidivism outcomes when controlling for other factors.""],
+    [""juv fel count"", ""low"", ""A juvenile felony count of 0 indicates no prior serious offenses during youth, which is a positive indicator.""],
+    [""juv misd count"", ""low"", ""A juvenile misdemeanor count of 0 further supports a lack of prior delinquent behavior.""],
+    [""juv other count"", ""low"", ""A juvenile other count of 0 indicates no other juvenile offenses, which is favorable.""],
+    [""priors count"", ""high"", ""Having 10 prior offenses is a significant risk factor, as higher prior counts are strongly cor",,2026-02-10T10:36:18.533227
+openai/gpt-4o-mini,cot-nshot,3,0,two_year_recid,True,NO,70,False,4.674856185913086,2175,268,2443,"{
+  ""risk_factors"": [
+    [""age"", ""medium"", ""At age 28, the individual is in a demographic that has shown varied recidivism rates, but younger adults tend to have higher rates.""],
+    [""sex"", ""medium"", ""Males generally have higher recidivism rates compared to females.""],
+    [""race"", ""medium"", ""Caucasian individuals have shown a mix of recidivism outcomes, but race alone is not a strong predictor.""],
+    [""juv fel count"", ""low"", ""A juvenile felony count of 0 indicates a lower risk factor.""],
+    [""juv misd count"", ""low"", ""A juvenile misdemeanor count of 0 indicates a lower risk factor.""],
+    [""juv other count"", ""low"", ""A juvenile other count of 0 indicates a lower risk factor.""],
+    [""priors count"", ""medium"", ""Having 1 prior indicates some level of risk, but it is relatively low compared to higher counts.""],
+    [""c charge degree"", ""medium"", ""A felony charge degree (F) is associated with higher recidivism risk compared to misdemeanors, but the individual has a low prior count.""]
+  ],",,2026-02-10T10:36:23.587549
+openai/gpt-4o-mini,cot-nshot,21,0,two_year_recid,False,NO,85,True,6.007304906845093,2175,299,2474,"{
+  ""risk_factors"": [
+    [""age"", ""low"", ""Younger individuals, particularly those in their early twenties, tend to have lower recidivism rates compared to older individuals.""],
+    [""sex"", ""medium"", ""Males generally have higher recidivism rates than females, but this factor alone does not strongly predict recidivism.""],
+    [""race"", ""medium"", ""While race can be a factor in recidivism statistics, it is not a definitive predictor and should be considered with caution.""],
+    [""juv fel count"", ""low"", ""A juvenile felony count of 0 indicates no prior serious offenses, which is a positive sign for lower recidivism.""],
+    [""juv misd count"", ""low"", ""A juvenile misdemeanor count of 0 suggests minimal prior involvement with the justice system.""],
+    [""juv other count"", ""low"", ""Having no other juvenile offenses further supports a lower risk of recidivism.""],
+    [""priors count"", ""low"", ""A prior count of 0 indicates no previous criminal history, which is a strong indicator of lower recidivism ri",,2026-02-10T10:36:28.262883
+openai/gpt-4o-mini,cot-nshot,26,0,two_year_recid,True,YES,75,True,5.825507164001465,2175,301,2476,"{
+  ""risk_factors"": [
+    [""age"", ""medium"", ""At age 23, the individual is still relatively young, which can be associated with higher recidivism rates, particularly for males.""],
+    [""sex"", ""medium"", ""Being male is generally associated with higher recidivism rates compared to females.""],
+    [""race"", ""medium"", ""Race can be a factor in recidivism statistics, with African-American males often showing higher rates of recidivism in various studies.""],
+    [""juv fel count"", ""low"", ""A juvenile felony count of 0 indicates no prior serious offenses during youth, which is a positive factor.""],
+    [""juv misd count"", ""low"", ""A juvenile misdemeanor count of 0 suggests no minor offenses during youth, which is also a positive factor.""],
+    [""juv other count"", ""low"", ""A juvenile other count of 0 indicates no other juvenile offenses, contributing positively to the risk assessment.""],
+    [""priors count"", ""high"", ""Having 6 prior offenses is a significant risk factor, as higher prior counts are stron",,2026-02-10T10:36:34.270660
+openai/gpt-4o-mini,cot-nshot,18,0,two_year_recid,False,NO,85,True,5.163464069366455,2175,273,2448,"{
+  ""risk_factors"": [
+    [""age"", ""medium"", ""At age 31, the individual is in a demographic that has shown varied recidivism rates, but is not in the higher risk age brackets.""],
+    [""sex"", ""medium"", ""Being male is associated with higher recidivism rates, but the impact is moderated by other factors.""],
+    [""race"", ""medium"", ""Race can influence recidivism outcomes, but it is not a definitive predictor on its own.""],
+    [""juv fel count"", ""low"", ""A juvenile felony count of 0 indicates no prior serious offenses, which is a positive factor.""],
+    [""juv misd count"", ""low"", ""A juvenile misdemeanor count of 0 suggests a lack of minor offenses, which is favorable.""],
+    [""juv other count"", ""low"", ""A juvenile other count of 0 indicates no additional juvenile offenses, which is a positive sign.""],
+    [""priors count"", ""low"", ""Having 0 prior offenses is a strong indicator against recidivism.""],
+    [""c charge degree"", ""medium"", ""A felony charge degree indicates a serious offense, but the abse",,2026-02-10T10:36:40.097204
+openai/gpt-4o-mini,cot-nshot,29,0,two_year_recid,True,YES,85,True,4.7243170738220215,2175,303,2478,"{
+  ""risk_factors"": [
+    [""age"", ""medium"", ""At 37 years old, the individual is in a demographic that has shown varied recidivism rates, but age alone does not strongly predict recidivism.""],
+    [""sex"", ""medium"", ""Being male is associated with higher recidivism rates, but it is not the sole determining factor.""],
+    [""race"", ""medium"", ""Race can influence recidivism outcomes due to systemic factors, but it is not a direct predictor.""],
+    [""juv fel count"", ""medium"", ""Having 1 juvenile felony indicates some prior serious offenses, which can contribute to recidivism risk.""],
+    [""juv misd count"", ""high"", ""A count of 8 juvenile misdemeanors suggests a pattern of behavior that significantly increases the likelihood of recidivism.""],
+    [""juv other count"", ""high"", ""5 other juvenile offenses indicate a history of problematic behavior, further elevating recidivism risk.""],
+    [""priors count"", ""high"", ""A total of 23 prior offenses is a strong indicator of future criminal behavior, signifi",,2026-02-10T10:36:45.261214
+openai/gpt-4o-mini,cot-nshot,20,0,two_year_recid,True,NO,65,False,4.481939792633057,2174,275,2449,"{
+  ""risk_factors"": [
+    [""age"", ""medium"", ""At age 25, the individual is still relatively young, which can be associated with higher recidivism rates, but not as high as younger individuals.""],
+    [""sex"", ""medium"", ""Males generally have higher recidivism rates compared to females, contributing a medium risk.""],
+    [""race"", ""low"", ""Race alone is not a strong predictor of recidivism; thus, it is assigned a low weight.""],
+    [""juv fel count"", ""low"", ""Having no juvenile felony counts indicates a lower risk, contributing a low weight.""],
+    [""juv misd count"", ""low"", ""No juvenile misdemeanor counts further support a low risk assessment.""],
+    [""juv other count"", ""low"", ""No juvenile other counts indicate a lack of prior juvenile offenses, contributing to a low risk.""],
+    [""priors count"", ""medium"", ""Having 2 prior offenses suggests a moderate risk of recidivism, as prior offenses are a significant predictor.""],
+    [""c charge degree"", ""medium"", ""The charge degree being a misdemeanor (M",,2026-02-10T10:36:49.986005
+openai/gpt-4o-mini,cot-nshot,7,0,two_year_recid,False,NO,85,True,4.410080194473267,2174,289,2463,"{
+  ""risk_factors"": [
+    [""age"", ""low"", ""At 59 years old, the individual is in a higher age bracket, which generally correlates with lower recidivism rates.""],
+    [""sex"", ""medium"", ""Being male is associated with higher recidivism rates compared to females, but it is not the sole determining factor.""],
+    [""race"", ""medium"", ""Race can influence recidivism outcomes due to systemic factors, but it is not a definitive predictor on its own.""],
+    [""juv fel count"", ""low"", ""A juvenile felony count of 0 indicates no prior serious offenses during youth, which is a positive indicator.""],
+    [""juv misd count"", ""low"", ""A juvenile misdemeanor count of 0 further supports the lack of a problematic history in youth.""],
+    [""juv other count"", ""low"", ""A juvenile other count of 0 suggests no other juvenile offenses, indicating a clean record.""],
+    [""priors count"", ""low"", ""Having 0 prior offenses is a strong positive indicator for lower recidivism risk.""],
+    [""c charge degree"", ""medium"", ""The cha",,2026-02-10T10:36:54.468481
+openai/gpt-4o-mini,cot-nshot,10,0,two_year_recid,False,NO,85,True,5.062781810760498,2175,280,2455,"{
+  ""risk_factors"": [
+    [""age"", ""medium"", ""At age 52, the individual is older than many recidivists in the dataset, which may correlate with lower recidivism risk.""],
+    [""sex"", ""low"", ""Being female generally correlates with lower recidivism rates compared to males.""],
+    [""race"", ""medium"", ""While race can be a factor in recidivism, it is not a definitive predictor on its own.""],
+    [""juv fel count"", ""low"", ""A juvenile felony count of 0 indicates no prior serious offenses during youth, which is a positive indicator.""],
+    [""juv misd count"", ""low"", ""A juvenile misdemeanor count of 0 further supports a lack of prior delinquent behavior.""],
+    [""juv other count"", ""low"", ""A juvenile other count of 0 indicates no other juvenile offenses, which is favorable.""],
+    [""priors count"", ""low"", ""Having no prior offenses is a strong indicator of lower recidivism risk.""],
+    [""c charge degree"", ""medium"", ""The charge degree is F (felony), which typically carries a higher risk than misdemeanor",,2026-02-10T10:36:58.878808
+openai/gpt-4o-mini,cot-nshot,14,0,two_year_recid,False,NO,75,True,4.5962560176849365,2175,271,2446,"{
+  ""risk_factors"": [
+    [""age"", ""medium"", ""At age 25, the individual is still relatively young, which can be associated with higher recidivism rates, but not as high as younger ages.""],
+    [""sex"", ""medium"", ""Males generally have higher recidivism rates compared to females, contributing a medium risk.""],
+    [""race"", ""medium"", ""African-American individuals have been observed to have higher recidivism rates in some studies, thus contributing a medium risk.""],
+    [""juv fel count"", ""low"", ""With a juvenile felony count of 0, this factor indicates a lower risk.""],
+    [""juv misd count"", ""low"", ""A juvenile misdemeanor count of 0 suggests a lower likelihood of recidivism.""],
+    [""juv other count"", ""low"", ""Having no other juvenile offenses indicates a lower risk.""],
+    [""priors count"", ""low"", ""With 0 prior offenses, this significantly lowers the risk of recidivism.""],
+    [""c charge degree"", ""medium"", ""A felony charge (F) is associated with higher recidivism rates compared to misdemeanors",,2026-02-10T10:37:03.942539
+openai/gpt-4o-mini,cot-nshot,19,0,two_year_recid,False,NO,75,True,5.1661598682403564,2175,291,2466,"{
+  ""risk_factors"": [
+    [""age"", ""low"", ""At 54 years old, the individual is in an older age bracket, which generally correlates with lower recidivism rates.""],
+    [""sex"", ""low"", ""As a male, there is a slightly higher risk of recidivism compared to females, but this factor alone does not indicate a high risk.""],
+    [""race"", ""low"", ""Race alone is not a definitive risk factor for recidivism; it is more about individual circumstances.""],
+    [""juv fel count"", ""low"", ""Having no juvenile felony counts indicates a lower risk, as prior juvenile offenses can be predictive of future behavior.""],
+    [""juv misd count"", ""low"", ""No juvenile misdemeanor counts further support a lower risk profile.""],
+    [""juv other count"", ""low"", ""No other juvenile offenses suggest a clean record during formative years.""],
+    [""priors count"", ""medium"", ""Having one prior offense indicates some level of risk, but it is not high enough to suggest a strong likelihood of recidivism.""],
+    [""c charge degree"", ""mediu",,2026-02-10T10:37:08.539280
+openai/gpt-4o-mini,cot-nshot,6,0,two_year_recid,True,YES,65,True,4.940808057785034,2175,282,2457,"{
+  ""risk_factors"": [
+    [""age"", ""medium"", ""At age 26, the individual is still relatively young, which can be associated with higher recidivism rates, but not as high as younger ages.""],
+    [""sex"", ""medium"", ""Males generally have higher recidivism rates compared to females, contributing to a medium risk.""],
+    [""race"", ""low"", ""Race alone does not significantly predict recidivism; thus, it is assigned a low weight.""],
+    [""juv fel count"", ""low"", ""A juvenile felony count of 0 indicates no prior serious offenses, suggesting a lower risk.""],
+    [""juv misd count"", ""low"", ""A juvenile misdemeanor count of 0 indicates no prior minor offenses, suggesting a lower risk.""],
+    [""juv other count"", ""low"", ""A juvenile other count of 0 indicates no prior offenses of any kind, suggesting a lower risk.""],
+    [""priors count"", ""medium"", ""Having 2 prior offenses indicates some level of criminal behavior, contributing to a medium risk.""],
+    [""c charge degree"", ""medium"", ""A felony charge degree (F) ",,2026-02-10T10:37:13.706431

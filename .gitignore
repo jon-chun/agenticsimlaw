@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+.eggs/
+*.egg-info/
+dist/
+build/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Project specific
+logs/
+transcripts_*/
+summary_reports*/
+aggregate_reports*/
+*.log
+*.aux
+*.out
+*.bbl
+*.blg
+*.synctex.gz
+
+# Raw downloaded data (re-downloaded by scripts)
+data/compas_raw.csv
+data/topn_datasets/
+
+# Non-essential artifacts
+CLAUDE.md
+papers/
+
+# Per-model SC log directories
+results/standardllm/sc_*/
+
+# Claude Code session transcripts
+*-implement-the-following-plan.txt
+
+# Secrets
+.env
+*.key
+credentials.json
