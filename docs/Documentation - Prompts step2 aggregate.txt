@@ -1,20 +1,20 @@
 =====[ 20250124-0055]=====
 
 ###INPUT_ROOT_DIR:
-(venv) jonc@jonc-MS-7C35:~/code/ollama-structured-output$ ls -altr evaluation_reports_manual/
+(venv) user@workstation:~/code/ollama-structured-output$ ls -altr evaluation_reports_manual/
 total 376
--rw-rw-r--  1 jonc jonc  1356 Jan 23 23:44 metrics_athene-v2:72b-q4_K_M_system1_20250109_105829.json
--rw-rw-r--  1 jonc jonc  1368 Jan 23 23:44 metrics_athene-v2:72b-q4_K_M_cot_20250109_124209.json
--rw-rw-r--  1 jonc jonc  1408 Jan 23 23:44 metrics_athene-v2:72b-q4_K_M_cot-nshot_20250109_142315.json
--rw-rw-r--  1 jonc jonc  1361 Jan 23 23:44 metrics_aya-expanse:8b-q4_K_M_system1_20250108_041647.json
--rw-rw-r--  1 jonc jonc  1361 Jan 23 23:44 metrics_aya-expanse:8b-q4_K_M_cot-nshot_20250108_042557.json
--rw-rw-r--  1 jonc jonc  1368 Jan 23 23:44 metrics_aya-expanse:8b-q4_K_M_cot_20250108_042046.json
--rw-rw-r--  1 jonc jonc  1383 Jan 23 23:44 metrics_command-r:35b-08-2024-q4_K_M_system1_20250108_050140.json
--rw-rw-r--  1 jonc jonc  1371 Jan 23 23:44 metrics_command-r:35b-08-2024-q4_K_M_cot-nshot_20250108_053412.json
--rw-rw-r--  1 jonc jonc  1376 Jan 23 23:44 metrics_command-r:35b-08-2024-q4_K_M_cot_20250108_051824.json
--rw-rw-r--  1 jonc jonc  1383 Jan 23 23:44 metrics_dolphin3:8b-llama3.1-q4_K_M_system1_20250108_053444.json
--rw-rw-r--  1 jonc jonc  1369 Jan 23 23:44 metrics_dolphin3:8b-llama3.1-q4_K_M_cot-nshot_20250108_054354.json
--rw-rw-r--  1 jonc jonc  1373 Jan 23 23:44 metrics_dolphin3:8b-llama3.1-q4_K_M_cot_20250108_053935.json
+-rw-rw-r--  1 user user 1356 Jan 23 23:44 metrics_athene-v2:72b-q4_K_M_system1_20250109_105829.json
+-rw-rw-r--  1 user user 1368 Jan 23 23:44 metrics_athene-v2:72b-q4_K_M_cot_20250109_124209.json
+-rw-rw-r--  1 user user 1408 Jan 23 23:44 metrics_athene-v2:72b-q4_K_M_cot-nshot_20250109_142315.json
+-rw-rw-r--  1 user user 1361 Jan 23 23:44 metrics_aya-expanse:8b-q4_K_M_system1_20250108_041647.json
+-rw-rw-r--  1 user user 1361 Jan 23 23:44 metrics_aya-expanse:8b-q4_K_M_cot-nshot_20250108_042557.json
+-rw-rw-r--  1 user user 1368 Jan 23 23:44 metrics_aya-expanse:8b-q4_K_M_cot_20250108_042046.json
+-rw-rw-r--  1 user user 1383 Jan 23 23:44 metrics_command-r:35b-08-2024-q4_K_M_system1_20250108_050140.json
+-rw-rw-r--  1 user user 1371 Jan 23 23:44 metrics_command-r:35b-08-2024-q4_K_M_cot-nshot_20250108_053412.json
+-rw-rw-r--  1 user user 1376 Jan 23 23:44 metrics_command-r:35b-08-2024-q4_K_M_cot_20250108_051824.json
+-rw-rw-r--  1 user user 1383 Jan 23 23:44 metrics_dolphin3:8b-llama3.1-q4_K_M_system1_20250108_053444.json
+-rw-rw-r--  1 user user 1369 Jan 23 23:44 metrics_dolphin3:8b-llama3.1-q4_K_M_cot-nshot_20250108_054354.json
+-rw-rw-r--  1 user user 1373 Jan 23 23:44 metrics_dolphin3:8b-llama3.1-q4_K_M_cot_20250108_053935.json
 ...
 
 

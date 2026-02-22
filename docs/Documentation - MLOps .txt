@@ -424,94 +424,94 @@ Command executed successfully: ollama pull exaone3.5:32b-instruct-q4_K_M
 
 /src
 ==========
-(venv) jonc@jonc-MS-7C35:~/code/AI-Debate-Framework/src$ ls -altr
+(venv) user@workstation:~/code/agenticsimlaw/src$ ls -altr
 total 1384
--rw-rw-r--  1 jonc jonc  8960 Jan 13 12:28  ai-debators-claude_ver1.py
--rw-rw-r--  1 jonc jonc 10999 Jan 13 12:30  ai-debators-openai_ver1.py
--rw-rw-r--  1 jonc jonc 60171 Jan 13 12:33  debate_log.log
--rw-rw-r--  1 jonc jonc   855 Jan 13 12:34  debate.log
--rw-rw-r--  1 jonc jonc  9805 Jan 13 12:36  ai-debators-gemini_ver1.py
--rw-rw-r--  1 jonc jonc 19601 Jan 13 13:00  courtroom_debate.log
--rw-rw-r--  1 jonc jonc 11679 Jan 13 13:00  ai-debators-claude_ver2.py
--rw-rw-r--  1 jonc jonc 13877 Jan 13 13:09  ai-debators-claude_ver3.py
--rw-rw-r--  1 jonc jonc 19911 Jan 13 13:21  ai-debators-claude_ver4.py
--rw-rw-r--  1 jonc jonc     0 Jan 13 13:24  ai-debators-openai_ver2.py
--rw-rw-r--  1 jonc jonc 23176 Jan 13 13:31  ai-debators-gemini_ver2.py
--rw-rw-r--  1 jonc jonc 20207 Jan 13 13:39  ai-debators-claude_ver5..py
--rw-rw-r--  1 jonc jonc 28707 Jan 13 13:53  ai-debators-claude_ver6.py
--rw-rw-r--  1 jonc jonc 26439 Jan 13 13:59  ai-debators-openai_ver3.py
--rw-rw-r--  1 jonc jonc 28261 Jan 13 15:31  ai-debators-openai_ver4_working.py
--rw-rw-r--  1 jonc jonc 12820 Jan 13 16:17  ai-debators-openai_ver5.py
--rw-rw-r--  1 jonc jonc  1432 Jan 13 16:54  utils-debate.py
--rw-rw-r--  1 jonc jonc 32312 Jan 13 17:02  ai-debators-openai_ver6.py
--rw-rw-r--  1 jonc jonc 32108 Jan 13 17:18  ai-debators-openai_ver7.py
-drwxrwxr-x  2 jonc jonc  4096 Jan 13 23:16  debate_results
--rw-rw-r--  1 jonc jonc 33920 Jan 14 02:37  ai-debators-openai_ver9.py
--rw-rw-r--  1 jonc jonc 33420 Jan 14 02:47  ai-debators-openai_ver8.py
--rw-rw-r--  1 jonc jonc 33420 Jan 14 03:15  ai-debators-openai_ver11.py
-drwxrwxr-x  4 jonc jonc 12288 Jan 14 09:07  transcripts_old
-drwxrwxr-x  2 jonc jonc  4096 Jan 14 09:12  transcripts_openai_ver10-202501140931
--rw-rw-r--  1 jonc jonc 39518 Jan 15 10:35  ai-debators-openai_ver10_working_ref.py
--rw-rw-r--  1 jonc jonc 39651 Jan 15 13:29  ai-debators-openai_ver10_working-orig.py
--rw-rw-r--  1 jonc jonc 42326 Jan 15 13:29  ai-debators-openai_ver10_working_orig.py
--rw-rw-r--  1 jonc jonc 12343 Jan 15 13:29  util-pull-ollama-models_ver5.py
--rw-rw-r--  1 jonc jonc 10526 Jan 15 13:29  util-pull-ollama-models_ver4.py
--rw-rw-r--  1 jonc jonc 10224 Jan 15 13:29  util-pull-ollama-models_ver3.py
--rw-rw-r--  1 jonc jonc  7726 Jan 15 13:29  util-pull-ollama-models_ver2.py
--rw-rw-r--  1 jonc jonc  6905 Jan 15 13:29  util-pull-ollama-models_ver1.py
--rw-rw-r--  1 jonc jonc   154 Jan 15 13:29  util-pull-ollama-models-list.txt
--rw-rw-r--  1 jonc jonc  1993 Jan 15 13:29  util-pull-ollama-models-list_reference.txt
--rw-rw-r--  1 jonc jonc  3101 Jan 15 13:29  util-pull-ollama-models-list_reference_quotes.txt
--rw-rw-r--  1 jonc jonc  6047 Jan 15 13:29  util_ollama-pull-models_ver1.py
--rw-rw-r--  1 jonc jonc 12305 Jan 15 13:29 'util_git _preprocess_lgf_ver2.py'
--rw-rw-r--  1 jonc jonc  9326 Jan 15 13:29 'util_git _preprocess_lgf_ver1.py'
--rw-rw-r--  1 jonc jonc  1135 Jan 15 13:29  ollama_pull_state.json
--rw-rw-r--  1 jonc jonc 17436 Jan 15 13:29  util_pull-ollama-models_ver9.py
--rw-rw-r--  1 jonc jonc 17038 Jan 15 13:29  util_pull-ollama-models_ver8.py
--rw-rw-r--  1 jonc jonc 16983 Jan 15 13:29  util_pull-ollama-models_ver7.py
--rw-rw-r--  1 jonc jonc 15622 Jan 15 13:29  util_pull-ollama-models_ver6.py
--rw-rw-r--  1 jonc jonc 14260 Jan 15 13:29  util_pull-ollama-models_log.txt
--rw-rw-r--  1 jonc jonc 41631 Jan 15 13:39  ai-debators-openai_ver12.py
--rw-rw-r--  1 jonc jonc 39518 Jan 15 13:43  ai-debators-openai_ver10_working_ref2.py
--rw-rw-r--  1 jonc jonc  5527 Jan 15 13:52  util_pull_rename_ollama_models_ver1.py
--rw-rw-r--  1 jonc jonc  6285 Jan 15 14:08  util_pull_rename_ollama_models_ver2.py
--rw-rw-r--  1 jonc jonc   108 Jan 15 14:09  ollama_operations_20250115_140924.log
--rw-rw-r--  1 jonc jonc  1959 Jan 15 14:17  ollama_operations_20250115_141506.log
--rw-rw-r--  1 jonc jonc  8144 Jan 15 14:19  util_pull_rename_ollama_models_ver3.py
--rw-rw-r--  1 jonc jonc  2218 Jan 15 14:19  ollama_operations_20250115_141927.log
--rw-rw-r--  1 jonc jonc  2570 Jan 15 14:22  ollama_operations_20250115_142218.log
--rw-rw-r--  1 jonc jonc  2501 Jan 15 14:22  ollama_operations_20250115_142255.log
--rw-rw-r--  1 jonc jonc  2218 Jan 15 14:30  ollama_operations_20250115_143032.log
--rw-rw-r--  1 jonc jonc  2759 Jan 15 14:31  config_ollama_models.yaml
--rw-rw-r--  1 jonc jonc 43011 Jan 15 14:31  ai-debators-openai_ver10_working.py
--rw-rw-r--  1 jonc jonc 19814 Jan 15 14:37  ollama_operations_20250115_143130.log
--rw-rw-r--  1 jonc jonc 11419 Jan 15 14:39  compute_topn_features_ver1.py
--rw-rw-r--  1 jonc jonc  4743 Jan 15 14:50  compute_topn_features_ver2.py
--rw-rw-r--  1 jonc jonc  2987 Jan 15 15:00  requirements.txt
--rw-rw-r--  1 jonc jonc  5681 Jan 15 15:33  compute_topn_features_ver3.py
--rw-rw-r--  1 jonc jonc 10670 Jan 15 16:26  compute_topn_features_utils_ver1.py
--rw-rw-r--  1 jonc jonc 16085 Jan 15 16:44  compute_topn_features_ver4.py
--rw-rw-r--  1 jonc jonc 16298 Jan 15 16:47  compute_topn_features_utils_ver2.py
--rw-rw-r--  1 jonc jonc 17454 Jan 15 16:51  compute_topn_features_utils.py
-drwxrwxr-x  2 jonc jonc  4096 Jan 15 16:51  __pycache__
--rw-rw-r--  1 jonc jonc 16783 Jan 15 16:52  compute_topn_features_ver5.py
--rw-rw-r--  1 jonc jonc 17565 Jan 15 23:37  compute_topn_features_ver6.py
--rw-rw-r--  1 jonc jonc 22600 Jan 16 00:56  compute_topn_features_ver7.py
--rw-rw-r--  1 jonc jonc  5504 Jan 16 01:30  generate_ntop_datasets_ver1.py
--rw-rw-r--  1 jonc jonc   223 Jan 16 01:30  dataset_creation.log
--rw-rw-r--  1 jonc jonc  3567 Jan 16 01:34  dataset_creation_20250116_013438.log
--rw-rw-r--  1 jonc jonc 10336 Jan 16 01:39  generate_ntop_datasets_ver2.py
--rw-rw-r--  1 jonc jonc   344 Jan 16 01:39  dataset_creation_20250116_013942.log
--rw-rw-r--  1 jonc jonc  3407 Jan 16 01:40  dataset_creation_20250116_014027.log
--rw-rw-r--  1 jonc jonc 11051 Jan 16 01:53  dataset_creation_20250116_015330.log
--rw-rw-r--  1 jonc jonc 14629 Jan 16 02:14  dataset_creation_20250116_021443.log
--rw-rw-r--  1 jonc jonc 15056 Jan 16 02:16  dataset_creation_20250116_021652.log
--rw-rw-r--  1 jonc jonc 13262 Jan 16 02:19  generate_ntop_datasets_ver3.py
--rw-rw-r--  1 jonc jonc 14917 Jan 16 02:19  dataset_creation_20250116_021929.log
-drwxrwxr-x 17 jonc jonc  4096 Jan 16 02:50  ..
--rw-rw-r--  1 jonc jonc  6851 Jan 16 03:23  ai-debators-openai_ver16.py
--rw-rw-r--  1 jonc jonc     0 Jan 16 03:27  ai-debators-openai_ver15.py
-drwxrwxr-x  8 jonc jonc  4096 Jan 16 03:27  .
-drwxrwxr-x  2 jonc jonc  4096 Jan 16 03:28  logs
-drwxrwxr-x  2 jonc jonc  4096 Jan 16 03:31  transcripts
--rw-rw-r--  1 jonc jonc 44574 Jan 16 13:46  ai-debators-openai_ver14.py
+-rw-rw-r--  1 user user 8960 Jan 13 12:28  ai-debators-claude_ver1.py
+-rw-rw-r--  1 user user10999 Jan 13 12:30  ai-debators-openai_ver1.py
+-rw-rw-r--  1 user user60171 Jan 13 12:33  debate_log.log
+-rw-rw-r--  1 user user  855 Jan 13 12:34  debate.log
+-rw-rw-r--  1 user user 9805 Jan 13 12:36  ai-debators-gemini_ver1.py
+-rw-rw-r--  1 user user19601 Jan 13 13:00  courtroom_debate.log
+-rw-rw-r--  1 user user11679 Jan 13 13:00  ai-debators-claude_ver2.py
+-rw-rw-r--  1 user user13877 Jan 13 13:09  ai-debators-claude_ver3.py
+-rw-rw-r--  1 user user19911 Jan 13 13:21  ai-debators-claude_ver4.py
+-rw-rw-r--  1 user user    0 Jan 13 13:24  ai-debators-openai_ver2.py
+-rw-rw-r--  1 user user23176 Jan 13 13:31  ai-debators-gemini_ver2.py
+-rw-rw-r--  1 user user20207 Jan 13 13:39  ai-debators-claude_ver5..py
+-rw-rw-r--  1 user user28707 Jan 13 13:53  ai-debators-claude_ver6.py
+-rw-rw-r--  1 user user26439 Jan 13 13:59  ai-debators-openai_ver3.py
+-rw-rw-r--  1 user user28261 Jan 13 15:31  ai-debators-openai_ver4_working.py
+-rw-rw-r--  1 user user12820 Jan 13 16:17  ai-debators-openai_ver5.py
+-rw-rw-r--  1 user user 1432 Jan 13 16:54  utils-debate.py
+-rw-rw-r--  1 user user32312 Jan 13 17:02  ai-debators-openai_ver6.py
+-rw-rw-r--  1 user user32108 Jan 13 17:18  ai-debators-openai_ver7.py
+drwxrwxr-x  2 user user 4096 Jan 13 23:16  debate_results
+-rw-rw-r--  1 user user33920 Jan 14 02:37  ai-debators-openai_ver9.py
+-rw-rw-r--  1 user user33420 Jan 14 02:47  ai-debators-openai_ver8.py
+-rw-rw-r--  1 user user33420 Jan 14 03:15  ai-debators-openai_ver11.py
+drwxrwxr-x  4 user user12288 Jan 14 09:07  transcripts_old
+drwxrwxr-x  2 user user 4096 Jan 14 09:12  transcripts_openai_ver10-202501140931
+-rw-rw-r--  1 user user39518 Jan 15 10:35  ai-debators-openai_ver10_working_ref.py
+-rw-rw-r--  1 user user39651 Jan 15 13:29  ai-debators-openai_ver10_working-orig.py
+-rw-rw-r--  1 user user42326 Jan 15 13:29  ai-debators-openai_ver10_working_orig.py
+-rw-rw-r--  1 user user12343 Jan 15 13:29  util-pull-ollama-models_ver5.py
+-rw-rw-r--  1 user user10526 Jan 15 13:29  util-pull-ollama-models_ver4.py
+-rw-rw-r--  1 user user10224 Jan 15 13:29  util-pull-ollama-models_ver3.py
+-rw-rw-r--  1 user user 7726 Jan 15 13:29  util-pull-ollama-models_ver2.py
+-rw-rw-r--  1 user user 6905 Jan 15 13:29  util-pull-ollama-models_ver1.py
+-rw-rw-r--  1 user user  154 Jan 15 13:29  util-pull-ollama-models-list.txt
+-rw-rw-r--  1 user user 1993 Jan 15 13:29  util-pull-ollama-models-list_reference.txt
+-rw-rw-r--  1 user user 3101 Jan 15 13:29  util-pull-ollama-models-list_reference_quotes.txt
+-rw-rw-r--  1 user user 6047 Jan 15 13:29  util_ollama-pull-models_ver1.py
+-rw-rw-r--  1 user user12305 Jan 15 13:29 'util_git _preprocess_lgf_ver2.py'
+-rw-rw-r--  1 user user 9326 Jan 15 13:29 'util_git _preprocess_lgf_ver1.py'
+-rw-rw-r--  1 user user 1135 Jan 15 13:29  ollama_pull_state.json
+-rw-rw-r--  1 user user17436 Jan 15 13:29  util_pull-ollama-models_ver9.py
+-rw-rw-r--  1 user user17038 Jan 15 13:29  util_pull-ollama-models_ver8.py
+-rw-rw-r--  1 user user16983 Jan 15 13:29  util_pull-ollama-models_ver7.py
+-rw-rw-r--  1 user user15622 Jan 15 13:29  util_pull-ollama-models_ver6.py
+-rw-rw-r--  1 user user14260 Jan 15 13:29  util_pull-ollama-models_log.txt
+-rw-rw-r--  1 user user41631 Jan 15 13:39  ai-debators-openai_ver12.py
+-rw-rw-r--  1 user user39518 Jan 15 13:43  ai-debators-openai_ver10_working_ref2.py
+-rw-rw-r--  1 user user 5527 Jan 15 13:52  util_pull_rename_ollama_models_ver1.py
+-rw-rw-r--  1 user user 6285 Jan 15 14:08  util_pull_rename_ollama_models_ver2.py
+-rw-rw-r--  1 user user  108 Jan 15 14:09  ollama_operations_20250115_140924.log
+-rw-rw-r--  1 user user 1959 Jan 15 14:17  ollama_operations_20250115_141506.log
+-rw-rw-r--  1 user user 8144 Jan 15 14:19  util_pull_rename_ollama_models_ver3.py
+-rw-rw-r--  1 user user 2218 Jan 15 14:19  ollama_operations_20250115_141927.log
+-rw-rw-r--  1 user user 2570 Jan 15 14:22  ollama_operations_20250115_142218.log
+-rw-rw-r--  1 user user 2501 Jan 15 14:22  ollama_operations_20250115_142255.log
+-rw-rw-r--  1 user user 2218 Jan 15 14:30  ollama_operations_20250115_143032.log
+-rw-rw-r--  1 user user 2759 Jan 15 14:31  config_ollama_models.yaml
+-rw-rw-r--  1 user user43011 Jan 15 14:31  ai-debators-openai_ver10_working.py
+-rw-rw-r--  1 user user19814 Jan 15 14:37  ollama_operations_20250115_143130.log
+-rw-rw-r--  1 user user11419 Jan 15 14:39  compute_topn_features_ver1.py
+-rw-rw-r--  1 user user 4743 Jan 15 14:50  compute_topn_features_ver2.py
+-rw-rw-r--  1 user user 2987 Jan 15 15:00  requirements.txt
+-rw-rw-r--  1 user user 5681 Jan 15 15:33  compute_topn_features_ver3.py
+-rw-rw-r--  1 user user10670 Jan 15 16:26  compute_topn_features_utils_ver1.py
+-rw-rw-r--  1 user user16085 Jan 15 16:44  compute_topn_features_ver4.py
+-rw-rw-r--  1 user user16298 Jan 15 16:47  compute_topn_features_utils_ver2.py
+-rw-rw-r--  1 user user17454 Jan 15 16:51  compute_topn_features_utils.py
+drwxrwxr-x  2 user user 4096 Jan 15 16:51  __pycache__
+-rw-rw-r--  1 user user16783 Jan 15 16:52  compute_topn_features_ver5.py
+-rw-rw-r--  1 user user17565 Jan 15 23:37  compute_topn_features_ver6.py
+-rw-rw-r--  1 user user22600 Jan 16 00:56  compute_topn_features_ver7.py
+-rw-rw-r--  1 user user 5504 Jan 16 01:30  generate_ntop_datasets_ver1.py
+-rw-rw-r--  1 user user  223 Jan 16 01:30  dataset_creation.log
+-rw-rw-r--  1 user user 3567 Jan 16 01:34  dataset_creation_20250116_013438.log
+-rw-rw-r--  1 user user10336 Jan 16 01:39  generate_ntop_datasets_ver2.py
+-rw-rw-r--  1 user user  344 Jan 16 01:39  dataset_creation_20250116_013942.log
+-rw-rw-r--  1 user user 3407 Jan 16 01:40  dataset_creation_20250116_014027.log
+-rw-rw-r--  1 user user11051 Jan 16 01:53  dataset_creation_20250116_015330.log
+-rw-rw-r--  1 user user14629 Jan 16 02:14  dataset_creation_20250116_021443.log
+-rw-rw-r--  1 user user15056 Jan 16 02:16  dataset_creation_20250116_021652.log
+-rw-rw-r--  1 user user13262 Jan 16 02:19  generate_ntop_datasets_ver3.py
+-rw-rw-r--  1 user user14917 Jan 16 02:19  dataset_creation_20250116_021929.log
+drwxrwxr-x 17 user user 4096 Jan 16 02:50  ..
+-rw-rw-r--  1 user user 6851 Jan 16 03:23  ai-debators-openai_ver16.py
+-rw-rw-r--  1 user user    0 Jan 16 03:27  ai-debators-openai_ver15.py
+drwxrwxr-x  8 user user 4096 Jan 16 03:27  .
+drwxrwxr-x  2 user user 4096 Jan 16 03:28  logs
+drwxrwxr-x  2 user user 4096 Jan 16 03:31  transcripts
+-rw-rw-r--  1 user user44574 Jan 16 13:46  ai-debators-openai_ver14.py
