@@ -1,0 +1,2321 @@
+model_name,prompt_type,case_id,repeat_id,dataset,ground_truth,prediction,confidence,is_correct,response_time_sec,prompt_tokens,completion_tokens,total_tokens,raw_response,error,timestamp
+xai/grok-4-1-fast-non-reasoning-latest,system1,27,0,y_arrestedafter2002,True,YES,78,True,0.4800572395324707,400,16,416,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:55:45.277327
+xai/grok-4-1-fast-non-reasoning-latest,system1,16,0,y_arrestedafter2002,False,YES,78,False,0.5520899295806885,401,16,417,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:55:45.757582
+xai/grok-4-1-fast-non-reasoning-latest,system1,12,0,y_arrestedafter2002,False,YES,72,False,0.36614012718200684,405,16,421,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}",,2026-02-09T21:55:46.310172
+xai/grok-4-1-fast-non-reasoning-latest,system1,22,0,y_arrestedafter2002,True,YES,88,True,0.4292638301849365,401,16,417,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 88
+}",,2026-02-09T21:55:46.676586
+xai/grok-4-1-fast-non-reasoning-latest,system1,8,0,y_arrestedafter2002,False,YES,72,False,0.8280067443847656,405,16,421,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}",,2026-02-09T21:55:47.106166
+xai/grok-4-1-fast-non-reasoning-latest,system1,9,0,y_arrestedafter2002,False,YES,78,False,0.42308688163757324,409,16,425,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:55:47.934386
+xai/grok-4-1-fast-non-reasoning-latest,system1,21,0,y_arrestedafter2002,False,YES,72,False,0.4584951400756836,396,16,412,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}",,2026-02-09T21:55:48.357715
+xai/grok-4-1-fast-non-reasoning-latest,system1,0,0,y_arrestedafter2002,True,YES,88,True,0.5691230297088623,408,16,424,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 88
+}",,2026-02-09T21:55:48.816668
+xai/grok-4-1-fast-non-reasoning-latest,system1,26,0,y_arrestedafter2002,False,YES,78,False,0.4263181686401367,397,16,413,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:55:49.386381
+xai/grok-4-1-fast-non-reasoning-latest,system1,13,0,y_arrestedafter2002,False,NO,78,True,0.4984467029571533,406,16,422,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 78
+}",,2026-02-09T21:55:49.813655
+xai/grok-4-1-fast-non-reasoning-latest,system1,15,0,y_arrestedafter2002,True,YES,78,True,0.4270172119140625,404,16,420,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:55:50.312614
+xai/grok-4-1-fast-non-reasoning-latest,system1,11,0,y_arrestedafter2002,False,YES,78,False,0.4125337600708008,399,16,415,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:55:50.740169
+xai/grok-4-1-fast-non-reasoning-latest,system1,17,0,y_arrestedafter2002,False,YES,78,False,0.5298709869384766,401,16,417,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:55:51.153042
+xai/grok-4-1-fast-non-reasoning-latest,system1,1,0,y_arrestedafter2002,False,YES,68,False,0.41705799102783203,403,16,419,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T21:55:51.683111
+xai/grok-4-1-fast-non-reasoning-latest,system1,4,0,y_arrestedafter2002,False,YES,78,False,0.45532989501953125,405,16,421,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:55:52.100398
+xai/grok-4-1-fast-non-reasoning-latest,system1,5,0,y_arrestedafter2002,True,YES,88,True,0.44301700592041016,402,16,418,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 88
+}",,2026-02-09T21:55:52.556200
+xai/grok-4-1-fast-non-reasoning-latest,system1,2,0,y_arrestedafter2002,False,YES,78,False,8.285367012023926,395,16,411,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:55:52.999716
+xai/grok-4-1-fast-non-reasoning-latest,system1,24,0,y_arrestedafter2002,False,YES,78,False,0.4077901840209961,401,16,417,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:56:01.285323
+xai/grok-4-1-fast-non-reasoning-latest,system1,3,0,y_arrestedafter2002,False,YES,82,False,0.4688570499420166,400,16,416,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T21:56:01.693574
+xai/grok-4-1-fast-non-reasoning-latest,system1,23,0,y_arrestedafter2002,False,NO,78,True,0.4279899597167969,397,16,413,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 78
+}",,2026-02-09T21:56:02.163554
+xai/grok-4-1-fast-non-reasoning-latest,system1,25,0,y_arrestedafter2002,True,YES,82,True,0.45439791679382324,405,16,421,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T21:56:02.592067
+xai/grok-4-1-fast-non-reasoning-latest,system1,18,0,y_arrestedafter2002,False,YES,82,False,0.4297800064086914,398,16,414,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T21:56:03.046872
+xai/grok-4-1-fast-non-reasoning-latest,system1,28,0,y_arrestedafter2002,True,YES,78,True,0.44500303268432617,400,16,416,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:56:03.476885
+xai/grok-4-1-fast-non-reasoning-latest,system1,20,0,y_arrestedafter2002,True,YES,68,True,0.5140190124511719,403,16,419,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T21:56:03.922218
+xai/grok-4-1-fast-non-reasoning-latest,system1,7,0,y_arrestedafter2002,False,YES,68,False,0.4607529640197754,400,16,416,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T21:56:04.436717
+xai/grok-4-1-fast-non-reasoning-latest,system1,10,0,y_arrestedafter2002,False,NO,78,True,0.3986852169036865,402,16,418,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 78
+}",,2026-02-09T21:56:04.897741
+xai/grok-4-1-fast-non-reasoning-latest,system1,14,0,y_arrestedafter2002,True,YES,92,True,0.4900379180908203,409,16,425,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 92
+}",,2026-02-09T21:56:05.296582
+xai/grok-4-1-fast-non-reasoning-latest,system1,19,0,y_arrestedafter2002,False,YES,88,False,0.483997106552124,400,16,416,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 88
+}",,2026-02-09T21:56:05.786811
+xai/grok-4-1-fast-non-reasoning-latest,system1,6,0,y_arrestedafter2002,False,YES,78,False,0.48232603073120117,404,16,420,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:56:06.271149
+xai/grok-4-1-fast-non-reasoning-latest,system1,27,1,y_arrestedafter2002,True,YES,78,True,0.3513212203979492,400,16,416,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:56:06.758577
+xai/grok-4-1-fast-non-reasoning-latest,system1,16,1,y_arrestedafter2002,False,YES,78,False,0.43259596824645996,401,16,417,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:56:07.110108
+xai/grok-4-1-fast-non-reasoning-latest,system1,12,1,y_arrestedafter2002,False,YES,72,False,0.36848902702331543,405,16,421,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}",,2026-02-09T21:56:07.543118
+xai/grok-4-1-fast-non-reasoning-latest,system1,22,1,y_arrestedafter2002,True,YES,88,True,0.5739970207214355,401,16,417,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 88
+}",,2026-02-09T21:56:07.911991
+xai/grok-4-1-fast-non-reasoning-latest,system1,8,1,y_arrestedafter2002,False,YES,72,False,0.409041166305542,405,16,421,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}",,2026-02-09T21:56:08.486418
+xai/grok-4-1-fast-non-reasoning-latest,system1,9,1,y_arrestedafter2002,False,YES,78,False,0.36650586128234863,409,16,425,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:56:08.895699
+xai/grok-4-1-fast-non-reasoning-latest,system1,21,1,y_arrestedafter2002,False,YES,78,False,0.4963498115539551,396,16,412,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:56:09.262407
+xai/grok-4-1-fast-non-reasoning-latest,system1,0,1,y_arrestedafter2002,True,YES,88,True,0.46987199783325195,408,16,424,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 88
+}",,2026-02-09T21:56:09.759059
+xai/grok-4-1-fast-non-reasoning-latest,system1,26,1,y_arrestedafter2002,False,YES,78,False,0.4537668228149414,397,16,413,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:56:10.229161
+xai/grok-4-1-fast-non-reasoning-latest,system1,13,1,y_arrestedafter2002,False,NO,82,True,0.4653651714324951,406,16,422,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 82
+}",,2026-02-09T21:56:10.683459
+xai/grok-4-1-fast-non-reasoning-latest,system1,15,1,y_arrestedafter2002,True,YES,78,True,0.42812490463256836,404,16,420,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:56:11.149085
+xai/grok-4-1-fast-non-reasoning-latest,system1,11,1,y_arrestedafter2002,False,YES,78,False,0.43646812438964844,399,16,415,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:56:11.577634
+xai/grok-4-1-fast-non-reasoning-latest,system1,17,1,y_arrestedafter2002,False,YES,72,False,0.3542308807373047,401,16,417,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}",,2026-02-09T21:56:12.014437
+xai/grok-4-1-fast-non-reasoning-latest,system1,1,1,y_arrestedafter2002,False,YES,68,False,0.4557950496673584,403,16,419,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T21:56:12.369040
+xai/grok-4-1-fast-non-reasoning-latest,system1,4,1,y_arrestedafter2002,False,YES,78,False,0.45549702644348145,405,16,421,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:56:12.825351
+xai/grok-4-1-fast-non-reasoning-latest,system1,5,1,y_arrestedafter2002,True,YES,88,True,0.6039259433746338,402,16,418,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 88
+}",,2026-02-09T21:56:13.281126
+xai/grok-4-1-fast-non-reasoning-latest,system1,2,1,y_arrestedafter2002,False,YES,78,False,0.41377711296081543,395,16,411,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:56:13.885301
+xai/grok-4-1-fast-non-reasoning-latest,system1,24,1,y_arrestedafter2002,False,YES,78,False,0.4639918804168701,401,16,417,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:56:14.299503
+xai/grok-4-1-fast-non-reasoning-latest,system1,3,1,y_arrestedafter2002,False,YES,82,False,0.3417649269104004,400,16,416,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T21:56:14.763875
+xai/grok-4-1-fast-non-reasoning-latest,system1,23,1,y_arrestedafter2002,False,NO,82,True,0.3777289390563965,397,16,413,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 82
+}",,2026-02-09T21:56:15.106001
+xai/grok-4-1-fast-non-reasoning-latest,system1,25,1,y_arrestedafter2002,True,YES,82,True,0.4488646984100342,405,16,421,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T21:56:15.484318
+xai/grok-4-1-fast-non-reasoning-latest,system1,18,1,y_arrestedafter2002,False,YES,82,False,0.38660287857055664,398,16,414,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T21:56:15.933364
+xai/grok-4-1-fast-non-reasoning-latest,system1,28,1,y_arrestedafter2002,True,YES,78,True,0.3457601070404053,400,16,416,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:56:16.320160
+xai/grok-4-1-fast-non-reasoning-latest,system1,20,1,y_arrestedafter2002,True,YES,68,True,0.473369836807251,403,16,419,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T21:56:16.666298
+xai/grok-4-1-fast-non-reasoning-latest,system1,7,1,y_arrestedafter2002,False,NO,78,True,0.5475530624389648,400,16,416,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 78
+}",,2026-02-09T21:56:17.139930
+xai/grok-4-1-fast-non-reasoning-latest,system1,10,1,y_arrestedafter2002,False,NO,78,True,0.4676523208618164,402,16,418,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 78
+}",,2026-02-09T21:56:17.687901
+xai/grok-4-1-fast-non-reasoning-latest,system1,14,1,y_arrestedafter2002,True,YES,88,True,0.914741039276123,409,16,425,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 88
+}",,2026-02-09T21:56:18.155806
+xai/grok-4-1-fast-non-reasoning-latest,system1,19,1,y_arrestedafter2002,False,YES,88,False,0.44936299324035645,400,16,416,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 88
+}",,2026-02-09T21:56:19.071011
+xai/grok-4-1-fast-non-reasoning-latest,system1,6,1,y_arrestedafter2002,False,YES,78,False,0.388519287109375,404,16,420,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:56:19.520892
+xai/grok-4-1-fast-non-reasoning-latest,system1,27,2,y_arrestedafter2002,True,YES,78,True,0.4130880832672119,400,16,416,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:56:19.914467
+xai/grok-4-1-fast-non-reasoning-latest,system1,16,2,y_arrestedafter2002,False,YES,78,False,0.37821531295776367,401,16,417,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:56:20.328242
+xai/grok-4-1-fast-non-reasoning-latest,system1,12,2,y_arrestedafter2002,False,YES,78,False,0.3556230068206787,405,16,421,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:56:20.707016
+xai/grok-4-1-fast-non-reasoning-latest,system1,22,2,y_arrestedafter2002,True,YES,88,True,2.342376947402954,401,16,417,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 88
+}",,2026-02-09T21:56:21.063020
+xai/grok-4-1-fast-non-reasoning-latest,system1,8,2,y_arrestedafter2002,False,YES,72,False,0.383894681930542,405,16,421,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}",,2026-02-09T21:56:23.405976
+xai/grok-4-1-fast-non-reasoning-latest,system1,9,2,y_arrestedafter2002,False,YES,78,False,0.6826772689819336,409,16,425,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:56:23.790429
+xai/grok-4-1-fast-non-reasoning-latest,system1,21,2,y_arrestedafter2002,False,YES,78,False,0.6471927165985107,396,16,412,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:56:24.473476
+xai/grok-4-1-fast-non-reasoning-latest,system1,0,2,y_arrestedafter2002,True,YES,88,True,0.40967798233032227,408,16,424,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 88
+}",,2026-02-09T21:56:25.121175
+xai/grok-4-1-fast-non-reasoning-latest,system1,26,2,y_arrestedafter2002,False,YES,78,False,0.5144550800323486,397,16,413,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:56:25.531387
+xai/grok-4-1-fast-non-reasoning-latest,system1,13,2,y_arrestedafter2002,False,NO,82,True,0.8160860538482666,406,16,422,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 82
+}",,2026-02-09T21:56:26.046416
+xai/grok-4-1-fast-non-reasoning-latest,system1,15,2,y_arrestedafter2002,True,YES,78,True,0.6101372241973877,404,16,420,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:56:26.862869
+xai/grok-4-1-fast-non-reasoning-latest,system1,11,2,y_arrestedafter2002,False,YES,78,False,0.5141010284423828,399,16,415,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:56:27.474429
+xai/grok-4-1-fast-non-reasoning-latest,system1,17,2,y_arrestedafter2002,False,YES,78,False,0.41709113121032715,401,16,417,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:56:27.989126
+xai/grok-4-1-fast-non-reasoning-latest,system1,1,2,y_arrestedafter2002,False,YES,68,False,0.43991780281066895,403,16,419,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T21:56:28.406580
+xai/grok-4-1-fast-non-reasoning-latest,system1,4,2,y_arrestedafter2002,False,YES,78,False,0.4693429470062256,405,16,421,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:56:28.847000
+xai/grok-4-1-fast-non-reasoning-latest,system1,5,2,y_arrestedafter2002,True,YES,82,True,0.515815019607544,402,16,418,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T21:56:29.316598
+xai/grok-4-1-fast-non-reasoning-latest,system1,2,2,y_arrestedafter2002,False,YES,78,False,0.4066181182861328,395,16,411,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:56:29.832804
+xai/grok-4-1-fast-non-reasoning-latest,system1,24,2,y_arrestedafter2002,False,YES,78,False,0.5151462554931641,401,16,417,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:56:30.239822
+xai/grok-4-1-fast-non-reasoning-latest,system1,3,2,y_arrestedafter2002,False,YES,78,False,0.40453481674194336,400,16,416,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:56:30.755377
+xai/grok-4-1-fast-non-reasoning-latest,system1,23,2,y_arrestedafter2002,False,NO,78,True,0.37422990798950195,397,16,413,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 78
+}",,2026-02-09T21:56:31.160281
+xai/grok-4-1-fast-non-reasoning-latest,system1,25,2,y_arrestedafter2002,True,YES,82,True,0.44027018547058105,405,16,421,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T21:56:31.534849
+xai/grok-4-1-fast-non-reasoning-latest,system1,18,2,y_arrestedafter2002,False,YES,82,False,0.3796541690826416,398,16,414,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T21:56:31.975753
+xai/grok-4-1-fast-non-reasoning-latest,system1,28,2,y_arrestedafter2002,True,YES,72,True,0.35698819160461426,400,16,416,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}",,2026-02-09T21:56:32.355614
+xai/grok-4-1-fast-non-reasoning-latest,system1,20,2,y_arrestedafter2002,True,YES,68,True,0.5909581184387207,403,16,419,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T21:56:32.713093
+xai/grok-4-1-fast-non-reasoning-latest,system1,7,2,y_arrestedafter2002,False,YES,68,False,0.6273958683013916,400,16,416,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T21:56:33.304306
+xai/grok-4-1-fast-non-reasoning-latest,system1,10,2,y_arrestedafter2002,False,NO,78,True,0.40230798721313477,402,16,418,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 78
+}",,2026-02-09T21:56:33.931871
+xai/grok-4-1-fast-non-reasoning-latest,system1,14,2,y_arrestedafter2002,True,YES,92,True,0.37605786323547363,409,16,425,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 92
+}",,2026-02-09T21:56:34.334360
+xai/grok-4-1-fast-non-reasoning-latest,system1,19,2,y_arrestedafter2002,False,YES,88,False,0.46207594871520996,400,16,416,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 88
+}",,2026-02-09T21:56:34.710892
+xai/grok-4-1-fast-non-reasoning-latest,system1,6,2,y_arrestedafter2002,False,YES,78,False,0.3757610321044922,404,16,420,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:56:35.173249
+xai/grok-4-1-fast-non-reasoning-latest,system1,27,3,y_arrestedafter2002,True,YES,78,True,0.4460430145263672,400,16,416,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:56:35.554217
+xai/grok-4-1-fast-non-reasoning-latest,system1,16,3,y_arrestedafter2002,False,YES,78,False,0.44909095764160156,401,16,417,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:56:36.000525
+xai/grok-4-1-fast-non-reasoning-latest,system1,12,3,y_arrestedafter2002,False,YES,78,False,0.37169694900512695,405,16,421,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:56:36.450268
+xai/grok-4-1-fast-non-reasoning-latest,system1,22,3,y_arrestedafter2002,True,YES,88,True,0.40270161628723145,401,16,417,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 88
+}",,2026-02-09T21:56:36.822430
+xai/grok-4-1-fast-non-reasoning-latest,system1,8,3,y_arrestedafter2002,False,YES,72,False,0.5327248573303223,405,16,421,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}",,2026-02-09T21:56:37.225421
+xai/grok-4-1-fast-non-reasoning-latest,system1,9,3,y_arrestedafter2002,False,YES,78,False,0.35793375968933105,409,16,425,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:56:37.758370
+xai/grok-4-1-fast-non-reasoning-latest,system1,21,3,y_arrestedafter2002,False,YES,78,False,0.43472909927368164,396,16,412,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:56:38.116766
+xai/grok-4-1-fast-non-reasoning-latest,system1,0,3,y_arrestedafter2002,True,YES,88,True,0.43182802200317383,408,16,424,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 88
+}",,2026-02-09T21:56:38.552038
+xai/grok-4-1-fast-non-reasoning-latest,system1,26,3,y_arrestedafter2002,False,YES,78,False,0.4699862003326416,397,16,413,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:56:38.984368
+xai/grok-4-1-fast-non-reasoning-latest,system1,13,3,y_arrestedafter2002,False,NO,82,True,0.5178711414337158,406,16,422,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 82
+}",,2026-02-09T21:56:39.454732
+xai/grok-4-1-fast-non-reasoning-latest,system1,15,3,y_arrestedafter2002,True,YES,78,True,0.40280818939208984,404,16,420,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:56:39.973167
+xai/grok-4-1-fast-non-reasoning-latest,system1,11,3,y_arrestedafter2002,False,YES,78,False,0.4306817054748535,399,16,415,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:56:40.376591
+xai/grok-4-1-fast-non-reasoning-latest,system1,17,3,y_arrestedafter2002,False,YES,72,False,0.613872766494751,401,16,417,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}",,2026-02-09T21:56:40.808347
+xai/grok-4-1-fast-non-reasoning-latest,system1,1,3,y_arrestedafter2002,False,YES,68,False,0.45947980880737305,403,16,419,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T21:56:41.422477
+xai/grok-4-1-fast-non-reasoning-latest,system1,4,3,y_arrestedafter2002,False,YES,78,False,0.4065060615539551,405,16,421,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:56:41.882185
+xai/grok-4-1-fast-non-reasoning-latest,system1,5,3,y_arrestedafter2002,True,YES,82,True,0.36914801597595215,402,16,418,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T21:56:42.289002
+xai/grok-4-1-fast-non-reasoning-latest,system1,2,3,y_arrestedafter2002,False,YES,78,False,0.4920639991760254,395,16,411,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:56:42.658579
+xai/grok-4-1-fast-non-reasoning-latest,system1,24,3,y_arrestedafter2002,False,YES,78,False,0.36499571800231934,401,16,417,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:56:43.150834
+xai/grok-4-1-fast-non-reasoning-latest,system1,3,3,y_arrestedafter2002,False,YES,78,False,0.4465751647949219,400,16,416,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:56:43.515992
+xai/grok-4-1-fast-non-reasoning-latest,system1,23,3,y_arrestedafter2002,False,NO,78,True,0.3676481246948242,397,16,413,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 78
+}",,2026-02-09T21:56:43.962894
+xai/grok-4-1-fast-non-reasoning-latest,system1,25,3,y_arrestedafter2002,True,YES,78,True,0.386699914932251,405,16,421,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:56:44.330754
+xai/grok-4-1-fast-non-reasoning-latest,system1,18,3,y_arrestedafter2002,False,YES,82,False,0.47150516510009766,398,16,414,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T21:56:44.717758
+xai/grok-4-1-fast-non-reasoning-latest,system1,28,3,y_arrestedafter2002,True,YES,78,True,0.5129678249359131,400,16,416,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:56:45.190108
+xai/grok-4-1-fast-non-reasoning-latest,system1,20,3,y_arrestedafter2002,True,YES,68,True,0.6309359073638916,403,16,419,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T21:56:45.703527
+xai/grok-4-1-fast-non-reasoning-latest,system1,7,3,y_arrestedafter2002,False,YES,68,False,0.4298281669616699,400,16,416,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T21:56:46.334820
+xai/grok-4-1-fast-non-reasoning-latest,system1,10,3,y_arrestedafter2002,False,NO,78,True,0.46971893310546875,402,16,418,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 78
+}",,2026-02-09T21:56:46.764958
+xai/grok-4-1-fast-non-reasoning-latest,system1,14,3,y_arrestedafter2002,True,YES,88,True,0.37296104431152344,409,16,425,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 88
+}",,2026-02-09T21:56:47.235002
+xai/grok-4-1-fast-non-reasoning-latest,system1,19,3,y_arrestedafter2002,False,YES,88,False,0.33423900604248047,400,16,416,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 88
+}",,2026-02-09T21:56:47.608145
+xai/grok-4-1-fast-non-reasoning-latest,system1,6,3,y_arrestedafter2002,False,YES,78,False,0.41266798973083496,404,16,420,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:56:47.942577
+xai/grok-4-1-fast-non-reasoning-latest,system1,27,4,y_arrestedafter2002,True,YES,78,True,0.41591906547546387,400,16,416,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:56:48.356839
+xai/grok-4-1-fast-non-reasoning-latest,system1,16,4,y_arrestedafter2002,False,YES,78,False,0.3949408531188965,401,16,417,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:56:48.772986
+xai/grok-4-1-fast-non-reasoning-latest,system1,12,4,y_arrestedafter2002,False,YES,72,False,0.45939111709594727,405,16,421,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}",,2026-02-09T21:56:49.168143
+xai/grok-4-1-fast-non-reasoning-latest,system1,22,4,y_arrestedafter2002,True,YES,88,True,0.5484669208526611,401,16,417,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 88
+}",,2026-02-09T21:56:49.628169
+xai/grok-4-1-fast-non-reasoning-latest,system1,8,4,y_arrestedafter2002,False,YES,72,False,0.3641841411590576,405,16,421,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}",,2026-02-09T21:56:50.177046
+xai/grok-4-1-fast-non-reasoning-latest,system1,9,4,y_arrestedafter2002,False,YES,78,False,0.44553709030151367,409,16,425,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:56:50.541596
+xai/grok-4-1-fast-non-reasoning-latest,system1,21,4,y_arrestedafter2002,False,YES,78,False,0.4048020839691162,396,16,412,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:56:50.987409
+xai/grok-4-1-fast-non-reasoning-latest,system1,0,4,y_arrestedafter2002,True,YES,88,True,0.45404696464538574,408,16,424,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 88
+}",,2026-02-09T21:56:51.392430
+xai/grok-4-1-fast-non-reasoning-latest,system1,26,4,y_arrestedafter2002,False,YES,78,False,0.4079117774963379,397,16,413,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:56:51.846819
+xai/grok-4-1-fast-non-reasoning-latest,system1,13,4,y_arrestedafter2002,False,NO,82,True,0.3738110065460205,406,16,422,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 82
+}",,2026-02-09T21:56:52.255074
+xai/grok-4-1-fast-non-reasoning-latest,system1,15,4,y_arrestedafter2002,True,YES,78,True,0.37192296981811523,404,16,420,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:56:52.629075
+xai/grok-4-1-fast-non-reasoning-latest,system1,11,4,y_arrestedafter2002,False,YES,78,False,0.5875041484832764,399,16,415,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:56:53.001303
+xai/grok-4-1-fast-non-reasoning-latest,system1,17,4,y_arrestedafter2002,False,YES,72,False,0.38851404190063477,401,16,417,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}",,2026-02-09T21:56:53.589187
+xai/grok-4-1-fast-non-reasoning-latest,system1,1,4,y_arrestedafter2002,False,YES,68,False,0.3964197635650635,403,16,419,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T21:56:53.978897
+xai/grok-4-1-fast-non-reasoning-latest,system1,4,4,y_arrestedafter2002,False,YES,78,False,0.4678828716278076,405,16,421,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:56:54.375584
+xai/grok-4-1-fast-non-reasoning-latest,system1,5,4,y_arrestedafter2002,True,YES,82,True,0.44286179542541504,402,16,418,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T21:56:54.843654
+xai/grok-4-1-fast-non-reasoning-latest,system1,2,4,y_arrestedafter2002,False,YES,78,False,0.3963320255279541,395,16,411,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:56:55.286856
+xai/grok-4-1-fast-non-reasoning-latest,system1,24,4,y_arrestedafter2002,False,YES,78,False,0.3601248264312744,401,16,417,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:56:55.683495
+xai/grok-4-1-fast-non-reasoning-latest,system1,3,4,y_arrestedafter2002,False,YES,82,False,0.5421748161315918,400,16,416,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T21:56:56.043822
+xai/grok-4-1-fast-non-reasoning-latest,system1,23,4,y_arrestedafter2002,False,NO,78,True,0.48471593856811523,397,16,413,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 78
+}",,2026-02-09T21:56:56.586208
+xai/grok-4-1-fast-non-reasoning-latest,system1,25,4,y_arrestedafter2002,True,YES,78,True,0.4490020275115967,405,16,421,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:56:57.071447
+xai/grok-4-1-fast-non-reasoning-latest,system1,18,4,y_arrestedafter2002,False,YES,82,False,0.46988987922668457,398,16,414,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T21:56:57.520714
+xai/grok-4-1-fast-non-reasoning-latest,system1,28,4,y_arrestedafter2002,True,YES,78,True,0.4317150115966797,400,16,416,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:56:57.991005
+xai/grok-4-1-fast-non-reasoning-latest,system1,20,4,y_arrestedafter2002,True,YES,68,True,0.3923609256744385,403,16,419,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T21:56:58.423979
+xai/grok-4-1-fast-non-reasoning-latest,system1,7,4,y_arrestedafter2002,False,YES,68,False,0.4413599967956543,400,16,416,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T21:56:58.816877
+xai/grok-4-1-fast-non-reasoning-latest,system1,10,4,y_arrestedafter2002,False,NO,78,True,0.4345052242279053,402,16,418,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 78
+}",,2026-02-09T21:56:59.258644
+xai/grok-4-1-fast-non-reasoning-latest,system1,14,4,y_arrestedafter2002,True,YES,88,True,0.4182450771331787,409,16,425,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 88
+}",,2026-02-09T21:56:59.693470
+xai/grok-4-1-fast-non-reasoning-latest,system1,19,4,y_arrestedafter2002,False,YES,88,False,0.48377203941345215,400,16,416,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 88
+}",,2026-02-09T21:57:00.111944
+xai/grok-4-1-fast-non-reasoning-latest,system1,6,4,y_arrestedafter2002,False,YES,78,False,0.40891194343566895,404,16,420,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:57:00.596080
+xai/grok-4-1-fast-non-reasoning-latest,system1,27,5,y_arrestedafter2002,True,YES,78,True,0.40100884437561035,400,16,416,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:57:01.008126
+xai/grok-4-1-fast-non-reasoning-latest,system1,16,5,y_arrestedafter2002,False,YES,78,False,0.431812047958374,401,16,417,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:57:01.409502
+xai/grok-4-1-fast-non-reasoning-latest,system1,12,5,y_arrestedafter2002,False,YES,72,False,0.38263607025146484,405,16,421,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}",,2026-02-09T21:57:01.841720
+xai/grok-4-1-fast-non-reasoning-latest,system1,22,5,y_arrestedafter2002,True,YES,88,True,0.3650028705596924,401,16,417,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 88
+}",,2026-02-09T21:57:02.224622
+xai/grok-4-1-fast-non-reasoning-latest,system1,8,5,y_arrestedafter2002,False,YES,72,False,0.44057297706604004,405,16,421,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}",,2026-02-09T21:57:02.590038
+xai/grok-4-1-fast-non-reasoning-latest,system1,9,5,y_arrestedafter2002,False,YES,78,False,0.363544225692749,409,16,425,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:57:03.030796
+xai/grok-4-1-fast-non-reasoning-latest,system1,21,5,y_arrestedafter2002,False,YES,72,False,0.5313949584960938,396,16,412,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}",,2026-02-09T21:57:03.394550
+xai/grok-4-1-fast-non-reasoning-latest,system1,0,5,y_arrestedafter2002,True,YES,88,True,0.35736989974975586,408,16,424,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 88
+}",,2026-02-09T21:57:03.926351
+xai/grok-4-1-fast-non-reasoning-latest,system1,26,5,y_arrestedafter2002,False,YES,78,False,0.4353008270263672,397,16,413,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:57:04.283930
+xai/grok-4-1-fast-non-reasoning-latest,system1,13,5,y_arrestedafter2002,False,NO,82,True,2.759830951690674,406,16,422,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 82
+}",,2026-02-09T21:57:04.719623
+xai/grok-4-1-fast-non-reasoning-latest,system1,15,5,y_arrestedafter2002,True,YES,82,True,0.3696858882904053,404,16,420,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T21:57:07.479831
+xai/grok-4-1-fast-non-reasoning-latest,system1,11,5,y_arrestedafter2002,False,YES,78,False,0.586693286895752,399,16,415,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:57:07.849895
+xai/grok-4-1-fast-non-reasoning-latest,system1,17,5,y_arrestedafter2002,False,YES,72,False,0.4307084083557129,401,16,417,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}",,2026-02-09T21:57:08.436970
+xai/grok-4-1-fast-non-reasoning-latest,system1,1,5,y_arrestedafter2002,False,YES,68,False,0.43842196464538574,403,16,419,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T21:57:08.867954
+xai/grok-4-1-fast-non-reasoning-latest,system1,4,5,y_arrestedafter2002,False,YES,78,False,0.5114092826843262,405,16,421,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:57:09.307007
+xai/grok-4-1-fast-non-reasoning-latest,system1,5,5,y_arrestedafter2002,True,YES,82,True,0.3508260250091553,402,16,418,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T21:57:09.818648
+xai/grok-4-1-fast-non-reasoning-latest,system1,2,5,y_arrestedafter2002,False,YES,78,False,0.36791515350341797,395,16,411,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:57:10.169844
+xai/grok-4-1-fast-non-reasoning-latest,system1,24,5,y_arrestedafter2002,False,YES,78,False,0.4152181148529053,401,16,417,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:57:10.538272
+xai/grok-4-1-fast-non-reasoning-latest,system1,3,5,y_arrestedafter2002,False,YES,78,False,0.5426549911499023,400,16,416,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:57:10.953863
+xai/grok-4-1-fast-non-reasoning-latest,system1,23,5,y_arrestedafter2002,False,NO,78,True,0.5215620994567871,397,16,413,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 78
+}",,2026-02-09T21:57:11.497001
+xai/grok-4-1-fast-non-reasoning-latest,system1,25,5,y_arrestedafter2002,True,YES,78,True,16.69628071784973,405,16,421,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:57:12.018857
+xai/grok-4-1-fast-non-reasoning-latest,system1,18,5,y_arrestedafter2002,False,YES,82,False,0.4068748950958252,398,16,414,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T21:57:28.715523
+xai/grok-4-1-fast-non-reasoning-latest,system1,28,5,y_arrestedafter2002,True,YES,78,True,0.5119800567626953,400,16,416,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:57:29.122848
+xai/grok-4-1-fast-non-reasoning-latest,system1,20,5,y_arrestedafter2002,True,YES,68,True,0.3632168769836426,403,16,419,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T21:57:29.635336
+xai/grok-4-1-fast-non-reasoning-latest,system1,7,5,y_arrestedafter2002,False,YES,68,False,0.4524879455566406,400,16,416,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T21:57:29.999217
+xai/grok-4-1-fast-non-reasoning-latest,system1,10,5,y_arrestedafter2002,False,NO,78,True,0.39502787590026855,402,16,418,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 78
+}",,2026-02-09T21:57:30.452179
+xai/grok-4-1-fast-non-reasoning-latest,system1,14,5,y_arrestedafter2002,True,YES,88,True,0.38039278984069824,409,16,425,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 88
+}",,2026-02-09T21:57:30.847471
+xai/grok-4-1-fast-non-reasoning-latest,system1,19,5,y_arrestedafter2002,False,YES,88,False,0.45319390296936035,400,16,416,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 88
+}",,2026-02-09T21:57:31.228043
+xai/grok-4-1-fast-non-reasoning-latest,system1,6,5,y_arrestedafter2002,False,YES,78,False,0.4462399482727051,404,16,420,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:57:31.681617
+xai/grok-4-1-fast-non-reasoning-latest,system1,27,6,y_arrestedafter2002,True,YES,78,True,0.43935203552246094,400,16,416,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:57:32.130012
+xai/grok-4-1-fast-non-reasoning-latest,system1,16,6,y_arrestedafter2002,False,YES,78,False,0.4338250160217285,401,16,417,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:57:32.569913
+xai/grok-4-1-fast-non-reasoning-latest,system1,12,6,y_arrestedafter2002,False,YES,72,False,0.521204948425293,405,16,421,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}",,2026-02-09T21:57:33.003969
+xai/grok-4-1-fast-non-reasoning-latest,system1,22,6,y_arrestedafter2002,True,YES,88,True,0.40528416633605957,401,16,417,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 88
+}",,2026-02-09T21:57:33.525639
+xai/grok-4-1-fast-non-reasoning-latest,system1,8,6,y_arrestedafter2002,False,YES,72,False,0.41004419326782227,405,16,421,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}",,2026-02-09T21:57:33.931188
+xai/grok-4-1-fast-non-reasoning-latest,system1,9,6,y_arrestedafter2002,False,YES,78,False,0.3646059036254883,409,16,425,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:57:34.342262
+xai/grok-4-1-fast-non-reasoning-latest,system1,21,6,y_arrestedafter2002,False,YES,72,False,0.37810802459716797,396,16,412,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}",,2026-02-09T21:57:34.707288
+xai/grok-4-1-fast-non-reasoning-latest,system1,0,6,y_arrestedafter2002,True,YES,88,True,0.48589205741882324,408,16,424,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 88
+}",,2026-02-09T21:57:35.085847
+xai/grok-4-1-fast-non-reasoning-latest,system1,26,6,y_arrestedafter2002,False,YES,78,False,0.552372932434082,397,16,413,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:57:35.572256
+xai/grok-4-1-fast-non-reasoning-latest,system1,13,6,y_arrestedafter2002,False,NO,82,True,0.4636092185974121,406,16,422,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 82
+}",,2026-02-09T21:57:36.124998
+xai/grok-4-1-fast-non-reasoning-latest,system1,15,6,y_arrestedafter2002,True,YES,78,True,0.724355936050415,404,16,420,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:57:36.588815
+xai/grok-4-1-fast-non-reasoning-latest,system1,11,6,y_arrestedafter2002,False,YES,78,False,0.5519280433654785,399,16,415,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:57:37.313361
+xai/grok-4-1-fast-non-reasoning-latest,system1,17,6,y_arrestedafter2002,False,YES,72,False,0.4732511043548584,401,16,417,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}",,2026-02-09T21:57:37.865464
+xai/grok-4-1-fast-non-reasoning-latest,system1,1,6,y_arrestedafter2002,False,YES,68,False,0.5108890533447266,403,16,419,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T21:57:38.339149
+xai/grok-4-1-fast-non-reasoning-latest,system1,4,6,y_arrestedafter2002,False,YES,78,False,0.6955819129943848,405,16,421,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:57:38.850543
+xai/grok-4-1-fast-non-reasoning-latest,system1,5,6,y_arrestedafter2002,True,YES,82,True,0.5287148952484131,402,16,418,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T21:57:39.546706
+xai/grok-4-1-fast-non-reasoning-latest,system1,2,6,y_arrestedafter2002,False,YES,78,False,0.514207124710083,395,16,411,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:57:40.075693
+xai/grok-4-1-fast-non-reasoning-latest,system1,24,6,y_arrestedafter2002,False,YES,78,False,0.454693078994751,401,16,417,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:57:40.590292
+xai/grok-4-1-fast-non-reasoning-latest,system1,3,6,y_arrestedafter2002,False,YES,82,False,0.43631482124328613,400,16,416,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T21:57:41.045254
+xai/grok-4-1-fast-non-reasoning-latest,system1,23,6,y_arrestedafter2002,False,NO,78,True,0.35132694244384766,397,16,413,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 78
+}",,2026-02-09T21:57:41.481971
+xai/grok-4-1-fast-non-reasoning-latest,system1,25,6,y_arrestedafter2002,True,YES,82,True,1.0461549758911133,405,16,421,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T21:57:41.833871
+xai/grok-4-1-fast-non-reasoning-latest,system1,18,6,y_arrestedafter2002,False,YES,82,False,0.7833640575408936,398,16,414,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T21:57:42.880371
+xai/grok-4-1-fast-non-reasoning-latest,system1,28,6,y_arrestedafter2002,True,YES,78,True,0.5070781707763672,400,16,416,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:57:43.664614
+xai/grok-4-1-fast-non-reasoning-latest,system1,20,6,y_arrestedafter2002,True,YES,68,True,0.41158390045166016,403,16,419,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T21:57:44.172073
+xai/grok-4-1-fast-non-reasoning-latest,system1,7,6,y_arrestedafter2002,False,YES,68,False,0.5451211929321289,400,16,416,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T21:57:44.583996
+xai/grok-4-1-fast-non-reasoning-latest,system1,10,6,y_arrestedafter2002,False,NO,78,True,0.48258519172668457,402,16,418,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 78
+}",,2026-02-09T21:57:45.129678
+xai/grok-4-1-fast-non-reasoning-latest,system1,14,6,y_arrestedafter2002,True,YES,88,True,0.48994874954223633,409,16,425,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 88
+}",,2026-02-09T21:57:45.612682
+xai/grok-4-1-fast-non-reasoning-latest,system1,19,6,y_arrestedafter2002,False,YES,88,False,0.4638211727142334,400,16,416,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 88
+}",,2026-02-09T21:57:46.102922
+xai/grok-4-1-fast-non-reasoning-latest,system1,6,6,y_arrestedafter2002,False,YES,78,False,0.35377001762390137,404,16,420,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:57:46.567134
+xai/grok-4-1-fast-non-reasoning-latest,system1,27,7,y_arrestedafter2002,True,YES,78,True,0.39011096954345703,400,16,416,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:57:46.924733
+xai/grok-4-1-fast-non-reasoning-latest,system1,16,7,y_arrestedafter2002,False,YES,78,False,0.4441070556640625,401,16,417,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:57:47.315133
+xai/grok-4-1-fast-non-reasoning-latest,system1,12,7,y_arrestedafter2002,False,YES,72,False,0.4472789764404297,405,16,421,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}",,2026-02-09T21:57:47.759588
+xai/grok-4-1-fast-non-reasoning-latest,system1,22,7,y_arrestedafter2002,True,YES,88,True,0.38696789741516113,401,16,417,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 88
+}",,2026-02-09T21:57:48.207164
+xai/grok-4-1-fast-non-reasoning-latest,system1,8,7,y_arrestedafter2002,False,YES,72,False,0.3719339370727539,405,16,421,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}",,2026-02-09T21:57:48.594422
+xai/grok-4-1-fast-non-reasoning-latest,system1,9,7,y_arrestedafter2002,False,YES,78,False,0.40650415420532227,409,16,425,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:57:48.966580
+xai/grok-4-1-fast-non-reasoning-latest,system1,21,7,y_arrestedafter2002,False,YES,78,False,3.1199817657470703,396,16,412,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:57:49.373570
+xai/grok-4-1-fast-non-reasoning-latest,system1,0,7,y_arrestedafter2002,True,YES,88,True,0.364469051361084,408,16,424,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 88
+}",,2026-02-09T21:57:52.493781
+xai/grok-4-1-fast-non-reasoning-latest,system1,26,7,y_arrestedafter2002,False,YES,78,False,0.3919517993927002,397,16,413,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:57:52.858522
+xai/grok-4-1-fast-non-reasoning-latest,system1,13,7,y_arrestedafter2002,False,NO,82,True,0.36388301849365234,406,16,422,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 82
+}",,2026-02-09T21:57:53.250702
+xai/grok-4-1-fast-non-reasoning-latest,system1,15,7,y_arrestedafter2002,True,YES,78,True,0.4914360046386719,404,16,420,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:57:53.614930
+xai/grok-4-1-fast-non-reasoning-latest,system1,11,7,y_arrestedafter2002,False,YES,78,False,0.6082189083099365,399,16,415,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:57:54.106624
+xai/grok-4-1-fast-non-reasoning-latest,system1,17,7,y_arrestedafter2002,False,YES,72,False,0.3453948497772217,401,16,417,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}",,2026-02-09T21:57:54.715124
+xai/grok-4-1-fast-non-reasoning-latest,system1,1,7,y_arrestedafter2002,False,YES,68,False,0.42690515518188477,403,16,419,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T21:57:55.060734
+xai/grok-4-1-fast-non-reasoning-latest,system1,4,7,y_arrestedafter2002,False,YES,78,False,0.40948486328125,405,16,421,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:57:55.487863
+xai/grok-4-1-fast-non-reasoning-latest,system1,5,7,y_arrestedafter2002,True,YES,88,True,0.56461501121521,402,16,418,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 88
+}",,2026-02-09T21:57:55.897533
+xai/grok-4-1-fast-non-reasoning-latest,system1,2,7,y_arrestedafter2002,False,YES,78,False,0.4075620174407959,395,16,411,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:57:56.463048
+xai/grok-4-1-fast-non-reasoning-latest,system1,24,7,y_arrestedafter2002,False,YES,78,False,0.5356528759002686,401,16,417,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:57:56.871066
+xai/grok-4-1-fast-non-reasoning-latest,system1,3,7,y_arrestedafter2002,False,YES,82,False,0.4145641326904297,400,16,416,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T21:57:57.406965
+xai/grok-4-1-fast-non-reasoning-latest,system1,23,7,y_arrestedafter2002,False,NO,78,True,0.3787369728088379,397,16,413,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 78
+}",,2026-02-09T21:57:57.821731
+xai/grok-4-1-fast-non-reasoning-latest,system1,25,7,y_arrestedafter2002,True,YES,82,True,0.41022801399230957,405,16,421,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T21:57:58.200704
+xai/grok-4-1-fast-non-reasoning-latest,system1,18,7,y_arrestedafter2002,False,YES,82,False,0.41104674339294434,398,16,414,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T21:57:58.611403
+xai/grok-4-1-fast-non-reasoning-latest,system1,28,7,y_arrestedafter2002,True,YES,78,True,0.5118720531463623,400,16,416,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:57:59.022723
+xai/grok-4-1-fast-non-reasoning-latest,system1,20,7,y_arrestedafter2002,True,YES,68,True,0.3847780227661133,403,16,419,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T21:57:59.534791
+xai/grok-4-1-fast-non-reasoning-latest,system1,7,7,y_arrestedafter2002,False,YES,68,False,0.43166494369506836,400,16,416,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T21:57:59.919786
+xai/grok-4-1-fast-non-reasoning-latest,system1,10,7,y_arrestedafter2002,False,NO,78,True,0.4114079475402832,402,16,418,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 78
+}",,2026-02-09T21:58:00.351671
+xai/grok-4-1-fast-non-reasoning-latest,system1,14,7,y_arrestedafter2002,True,YES,88,True,0.426896333694458,409,16,425,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 88
+}",,2026-02-09T21:58:00.763953
+xai/grok-4-1-fast-non-reasoning-latest,system1,19,7,y_arrestedafter2002,False,YES,88,False,0.5961380004882812,400,16,416,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 88
+}",,2026-02-09T21:58:01.191047
+xai/grok-4-1-fast-non-reasoning-latest,system1,6,7,y_arrestedafter2002,False,YES,78,False,0.34386205673217773,404,16,420,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:58:01.787420
+xai/grok-4-1-fast-non-reasoning-latest,system1,27,8,y_arrestedafter2002,True,YES,78,True,0.3654518127441406,400,16,416,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:58:02.133430
+xai/grok-4-1-fast-non-reasoning-latest,system1,16,8,y_arrestedafter2002,False,YES,78,False,0.41394782066345215,401,16,417,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:58:02.499039
+xai/grok-4-1-fast-non-reasoning-latest,system1,12,8,y_arrestedafter2002,False,YES,72,False,0.5412511825561523,405,16,421,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}",,2026-02-09T21:58:02.913161
+xai/grok-4-1-fast-non-reasoning-latest,system1,22,8,y_arrestedafter2002,True,YES,88,True,0.4378480911254883,401,16,417,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 88
+}",,2026-02-09T21:58:03.454584
+xai/grok-4-1-fast-non-reasoning-latest,system1,8,8,y_arrestedafter2002,False,YES,72,False,0.5010523796081543,405,16,421,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}",,2026-02-09T21:58:03.892629
+xai/grok-4-1-fast-non-reasoning-latest,system1,9,8,y_arrestedafter2002,False,YES,78,False,0.35526299476623535,409,16,425,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:58:04.393988
+xai/grok-4-1-fast-non-reasoning-latest,system1,21,8,y_arrestedafter2002,False,YES,72,False,0.40268373489379883,396,16,412,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}",,2026-02-09T21:58:04.749559
+xai/grok-4-1-fast-non-reasoning-latest,system1,0,8,y_arrestedafter2002,True,YES,88,True,0.9560203552246094,408,16,424,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 88
+}",,2026-02-09T21:58:05.152776
+xai/grok-4-1-fast-non-reasoning-latest,system1,26,8,y_arrestedafter2002,False,YES,78,False,0.53513503074646,397,16,413,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:58:06.109017
+xai/grok-4-1-fast-non-reasoning-latest,system1,13,8,y_arrestedafter2002,False,NO,82,True,0.3823239803314209,406,16,422,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 82
+}",,2026-02-09T21:58:06.644343
+xai/grok-4-1-fast-non-reasoning-latest,system1,15,8,y_arrestedafter2002,True,YES,78,True,0.4135589599609375,404,16,420,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:58:07.026851
+xai/grok-4-1-fast-non-reasoning-latest,system1,11,8,y_arrestedafter2002,False,YES,78,False,0.4503359794616699,399,16,415,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:58:07.440810
+xai/grok-4-1-fast-non-reasoning-latest,system1,17,8,y_arrestedafter2002,False,YES,72,False,0.38541173934936523,401,16,417,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}",,2026-02-09T21:58:07.891537
+xai/grok-4-1-fast-non-reasoning-latest,system1,1,8,y_arrestedafter2002,False,YES,68,False,0.41455721855163574,403,16,419,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T21:58:08.277306
+xai/grok-4-1-fast-non-reasoning-latest,system1,4,8,y_arrestedafter2002,False,YES,78,False,0.3748950958251953,405,16,421,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:58:08.692151
+xai/grok-4-1-fast-non-reasoning-latest,system1,5,8,y_arrestedafter2002,True,YES,78,True,0.43794679641723633,402,16,418,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:58:09.067261
+xai/grok-4-1-fast-non-reasoning-latest,system1,2,8,y_arrestedafter2002,False,YES,78,False,0.38968396186828613,395,16,411,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:58:09.505458
+xai/grok-4-1-fast-non-reasoning-latest,system1,24,8,y_arrestedafter2002,False,YES,78,False,0.3825538158416748,401,16,417,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:58:09.895789
+xai/grok-4-1-fast-non-reasoning-latest,system1,3,8,y_arrestedafter2002,False,YES,82,False,0.42611002922058105,400,16,416,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T21:58:10.278606
+xai/grok-4-1-fast-non-reasoning-latest,system1,23,8,y_arrestedafter2002,False,NO,78,True,0.38228797912597656,397,16,413,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 78
+}",,2026-02-09T21:58:10.704957
+xai/grok-4-1-fast-non-reasoning-latest,system1,25,8,y_arrestedafter2002,True,YES,78,True,0.44460082054138184,405,16,421,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:58:11.087462
+xai/grok-4-1-fast-non-reasoning-latest,system1,18,8,y_arrestedafter2002,False,YES,78,False,0.48784708976745605,398,16,414,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:58:11.532307
+xai/grok-4-1-fast-non-reasoning-latest,system1,28,8,y_arrestedafter2002,True,YES,78,True,0.38526487350463867,400,16,416,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:58:12.020425
+xai/grok-4-1-fast-non-reasoning-latest,system1,20,8,y_arrestedafter2002,True,YES,68,True,0.5017552375793457,403,16,419,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T21:58:12.405913
+xai/grok-4-1-fast-non-reasoning-latest,system1,7,8,y_arrestedafter2002,False,NO,78,True,0.37839794158935547,400,16,416,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 78
+}",,2026-02-09T21:58:12.907937
+xai/grok-4-1-fast-non-reasoning-latest,system1,10,8,y_arrestedafter2002,False,NO,78,True,0.39084792137145996,402,16,418,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 78
+}",,2026-02-09T21:58:13.286613
+xai/grok-4-1-fast-non-reasoning-latest,system1,14,8,y_arrestedafter2002,True,YES,92,True,0.4985921382904053,409,16,425,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 92
+}",,2026-02-09T21:58:13.677756
+xai/grok-4-1-fast-non-reasoning-latest,system1,19,8,y_arrestedafter2002,False,YES,88,False,0.5126149654388428,400,16,416,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 88
+}",,2026-02-09T21:58:14.176817
+xai/grok-4-1-fast-non-reasoning-latest,system1,6,8,y_arrestedafter2002,False,YES,78,False,0.46399617195129395,404,16,420,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:58:14.689805
+xai/grok-4-1-fast-non-reasoning-latest,system1,27,9,y_arrestedafter2002,True,YES,72,True,0.45572900772094727,400,16,416,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}",,2026-02-09T21:58:15.158524
+xai/grok-4-1-fast-non-reasoning-latest,system1,16,9,y_arrestedafter2002,False,YES,78,False,0.510563850402832,401,16,417,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:58:15.614690
+xai/grok-4-1-fast-non-reasoning-latest,system1,12,9,y_arrestedafter2002,False,YES,78,False,0.40594983100891113,405,16,421,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:58:16.125545
+xai/grok-4-1-fast-non-reasoning-latest,system1,22,9,y_arrestedafter2002,True,YES,88,True,0.4328000545501709,401,16,417,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 88
+}",,2026-02-09T21:58:16.531799
+xai/grok-4-1-fast-non-reasoning-latest,system1,8,9,y_arrestedafter2002,False,YES,68,False,0.7095930576324463,405,16,421,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T21:58:16.964857
+xai/grok-4-1-fast-non-reasoning-latest,system1,9,9,y_arrestedafter2002,False,YES,78,False,0.4333209991455078,409,16,425,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:58:17.674694
+xai/grok-4-1-fast-non-reasoning-latest,system1,21,9,y_arrestedafter2002,False,YES,78,False,0.4232819080352783,396,16,412,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:58:18.108256
+xai/grok-4-1-fast-non-reasoning-latest,system1,0,9,y_arrestedafter2002,True,YES,88,True,0.4036400318145752,408,16,424,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 88
+}",,2026-02-09T21:58:18.531785
+xai/grok-4-1-fast-non-reasoning-latest,system1,26,9,y_arrestedafter2002,False,YES,78,False,0.5362019538879395,397,16,413,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:58:18.936107
+xai/grok-4-1-fast-non-reasoning-latest,system1,13,9,y_arrestedafter2002,False,NO,82,True,0.3812689781188965,406,16,422,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 82
+}",,2026-02-09T21:58:19.472536
+xai/grok-4-1-fast-non-reasoning-latest,system1,15,9,y_arrestedafter2002,True,YES,78,True,0.38230013847351074,404,16,420,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:58:19.854022
+xai/grok-4-1-fast-non-reasoning-latest,system1,11,9,y_arrestedafter2002,False,YES,78,False,0.43182992935180664,399,16,415,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:58:20.236543
+xai/grok-4-1-fast-non-reasoning-latest,system1,17,9,y_arrestedafter2002,False,YES,72,False,0.3621208667755127,401,16,417,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}",,2026-02-09T21:58:20.668557
+xai/grok-4-1-fast-non-reasoning-latest,system1,1,9,y_arrestedafter2002,False,YES,68,False,0.42892026901245117,403,16,419,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T21:58:21.030881
+xai/grok-4-1-fast-non-reasoning-latest,system1,4,9,y_arrestedafter2002,False,YES,78,False,0.4325387477874756,405,16,421,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:58:21.460206
+xai/grok-4-1-fast-non-reasoning-latest,system1,5,9,y_arrestedafter2002,True,YES,82,True,0.47592616081237793,402,16,418,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T21:58:21.893099
+xai/grok-4-1-fast-non-reasoning-latest,system1,2,9,y_arrestedafter2002,False,YES,78,False,0.3651001453399658,395,16,411,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:58:22.369383
+xai/grok-4-1-fast-non-reasoning-latest,system1,24,9,y_arrestedafter2002,False,YES,78,False,0.3624298572540283,401,16,417,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:58:22.734868
+xai/grok-4-1-fast-non-reasoning-latest,system1,3,9,y_arrestedafter2002,False,YES,82,False,0.37043118476867676,400,16,416,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T21:58:23.097758
+xai/grok-4-1-fast-non-reasoning-latest,system1,23,9,y_arrestedafter2002,False,NO,78,True,0.3787519931793213,397,16,413,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 78
+}",,2026-02-09T21:58:23.468400
+xai/grok-4-1-fast-non-reasoning-latest,system1,25,9,y_arrestedafter2002,True,YES,82,True,0.39696383476257324,405,16,421,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T21:58:23.847431
+xai/grok-4-1-fast-non-reasoning-latest,system1,18,9,y_arrestedafter2002,False,YES,82,False,0.4111292362213135,398,16,414,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T21:58:24.244657
+xai/grok-4-1-fast-non-reasoning-latest,system1,28,9,y_arrestedafter2002,True,YES,78,True,0.35828590393066406,400,16,416,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:58:24.656095
+xai/grok-4-1-fast-non-reasoning-latest,system1,20,9,y_arrestedafter2002,True,YES,68,True,0.4120011329650879,403,16,419,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T21:58:25.014585
+xai/grok-4-1-fast-non-reasoning-latest,system1,7,9,y_arrestedafter2002,False,YES,68,False,0.4204258918762207,400,16,416,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T21:58:25.426774
+xai/grok-4-1-fast-non-reasoning-latest,system1,10,9,y_arrestedafter2002,False,NO,78,True,0.4338259696960449,402,16,418,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 78
+}",,2026-02-09T21:58:25.847515
+xai/grok-4-1-fast-non-reasoning-latest,system1,14,9,y_arrestedafter2002,True,YES,88,True,0.3776371479034424,409,16,425,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 88
+}",,2026-02-09T21:58:26.281559
+xai/grok-4-1-fast-non-reasoning-latest,system1,19,9,y_arrestedafter2002,False,YES,88,False,0.465177059173584,400,16,416,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 88
+}",,2026-02-09T21:58:26.659421
+xai/grok-4-1-fast-non-reasoning-latest,system1,6,9,y_arrestedafter2002,False,YES,78,False,0.38602399826049805,404,16,420,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:58:27.125133
+xai/grok-4-1-fast-non-reasoning-latest,system1,27,10,y_arrestedafter2002,True,YES,78,True,0.3963510990142822,400,16,416,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:58:27.514025
+xai/grok-4-1-fast-non-reasoning-latest,system1,16,10,y_arrestedafter2002,False,YES,78,False,0.6707329750061035,401,16,417,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:58:27.910580
+xai/grok-4-1-fast-non-reasoning-latest,system1,12,10,y_arrestedafter2002,False,YES,78,False,0.44394707679748535,405,16,421,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:58:28.581645
+xai/grok-4-1-fast-non-reasoning-latest,system1,22,10,y_arrestedafter2002,True,YES,88,True,0.40112924575805664,401,16,417,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 88
+}",,2026-02-09T21:58:29.025838
+xai/grok-4-1-fast-non-reasoning-latest,system1,8,10,y_arrestedafter2002,False,YES,72,False,0.35755276679992676,405,16,421,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}",,2026-02-09T21:58:29.427242
+xai/grok-4-1-fast-non-reasoning-latest,system1,9,10,y_arrestedafter2002,False,YES,78,False,0.36565494537353516,409,16,425,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:58:29.785094
+xai/grok-4-1-fast-non-reasoning-latest,system1,21,10,y_arrestedafter2002,False,YES,78,False,0.3721292018890381,396,16,412,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:58:30.150998
+xai/grok-4-1-fast-non-reasoning-latest,system1,0,10,y_arrestedafter2002,True,YES,88,True,0.3459620475769043,408,16,424,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 88
+}",,2026-02-09T21:58:30.523340
+xai/grok-4-1-fast-non-reasoning-latest,system1,26,10,y_arrestedafter2002,False,YES,78,False,0.40784215927124023,397,16,413,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:58:30.869495
+xai/grok-4-1-fast-non-reasoning-latest,system1,13,10,y_arrestedafter2002,False,NO,82,True,0.3710319995880127,406,16,422,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 82
+}",,2026-02-09T21:58:31.277833
+xai/grok-4-1-fast-non-reasoning-latest,system1,15,10,y_arrestedafter2002,True,YES,78,True,0.3448607921600342,404,16,420,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:58:31.649244
+xai/grok-4-1-fast-non-reasoning-latest,system1,11,10,y_arrestedafter2002,False,YES,78,False,0.388016939163208,399,16,415,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:58:31.994363
+xai/grok-4-1-fast-non-reasoning-latest,system1,17,10,y_arrestedafter2002,False,YES,72,False,0.39329981803894043,401,16,417,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}",,2026-02-09T21:58:32.382558
+xai/grok-4-1-fast-non-reasoning-latest,system1,1,10,y_arrestedafter2002,False,YES,68,False,0.36821413040161133,403,16,419,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T21:58:32.776128
+xai/grok-4-1-fast-non-reasoning-latest,system1,4,10,y_arrestedafter2002,False,YES,82,False,0.4040679931640625,405,16,421,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T21:58:33.144745
+xai/grok-4-1-fast-non-reasoning-latest,system1,5,10,y_arrestedafter2002,True,YES,82,True,0.3800382614135742,402,16,418,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T21:58:33.549078
+xai/grok-4-1-fast-non-reasoning-latest,system1,2,10,y_arrestedafter2002,False,YES,78,False,0.44394993782043457,395,16,411,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:58:33.929387
+xai/grok-4-1-fast-non-reasoning-latest,system1,24,10,y_arrestedafter2002,False,YES,78,False,0.3745260238647461,401,16,417,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:58:34.373553
+xai/grok-4-1-fast-non-reasoning-latest,system1,3,10,y_arrestedafter2002,False,YES,82,False,0.37982702255249023,400,16,416,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T21:58:34.748301
+xai/grok-4-1-fast-non-reasoning-latest,system1,23,10,y_arrestedafter2002,False,NO,82,True,0.3478729724884033,397,16,413,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 82
+}",,2026-02-09T21:58:35.128359
+xai/grok-4-1-fast-non-reasoning-latest,system1,25,10,y_arrestedafter2002,True,YES,82,True,0.4092731475830078,405,16,421,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T21:58:35.476417
+xai/grok-4-1-fast-non-reasoning-latest,system1,18,10,y_arrestedafter2002,False,YES,82,False,0.4196641445159912,398,16,414,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T21:58:35.886560
+xai/grok-4-1-fast-non-reasoning-latest,system1,28,10,y_arrestedafter2002,True,YES,78,True,0.3418879508972168,400,16,416,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:58:36.306490
+xai/grok-4-1-fast-non-reasoning-latest,system1,20,10,y_arrestedafter2002,True,YES,68,True,0.49233412742614746,403,16,419,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T21:58:36.648556
+xai/grok-4-1-fast-non-reasoning-latest,system1,7,10,y_arrestedafter2002,False,NO,78,True,0.4979419708251953,400,16,416,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 78
+}",,2026-02-09T21:58:37.141060
+xai/grok-4-1-fast-non-reasoning-latest,system1,10,10,y_arrestedafter2002,False,NO,78,True,0.4318971633911133,402,16,418,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 78
+}",,2026-02-09T21:58:37.639166
+xai/grok-4-1-fast-non-reasoning-latest,system1,14,10,y_arrestedafter2002,True,YES,92,True,0.4031391143798828,409,16,425,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 92
+}",,2026-02-09T21:58:38.071250
+xai/grok-4-1-fast-non-reasoning-latest,system1,19,10,y_arrestedafter2002,False,YES,88,False,0.3636808395385742,400,16,416,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 88
+}",,2026-02-09T21:58:38.474660
+xai/grok-4-1-fast-non-reasoning-latest,system1,6,10,y_arrestedafter2002,False,YES,78,False,0.4283711910247803,404,16,420,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:58:38.838598
+xai/grok-4-1-fast-non-reasoning-latest,system1,27,11,y_arrestedafter2002,True,YES,78,True,0.43318772315979004,400,16,416,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:58:39.270195
+xai/grok-4-1-fast-non-reasoning-latest,system1,16,11,y_arrestedafter2002,False,YES,78,False,0.40637731552124023,401,16,417,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:58:39.703612
+xai/grok-4-1-fast-non-reasoning-latest,system1,12,11,y_arrestedafter2002,False,YES,72,False,0.38936305046081543,405,16,421,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}",,2026-02-09T21:58:40.110195
+xai/grok-4-1-fast-non-reasoning-latest,system1,22,11,y_arrestedafter2002,True,YES,88,True,0.4458751678466797,401,16,417,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 88
+}",,2026-02-09T21:58:40.499761
+xai/grok-4-1-fast-non-reasoning-latest,system1,8,11,y_arrestedafter2002,False,YES,72,False,0.42330312728881836,405,16,421,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}",,2026-02-09T21:58:40.945846
+xai/grok-4-1-fast-non-reasoning-latest,system1,9,11,y_arrestedafter2002,False,YES,78,False,0.36140966415405273,409,16,425,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:58:41.369509
+xai/grok-4-1-fast-non-reasoning-latest,system1,21,11,y_arrestedafter2002,False,YES,78,False,0.6594879627227783,396,16,412,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:58:41.731230
+xai/grok-4-1-fast-non-reasoning-latest,system1,0,11,y_arrestedafter2002,True,YES,88,True,0.414870023727417,408,16,424,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 88
+}",,2026-02-09T21:58:42.391056
+xai/grok-4-1-fast-non-reasoning-latest,system1,26,11,y_arrestedafter2002,False,YES,78,False,0.41364312171936035,397,16,413,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:58:42.806316
+xai/grok-4-1-fast-non-reasoning-latest,system1,13,11,y_arrestedafter2002,False,NO,82,True,0.48825812339782715,406,16,422,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 82
+}",,2026-02-09T21:58:43.220266
+xai/grok-4-1-fast-non-reasoning-latest,system1,15,11,y_arrestedafter2002,True,YES,82,True,0.37300682067871094,404,16,420,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T21:58:43.709278
+xai/grok-4-1-fast-non-reasoning-latest,system1,11,11,y_arrestedafter2002,False,YES,78,False,0.44556188583374023,399,16,415,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:58:44.082503
+xai/grok-4-1-fast-non-reasoning-latest,system1,17,11,y_arrestedafter2002,False,YES,72,False,0.41082215309143066,401,16,417,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}",,2026-02-09T21:58:44.528253
+xai/grok-4-1-fast-non-reasoning-latest,system1,1,11,y_arrestedafter2002,False,YES,68,False,0.3722851276397705,403,16,419,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T21:58:44.939432
+xai/grok-4-1-fast-non-reasoning-latest,system1,4,11,y_arrestedafter2002,False,YES,78,False,0.4073498249053955,405,16,421,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:58:45.312090
+xai/grok-4-1-fast-non-reasoning-latest,system1,5,11,y_arrestedafter2002,True,YES,88,True,0.4581780433654785,402,16,418,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 88
+}",,2026-02-09T21:58:45.719759
+xai/grok-4-1-fast-non-reasoning-latest,system1,2,11,y_arrestedafter2002,False,YES,78,False,0.43893003463745117,395,16,411,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:58:46.178185
+xai/grok-4-1-fast-non-reasoning-latest,system1,24,11,y_arrestedafter2002,False,YES,78,False,0.3883707523345947,401,16,417,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:58:46.617421
+xai/grok-4-1-fast-non-reasoning-latest,system1,3,11,y_arrestedafter2002,False,YES,82,False,0.4113459587097168,400,16,416,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T21:58:47.006126
+xai/grok-4-1-fast-non-reasoning-latest,system1,23,11,y_arrestedafter2002,False,NO,82,True,0.3810758590698242,397,16,413,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 82
+}",,2026-02-09T21:58:47.417825
+xai/grok-4-1-fast-non-reasoning-latest,system1,25,11,y_arrestedafter2002,True,YES,78,True,0.37547898292541504,405,16,421,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:58:47.799474
+xai/grok-4-1-fast-non-reasoning-latest,system1,18,11,y_arrestedafter2002,False,YES,82,False,0.621196985244751,398,16,414,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T21:58:48.175205
+xai/grok-4-1-fast-non-reasoning-latest,system1,28,11,y_arrestedafter2002,True,YES,72,True,0.38806915283203125,400,16,416,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}",,2026-02-09T21:58:48.796772
+xai/grok-4-1-fast-non-reasoning-latest,system1,20,11,y_arrestedafter2002,True,YES,72,True,0.343508243560791,403,16,419,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}",,2026-02-09T21:58:49.185076
+xai/grok-4-1-fast-non-reasoning-latest,system1,7,11,y_arrestedafter2002,False,NO,78,True,0.3702540397644043,400,16,416,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 78
+}",,2026-02-09T21:58:49.528773
+xai/grok-4-1-fast-non-reasoning-latest,system1,10,11,y_arrestedafter2002,False,NO,78,True,0.44353699684143066,402,16,418,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 78
+}",,2026-02-09T21:58:49.899212
+xai/grok-4-1-fast-non-reasoning-latest,system1,14,11,y_arrestedafter2002,True,YES,88,True,0.40349292755126953,409,16,425,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 88
+}",,2026-02-09T21:58:50.342932
+xai/grok-4-1-fast-non-reasoning-latest,system1,19,11,y_arrestedafter2002,False,YES,88,False,0.46472787857055664,400,16,416,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 88
+}",,2026-02-09T21:58:50.746738
+xai/grok-4-1-fast-non-reasoning-latest,system1,6,11,y_arrestedafter2002,False,YES,78,False,0.4140207767486572,404,16,420,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:58:51.211681
+xai/grok-4-1-fast-non-reasoning-latest,system1,27,12,y_arrestedafter2002,True,YES,72,True,0.4192366600036621,400,16,416,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}",,2026-02-09T21:58:51.629542
+xai/grok-4-1-fast-non-reasoning-latest,system1,16,12,y_arrestedafter2002,False,YES,78,False,0.5685813426971436,401,16,417,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:58:52.049475
+xai/grok-4-1-fast-non-reasoning-latest,system1,12,12,y_arrestedafter2002,False,YES,72,False,0.9089300632476807,405,16,421,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}",,2026-02-09T21:58:52.618289
+xai/grok-4-1-fast-non-reasoning-latest,system1,22,12,y_arrestedafter2002,True,YES,88,True,0.4143059253692627,401,16,417,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 88
+}",,2026-02-09T21:58:53.527430
+xai/grok-4-1-fast-non-reasoning-latest,system1,8,12,y_arrestedafter2002,False,YES,72,False,0.572965145111084,405,16,421,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}",,2026-02-09T21:58:53.941956
+xai/grok-4-1-fast-non-reasoning-latest,system1,9,12,y_arrestedafter2002,False,YES,78,False,0.36921095848083496,409,16,425,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:58:54.515434
+xai/grok-4-1-fast-non-reasoning-latest,system1,21,12,y_arrestedafter2002,False,YES,72,False,0.37242794036865234,396,16,412,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}",,2026-02-09T21:58:54.885028
+xai/grok-4-1-fast-non-reasoning-latest,system1,0,12,y_arrestedafter2002,True,YES,88,True,0.5739259719848633,408,16,424,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 88
+}",,2026-02-09T21:58:55.257649
+xai/grok-4-1-fast-non-reasoning-latest,system1,26,12,y_arrestedafter2002,False,YES,78,False,0.4298832416534424,397,16,413,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:58:55.831944
+xai/grok-4-1-fast-non-reasoning-latest,system1,13,12,y_arrestedafter2002,False,NO,82,True,0.81715989112854,406,16,422,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 82
+}",,2026-02-09T21:58:56.262124
+xai/grok-4-1-fast-non-reasoning-latest,system1,15,12,y_arrestedafter2002,True,YES,78,True,0.4621927738189697,404,16,420,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:58:57.079482
+xai/grok-4-1-fast-non-reasoning-latest,system1,11,12,y_arrestedafter2002,False,YES,78,False,0.41121721267700195,399,16,415,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:58:57.542170
+xai/grok-4-1-fast-non-reasoning-latest,system1,17,12,y_arrestedafter2002,False,YES,72,False,0.3501167297363281,401,16,417,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}",,2026-02-09T21:58:57.953596
+xai/grok-4-1-fast-non-reasoning-latest,system1,1,12,y_arrestedafter2002,False,YES,68,False,0.38984227180480957,403,16,419,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T21:58:58.303926
+xai/grok-4-1-fast-non-reasoning-latest,system1,4,12,y_arrestedafter2002,False,YES,78,False,0.4022800922393799,405,16,421,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:58:58.694032
+xai/grok-4-1-fast-non-reasoning-latest,system1,5,12,y_arrestedafter2002,True,YES,82,True,0.42331624031066895,402,16,418,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T21:58:59.096549
+xai/grok-4-1-fast-non-reasoning-latest,system1,2,12,y_arrestedafter2002,False,YES,72,False,0.41649913787841797,395,16,411,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}",,2026-02-09T21:58:59.520074
+xai/grok-4-1-fast-non-reasoning-latest,system1,24,12,y_arrestedafter2002,False,YES,78,False,0.49417901039123535,401,16,417,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:58:59.936920
+xai/grok-4-1-fast-non-reasoning-latest,system1,3,12,y_arrestedafter2002,False,YES,82,False,0.3539247512817383,400,16,416,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T21:59:00.431337
+xai/grok-4-1-fast-non-reasoning-latest,system1,23,12,y_arrestedafter2002,False,NO,82,True,0.3723888397216797,397,16,413,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 82
+}",,2026-02-09T21:59:00.785614
+xai/grok-4-1-fast-non-reasoning-latest,system1,25,12,y_arrestedafter2002,True,YES,78,True,0.43102073669433594,405,16,421,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:59:01.158289
+xai/grok-4-1-fast-non-reasoning-latest,system1,18,12,y_arrestedafter2002,False,YES,82,False,0.43204617500305176,398,16,414,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T21:59:01.589902
+xai/grok-4-1-fast-non-reasoning-latest,system1,28,12,y_arrestedafter2002,True,YES,78,True,0.379504919052124,400,16,416,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:59:02.022406
+xai/grok-4-1-fast-non-reasoning-latest,system1,20,12,y_arrestedafter2002,True,YES,68,True,0.3883991241455078,403,16,419,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T21:59:02.402175
+xai/grok-4-1-fast-non-reasoning-latest,system1,7,12,y_arrestedafter2002,False,YES,68,False,0.41126203536987305,400,16,416,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T21:59:02.791005
+xai/grok-4-1-fast-non-reasoning-latest,system1,10,12,y_arrestedafter2002,False,NO,78,True,0.34879279136657715,402,16,418,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 78
+}",,2026-02-09T21:59:03.202567
+xai/grok-4-1-fast-non-reasoning-latest,system1,14,12,y_arrestedafter2002,True,YES,88,True,0.4029848575592041,409,16,425,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 88
+}",,2026-02-09T21:59:03.551655
+xai/grok-4-1-fast-non-reasoning-latest,system1,19,12,y_arrestedafter2002,False,YES,88,False,0.3781290054321289,400,16,416,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 88
+}",,2026-02-09T21:59:03.955424
+xai/grok-4-1-fast-non-reasoning-latest,system1,6,12,y_arrestedafter2002,False,YES,78,False,0.5654740333557129,404,16,420,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:59:04.333922
+xai/grok-4-1-fast-non-reasoning-latest,system1,27,13,y_arrestedafter2002,True,YES,78,True,0.36629295349121094,400,16,416,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:59:04.905460
+xai/grok-4-1-fast-non-reasoning-latest,system1,16,13,y_arrestedafter2002,False,YES,78,False,0.41791486740112305,401,16,417,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:59:05.271978
+xai/grok-4-1-fast-non-reasoning-latest,system1,12,13,y_arrestedafter2002,False,YES,72,False,0.3399960994720459,405,16,421,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}",,2026-02-09T21:59:05.690728
+xai/grok-4-1-fast-non-reasoning-latest,system1,22,13,y_arrestedafter2002,True,YES,88,True,0.4136641025543213,401,16,417,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 88
+}",,2026-02-09T21:59:06.031010
+xai/grok-4-1-fast-non-reasoning-latest,system1,8,13,y_arrestedafter2002,False,YES,78,False,0.3795042037963867,405,16,421,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:59:06.444889
+xai/grok-4-1-fast-non-reasoning-latest,system1,9,13,y_arrestedafter2002,False,YES,78,False,0.3479158878326416,409,16,425,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:59:06.824859
+xai/grok-4-1-fast-non-reasoning-latest,system1,21,13,y_arrestedafter2002,False,YES,72,False,0.43408799171447754,396,16,412,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}",,2026-02-09T21:59:07.173054
+xai/grok-4-1-fast-non-reasoning-latest,system1,0,13,y_arrestedafter2002,True,YES,88,True,0.3353540897369385,408,16,424,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 88
+}",,2026-02-09T21:59:07.607333
+xai/grok-4-1-fast-non-reasoning-latest,system1,26,13,y_arrestedafter2002,False,YES,78,False,0.4318861961364746,397,16,413,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:59:07.942872
+xai/grok-4-1-fast-non-reasoning-latest,system1,13,13,y_arrestedafter2002,False,NO,82,True,0.41951417922973633,406,16,422,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 82
+}",,2026-02-09T21:59:08.374999
+xai/grok-4-1-fast-non-reasoning-latest,system1,15,13,y_arrestedafter2002,True,YES,78,True,0.3801431655883789,404,16,420,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:59:08.794901
+xai/grok-4-1-fast-non-reasoning-latest,system1,11,13,y_arrestedafter2002,False,YES,78,False,7.247570276260376,399,16,415,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:59:09.175289
+xai/grok-4-1-fast-non-reasoning-latest,system1,17,13,y_arrestedafter2002,False,YES,78,False,0.4141209125518799,401,16,417,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:59:16.423476
+xai/grok-4-1-fast-non-reasoning-latest,system1,1,13,y_arrestedafter2002,False,YES,68,False,0.39908790588378906,403,16,419,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T21:59:16.838091
+xai/grok-4-1-fast-non-reasoning-latest,system1,4,13,y_arrestedafter2002,False,YES,78,False,0.42930102348327637,405,16,421,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:59:17.237475
+xai/grok-4-1-fast-non-reasoning-latest,system1,5,13,y_arrestedafter2002,True,YES,78,True,0.48466014862060547,402,16,418,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:59:17.666978
+xai/grok-4-1-fast-non-reasoning-latest,system1,2,13,y_arrestedafter2002,False,YES,78,False,0.5665690898895264,395,16,411,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:59:18.152012
+xai/grok-4-1-fast-non-reasoning-latest,system1,24,13,y_arrestedafter2002,False,YES,78,False,0.44080400466918945,401,16,417,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:59:18.718979
+xai/grok-4-1-fast-non-reasoning-latest,system1,3,13,y_arrestedafter2002,False,YES,82,False,0.36133599281311035,400,16,416,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T21:59:19.160043
+xai/grok-4-1-fast-non-reasoning-latest,system1,23,13,y_arrestedafter2002,False,NO,82,True,0.4261970520019531,397,16,413,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 82
+}",,2026-02-09T21:59:19.521612
+xai/grok-4-1-fast-non-reasoning-latest,system1,25,13,y_arrestedafter2002,True,YES,82,True,0.5112338066101074,405,16,421,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T21:59:19.948297
+xai/grok-4-1-fast-non-reasoning-latest,system1,18,13,y_arrestedafter2002,False,YES,82,False,0.49914026260375977,398,16,414,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T21:59:20.460044
+xai/grok-4-1-fast-non-reasoning-latest,system1,28,13,y_arrestedafter2002,True,YES,78,True,0.44095492362976074,400,16,416,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:59:20.959716
+xai/grok-4-1-fast-non-reasoning-latest,system1,20,13,y_arrestedafter2002,True,YES,72,True,0.43340373039245605,403,16,419,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}",,2026-02-09T21:59:21.400892
+xai/grok-4-1-fast-non-reasoning-latest,system1,7,13,y_arrestedafter2002,False,YES,68,False,0.40586400032043457,400,16,416,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T21:59:21.834518
+xai/grok-4-1-fast-non-reasoning-latest,system1,10,13,y_arrestedafter2002,False,NO,78,True,0.3668959140777588,402,16,418,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 78
+}",,2026-02-09T21:59:22.240601
+xai/grok-4-1-fast-non-reasoning-latest,system1,14,13,y_arrestedafter2002,True,YES,88,True,0.43566274642944336,409,16,425,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 88
+}",,2026-02-09T21:59:22.607748
+xai/grok-4-1-fast-non-reasoning-latest,system1,19,13,y_arrestedafter2002,False,YES,88,False,0.3290212154388428,400,16,416,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 88
+}",,2026-02-09T21:59:23.043624
+xai/grok-4-1-fast-non-reasoning-latest,system1,6,13,y_arrestedafter2002,False,YES,78,False,0.38126420974731445,404,16,420,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:59:23.372854
+xai/grok-4-1-fast-non-reasoning-latest,system1,27,14,y_arrestedafter2002,True,YES,78,True,0.5453898906707764,400,16,416,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:59:23.757929
+xai/grok-4-1-fast-non-reasoning-latest,system1,16,14,y_arrestedafter2002,False,YES,78,False,0.3904581069946289,401,16,417,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:59:24.303524
+xai/grok-4-1-fast-non-reasoning-latest,system1,12,14,y_arrestedafter2002,False,YES,72,False,0.5176188945770264,405,16,421,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}",,2026-02-09T21:59:24.694240
+xai/grok-4-1-fast-non-reasoning-latest,system1,22,14,y_arrestedafter2002,True,YES,88,True,0.5343210697174072,401,16,417,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 88
+}",,2026-02-09T21:59:25.212868
+xai/grok-4-1-fast-non-reasoning-latest,system1,8,14,y_arrestedafter2002,False,YES,72,False,0.3595860004425049,405,16,421,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}",,2026-02-09T21:59:25.747470
+xai/grok-4-1-fast-non-reasoning-latest,system1,9,14,y_arrestedafter2002,False,YES,78,False,0.3590669631958008,409,16,425,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:59:26.107336
+xai/grok-4-1-fast-non-reasoning-latest,system1,21,14,y_arrestedafter2002,False,YES,78,False,0.43425512313842773,396,16,412,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:59:26.466676
+xai/grok-4-1-fast-non-reasoning-latest,system1,0,14,y_arrestedafter2002,True,YES,88,True,0.3760411739349365,408,16,424,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 88
+}",,2026-02-09T21:59:26.901205
+xai/grok-4-1-fast-non-reasoning-latest,system1,26,14,y_arrestedafter2002,False,YES,78,False,0.47472691535949707,397,16,413,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:59:27.277460
+xai/grok-4-1-fast-non-reasoning-latest,system1,13,14,y_arrestedafter2002,False,NO,82,True,0.4252798557281494,406,16,422,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 82
+}",,2026-02-09T21:59:27.752595
+xai/grok-4-1-fast-non-reasoning-latest,system1,15,14,y_arrestedafter2002,True,YES,78,True,0.5861339569091797,404,16,420,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:59:28.178297
+xai/grok-4-1-fast-non-reasoning-latest,system1,11,14,y_arrestedafter2002,False,YES,78,False,0.38337039947509766,399,16,415,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:59:28.764972
+xai/grok-4-1-fast-non-reasoning-latest,system1,17,14,y_arrestedafter2002,False,YES,72,False,1.9056391716003418,401,16,417,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}",,2026-02-09T21:59:29.148675
+xai/grok-4-1-fast-non-reasoning-latest,system1,1,14,y_arrestedafter2002,False,YES,68,False,0.39581894874572754,403,16,419,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T21:59:31.055186
+xai/grok-4-1-fast-non-reasoning-latest,system1,4,14,y_arrestedafter2002,False,YES,78,False,0.363415002822876,405,16,421,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:59:31.451282
+xai/grok-4-1-fast-non-reasoning-latest,system1,5,14,y_arrestedafter2002,True,YES,82,True,0.436065673828125,402,16,418,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T21:59:31.814942
+xai/grok-4-1-fast-non-reasoning-latest,system1,2,14,y_arrestedafter2002,False,YES,78,False,0.3656172752380371,395,16,411,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:59:32.251222
+xai/grok-4-1-fast-non-reasoning-latest,system1,24,14,y_arrestedafter2002,False,YES,78,False,0.3650963306427002,401,16,417,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:59:32.617023
+xai/grok-4-1-fast-non-reasoning-latest,system1,3,14,y_arrestedafter2002,False,YES,82,False,0.3818669319152832,400,16,416,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T21:59:32.982468
+xai/grok-4-1-fast-non-reasoning-latest,system1,23,14,y_arrestedafter2002,False,NO,78,True,0.3783299922943115,397,16,413,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 78
+}",,2026-02-09T21:59:33.364595
+xai/grok-4-1-fast-non-reasoning-latest,system1,25,14,y_arrestedafter2002,True,YES,82,True,0.37180495262145996,405,16,421,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T21:59:33.743216
+xai/grok-4-1-fast-non-reasoning-latest,system1,18,14,y_arrestedafter2002,False,YES,82,False,0.37611913681030273,398,16,414,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T21:59:34.115266
+xai/grok-4-1-fast-non-reasoning-latest,system1,28,14,y_arrestedafter2002,True,YES,72,True,0.36501407623291016,400,16,416,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}",,2026-02-09T21:59:34.491589
+xai/grok-4-1-fast-non-reasoning-latest,system1,20,14,y_arrestedafter2002,True,YES,68,True,0.42272090911865234,403,16,419,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T21:59:34.857119
+xai/grok-4-1-fast-non-reasoning-latest,system1,7,14,y_arrestedafter2002,False,NO,78,True,0.6295769214630127,400,16,416,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 78
+}",,2026-02-09T21:59:35.280048
+xai/grok-4-1-fast-non-reasoning-latest,system1,10,14,y_arrestedafter2002,False,NO,78,True,0.4089169502258301,402,16,418,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 78
+}",,2026-02-09T21:59:35.911218
+xai/grok-4-1-fast-non-reasoning-latest,system1,14,14,y_arrestedafter2002,True,YES,88,True,0.4078497886657715,409,16,425,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 88
+}",,2026-02-09T21:59:36.320470
+xai/grok-4-1-fast-non-reasoning-latest,system1,19,14,y_arrestedafter2002,False,YES,88,False,0.4279210567474365,400,16,416,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 88
+}",,2026-02-09T21:59:36.728504
+xai/grok-4-1-fast-non-reasoning-latest,system1,6,14,y_arrestedafter2002,False,YES,78,False,0.3328981399536133,404,16,420,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:59:37.156800
+xai/grok-4-1-fast-non-reasoning-latest,system1,27,15,y_arrestedafter2002,True,YES,78,True,0.4114649295806885,400,16,416,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:59:37.494794
+xai/grok-4-1-fast-non-reasoning-latest,system1,16,15,y_arrestedafter2002,False,YES,78,False,0.4042637348175049,401,16,417,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:59:37.906568
+xai/grok-4-1-fast-non-reasoning-latest,system1,12,15,y_arrestedafter2002,False,YES,72,False,0.3866238594055176,405,16,421,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}",,2026-02-09T21:59:38.311105
+xai/grok-4-1-fast-non-reasoning-latest,system1,22,15,y_arrestedafter2002,True,YES,88,True,0.41091203689575195,401,16,417,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 88
+}",,2026-02-09T21:59:38.698132
+xai/grok-4-1-fast-non-reasoning-latest,system1,8,15,y_arrestedafter2002,False,YES,72,False,0.4979410171508789,405,16,421,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}",,2026-02-09T21:59:39.109746
+xai/grok-4-1-fast-non-reasoning-latest,system1,9,15,y_arrestedafter2002,False,YES,78,False,0.46111607551574707,409,16,425,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:59:39.608063
+xai/grok-4-1-fast-non-reasoning-latest,system1,21,15,y_arrestedafter2002,False,YES,78,False,0.34581708908081055,396,16,412,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:59:40.069662
+xai/grok-4-1-fast-non-reasoning-latest,system1,0,15,y_arrestedafter2002,True,YES,88,True,0.37882208824157715,408,16,424,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 88
+}",,2026-02-09T21:59:40.415753
+xai/grok-4-1-fast-non-reasoning-latest,system1,26,15,y_arrestedafter2002,False,YES,78,False,0.4968750476837158,397,16,413,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:59:40.794948
+xai/grok-4-1-fast-non-reasoning-latest,system1,13,15,y_arrestedafter2002,False,NO,82,True,0.4041259288787842,406,16,422,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 82
+}",,2026-02-09T21:59:41.292089
+xai/grok-4-1-fast-non-reasoning-latest,system1,15,15,y_arrestedafter2002,True,YES,78,True,0.3709251880645752,404,16,420,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:59:41.696552
+xai/grok-4-1-fast-non-reasoning-latest,system1,11,15,y_arrestedafter2002,False,YES,78,False,0.3933370113372803,399,16,415,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:59:42.067851
+xai/grok-4-1-fast-non-reasoning-latest,system1,17,15,y_arrestedafter2002,False,YES,72,False,0.42730712890625,401,16,417,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}",,2026-02-09T21:59:42.461481
+xai/grok-4-1-fast-non-reasoning-latest,system1,1,15,y_arrestedafter2002,False,YES,68,False,0.5130980014801025,403,16,419,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T21:59:42.889180
+xai/grok-4-1-fast-non-reasoning-latest,system1,4,15,y_arrestedafter2002,False,YES,78,False,0.4115140438079834,405,16,421,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:59:43.402760
+xai/grok-4-1-fast-non-reasoning-latest,system1,5,15,y_arrestedafter2002,True,YES,82,True,0.3662109375,402,16,418,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T21:59:43.814632
+xai/grok-4-1-fast-non-reasoning-latest,system1,2,15,y_arrestedafter2002,False,YES,78,False,0.36229586601257324,395,16,411,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:59:44.181144
+xai/grok-4-1-fast-non-reasoning-latest,system1,24,15,y_arrestedafter2002,False,YES,78,False,0.46425914764404297,401,16,417,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:59:44.543733
+xai/grok-4-1-fast-non-reasoning-latest,system1,3,15,y_arrestedafter2002,False,YES,82,False,0.376986026763916,400,16,416,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T21:59:45.008522
+xai/grok-4-1-fast-non-reasoning-latest,system1,23,15,y_arrestedafter2002,False,NO,78,True,0.39942502975463867,397,16,413,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 78
+}",,2026-02-09T21:59:45.385779
+xai/grok-4-1-fast-non-reasoning-latest,system1,25,15,y_arrestedafter2002,True,YES,78,True,0.3739340305328369,405,16,421,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:59:45.785795
+xai/grok-4-1-fast-non-reasoning-latest,system1,18,15,y_arrestedafter2002,False,YES,82,False,0.3870201110839844,398,16,414,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T21:59:46.160098
+xai/grok-4-1-fast-non-reasoning-latest,system1,28,15,y_arrestedafter2002,True,YES,78,True,0.6759910583496094,400,16,416,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:59:46.547389
+xai/grok-4-1-fast-non-reasoning-latest,system1,20,15,y_arrestedafter2002,True,YES,68,True,0.3711857795715332,403,16,419,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T21:59:47.223720
+xai/grok-4-1-fast-non-reasoning-latest,system1,7,15,y_arrestedafter2002,False,YES,68,False,0.36142420768737793,400,16,416,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T21:59:47.595780
+xai/grok-4-1-fast-non-reasoning-latest,system1,10,15,y_arrestedafter2002,False,NO,78,True,0.44994115829467773,402,16,418,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 78
+}",,2026-02-09T21:59:47.957919
+xai/grok-4-1-fast-non-reasoning-latest,system1,14,15,y_arrestedafter2002,True,YES,88,True,0.4198799133300781,409,16,425,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 88
+}",,2026-02-09T21:59:48.408096
+xai/grok-4-1-fast-non-reasoning-latest,system1,19,15,y_arrestedafter2002,False,YES,88,False,0.4807569980621338,400,16,416,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 88
+}",,2026-02-09T21:59:48.828160
+xai/grok-4-1-fast-non-reasoning-latest,system1,6,15,y_arrestedafter2002,False,YES,78,False,0.3974609375,404,16,420,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:59:49.309082
+xai/grok-4-1-fast-non-reasoning-latest,system1,27,16,y_arrestedafter2002,True,YES,72,True,0.46478724479675293,400,16,416,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}",,2026-02-09T21:59:49.710864
+xai/grok-4-1-fast-non-reasoning-latest,system1,16,16,y_arrestedafter2002,False,YES,78,False,0.5477168560028076,401,16,417,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:59:50.175854
+xai/grok-4-1-fast-non-reasoning-latest,system1,12,16,y_arrestedafter2002,False,YES,72,False,0.38750314712524414,405,16,421,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}",,2026-02-09T21:59:50.723822
+xai/grok-4-1-fast-non-reasoning-latest,system1,22,16,y_arrestedafter2002,True,YES,88,True,0.4162158966064453,401,16,417,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 88
+}",,2026-02-09T21:59:51.111523
+xai/grok-4-1-fast-non-reasoning-latest,system1,8,16,y_arrestedafter2002,False,YES,72,False,0.3408699035644531,405,16,421,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}",,2026-02-09T21:59:51.527920
+xai/grok-4-1-fast-non-reasoning-latest,system1,9,16,y_arrestedafter2002,False,YES,78,False,0.3944132328033447,409,16,425,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:59:51.869239
+xai/grok-4-1-fast-non-reasoning-latest,system1,21,16,y_arrestedafter2002,False,YES,78,False,0.39351320266723633,396,16,412,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:59:52.263853
+xai/grok-4-1-fast-non-reasoning-latest,system1,0,16,y_arrestedafter2002,True,YES,88,True,0.5144138336181641,408,16,424,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 88
+}",,2026-02-09T21:59:52.657557
+xai/grok-4-1-fast-non-reasoning-latest,system1,26,16,y_arrestedafter2002,False,YES,78,False,0.5004069805145264,397,16,413,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:59:53.172229
+xai/grok-4-1-fast-non-reasoning-latest,system1,13,16,y_arrestedafter2002,False,NO,82,True,0.5673701763153076,406,16,422,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 82
+}",,2026-02-09T21:59:53.672836
+xai/grok-4-1-fast-non-reasoning-latest,system1,15,16,y_arrestedafter2002,True,YES,78,True,0.4928441047668457,404,16,420,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:59:54.240526
+xai/grok-4-1-fast-non-reasoning-latest,system1,11,16,y_arrestedafter2002,False,YES,78,False,0.41517019271850586,399,16,415,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:59:54.733786
+xai/grok-4-1-fast-non-reasoning-latest,system1,17,16,y_arrestedafter2002,False,YES,72,False,0.4170658588409424,401,16,417,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}",,2026-02-09T21:59:55.149359
+xai/grok-4-1-fast-non-reasoning-latest,system1,1,16,y_arrestedafter2002,False,YES,68,False,0.571418046951294,403,16,419,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T21:59:55.566745
+xai/grok-4-1-fast-non-reasoning-latest,system1,4,16,y_arrestedafter2002,False,YES,78,False,0.3786637783050537,405,16,421,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:59:56.138451
+xai/grok-4-1-fast-non-reasoning-latest,system1,5,16,y_arrestedafter2002,True,YES,82,True,0.49009203910827637,402,16,418,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T21:59:56.517858
+xai/grok-4-1-fast-non-reasoning-latest,system1,2,16,y_arrestedafter2002,False,YES,78,False,0.43358802795410156,395,16,411,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:59:57.008272
+xai/grok-4-1-fast-non-reasoning-latest,system1,24,16,y_arrestedafter2002,False,YES,78,False,0.3877246379852295,401,16,417,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:59:57.442115
+xai/grok-4-1-fast-non-reasoning-latest,system1,3,16,y_arrestedafter2002,False,YES,78,False,0.35709524154663086,400,16,416,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:59:57.830040
+xai/grok-4-1-fast-non-reasoning-latest,system1,23,16,y_arrestedafter2002,False,NO,78,True,0.3233802318572998,397,16,413,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 78
+}",,2026-02-09T21:59:58.187431
+xai/grok-4-1-fast-non-reasoning-latest,system1,25,16,y_arrestedafter2002,True,YES,82,True,0.41100120544433594,405,16,421,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T21:59:58.511104
+xai/grok-4-1-fast-non-reasoning-latest,system1,18,16,y_arrestedafter2002,False,YES,82,False,0.41187477111816406,398,16,414,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T21:59:58.922433
+xai/grok-4-1-fast-non-reasoning-latest,system1,28,16,y_arrestedafter2002,True,YES,78,True,0.424030065536499,400,16,416,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:59:59.334620
+xai/grok-4-1-fast-non-reasoning-latest,system1,20,16,y_arrestedafter2002,True,YES,68,True,0.44919610023498535,403,16,419,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T21:59:59.758957
+xai/grok-4-1-fast-non-reasoning-latest,system1,7,16,y_arrestedafter2002,False,NO,78,True,0.3936948776245117,400,16,416,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 78
+}",,2026-02-09T22:00:00.208640
+xai/grok-4-1-fast-non-reasoning-latest,system1,10,16,y_arrestedafter2002,False,NO,78,True,0.5827100276947021,402,16,418,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 78
+}",,2026-02-09T22:00:00.602906
+xai/grok-4-1-fast-non-reasoning-latest,system1,14,16,y_arrestedafter2002,True,YES,88,True,0.3703479766845703,409,16,425,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 88
+}",,2026-02-09T22:00:01.186060
+xai/grok-4-1-fast-non-reasoning-latest,system1,19,16,y_arrestedafter2002,False,YES,88,False,0.41648101806640625,400,16,416,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 88
+}",,2026-02-09T22:00:01.556742
+xai/grok-4-1-fast-non-reasoning-latest,system1,6,16,y_arrestedafter2002,False,YES,78,False,0.41542887687683105,404,16,420,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T22:00:01.973607
+xai/grok-4-1-fast-non-reasoning-latest,system1,27,17,y_arrestedafter2002,True,YES,78,True,0.3503408432006836,400,16,416,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T22:00:02.457757
+xai/grok-4-1-fast-non-reasoning-latest,system1,16,17,y_arrestedafter2002,False,YES,78,False,0.421846866607666,401,16,417,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T22:00:02.808348
+xai/grok-4-1-fast-non-reasoning-latest,system1,12,17,y_arrestedafter2002,False,YES,72,False,0.32941269874572754,405,16,421,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}",,2026-02-09T22:00:03.230454
+xai/grok-4-1-fast-non-reasoning-latest,system1,22,17,y_arrestedafter2002,True,YES,88,True,0.5203969478607178,401,16,417,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 88
+}",,2026-02-09T22:00:03.560058
+xai/grok-4-1-fast-non-reasoning-latest,system1,8,17,y_arrestedafter2002,False,YES,78,False,0.3888111114501953,405,16,421,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T22:00:04.080778
+xai/grok-4-1-fast-non-reasoning-latest,system1,9,17,y_arrestedafter2002,False,YES,78,False,0.34741902351379395,409,16,425,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T22:00:04.469826
+xai/grok-4-1-fast-non-reasoning-latest,system1,21,17,y_arrestedafter2002,False,YES,78,False,0.39200901985168457,396,16,412,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T22:00:04.817751
+xai/grok-4-1-fast-non-reasoning-latest,system1,0,17,y_arrestedafter2002,True,YES,88,True,0.40717196464538574,408,16,424,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 88
+}",,2026-02-09T22:00:05.209945
+xai/grok-4-1-fast-non-reasoning-latest,system1,26,17,y_arrestedafter2002,False,YES,78,False,0.4371058940887451,397,16,413,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T22:00:05.617320
+xai/grok-4-1-fast-non-reasoning-latest,system1,13,17,y_arrestedafter2002,False,NO,82,True,0.37104272842407227,406,16,422,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 82
+}",,2026-02-09T22:00:06.054724
+xai/grok-4-1-fast-non-reasoning-latest,system1,15,17,y_arrestedafter2002,True,YES,78,True,0.34571385383605957,404,16,420,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T22:00:06.426006
+xai/grok-4-1-fast-non-reasoning-latest,system1,11,17,y_arrestedafter2002,False,YES,78,False,0.3792099952697754,399,16,415,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T22:00:06.771963
+xai/grok-4-1-fast-non-reasoning-latest,system1,17,17,y_arrestedafter2002,False,YES,78,False,0.3724370002746582,401,16,417,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T22:00:07.151434
+xai/grok-4-1-fast-non-reasoning-latest,system1,1,17,y_arrestedafter2002,False,YES,68,False,0.3850538730621338,403,16,419,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T22:00:07.524106
+xai/grok-4-1-fast-non-reasoning-latest,system1,4,17,y_arrestedafter2002,False,YES,82,False,0.37300992012023926,405,16,421,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T22:00:07.909346
+xai/grok-4-1-fast-non-reasoning-latest,system1,5,17,y_arrestedafter2002,True,YES,82,True,0.33478713035583496,402,16,418,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T22:00:08.282649
+xai/grok-4-1-fast-non-reasoning-latest,system1,2,17,y_arrestedafter2002,False,YES,78,False,0.7592756748199463,395,16,411,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T22:00:08.618155
+xai/grok-4-1-fast-non-reasoning-latest,system1,24,17,y_arrestedafter2002,False,YES,78,False,0.4103891849517822,401,16,417,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T22:00:09.377834
+xai/grok-4-1-fast-non-reasoning-latest,system1,3,17,y_arrestedafter2002,False,YES,82,False,0.44118809700012207,400,16,416,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T22:00:09.788633
+xai/grok-4-1-fast-non-reasoning-latest,system1,23,17,y_arrestedafter2002,False,NO,78,True,0.3288850784301758,397,16,413,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 78
+}",,2026-02-09T22:00:10.230326
+xai/grok-4-1-fast-non-reasoning-latest,system1,25,17,y_arrestedafter2002,True,YES,82,True,0.4318878650665283,405,16,421,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T22:00:10.559613
+xai/grok-4-1-fast-non-reasoning-latest,system1,18,17,y_arrestedafter2002,False,YES,82,False,0.41329312324523926,398,16,414,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T22:00:10.991786
+xai/grok-4-1-fast-non-reasoning-latest,system1,28,17,y_arrestedafter2002,True,YES,78,True,0.49523377418518066,400,16,416,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T22:00:11.405311
+xai/grok-4-1-fast-non-reasoning-latest,system1,20,17,y_arrestedafter2002,True,YES,68,True,0.3674156665802002,403,16,419,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T22:00:11.900832
+xai/grok-4-1-fast-non-reasoning-latest,system1,7,17,y_arrestedafter2002,False,YES,68,False,0.5453667640686035,400,16,416,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T22:00:12.268424
+xai/grok-4-1-fast-non-reasoning-latest,system1,10,17,y_arrestedafter2002,False,NO,78,True,0.42305922508239746,402,16,418,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 78
+}",,2026-02-09T22:00:12.814001
+xai/grok-4-1-fast-non-reasoning-latest,system1,14,17,y_arrestedafter2002,True,YES,92,True,0.3690192699432373,409,16,425,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 92
+}",,2026-02-09T22:00:13.237732
+xai/grok-4-1-fast-non-reasoning-latest,system1,19,17,y_arrestedafter2002,False,YES,88,False,0.5650291442871094,400,16,416,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 88
+}",,2026-02-09T22:00:13.606992
+xai/grok-4-1-fast-non-reasoning-latest,system1,6,17,y_arrestedafter2002,False,YES,78,False,0.352031946182251,404,16,420,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T22:00:14.172441
+xai/grok-4-1-fast-non-reasoning-latest,system1,27,18,y_arrestedafter2002,True,YES,78,True,0.41045403480529785,400,16,416,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T22:00:14.529827
+xai/grok-4-1-fast-non-reasoning-latest,system1,16,18,y_arrestedafter2002,False,YES,78,False,0.5420780181884766,401,16,417,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T22:00:14.940646
+xai/grok-4-1-fast-non-reasoning-latest,system1,12,18,y_arrestedafter2002,False,YES,78,False,0.4488677978515625,405,16,421,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T22:00:15.482980
+xai/grok-4-1-fast-non-reasoning-latest,system1,22,18,y_arrestedafter2002,True,YES,88,True,0.36194705963134766,401,16,417,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 88
+}",,2026-02-09T22:00:15.932173
+xai/grok-4-1-fast-non-reasoning-latest,system1,8,18,y_arrestedafter2002,False,YES,78,False,0.3571481704711914,405,16,421,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T22:00:16.294478
+xai/grok-4-1-fast-non-reasoning-latest,system1,9,18,y_arrestedafter2002,False,YES,78,False,0.4241809844970703,409,16,425,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T22:00:16.651883
+xai/grok-4-1-fast-non-reasoning-latest,system1,21,18,y_arrestedafter2002,False,YES,78,False,0.49356794357299805,396,16,412,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T22:00:17.076365
+xai/grok-4-1-fast-non-reasoning-latest,system1,0,18,y_arrestedafter2002,True,YES,88,True,0.412952184677124,408,16,424,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 88
+}",,2026-02-09T22:00:17.570492
+xai/grok-4-1-fast-non-reasoning-latest,system1,26,18,y_arrestedafter2002,False,YES,78,False,0.4234189987182617,397,16,413,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T22:00:17.983690
+xai/grok-4-1-fast-non-reasoning-latest,system1,13,18,y_arrestedafter2002,False,NO,78,True,0.47875404357910156,406,16,422,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 78
+}",,2026-02-09T22:00:18.407338
+xai/grok-4-1-fast-non-reasoning-latest,system1,15,18,y_arrestedafter2002,True,YES,78,True,0.7282218933105469,404,16,420,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T22:00:18.886434
+xai/grok-4-1-fast-non-reasoning-latest,system1,11,18,y_arrestedafter2002,False,YES,78,False,0.4082157611846924,399,16,415,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T22:00:19.614935
+xai/grok-4-1-fast-non-reasoning-latest,system1,17,18,y_arrestedafter2002,False,YES,78,False,0.36695075035095215,401,16,417,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T22:00:20.023466
+xai/grok-4-1-fast-non-reasoning-latest,system1,1,18,y_arrestedafter2002,False,YES,68,False,0.35854601860046387,403,16,419,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T22:00:20.390649
+xai/grok-4-1-fast-non-reasoning-latest,system1,4,18,y_arrestedafter2002,False,YES,78,False,0.4112677574157715,405,16,421,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T22:00:20.749396
+xai/grok-4-1-fast-non-reasoning-latest,system1,5,18,y_arrestedafter2002,True,YES,82,True,0.3651697635650635,402,16,418,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T22:00:21.160887
+xai/grok-4-1-fast-non-reasoning-latest,system1,2,18,y_arrestedafter2002,False,YES,78,False,0.37233877182006836,395,16,411,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T22:00:21.526241
+xai/grok-4-1-fast-non-reasoning-latest,system1,24,18,y_arrestedafter2002,False,YES,78,False,0.380695104598999,401,16,417,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T22:00:21.899307
+xai/grok-4-1-fast-non-reasoning-latest,system1,3,18,y_arrestedafter2002,False,YES,82,False,0.4065549373626709,400,16,416,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T22:00:22.280432
+xai/grok-4-1-fast-non-reasoning-latest,system1,23,18,y_arrestedafter2002,False,NO,78,True,0.39495277404785156,397,16,413,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 78
+}",,2026-02-09T22:00:22.687213
+xai/grok-4-1-fast-non-reasoning-latest,system1,25,18,y_arrestedafter2002,True,YES,78,True,0.5280880928039551,405,16,421,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T22:00:23.082408
+xai/grok-4-1-fast-non-reasoning-latest,system1,18,18,y_arrestedafter2002,False,YES,82,False,0.46255993843078613,398,16,414,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T22:00:23.610874
+xai/grok-4-1-fast-non-reasoning-latest,system1,28,18,y_arrestedafter2002,True,YES,78,True,0.39771604537963867,400,16,416,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T22:00:24.073685
+xai/grok-4-1-fast-non-reasoning-latest,system1,20,18,y_arrestedafter2002,True,YES,68,True,0.40784478187561035,403,16,419,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T22:00:24.471614
+xai/grok-4-1-fast-non-reasoning-latest,system1,7,18,y_arrestedafter2002,False,NO,78,True,0.3628807067871094,400,16,416,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 78
+}",,2026-02-09T22:00:24.879683
+xai/grok-4-1-fast-non-reasoning-latest,system1,10,18,y_arrestedafter2002,False,NO,78,True,0.3852198123931885,402,16,418,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 78
+}",,2026-02-09T22:00:25.242763
+xai/grok-4-1-fast-non-reasoning-latest,system1,14,18,y_arrestedafter2002,True,YES,92,True,0.3830389976501465,409,16,425,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 92
+}",,2026-02-09T22:00:25.628197
+xai/grok-4-1-fast-non-reasoning-latest,system1,19,18,y_arrestedafter2002,False,YES,88,False,0.4188578128814697,400,16,416,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 88
+}",,2026-02-09T22:00:26.012333
+xai/grok-4-1-fast-non-reasoning-latest,system1,6,18,y_arrestedafter2002,False,YES,78,False,0.36780309677124023,404,16,420,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T22:00:26.431503
+xai/grok-4-1-fast-non-reasoning-latest,system1,27,19,y_arrestedafter2002,True,YES,78,True,0.3589291572570801,400,16,416,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T22:00:26.804851
+xai/grok-4-1-fast-non-reasoning-latest,system1,16,19,y_arrestedafter2002,False,YES,78,False,0.4016399383544922,401,16,417,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T22:00:27.163980
+xai/grok-4-1-fast-non-reasoning-latest,system1,12,19,y_arrestedafter2002,False,YES,78,False,0.4895467758178711,405,16,421,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T22:00:27.565907
+xai/grok-4-1-fast-non-reasoning-latest,system1,22,19,y_arrestedafter2002,True,YES,88,True,0.47185301780700684,401,16,417,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 88
+}",,2026-02-09T22:00:28.055663
+xai/grok-4-1-fast-non-reasoning-latest,system1,8,19,y_arrestedafter2002,False,YES,72,False,0.41306209564208984,405,16,421,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}",,2026-02-09T22:00:28.527937
+xai/grok-4-1-fast-non-reasoning-latest,system1,9,19,y_arrestedafter2002,False,YES,78,False,0.47559499740600586,409,16,425,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T22:00:28.941402
+xai/grok-4-1-fast-non-reasoning-latest,system1,21,19,y_arrestedafter2002,False,YES,78,False,0.41925716400146484,396,16,412,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T22:00:29.417225
+xai/grok-4-1-fast-non-reasoning-latest,system1,0,19,y_arrestedafter2002,True,YES,88,True,0.3812270164489746,408,16,424,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 88
+}",,2026-02-09T22:00:29.836694
+xai/grok-4-1-fast-non-reasoning-latest,system1,26,19,y_arrestedafter2002,False,YES,78,False,0.504666805267334,397,16,413,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T22:00:30.218865
+xai/grok-4-1-fast-non-reasoning-latest,system1,13,19,y_arrestedafter2002,False,NO,82,True,0.384857177734375,406,16,422,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 82
+}",,2026-02-09T22:00:30.723902
+xai/grok-4-1-fast-non-reasoning-latest,system1,15,19,y_arrestedafter2002,True,YES,78,True,0.5355052947998047,404,16,420,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T22:00:31.109031
+xai/grok-4-1-fast-non-reasoning-latest,system1,11,19,y_arrestedafter2002,False,YES,78,False,0.4241158962249756,399,16,415,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T22:00:31.644889
+xai/grok-4-1-fast-non-reasoning-latest,system1,17,19,y_arrestedafter2002,False,YES,72,False,0.5538859367370605,401,16,417,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}",,2026-02-09T22:00:32.069382
+xai/grok-4-1-fast-non-reasoning-latest,system1,1,19,y_arrestedafter2002,False,YES,68,False,0.3768601417541504,403,16,419,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T22:00:32.623511
+xai/grok-4-1-fast-non-reasoning-latest,system1,4,19,y_arrestedafter2002,False,YES,78,False,0.3981149196624756,405,16,421,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T22:00:33.000564
+xai/grok-4-1-fast-non-reasoning-latest,system1,5,19,y_arrestedafter2002,True,YES,82,True,0.47072625160217285,402,16,418,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T22:00:33.398876
+xai/grok-4-1-fast-non-reasoning-latest,system1,2,19,y_arrestedafter2002,False,YES,78,False,0.3813450336456299,395,16,411,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T22:00:33.869851
+xai/grok-4-1-fast-non-reasoning-latest,system1,24,19,y_arrestedafter2002,False,YES,78,False,0.39145398139953613,401,16,417,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T22:00:34.251447
+xai/grok-4-1-fast-non-reasoning-latest,system1,3,19,y_arrestedafter2002,False,YES,78,False,0.3630797863006592,400,16,416,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T22:00:34.643402
+xai/grok-4-1-fast-non-reasoning-latest,system1,23,19,y_arrestedafter2002,False,NO,82,True,0.48375487327575684,397,16,413,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 82
+}",,2026-02-09T22:00:35.006718
+xai/grok-4-1-fast-non-reasoning-latest,system1,25,19,y_arrestedafter2002,True,YES,78,True,0.37352871894836426,405,16,421,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T22:00:35.490719
+xai/grok-4-1-fast-non-reasoning-latest,system1,18,19,y_arrestedafter2002,False,YES,82,False,0.5172090530395508,398,16,414,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T22:00:35.864613
+xai/grok-4-1-fast-non-reasoning-latest,system1,28,19,y_arrestedafter2002,True,YES,78,True,0.4279208183288574,400,16,416,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T22:00:36.382140
+xai/grok-4-1-fast-non-reasoning-latest,system1,20,19,y_arrestedafter2002,True,YES,68,True,0.561805009841919,403,16,419,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T22:00:36.810323
+xai/grok-4-1-fast-non-reasoning-latest,system1,7,19,y_arrestedafter2002,False,YES,68,False,0.5080747604370117,400,16,416,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T22:00:37.372558
+xai/grok-4-1-fast-non-reasoning-latest,system1,10,19,y_arrestedafter2002,False,NO,78,True,0.47626495361328125,402,16,418,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 78
+}",,2026-02-09T22:00:37.881135
+xai/grok-4-1-fast-non-reasoning-latest,system1,14,19,y_arrestedafter2002,True,YES,88,True,0.6127429008483887,409,16,425,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 88
+}",,2026-02-09T22:00:38.358005
+xai/grok-4-1-fast-non-reasoning-latest,system1,19,19,y_arrestedafter2002,False,YES,88,False,0.5126049518585205,400,16,416,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 88
+}",,2026-02-09T22:00:38.971079
+xai/grok-4-1-fast-non-reasoning-latest,system1,6,19,y_arrestedafter2002,False,YES,78,False,0.4080171585083008,404,16,420,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T22:00:39.484836

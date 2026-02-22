@@ -1,0 +1,2 @@
+model_name,prompt_type,total_cases,valid_responses,success_rate,accuracy,precision,recall,f1_score,true_positive,true_negative,false_positive,false_negative,avg_confidence,avg_response_time,avg_tokens
+gpt-5-mini,system1,300,300,1.0,0.5666666666666667,0.44761904761904764,0.8703703703703703,0.5911949685534591,94,76,116,14,77.33333333333333,4.277100202242534,720.0366666666666

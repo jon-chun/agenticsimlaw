@@ -1,0 +1,2 @@
+model_name,prompt_type,total_cases,valid_responses,success_rate,accuracy,precision,recall,f1_score,true_positive,true_negative,false_positive,false_negative,avg_confidence,avg_response_time,avg_tokens
+xai/grok-4-1-fast-non-reasoning-latest,system1,580,580,1.0,0.42586206896551726,0.3508771929824561,1.0,0.5194805194805194,180,67,333,0,78.57241379310345,0.5073713902769418,417.9310344827586

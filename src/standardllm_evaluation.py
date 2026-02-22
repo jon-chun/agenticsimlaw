@@ -354,12 +354,21 @@ def call_litellm(
 
     start_time = time.time()
     try:
-        response = litellm.completion(
-            model=model,
-            messages=[{"role": "user", "content": prompt}],
-            temperature=temperature,
-            max_tokens=max_tokens,
-        )
+        if model in THINKING_MODELS:
+            # Reasoning models reject temperature and max_tokens;
+            # use max_completion_tokens (covers reasoning + output)
+            response = litellm.completion(
+                model=model,
+                messages=[{"role": "user", "content": prompt}],
+                max_completion_tokens=max_tokens * THINKING_MODEL_TOKEN_MULTIPLIER,
+            )
+        else:
+            response = litellm.completion(
+                model=model,
+                messages=[{"role": "user", "content": prompt}],
+                temperature=temperature,
+                max_tokens=max_tokens,
+            )
         elapsed = time.time() - start_time
 
         content = response.choices[0].message.content or ""
@@ -377,6 +386,14 @@ def call_litellm(
 
 
 COMMERCIAL_PREFIXES = ('gpt-', 'o1-', 'o3-', 'o4-', 'claude-', 'chatgpt-')
+
+# Reasoning/thinking models that reject temperature and max_tokens params
+THINKING_MODELS = frozenset({
+    "gpt-5-mini", "gpt-5", "gpt-5.1", "gpt-5.2", "gpt-5-nano",
+    "gpt-5-pro", "gpt-5.1-pro", "gpt-5.2-pro",
+    "o3", "o3-pro", "o4-mini", "o1", "o1-pro",
+})
+THINKING_MODEL_TOKEN_MULTIPLIER = 16
 
 
 def call_llm(

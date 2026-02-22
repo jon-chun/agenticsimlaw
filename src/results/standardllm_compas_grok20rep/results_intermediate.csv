@@ -1,0 +1,2401 @@
+model_name,prompt_type,case_id,repeat_id,dataset,ground_truth,prediction,confidence,is_correct,response_time_sec,prompt_tokens,completion_tokens,total_tokens,raw_response,error,timestamp
+xai/grok-4-1-fast-non-reasoning-latest,system1,27,0,two_year_recid,True,YES,68,True,0.5116889476776123,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T21:55:44.231594
+xai/grok-4-1-fast-non-reasoning-latest,system1,15,0,two_year_recid,True,NO,78,False,0.4547131061553955,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 78
+}",,2026-02-09T21:55:44.743473
+xai/grok-4-1-fast-non-reasoning-latest,system1,23,0,two_year_recid,False,YES,92,False,0.49770593643188477,315,16,331,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 92
+}",,2026-02-09T21:55:45.198348
+xai/grok-4-1-fast-non-reasoning-latest,system1,17,0,two_year_recid,False,NO,82,True,0.9495010375976562,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 82
+}",,2026-02-09T21:55:45.696419
+xai/grok-4-1-fast-non-reasoning-latest,system1,8,0,two_year_recid,True,YES,72,True,0.4446091651916504,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}",,2026-02-09T21:55:46.646272
+xai/grok-4-1-fast-non-reasoning-latest,system1,9,0,two_year_recid,True,YES,95,True,0.6077470779418945,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 95
+}",,2026-02-09T21:55:47.091306
+xai/grok-4-1-fast-non-reasoning-latest,system1,28,0,two_year_recid,False,YES,78,False,0.3972022533416748,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:55:47.699386
+xai/grok-4-1-fast-non-reasoning-latest,system1,24,0,two_year_recid,False,NO,95,True,0.496204137802124,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 95
+}",,2026-02-09T21:55:48.096786
+xai/grok-4-1-fast-non-reasoning-latest,system1,12,0,two_year_recid,False,YES,68,False,0.38229799270629883,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T21:55:48.593176
+xai/grok-4-1-fast-non-reasoning-latest,system1,0,0,two_year_recid,False,YES,72,False,0.5508191585540771,315,16,331,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}",,2026-02-09T21:55:48.975974
+xai/grok-4-1-fast-non-reasoning-latest,system1,4,0,two_year_recid,True,YES,68,True,0.49977898597717285,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T21:55:49.527018
+xai/grok-4-1-fast-non-reasoning-latest,system1,16,0,two_year_recid,True,YES,95,True,0.4227731227874756,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 95
+}",,2026-02-09T21:55:50.027118
+xai/grok-4-1-fast-non-reasoning-latest,system1,5,0,two_year_recid,False,NO,98,True,0.46706104278564453,316,16,332,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 98
+}",,2026-02-09T21:55:50.450099
+xai/grok-4-1-fast-non-reasoning-latest,system1,13,0,two_year_recid,True,YES,78,True,0.4725940227508545,315,16,331,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:55:50.917343
+xai/grok-4-1-fast-non-reasoning-latest,system1,11,0,two_year_recid,True,YES,92,True,0.45773983001708984,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 92
+}",,2026-02-09T21:55:51.390238
+xai/grok-4-1-fast-non-reasoning-latest,system1,22,0,two_year_recid,False,NO,92,True,0.4074580669403076,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 92
+}",,2026-02-09T21:55:51.848225
+xai/grok-4-1-fast-non-reasoning-latest,system1,1,0,two_year_recid,False,NO,95,True,0.4636709690093994,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 95
+}",,2026-02-09T21:55:52.255883
+xai/grok-4-1-fast-non-reasoning-latest,system1,2,0,two_year_recid,False,NO,92,True,0.4894101619720459,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 92
+}",,2026-02-09T21:55:52.719786
+xai/grok-4-1-fast-non-reasoning-latest,system1,25,0,two_year_recid,True,YES,88,True,0.5149939060211182,315,16,331,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 88
+}",,2026-02-09T21:55:53.209515
+xai/grok-4-1-fast-non-reasoning-latest,system1,3,0,two_year_recid,True,YES,82,True,0.47025299072265625,315,16,331,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T21:55:53.725125
+xai/grok-4-1-fast-non-reasoning-latest,system1,21,0,two_year_recid,False,YES,82,False,0.41452717781066895,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T21:55:54.195798
+xai/grok-4-1-fast-non-reasoning-latest,system1,26,0,two_year_recid,True,YES,92,True,0.5096981525421143,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 92
+}",,2026-02-09T21:55:54.610566
+xai/grok-4-1-fast-non-reasoning-latest,system1,18,0,two_year_recid,False,YES,78,False,0.47146010398864746,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:55:55.120556
+xai/grok-4-1-fast-non-reasoning-latest,system1,29,0,two_year_recid,True,YES,92,True,0.37560391426086426,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 92
+}",,2026-02-09T21:55:55.592364
+xai/grok-4-1-fast-non-reasoning-latest,system1,20,0,two_year_recid,True,NO,82,False,0.47940802574157715,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 82
+}",,2026-02-09T21:55:55.968313
+xai/grok-4-1-fast-non-reasoning-latest,system1,7,0,two_year_recid,False,NO,95,True,0.46972012519836426,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 95
+}",,2026-02-09T21:55:56.448142
+xai/grok-4-1-fast-non-reasoning-latest,system1,10,0,two_year_recid,False,NO,98,True,0.3914058208465576,316,16,332,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 98
+}",,2026-02-09T21:55:56.918273
+xai/grok-4-1-fast-non-reasoning-latest,system1,14,0,two_year_recid,False,YES,82,False,0.5623881816864014,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T21:55:57.309976
+xai/grok-4-1-fast-non-reasoning-latest,system1,19,0,two_year_recid,False,NO,92,True,0.5435309410095215,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 92
+}",,2026-02-09T21:55:57.872848
+xai/grok-4-1-fast-non-reasoning-latest,system1,6,0,two_year_recid,True,YES,92,True,0.5152409076690674,315,16,331,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 92
+}",,2026-02-09T21:55:58.417631
+xai/grok-4-1-fast-non-reasoning-latest,system1,27,1,two_year_recid,True,YES,68,True,0.4863901138305664,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T21:55:58.938047
+xai/grok-4-1-fast-non-reasoning-latest,system1,15,1,two_year_recid,True,NO,78,False,0.44304895401000977,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 78
+}",,2026-02-09T21:55:59.424887
+xai/grok-4-1-fast-non-reasoning-latest,system1,23,1,two_year_recid,False,YES,92,False,0.572850227355957,315,16,331,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 92
+}",,2026-02-09T21:55:59.868325
+xai/grok-4-1-fast-non-reasoning-latest,system1,17,1,two_year_recid,False,NO,85,True,0.5800020694732666,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 85
+}",,2026-02-09T21:56:00.441463
+xai/grok-4-1-fast-non-reasoning-latest,system1,8,1,two_year_recid,True,YES,68,True,2.9135820865631104,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T21:56:01.021826
+xai/grok-4-1-fast-non-reasoning-latest,system1,9,1,two_year_recid,True,YES,95,True,0.5006351470947266,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 95
+}",,2026-02-09T21:56:03.935653
+xai/grok-4-1-fast-non-reasoning-latest,system1,28,1,two_year_recid,False,YES,72,False,0.36658287048339844,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}",,2026-02-09T21:56:04.436708
+xai/grok-4-1-fast-non-reasoning-latest,system1,24,1,two_year_recid,False,NO,95,True,0.43758583068847656,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 95
+}",,2026-02-09T21:56:04.803751
+xai/grok-4-1-fast-non-reasoning-latest,system1,12,1,two_year_recid,False,YES,68,False,0.3922700881958008,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T21:56:05.241581
+xai/grok-4-1-fast-non-reasoning-latest,system1,0,1,two_year_recid,False,YES,68,False,0.3811047077178955,315,16,331,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T21:56:05.634930
+xai/grok-4-1-fast-non-reasoning-latest,system1,4,1,two_year_recid,True,YES,68,True,0.3853480815887451,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T21:56:06.016356
+xai/grok-4-1-fast-non-reasoning-latest,system1,16,1,two_year_recid,True,YES,95,True,0.4321780204772949,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 95
+}",,2026-02-09T21:56:06.401943
+xai/grok-4-1-fast-non-reasoning-latest,system1,5,1,two_year_recid,False,NO,95,True,0.4247169494628906,316,16,332,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 95
+}",,2026-02-09T21:56:06.834286
+xai/grok-4-1-fast-non-reasoning-latest,system1,13,1,two_year_recid,True,YES,72,True,0.5754320621490479,315,16,331,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}",,2026-02-09T21:56:07.259182
+xai/grok-4-1-fast-non-reasoning-latest,system1,11,1,two_year_recid,True,YES,92,True,0.40749192237854004,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 92
+}",,2026-02-09T21:56:07.834930
+xai/grok-4-1-fast-non-reasoning-latest,system1,22,1,two_year_recid,False,NO,88,True,0.5932457447052002,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 88
+}",,2026-02-09T21:56:08.242653
+xai/grok-4-1-fast-non-reasoning-latest,system1,1,1,two_year_recid,False,NO,98,True,0.4103870391845703,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 98
+}",,2026-02-09T21:56:08.836279
+xai/grok-4-1-fast-non-reasoning-latest,system1,2,1,two_year_recid,False,NO,92,True,0.4784691333770752,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 92
+}",,2026-02-09T21:56:09.246917
+xai/grok-4-1-fast-non-reasoning-latest,system1,25,1,two_year_recid,True,YES,88,True,0.5031960010528564,315,16,331,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 88
+}",,2026-02-09T21:56:09.725739
+xai/grok-4-1-fast-non-reasoning-latest,system1,3,1,two_year_recid,True,YES,78,True,0.4535248279571533,315,16,331,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:56:10.229424
+xai/grok-4-1-fast-non-reasoning-latest,system1,21,1,two_year_recid,False,YES,78,False,0.46539807319641113,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:56:10.683455
+xai/grok-4-1-fast-non-reasoning-latest,system1,26,1,two_year_recid,True,YES,92,True,0.43992114067077637,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 92
+}",,2026-02-09T21:56:11.149046
+xai/grok-4-1-fast-non-reasoning-latest,system1,18,1,two_year_recid,False,YES,82,False,0.4249131679534912,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T21:56:11.589250
+xai/grok-4-1-fast-non-reasoning-latest,system1,29,1,two_year_recid,True,YES,95,True,0.5269889831542969,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 95
+}",,2026-02-09T21:56:12.014431
+xai/grok-4-1-fast-non-reasoning-latest,system1,20,1,two_year_recid,True,NO,82,False,0.6564991474151611,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 82
+}",,2026-02-09T21:56:12.541644
+xai/grok-4-1-fast-non-reasoning-latest,system1,7,1,two_year_recid,False,NO,98,True,0.5571160316467285,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 98
+}",,2026-02-09T21:56:13.198357
+xai/grok-4-1-fast-non-reasoning-latest,system1,10,1,two_year_recid,False,NO,98,True,0.5543689727783203,316,16,332,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 98
+}",,2026-02-09T21:56:13.755971
+xai/grok-4-1-fast-non-reasoning-latest,system1,14,1,two_year_recid,False,YES,82,False,0.4469780921936035,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T21:56:14.310606
+xai/grok-4-1-fast-non-reasoning-latest,system1,19,1,two_year_recid,False,NO,92,True,0.6073341369628906,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 92
+}",,2026-02-09T21:56:14.757966
+xai/grok-4-1-fast-non-reasoning-latest,system1,6,1,two_year_recid,True,YES,92,True,0.4664180278778076,315,16,331,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 92
+}",,2026-02-09T21:56:15.366094
+xai/grok-4-1-fast-non-reasoning-latest,system1,27,2,two_year_recid,True,YES,68,True,0.36625099182128906,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T21:56:15.836842
+xai/grok-4-1-fast-non-reasoning-latest,system1,15,2,two_year_recid,True,NO,78,False,0.4539921283721924,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 78
+}",,2026-02-09T21:56:16.203294
+xai/grok-4-1-fast-non-reasoning-latest,system1,23,2,two_year_recid,False,YES,92,False,0.40302300453186035,315,16,331,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 92
+}",,2026-02-09T21:56:16.657601
+xai/grok-4-1-fast-non-reasoning-latest,system1,17,2,two_year_recid,False,NO,82,True,0.3656601905822754,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 82
+}",,2026-02-09T21:56:17.060901
+xai/grok-4-1-fast-non-reasoning-latest,system1,8,2,two_year_recid,True,YES,68,True,0.39158177375793457,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T21:56:17.426870
+xai/grok-4-1-fast-non-reasoning-latest,system1,9,2,two_year_recid,True,YES,95,True,0.4189012050628662,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 95
+}",,2026-02-09T21:56:17.818717
+xai/grok-4-1-fast-non-reasoning-latest,system1,28,2,two_year_recid,False,YES,72,False,0.43707799911499023,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}",,2026-02-09T21:56:18.237786
+xai/grok-4-1-fast-non-reasoning-latest,system1,24,2,two_year_recid,False,NO,95,True,0.4449589252471924,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 95
+}",,2026-02-09T21:56:18.675216
+xai/grok-4-1-fast-non-reasoning-latest,system1,12,2,two_year_recid,False,YES,68,False,0.4219939708709717,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T21:56:19.120402
+xai/grok-4-1-fast-non-reasoning-latest,system1,0,2,two_year_recid,False,YES,68,False,0.4314887523651123,315,16,331,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T21:56:19.543094
+xai/grok-4-1-fast-non-reasoning-latest,system1,4,2,two_year_recid,True,YES,68,True,0.5082440376281738,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T21:56:19.974784
+xai/grok-4-1-fast-non-reasoning-latest,system1,16,2,two_year_recid,True,YES,95,True,2.0785510540008545,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 95
+}",,2026-02-09T21:56:20.483206
+xai/grok-4-1-fast-non-reasoning-latest,system1,5,2,two_year_recid,False,NO,98,True,0.43228912353515625,316,16,332,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 98
+}",,2026-02-09T21:56:22.562067
+xai/grok-4-1-fast-non-reasoning-latest,system1,13,2,two_year_recid,True,YES,78,True,0.4365818500518799,315,16,331,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:56:22.994810
+xai/grok-4-1-fast-non-reasoning-latest,system1,11,2,two_year_recid,True,YES,92,True,0.3584010601043701,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 92
+}",,2026-02-09T21:56:23.431607
+xai/grok-4-1-fast-non-reasoning-latest,system1,22,2,two_year_recid,False,NO,88,True,0.46250295639038086,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 88
+}",,2026-02-09T21:56:23.790412
+xai/grok-4-1-fast-non-reasoning-latest,system1,1,2,two_year_recid,False,NO,95,True,0.47338294982910156,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 95
+}",,2026-02-09T21:56:24.253140
+xai/grok-4-1-fast-non-reasoning-latest,system1,2,2,two_year_recid,False,NO,92,True,0.45859479904174805,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 92
+}",,2026-02-09T21:56:24.726870
+xai/grok-4-1-fast-non-reasoning-latest,system1,25,2,two_year_recid,True,YES,88,True,0.420421838760376,315,16,331,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 88
+}",,2026-02-09T21:56:25.185657
+xai/grok-4-1-fast-non-reasoning-latest,system1,3,2,two_year_recid,True,YES,82,True,0.5735580921173096,315,16,331,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T21:56:25.606468
+xai/grok-4-1-fast-non-reasoning-latest,system1,21,2,two_year_recid,False,YES,82,False,0.476593017578125,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T21:56:26.180173
+xai/grok-4-1-fast-non-reasoning-latest,system1,26,2,two_year_recid,True,YES,92,True,0.5115478038787842,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 92
+}",,2026-02-09T21:56:26.657143
+xai/grok-4-1-fast-non-reasoning-latest,system1,18,2,two_year_recid,False,YES,78,False,0.4156308174133301,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:56:27.169170
+xai/grok-4-1-fast-non-reasoning-latest,system1,29,2,two_year_recid,True,YES,95,True,0.49028992652893066,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 95
+}",,2026-02-09T21:56:27.585042
+xai/grok-4-1-fast-non-reasoning-latest,system1,20,2,two_year_recid,True,NO,82,False,1.2500989437103271,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 82
+}",,2026-02-09T21:56:28.075500
+xai/grok-4-1-fast-non-reasoning-latest,system1,7,2,two_year_recid,False,NO,95,True,0.5068390369415283,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 95
+}",,2026-02-09T21:56:29.325754
+xai/grok-4-1-fast-non-reasoning-latest,system1,10,2,two_year_recid,False,NO,98,True,0.6093418598175049,316,16,332,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 98
+}",,2026-02-09T21:56:29.832900
+xai/grok-4-1-fast-non-reasoning-latest,system1,14,2,two_year_recid,False,YES,82,False,0.5125360488891602,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T21:56:30.442505
+xai/grok-4-1-fast-non-reasoning-latest,system1,19,2,two_year_recid,False,NO,92,True,0.3862910270690918,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 92
+}",,2026-02-09T21:56:30.955353
+xai/grok-4-1-fast-non-reasoning-latest,system1,6,2,two_year_recid,True,YES,92,True,0.4878098964691162,315,16,331,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 92
+}",,2026-02-09T21:56:31.342102
+xai/grok-4-1-fast-non-reasoning-latest,system1,27,3,two_year_recid,True,YES,68,True,0.45348405838012695,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T21:56:31.832031
+xai/grok-4-1-fast-non-reasoning-latest,system1,15,3,two_year_recid,True,NO,78,False,0.43700313568115234,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 78
+}",,2026-02-09T21:56:32.285662
+xai/grok-4-1-fast-non-reasoning-latest,system1,23,3,two_year_recid,False,YES,92,False,0.40952396392822266,315,16,331,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 92
+}",,2026-02-09T21:56:32.723009
+xai/grok-4-1-fast-non-reasoning-latest,system1,17,3,two_year_recid,False,NO,82,True,0.3829822540283203,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 82
+}",,2026-02-09T21:56:33.132979
+xai/grok-4-1-fast-non-reasoning-latest,system1,8,3,two_year_recid,True,YES,68,True,0.37444210052490234,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T21:56:33.516294
+xai/grok-4-1-fast-non-reasoning-latest,system1,9,3,two_year_recid,True,YES,95,True,0.44309496879577637,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 95
+}",,2026-02-09T21:56:33.891077
+xai/grok-4-1-fast-non-reasoning-latest,system1,28,3,two_year_recid,False,YES,72,False,0.37796711921691895,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}",,2026-02-09T21:56:34.334359
+xai/grok-4-1-fast-non-reasoning-latest,system1,24,3,two_year_recid,False,NO,95,True,0.5071890354156494,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 95
+}",,2026-02-09T21:56:34.712732
+xai/grok-4-1-fast-non-reasoning-latest,system1,12,3,two_year_recid,False,YES,68,False,0.4483911991119385,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T21:56:35.220108
+xai/grok-4-1-fast-non-reasoning-latest,system1,0,3,two_year_recid,False,YES,72,False,0.39223718643188477,315,16,331,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}",,2026-02-09T21:56:35.668934
+xai/grok-4-1-fast-non-reasoning-latest,system1,4,3,two_year_recid,True,YES,68,True,0.36481213569641113,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T21:56:36.061317
+xai/grok-4-1-fast-non-reasoning-latest,system1,16,3,two_year_recid,True,YES,95,True,0.4300239086151123,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 95
+}",,2026-02-09T21:56:36.426540
+xai/grok-4-1-fast-non-reasoning-latest,system1,5,3,two_year_recid,False,NO,95,True,0.4461979866027832,316,16,332,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 95
+}",,2026-02-09T21:56:36.856767
+xai/grok-4-1-fast-non-reasoning-latest,system1,13,3,two_year_recid,True,YES,78,True,0.4239649772644043,315,16,331,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:56:37.303144
+xai/grok-4-1-fast-non-reasoning-latest,system1,11,3,two_year_recid,True,YES,88,True,0.5639290809631348,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 88
+}",,2026-02-09T21:56:37.727546
+xai/grok-4-1-fast-non-reasoning-latest,system1,22,3,two_year_recid,False,NO,88,True,0.44165825843811035,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 88
+}",,2026-02-09T21:56:38.291744
+xai/grok-4-1-fast-non-reasoning-latest,system1,1,3,two_year_recid,False,NO,95,True,0.3894033432006836,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 95
+}",,2026-02-09T21:56:38.733618
+xai/grok-4-1-fast-non-reasoning-latest,system1,2,3,two_year_recid,False,NO,92,True,2.2065250873565674,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 92
+}",,2026-02-09T21:56:39.123195
+xai/grok-4-1-fast-non-reasoning-latest,system1,25,3,two_year_recid,True,YES,88,True,0.3797781467437744,315,16,331,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 88
+}",,2026-02-09T21:56:41.329958
+xai/grok-4-1-fast-non-reasoning-latest,system1,3,3,two_year_recid,True,YES,78,True,0.4187169075012207,315,16,331,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:56:41.711206
+xai/grok-4-1-fast-non-reasoning-latest,system1,21,3,two_year_recid,False,YES,82,False,0.4456791877746582,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T21:56:42.130382
+xai/grok-4-1-fast-non-reasoning-latest,system1,26,3,two_year_recid,True,YES,92,True,0.48804211616516113,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 92
+}",,2026-02-09T21:56:42.576274
+xai/grok-4-1-fast-non-reasoning-latest,system1,18,3,two_year_recid,False,YES,82,False,0.45759081840515137,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T21:56:43.064725
+xai/grok-4-1-fast-non-reasoning-latest,system1,29,3,two_year_recid,True,YES,95,True,0.4400787353515625,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 95
+}",,2026-02-09T21:56:43.522513
+xai/grok-4-1-fast-non-reasoning-latest,system1,20,3,two_year_recid,True,NO,82,False,0.4234659671783447,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 82
+}",,2026-02-09T21:56:43.962894
+xai/grok-4-1-fast-non-reasoning-latest,system1,7,3,two_year_recid,False,NO,95,True,0.3951549530029297,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 95
+}",,2026-02-09T21:56:44.386534
+xai/grok-4-1-fast-non-reasoning-latest,system1,10,3,two_year_recid,False,NO,98,True,0.4074881076812744,316,16,332,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 98
+}",,2026-02-09T21:56:44.781831
+xai/grok-4-1-fast-non-reasoning-latest,system1,14,3,two_year_recid,False,YES,82,False,0.5135602951049805,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T21:56:45.189557
+xai/grok-4-1-fast-non-reasoning-latest,system1,19,3,two_year_recid,False,NO,92,True,0.43074798583984375,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 92
+}",,2026-02-09T21:56:45.703484
+xai/grok-4-1-fast-non-reasoning-latest,system1,6,3,two_year_recid,True,YES,92,True,0.4299130439758301,315,16,331,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 92
+}",,2026-02-09T21:56:46.135782
+xai/grok-4-1-fast-non-reasoning-latest,system1,27,4,two_year_recid,True,YES,68,True,0.4919748306274414,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T21:56:46.569065
+xai/grok-4-1-fast-non-reasoning-latest,system1,15,4,two_year_recid,True,NO,78,False,0.47347497940063477,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 78
+}",,2026-02-09T21:56:47.061494
+xai/grok-4-1-fast-non-reasoning-latest,system1,23,4,two_year_recid,False,YES,92,False,0.5360400676727295,315,16,331,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 92
+}",,2026-02-09T21:56:47.535346
+xai/grok-4-1-fast-non-reasoning-latest,system1,17,4,two_year_recid,False,NO,82,True,0.5330791473388672,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 82
+}",,2026-02-09T21:56:48.071593
+xai/grok-4-1-fast-non-reasoning-latest,system1,8,4,two_year_recid,True,YES,68,True,0.4241950511932373,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T21:56:48.604956
+xai/grok-4-1-fast-non-reasoning-latest,system1,9,4,two_year_recid,True,YES,92,True,0.4261629581451416,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 92
+}",,2026-02-09T21:56:49.029468
+xai/grok-4-1-fast-non-reasoning-latest,system1,28,4,two_year_recid,False,YES,78,False,0.4386169910430908,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:56:49.455982
+xai/grok-4-1-fast-non-reasoning-latest,system1,24,4,two_year_recid,False,NO,98,True,0.38370704650878906,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 98
+}",,2026-02-09T21:56:49.895029
+xai/grok-4-1-fast-non-reasoning-latest,system1,12,4,two_year_recid,False,YES,68,False,0.4677751064300537,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T21:56:50.278937
+xai/grok-4-1-fast-non-reasoning-latest,system1,0,4,two_year_recid,False,YES,68,False,0.3958859443664551,315,16,331,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T21:56:50.747416
+xai/grok-4-1-fast-non-reasoning-latest,system1,4,4,two_year_recid,True,YES,68,True,0.41090989112854004,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T21:56:51.143533
+xai/grok-4-1-fast-non-reasoning-latest,system1,16,4,two_year_recid,True,YES,95,True,0.530095100402832,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 95
+}",,2026-02-09T21:56:51.554681
+xai/grok-4-1-fast-non-reasoning-latest,system1,5,4,two_year_recid,False,NO,95,True,0.47951507568359375,316,16,332,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 95
+}",,2026-02-09T21:56:52.085064
+xai/grok-4-1-fast-non-reasoning-latest,system1,13,4,two_year_recid,True,YES,72,True,0.4824180603027344,315,16,331,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}",,2026-02-09T21:56:52.564958
+xai/grok-4-1-fast-non-reasoning-latest,system1,11,4,two_year_recid,True,YES,92,True,0.6229088306427002,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 92
+}",,2026-02-09T21:56:53.047555
+xai/grok-4-1-fast-non-reasoning-latest,system1,22,4,two_year_recid,False,NO,92,True,0.4121711254119873,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 92
+}",,2026-02-09T21:56:53.670628
+xai/grok-4-1-fast-non-reasoning-latest,system1,1,4,two_year_recid,False,NO,95,True,0.5276041030883789,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 95
+}",,2026-02-09T21:56:54.082947
+xai/grok-4-1-fast-non-reasoning-latest,system1,2,4,two_year_recid,False,NO,92,True,0.39806509017944336,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 92
+}",,2026-02-09T21:56:54.610797
+xai/grok-4-1-fast-non-reasoning-latest,system1,25,4,two_year_recid,True,YES,88,True,0.6604788303375244,315,16,331,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 88
+}",,2026-02-09T21:56:55.009142
+xai/grok-4-1-fast-non-reasoning-latest,system1,3,4,two_year_recid,True,YES,78,True,0.35889220237731934,315,16,331,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:56:55.670577
+xai/grok-4-1-fast-non-reasoning-latest,system1,21,4,two_year_recid,False,YES,82,False,0.5235471725463867,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T21:56:56.029711
+xai/grok-4-1-fast-non-reasoning-latest,system1,26,4,two_year_recid,True,YES,92,True,0.5172340869903564,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 92
+}",,2026-02-09T21:56:56.553660
+xai/grok-4-1-fast-non-reasoning-latest,system1,18,4,two_year_recid,False,YES,78,False,0.41705918312072754,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:56:57.071423
+xai/grok-4-1-fast-non-reasoning-latest,system1,29,4,two_year_recid,True,YES,92,True,0.5016589164733887,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 92
+}",,2026-02-09T21:56:57.488946
+xai/grok-4-1-fast-non-reasoning-latest,system1,20,4,two_year_recid,True,NO,78,False,0.4956231117248535,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 78
+}",,2026-02-09T21:56:57.991002
+xai/grok-4-1-fast-non-reasoning-latest,system1,7,4,two_year_recid,False,NO,98,True,0.45163416862487793,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 98
+}",,2026-02-09T21:56:58.486837
+xai/grok-4-1-fast-non-reasoning-latest,system1,10,4,two_year_recid,False,NO,98,True,0.5586309432983398,316,16,332,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 98
+}",,2026-02-09T21:56:58.938659
+xai/grok-4-1-fast-non-reasoning-latest,system1,14,4,two_year_recid,False,YES,82,False,0.45384979248046875,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T21:56:59.497672
+xai/grok-4-1-fast-non-reasoning-latest,system1,19,4,two_year_recid,False,NO,92,True,0.4026329517364502,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 92
+}",,2026-02-09T21:56:59.951961
+xai/grok-4-1-fast-non-reasoning-latest,system1,6,4,two_year_recid,True,YES,92,True,0.39752793312072754,315,16,331,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 92
+}",,2026-02-09T21:57:00.355570
+xai/grok-4-1-fast-non-reasoning-latest,system1,27,5,two_year_recid,True,YES,68,True,0.4368152618408203,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T21:57:00.755650
+xai/grok-4-1-fast-non-reasoning-latest,system1,15,5,two_year_recid,True,NO,72,False,0.41374802589416504,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 72
+}",,2026-02-09T21:57:01.192687
+xai/grok-4-1-fast-non-reasoning-latest,system1,23,5,two_year_recid,False,YES,92,False,0.4927339553833008,315,16,331,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 92
+}",,2026-02-09T21:57:01.606678
+xai/grok-4-1-fast-non-reasoning-latest,system1,17,5,two_year_recid,False,NO,82,True,0.45966625213623047,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 82
+}",,2026-02-09T21:57:02.099727
+xai/grok-4-1-fast-non-reasoning-latest,system1,8,5,two_year_recid,True,YES,68,True,0.4340550899505615,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T21:57:02.559628
+xai/grok-4-1-fast-non-reasoning-latest,system1,9,5,two_year_recid,True,YES,95,True,0.3751389980316162,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 95
+}",,2026-02-09T21:57:02.994145
+xai/grok-4-1-fast-non-reasoning-latest,system1,28,5,two_year_recid,False,YES,72,False,0.39870786666870117,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}",,2026-02-09T21:57:03.369720
+xai/grok-4-1-fast-non-reasoning-latest,system1,24,5,two_year_recid,False,NO,95,True,0.46703314781188965,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 95
+}",,2026-02-09T21:57:03.768643
+xai/grok-4-1-fast-non-reasoning-latest,system1,12,5,two_year_recid,False,YES,68,False,0.6327791213989258,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T21:57:04.235951
+xai/grok-4-1-fast-non-reasoning-latest,system1,0,5,two_year_recid,False,YES,72,False,0.49343013763427734,315,16,331,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}",,2026-02-09T21:57:04.869265
+xai/grok-4-1-fast-non-reasoning-latest,system1,4,5,two_year_recid,True,YES,65,True,0.3790290355682373,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 65
+}",,2026-02-09T21:57:05.363118
+xai/grok-4-1-fast-non-reasoning-latest,system1,16,5,two_year_recid,True,YES,95,True,0.4982028007507324,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 95
+}",,2026-02-09T21:57:05.742364
+xai/grok-4-1-fast-non-reasoning-latest,system1,5,5,two_year_recid,False,NO,95,True,0.4526848793029785,316,16,332,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 95
+}",,2026-02-09T21:57:06.240998
+xai/grok-4-1-fast-non-reasoning-latest,system1,13,5,two_year_recid,True,YES,78,True,0.5206179618835449,315,16,331,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:57:06.693969
+xai/grok-4-1-fast-non-reasoning-latest,system1,11,5,two_year_recid,True,YES,92,True,0.3717226982116699,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 92
+}",,2026-02-09T21:57:07.214998
+xai/grok-4-1-fast-non-reasoning-latest,system1,22,5,two_year_recid,False,NO,92,True,0.39775824546813965,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 92
+}",,2026-02-09T21:57:07.586949
+xai/grok-4-1-fast-non-reasoning-latest,system1,1,5,two_year_recid,False,NO,98,True,0.4517350196838379,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 98
+}",,2026-02-09T21:57:07.984873
+xai/grok-4-1-fast-non-reasoning-latest,system1,2,5,two_year_recid,False,NO,92,True,0.4342670440673828,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 92
+}",,2026-02-09T21:57:08.436958
+xai/grok-4-1-fast-non-reasoning-latest,system1,25,5,two_year_recid,True,YES,88,True,0.4190669059753418,315,16,331,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 88
+}",,2026-02-09T21:57:08.871429
+xai/grok-4-1-fast-non-reasoning-latest,system1,3,5,two_year_recid,True,YES,82,True,0.44936084747314453,315,16,331,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T21:57:09.291439
+xai/grok-4-1-fast-non-reasoning-latest,system1,21,5,two_year_recid,False,YES,82,False,0.4364919662475586,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T21:57:09.741023
+xai/grok-4-1-fast-non-reasoning-latest,system1,26,5,two_year_recid,True,YES,92,True,0.46802306175231934,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 92
+}",,2026-02-09T21:57:10.177899
+xai/grok-4-1-fast-non-reasoning-latest,system1,18,5,two_year_recid,False,YES,78,False,0.5531857013702393,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:57:10.646116
+xai/grok-4-1-fast-non-reasoning-latest,system1,29,5,two_year_recid,True,YES,95,True,0.36464715003967285,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 95
+}",,2026-02-09T21:57:11.199580
+xai/grok-4-1-fast-non-reasoning-latest,system1,20,5,two_year_recid,True,NO,85,False,0.5240850448608398,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 85
+}",,2026-02-09T21:57:11.564395
+xai/grok-4-1-fast-non-reasoning-latest,system1,7,5,two_year_recid,False,NO,98,True,0.47005796432495117,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 98
+}",,2026-02-09T21:57:12.088619
+xai/grok-4-1-fast-non-reasoning-latest,system1,10,5,two_year_recid,False,NO,95,True,0.4458580017089844,316,16,332,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 95
+}",,2026-02-09T21:57:12.559145
+xai/grok-4-1-fast-non-reasoning-latest,system1,14,5,two_year_recid,False,YES,82,False,0.44730091094970703,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T21:57:13.005427
+xai/grok-4-1-fast-non-reasoning-latest,system1,19,5,two_year_recid,False,NO,92,True,0.5095560550689697,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 92
+}",,2026-02-09T21:57:13.453170
+xai/grok-4-1-fast-non-reasoning-latest,system1,6,5,two_year_recid,True,YES,92,True,0.5136168003082275,315,16,331,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 92
+}",,2026-02-09T21:57:13.963486
+xai/grok-4-1-fast-non-reasoning-latest,system1,27,6,two_year_recid,True,YES,68,True,0.38219308853149414,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T21:57:14.483240
+xai/grok-4-1-fast-non-reasoning-latest,system1,15,6,two_year_recid,True,NO,78,False,0.40680503845214844,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 78
+}",,2026-02-09T21:57:14.865641
+xai/grok-4-1-fast-non-reasoning-latest,system1,23,6,two_year_recid,False,YES,92,False,0.4330019950866699,315,16,331,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 92
+}",,2026-02-09T21:57:15.272780
+xai/grok-4-1-fast-non-reasoning-latest,system1,17,6,two_year_recid,False,YES,65,False,1.4027469158172607,315,16,331,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 65
+}",,2026-02-09T21:57:15.706231
+xai/grok-4-1-fast-non-reasoning-latest,system1,8,6,two_year_recid,True,YES,68,True,0.734015941619873,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T21:57:17.109410
+xai/grok-4-1-fast-non-reasoning-latest,system1,9,6,two_year_recid,True,YES,95,True,0.8320848941802979,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 95
+}",,2026-02-09T21:57:17.843619
+xai/grok-4-1-fast-non-reasoning-latest,system1,28,6,two_year_recid,False,YES,72,False,0.5528073310852051,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}",,2026-02-09T21:57:18.676130
+xai/grok-4-1-fast-non-reasoning-latest,system1,24,6,two_year_recid,False,NO,98,True,0.41137194633483887,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 98
+}",,2026-02-09T21:57:19.229413
+xai/grok-4-1-fast-non-reasoning-latest,system1,12,6,two_year_recid,False,YES,68,False,0.38051795959472656,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T21:57:19.641254
+xai/grok-4-1-fast-non-reasoning-latest,system1,0,6,two_year_recid,False,YES,68,False,0.49569177627563477,315,16,331,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T21:57:20.022867
+xai/grok-4-1-fast-non-reasoning-latest,system1,4,6,two_year_recid,True,YES,65,True,1.1256701946258545,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 65
+}",,2026-02-09T21:57:20.519001
+xai/grok-4-1-fast-non-reasoning-latest,system1,16,6,two_year_recid,True,YES,95,True,0.37340807914733887,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 95
+}",,2026-02-09T21:57:21.645149
+xai/grok-4-1-fast-non-reasoning-latest,system1,5,6,two_year_recid,False,NO,95,True,0.44574928283691406,316,16,332,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 95
+}",,2026-02-09T21:57:22.018949
+xai/grok-4-1-fast-non-reasoning-latest,system1,13,6,two_year_recid,True,YES,72,True,0.6201736927032471,315,16,331,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}",,2026-02-09T21:57:22.465174
+xai/grok-4-1-fast-non-reasoning-latest,system1,11,6,two_year_recid,True,YES,88,True,0.47388219833374023,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 88
+}",,2026-02-09T21:57:23.085645
+xai/grok-4-1-fast-non-reasoning-latest,system1,22,6,two_year_recid,False,NO,92,True,0.44428205490112305,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 92
+}",,2026-02-09T21:57:23.560125
+xai/grok-4-1-fast-non-reasoning-latest,system1,1,6,two_year_recid,False,NO,98,True,0.40653395652770996,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 98
+}",,2026-02-09T21:57:24.004778
+xai/grok-4-1-fast-non-reasoning-latest,system1,2,6,two_year_recid,False,NO,92,True,0.5087089538574219,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 92
+}",,2026-02-09T21:57:24.411803
+xai/grok-4-1-fast-non-reasoning-latest,system1,25,6,two_year_recid,True,YES,88,True,0.5140957832336426,315,16,331,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 88
+}",,2026-02-09T21:57:24.920746
+xai/grok-4-1-fast-non-reasoning-latest,system1,3,6,two_year_recid,True,YES,82,True,0.5097548961639404,315,16,331,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T21:57:25.436237
+xai/grok-4-1-fast-non-reasoning-latest,system1,21,6,two_year_recid,False,YES,82,False,0.4142780303955078,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T21:57:25.946428
+xai/grok-4-1-fast-non-reasoning-latest,system1,26,6,two_year_recid,True,YES,92,True,0.5035419464111328,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 92
+}",,2026-02-09T21:57:26.361110
+xai/grok-4-1-fast-non-reasoning-latest,system1,18,6,two_year_recid,False,YES,78,False,0.3503599166870117,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:57:26.864868
+xai/grok-4-1-fast-non-reasoning-latest,system1,29,6,two_year_recid,True,YES,95,True,0.47092318534851074,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 95
+}",,2026-02-09T21:57:27.215597
+xai/grok-4-1-fast-non-reasoning-latest,system1,20,6,two_year_recid,True,NO,78,False,0.47650980949401855,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 78
+}",,2026-02-09T21:57:27.686935
+xai/grok-4-1-fast-non-reasoning-latest,system1,7,6,two_year_recid,False,NO,95,True,0.5510878562927246,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 95
+}",,2026-02-09T21:57:28.163797
+xai/grok-4-1-fast-non-reasoning-latest,system1,10,6,two_year_recid,False,NO,95,True,0.437558650970459,316,16,332,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 95
+}",,2026-02-09T21:57:28.715280
+xai/grok-4-1-fast-non-reasoning-latest,system1,14,6,two_year_recid,False,YES,78,False,0.5455031394958496,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:57:29.153172
+xai/grok-4-1-fast-non-reasoning-latest,system1,19,6,two_year_recid,False,NO,92,True,0.41086578369140625,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 92
+}",,2026-02-09T21:57:29.698853
+xai/grok-4-1-fast-non-reasoning-latest,system1,6,6,two_year_recid,True,YES,92,True,0.5220761299133301,315,16,331,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 92
+}",,2026-02-09T21:57:30.110188
+xai/grok-4-1-fast-non-reasoning-latest,system1,27,7,two_year_recid,True,YES,68,True,0.534214973449707,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T21:57:30.635873
+xai/grok-4-1-fast-non-reasoning-latest,system1,15,7,two_year_recid,True,NO,78,False,0.5108358860015869,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 78
+}",,2026-02-09T21:57:31.170382
+xai/grok-4-1-fast-non-reasoning-latest,system1,23,7,two_year_recid,False,YES,92,False,0.4654381275177002,315,16,331,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 92
+}",,2026-02-09T21:57:31.681597
+xai/grok-4-1-fast-non-reasoning-latest,system1,17,7,two_year_recid,False,NO,82,True,0.4335458278656006,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 82
+}",,2026-02-09T21:57:32.147240
+xai/grok-4-1-fast-non-reasoning-latest,system1,8,7,two_year_recid,True,YES,68,True,0.3979761600494385,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T21:57:32.581123
+xai/grok-4-1-fast-non-reasoning-latest,system1,9,7,two_year_recid,True,YES,95,True,0.5462279319763184,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 95
+}",,2026-02-09T21:57:32.979319
+xai/grok-4-1-fast-non-reasoning-latest,system1,28,7,two_year_recid,False,YES,78,False,0.47473692893981934,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:57:33.525946
+xai/grok-4-1-fast-non-reasoning-latest,system1,24,7,two_year_recid,False,NO,95,True,0.48885416984558105,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 95
+}",,2026-02-09T21:57:34.000892
+xai/grok-4-1-fast-non-reasoning-latest,system1,12,7,two_year_recid,False,YES,68,False,0.36704015731811523,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T21:57:34.489952
+xai/grok-4-1-fast-non-reasoning-latest,system1,0,7,two_year_recid,False,YES,72,False,0.941608190536499,315,16,331,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}",,2026-02-09T21:57:34.857404
+xai/grok-4-1-fast-non-reasoning-latest,system1,4,7,two_year_recid,True,YES,68,True,0.6958868503570557,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T21:57:35.799263
+xai/grok-4-1-fast-non-reasoning-latest,system1,16,7,two_year_recid,True,YES,95,True,0.4248330593109131,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 95
+}",,2026-02-09T21:57:36.496206
+xai/grok-4-1-fast-non-reasoning-latest,system1,5,7,two_year_recid,False,NO,95,True,0.4280829429626465,316,16,332,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 95
+}",,2026-02-09T21:57:36.921366
+xai/grok-4-1-fast-non-reasoning-latest,system1,13,7,two_year_recid,True,YES,78,True,0.42172789573669434,315,16,331,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:57:37.349590
+xai/grok-4-1-fast-non-reasoning-latest,system1,11,7,two_year_recid,True,YES,92,True,0.5669331550598145,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 92
+}",,2026-02-09T21:57:37.771722
+xai/grok-4-1-fast-non-reasoning-latest,system1,22,7,two_year_recid,False,NO,92,True,0.5109210014343262,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 92
+}",,2026-02-09T21:57:38.339135
+xai/grok-4-1-fast-non-reasoning-latest,system1,1,7,two_year_recid,False,NO,98,True,0.6135499477386475,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 98
+}",,2026-02-09T21:57:38.850534
+xai/grok-4-1-fast-non-reasoning-latest,system1,2,7,two_year_recid,False,NO,92,True,0.639423131942749,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 92
+}",,2026-02-09T21:57:39.464589
+xai/grok-4-1-fast-non-reasoning-latest,system1,25,7,two_year_recid,True,YES,88,True,0.4856998920440674,315,16,331,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 88
+}",,2026-02-09T21:57:40.104231
+xai/grok-4-1-fast-non-reasoning-latest,system1,3,7,two_year_recid,True,YES,82,True,0.397291898727417,315,16,331,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T21:57:40.591033
+xai/grok-4-1-fast-non-reasoning-latest,system1,21,7,two_year_recid,False,YES,82,False,0.49309515953063965,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T21:57:40.988549
+xai/grok-4-1-fast-non-reasoning-latest,system1,26,7,two_year_recid,True,YES,92,True,0.44718313217163086,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 92
+}",,2026-02-09T21:57:41.481968
+xai/grok-4-1-fast-non-reasoning-latest,system1,18,7,two_year_recid,False,YES,78,False,0.37053513526916504,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:57:41.929365
+xai/grok-4-1-fast-non-reasoning-latest,system1,29,7,two_year_recid,True,YES,95,True,0.47966790199279785,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 95
+}",,2026-02-09T21:57:42.300304
+xai/grok-4-1-fast-non-reasoning-latest,system1,20,7,two_year_recid,True,NO,82,False,0.4540989398956299,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 82
+}",,2026-02-09T21:57:42.780395
+xai/grok-4-1-fast-non-reasoning-latest,system1,7,7,two_year_recid,False,NO,98,True,0.4590640068054199,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 98
+}",,2026-02-09T21:57:43.234836
+xai/grok-4-1-fast-non-reasoning-latest,system1,10,7,two_year_recid,False,NO,95,True,0.4838080406188965,316,16,332,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 95
+}",,2026-02-09T21:57:43.694290
+xai/grok-4-1-fast-non-reasoning-latest,system1,14,7,two_year_recid,False,YES,82,False,0.43011999130249023,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T21:57:44.178334
+xai/grok-4-1-fast-non-reasoning-latest,system1,19,7,two_year_recid,False,NO,92,True,0.48477792739868164,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 92
+}",,2026-02-09T21:57:44.608696
+xai/grok-4-1-fast-non-reasoning-latest,system1,6,7,two_year_recid,True,YES,92,True,0.5181777477264404,315,16,331,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 92
+}",,2026-02-09T21:57:45.094085
+xai/grok-4-1-fast-non-reasoning-latest,system1,27,8,two_year_recid,True,YES,68,True,0.4913489818572998,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T21:57:45.619904
+xai/grok-4-1-fast-non-reasoning-latest,system1,15,8,two_year_recid,True,NO,72,False,0.48859596252441406,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 72
+}",,2026-02-09T21:57:46.111458
+xai/grok-4-1-fast-non-reasoning-latest,system1,23,8,two_year_recid,False,YES,92,False,0.38251519203186035,315,16,331,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 92
+}",,2026-02-09T21:57:46.600253
+xai/grok-4-1-fast-non-reasoning-latest,system1,17,8,two_year_recid,False,NO,82,True,0.3608989715576172,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 82
+}",,2026-02-09T21:57:46.982938
+xai/grok-4-1-fast-non-reasoning-latest,system1,8,8,two_year_recid,True,YES,68,True,0.4151759147644043,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T21:57:47.344095
+xai/grok-4-1-fast-non-reasoning-latest,system1,9,8,two_year_recid,True,YES,95,True,0.5614769458770752,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 95
+}",,2026-02-09T21:57:47.759583
+xai/grok-4-1-fast-non-reasoning-latest,system1,28,8,two_year_recid,False,YES,78,False,0.45937013626098633,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:57:48.321282
+xai/grok-4-1-fast-non-reasoning-latest,system1,24,8,two_year_recid,False,NO,98,True,0.5099079608917236,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 98
+}",,2026-02-09T21:57:48.780871
+xai/grok-4-1-fast-non-reasoning-latest,system1,12,8,two_year_recid,False,YES,68,False,0.37247586250305176,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T21:57:49.291034
+xai/grok-4-1-fast-non-reasoning-latest,system1,0,8,two_year_recid,False,YES,68,False,0.4337029457092285,315,16,331,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T21:57:49.664031
+xai/grok-4-1-fast-non-reasoning-latest,system1,4,8,two_year_recid,True,YES,68,True,0.47120213508605957,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T21:57:50.097967
+xai/grok-4-1-fast-non-reasoning-latest,system1,16,8,two_year_recid,True,YES,95,True,0.520733118057251,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 95
+}",,2026-02-09T21:57:50.569493
+xai/grok-4-1-fast-non-reasoning-latest,system1,5,8,two_year_recid,False,NO,95,True,0.40170907974243164,316,16,332,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 95
+}",,2026-02-09T21:57:51.090428
+xai/grok-4-1-fast-non-reasoning-latest,system1,13,8,two_year_recid,True,YES,72,True,0.4030029773712158,315,16,331,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}",,2026-02-09T21:57:51.492467
+xai/grok-4-1-fast-non-reasoning-latest,system1,11,8,two_year_recid,True,YES,88,True,0.44849300384521484,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 88
+}",,2026-02-09T21:57:51.895832
+xai/grok-4-1-fast-non-reasoning-latest,system1,22,8,two_year_recid,False,NO,88,True,0.400540828704834,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 88
+}",,2026-02-09T21:57:52.344564
+xai/grok-4-1-fast-non-reasoning-latest,system1,1,8,two_year_recid,False,NO,95,True,0.43569302558898926,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 95
+}",,2026-02-09T21:57:52.745374
+xai/grok-4-1-fast-non-reasoning-latest,system1,2,8,two_year_recid,False,NO,92,True,0.4571998119354248,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 92
+}",,2026-02-09T21:57:53.181294
+xai/grok-4-1-fast-non-reasoning-latest,system1,25,8,two_year_recid,True,YES,88,True,0.4677410125732422,315,16,331,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 88
+}",,2026-02-09T21:57:53.638687
+xai/grok-4-1-fast-non-reasoning-latest,system1,3,8,two_year_recid,True,YES,82,True,0.40871405601501465,315,16,331,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T21:57:54.106673
+xai/grok-4-1-fast-non-reasoning-latest,system1,21,8,two_year_recid,False,YES,82,False,0.4322330951690674,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T21:57:54.515633
+xai/grok-4-1-fast-non-reasoning-latest,system1,26,8,two_year_recid,True,YES,92,True,0.4005699157714844,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 92
+}",,2026-02-09T21:57:54.948151
+xai/grok-4-1-fast-non-reasoning-latest,system1,18,8,two_year_recid,False,YES,78,False,0.4076688289642334,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:57:55.349047
+xai/grok-4-1-fast-non-reasoning-latest,system1,29,8,two_year_recid,True,YES,92,True,0.3896219730377197,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 92
+}",,2026-02-09T21:57:55.756958
+xai/grok-4-1-fast-non-reasoning-latest,system1,20,8,two_year_recid,True,NO,78,False,0.35939884185791016,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 78
+}",,2026-02-09T21:57:56.146761
+xai/grok-4-1-fast-non-reasoning-latest,system1,7,8,two_year_recid,False,NO,98,True,0.43891477584838867,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 98
+}",,2026-02-09T21:57:56.506336
+xai/grok-4-1-fast-non-reasoning-latest,system1,10,8,two_year_recid,False,NO,98,True,0.4355189800262451,316,16,332,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 98
+}",,2026-02-09T21:57:56.945432
+xai/grok-4-1-fast-non-reasoning-latest,system1,14,8,two_year_recid,False,YES,82,False,0.39731812477111816,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T21:57:57.381134
+xai/grok-4-1-fast-non-reasoning-latest,system1,19,8,two_year_recid,False,NO,92,True,0.43759989738464355,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 92
+}",,2026-02-09T21:57:57.778789
+xai/grok-4-1-fast-non-reasoning-latest,system1,6,8,two_year_recid,True,YES,92,True,0.8056728839874268,315,16,331,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 92
+}",,2026-02-09T21:57:58.216859
+xai/grok-4-1-fast-non-reasoning-latest,system1,27,9,two_year_recid,True,YES,68,True,0.4055609703063965,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T21:57:59.025696
+xai/grok-4-1-fast-non-reasoning-latest,system1,15,9,two_year_recid,True,NO,78,False,0.40906715393066406,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 78
+}",,2026-02-09T21:57:59.431596
+xai/grok-4-1-fast-non-reasoning-latest,system1,23,9,two_year_recid,False,YES,92,False,0.5104668140411377,315,16,331,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 92
+}",,2026-02-09T21:57:59.840989
+xai/grok-4-1-fast-non-reasoning-latest,system1,17,9,two_year_recid,False,NO,82,True,0.4111311435699463,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 82
+}",,2026-02-09T21:58:00.351665
+xai/grok-4-1-fast-non-reasoning-latest,system1,8,9,two_year_recid,True,YES,68,True,0.38857603073120117,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T21:58:00.763104
+xai/grok-4-1-fast-non-reasoning-latest,system1,9,9,two_year_recid,True,YES,95,True,0.8379006385803223,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 95
+}",,2026-02-09T21:58:01.151868
+xai/grok-4-1-fast-non-reasoning-latest,system1,28,9,two_year_recid,False,YES,78,False,0.3906700611114502,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:58:01.989974
+xai/grok-4-1-fast-non-reasoning-latest,system1,24,9,two_year_recid,False,NO,95,True,0.39113593101501465,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 95
+}",,2026-02-09T21:58:02.380844
+xai/grok-4-1-fast-non-reasoning-latest,system1,12,9,two_year_recid,False,YES,68,False,0.4307990074157715,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T21:58:02.772163
+xai/grok-4-1-fast-non-reasoning-latest,system1,0,9,two_year_recid,False,YES,72,False,0.425631046295166,315,16,331,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}",,2026-02-09T21:58:03.203638
+xai/grok-4-1-fast-non-reasoning-latest,system1,4,9,two_year_recid,True,YES,68,True,0.44065308570861816,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T21:58:03.629427
+xai/grok-4-1-fast-non-reasoning-latest,system1,16,9,two_year_recid,True,YES,92,True,0.39771509170532227,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 92
+}",,2026-02-09T21:58:04.070266
+xai/grok-4-1-fast-non-reasoning-latest,system1,5,9,two_year_recid,False,NO,95,True,0.4328577518463135,316,16,332,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 95
+}",,2026-02-09T21:58:04.468190
+xai/grok-4-1-fast-non-reasoning-latest,system1,13,9,two_year_recid,True,YES,78,True,0.5487339496612549,315,16,331,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:58:04.901241
+xai/grok-4-1-fast-non-reasoning-latest,system1,11,9,two_year_recid,True,YES,92,True,0.4887816905975342,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 92
+}",,2026-02-09T21:58:05.450197
+xai/grok-4-1-fast-non-reasoning-latest,system1,22,9,two_year_recid,False,NO,88,True,0.4899561405181885,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 88
+}",,2026-02-09T21:58:05.939299
+xai/grok-4-1-fast-non-reasoning-latest,system1,1,9,two_year_recid,False,NO,95,True,0.4523448944091797,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 95
+}",,2026-02-09T21:58:06.429578
+xai/grok-4-1-fast-non-reasoning-latest,system1,2,9,two_year_recid,False,NO,92,True,0.6396660804748535,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 92
+}",,2026-02-09T21:58:06.882149
+xai/grok-4-1-fast-non-reasoning-latest,system1,25,9,two_year_recid,True,YES,88,True,0.40660715103149414,315,16,331,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 88
+}",,2026-02-09T21:58:07.522009
+xai/grok-4-1-fast-non-reasoning-latest,system1,3,9,two_year_recid,True,YES,82,True,0.47692298889160156,315,16,331,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T21:58:07.929063
+xai/grok-4-1-fast-non-reasoning-latest,system1,21,9,two_year_recid,False,YES,82,False,0.4173099994659424,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T21:58:08.406186
+xai/grok-4-1-fast-non-reasoning-latest,system1,26,9,two_year_recid,True,YES,92,True,0.4671630859375,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 92
+}",,2026-02-09T21:58:08.823656
+xai/grok-4-1-fast-non-reasoning-latest,system1,18,9,two_year_recid,False,YES,82,False,0.39200472831726074,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T21:58:09.291057
+xai/grok-4-1-fast-non-reasoning-latest,system1,29,9,two_year_recid,True,YES,95,True,0.4017930030822754,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 95
+}",,2026-02-09T21:58:09.683258
+xai/grok-4-1-fast-non-reasoning-latest,system1,20,9,two_year_recid,True,NO,82,False,1.7138128280639648,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 82
+}",,2026-02-09T21:58:10.085258
+xai/grok-4-1-fast-non-reasoning-latest,system1,7,9,two_year_recid,False,NO,98,True,0.4051063060760498,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 98
+}",,2026-02-09T21:58:11.799311
+xai/grok-4-1-fast-non-reasoning-latest,system1,10,9,two_year_recid,False,NO,95,True,0.702988862991333,316,16,332,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 95
+}",,2026-02-09T21:58:12.204631
+xai/grok-4-1-fast-non-reasoning-latest,system1,14,9,two_year_recid,False,YES,82,False,0.4332921504974365,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T21:58:12.907876
+xai/grok-4-1-fast-non-reasoning-latest,system1,19,9,two_year_recid,False,NO,95,True,0.40196728706359863,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 95
+}",,2026-02-09T21:58:13.341372
+xai/grok-4-1-fast-non-reasoning-latest,system1,6,9,two_year_recid,True,YES,92,True,0.5095460414886475,315,16,331,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 92
+}",,2026-02-09T21:58:13.743795
+xai/grok-4-1-fast-non-reasoning-latest,system1,27,10,two_year_recid,True,YES,68,True,0.4608910083770752,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T21:58:14.255530
+xai/grok-4-1-fast-non-reasoning-latest,system1,15,10,two_year_recid,True,NO,78,False,0.47585320472717285,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 78
+}",,2026-02-09T21:58:14.716587
+xai/grok-4-1-fast-non-reasoning-latest,system1,23,10,two_year_recid,False,YES,92,False,0.4706740379333496,315,16,331,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 92
+}",,2026-02-09T21:58:15.192622
+xai/grok-4-1-fast-non-reasoning-latest,system1,17,10,two_year_recid,False,NO,82,True,0.47173619270324707,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 82
+}",,2026-02-09T21:58:15.663534
+xai/grok-4-1-fast-non-reasoning-latest,system1,8,10,two_year_recid,True,YES,68,True,0.4966928958892822,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T21:58:16.135454
+xai/grok-4-1-fast-non-reasoning-latest,system1,9,10,two_year_recid,True,YES,95,True,0.5039100646972656,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 95
+}",,2026-02-09T21:58:16.632409
+xai/grok-4-1-fast-non-reasoning-latest,system1,28,10,two_year_recid,False,YES,72,False,0.4934847354888916,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}",,2026-02-09T21:58:17.136514
+xai/grok-4-1-fast-non-reasoning-latest,system1,24,10,two_year_recid,False,NO,98,True,0.5816659927368164,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 98
+}",,2026-02-09T21:58:17.630253
+xai/grok-4-1-fast-non-reasoning-latest,system1,12,10,two_year_recid,False,YES,68,False,0.38375306129455566,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T21:58:18.212153
+xai/grok-4-1-fast-non-reasoning-latest,system1,0,10,two_year_recid,False,YES,68,False,0.5743560791015625,315,16,331,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T21:58:18.596371
+xai/grok-4-1-fast-non-reasoning-latest,system1,4,10,two_year_recid,True,YES,68,True,0.5772929191589355,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T21:58:19.170948
+xai/grok-4-1-fast-non-reasoning-latest,system1,16,10,two_year_recid,True,YES,95,True,0.46340417861938477,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 95
+}",,2026-02-09T21:58:19.748491
+xai/grok-4-1-fast-non-reasoning-latest,system1,5,10,two_year_recid,False,NO,95,True,0.41017985343933105,316,16,332,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 95
+}",,2026-02-09T21:58:20.212128
+xai/grok-4-1-fast-non-reasoning-latest,system1,13,10,two_year_recid,True,YES,78,True,0.44623613357543945,315,16,331,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:58:20.622501
+xai/grok-4-1-fast-non-reasoning-latest,system1,11,10,two_year_recid,True,YES,88,True,0.4033682346343994,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 88
+}",,2026-02-09T21:58:21.068915
+xai/grok-4-1-fast-non-reasoning-latest,system1,22,10,two_year_recid,False,NO,92,True,0.429976224899292,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 92
+}",,2026-02-09T21:58:21.472465
+xai/grok-4-1-fast-non-reasoning-latest,system1,1,10,two_year_recid,False,NO,95,True,0.6458539962768555,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 95
+}",,2026-02-09T21:58:21.902667
+xai/grok-4-1-fast-non-reasoning-latest,system1,2,10,two_year_recid,False,NO,92,True,0.41117382049560547,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 92
+}",,2026-02-09T21:58:22.548721
+xai/grok-4-1-fast-non-reasoning-latest,system1,25,10,two_year_recid,True,YES,88,True,0.3649280071258545,315,16,331,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 88
+}",,2026-02-09T21:58:22.960076
+xai/grok-4-1-fast-non-reasoning-latest,system1,3,10,two_year_recid,True,YES,82,True,0.35606908798217773,315,16,331,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T21:58:23.325845
+xai/grok-4-1-fast-non-reasoning-latest,system1,21,10,two_year_recid,False,YES,78,False,0.4165339469909668,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:58:23.682182
+xai/grok-4-1-fast-non-reasoning-latest,system1,26,10,two_year_recid,True,YES,92,True,0.5356936454772949,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 92
+}",,2026-02-09T21:58:24.098922
+xai/grok-4-1-fast-non-reasoning-latest,system1,18,10,two_year_recid,False,YES,82,False,0.3457789421081543,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T21:58:24.634913
+xai/grok-4-1-fast-non-reasoning-latest,system1,29,10,two_year_recid,True,YES,95,True,0.40778493881225586,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 95
+}",,2026-02-09T21:58:24.980897
+xai/grok-4-1-fast-non-reasoning-latest,system1,20,10,two_year_recid,True,NO,82,False,0.7594151496887207,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 82
+}",,2026-02-09T21:58:25.388967
+xai/grok-4-1-fast-non-reasoning-latest,system1,7,10,two_year_recid,False,NO,95,True,0.3566169738769531,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 95
+}",,2026-02-09T21:58:26.148600
+xai/grok-4-1-fast-non-reasoning-latest,system1,10,10,two_year_recid,False,NO,95,True,0.49951624870300293,316,16,332,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 95
+}",,2026-02-09T21:58:26.505474
+xai/grok-4-1-fast-non-reasoning-latest,system1,14,10,two_year_recid,False,YES,82,False,0.4290170669555664,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T21:58:27.005177
+xai/grok-4-1-fast-non-reasoning-latest,system1,19,10,two_year_recid,False,NO,92,True,0.41652607917785645,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 92
+}",,2026-02-09T21:58:27.434396
+xai/grok-4-1-fast-non-reasoning-latest,system1,6,10,two_year_recid,True,YES,92,True,0.39255404472351074,315,16,331,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 92
+}",,2026-02-09T21:58:27.851971
+xai/grok-4-1-fast-non-reasoning-latest,system1,27,11,two_year_recid,True,YES,68,True,0.45690393447875977,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T21:58:28.248529
+xai/grok-4-1-fast-non-reasoning-latest,system1,15,11,two_year_recid,True,NO,72,False,0.36339783668518066,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 72
+}",,2026-02-09T21:58:28.705622
+xai/grok-4-1-fast-non-reasoning-latest,system1,23,11,two_year_recid,False,YES,92,False,0.5092658996582031,315,16,331,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 92
+}",,2026-02-09T21:58:29.069202
+xai/grok-4-1-fast-non-reasoning-latest,system1,17,11,two_year_recid,False,NO,82,True,0.38080286979675293,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 82
+}",,2026-02-09T21:58:29.578672
+xai/grok-4-1-fast-non-reasoning-latest,system1,8,11,two_year_recid,True,YES,68,True,0.40412187576293945,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T21:58:29.959650
+xai/grok-4-1-fast-non-reasoning-latest,system1,9,11,two_year_recid,True,YES,95,True,0.38570380210876465,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 95
+}",,2026-02-09T21:58:30.364005
+xai/grok-4-1-fast-non-reasoning-latest,system1,28,11,two_year_recid,False,YES,78,False,0.5143139362335205,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:58:30.749956
+xai/grok-4-1-fast-non-reasoning-latest,system1,24,11,two_year_recid,False,NO,95,True,0.39874696731567383,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 95
+}",,2026-02-09T21:58:31.264489
+xai/grok-4-1-fast-non-reasoning-latest,system1,12,11,two_year_recid,False,YES,68,False,0.4201509952545166,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T21:58:31.663588
+xai/grok-4-1-fast-non-reasoning-latest,system1,0,11,two_year_recid,False,YES,72,False,0.3951301574707031,315,16,331,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}",,2026-02-09T21:58:32.083987
+xai/grok-4-1-fast-non-reasoning-latest,system1,4,11,two_year_recid,True,YES,68,True,0.35715317726135254,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T21:58:32.479268
+xai/grok-4-1-fast-non-reasoning-latest,system1,16,11,two_year_recid,True,YES,95,True,0.4028761386871338,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 95
+}",,2026-02-09T21:58:32.836584
+xai/grok-4-1-fast-non-reasoning-latest,system1,5,11,two_year_recid,False,NO,95,True,0.39994120597839355,316,16,332,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 95
+}",,2026-02-09T21:58:33.239627
+xai/grok-4-1-fast-non-reasoning-latest,system1,13,11,two_year_recid,True,YES,78,True,0.4147200584411621,315,16,331,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:58:33.639854
+xai/grok-4-1-fast-non-reasoning-latest,system1,11,11,two_year_recid,True,YES,92,True,0.42421889305114746,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 92
+}",,2026-02-09T21:58:34.054746
+xai/grok-4-1-fast-non-reasoning-latest,system1,22,11,two_year_recid,False,NO,92,True,0.40731096267700195,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 92
+}",,2026-02-09T21:58:34.479186
+xai/grok-4-1-fast-non-reasoning-latest,system1,1,11,two_year_recid,False,NO,95,True,0.43079590797424316,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 95
+}",,2026-02-09T21:58:34.886663
+xai/grok-4-1-fast-non-reasoning-latest,system1,2,11,two_year_recid,False,NO,92,True,0.4750239849090576,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 92
+}",,2026-02-09T21:58:35.317604
+xai/grok-4-1-fast-non-reasoning-latest,system1,25,11,two_year_recid,True,YES,88,True,0.4456319808959961,315,16,331,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 88
+}",,2026-02-09T21:58:35.792909
+xai/grok-4-1-fast-non-reasoning-latest,system1,3,11,two_year_recid,True,YES,82,True,0.44503092765808105,315,16,331,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T21:58:36.238785
+xai/grok-4-1-fast-non-reasoning-latest,system1,21,11,two_year_recid,False,YES,82,False,0.40381884574890137,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T21:58:36.683960
+xai/grok-4-1-fast-non-reasoning-latest,system1,26,11,two_year_recid,True,YES,92,True,0.39697885513305664,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 92
+}",,2026-02-09T21:58:37.087941
+xai/grok-4-1-fast-non-reasoning-latest,system1,18,11,two_year_recid,False,YES,82,False,0.4050321578979492,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T21:58:37.485067
+xai/grok-4-1-fast-non-reasoning-latest,system1,29,11,two_year_recid,True,YES,95,True,0.44353413581848145,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 95
+}",,2026-02-09T21:58:37.890332
+xai/grok-4-1-fast-non-reasoning-latest,system1,20,11,two_year_recid,True,NO,82,False,0.3892049789428711,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 82
+}",,2026-02-09T21:58:38.334177
+xai/grok-4-1-fast-non-reasoning-latest,system1,7,11,two_year_recid,False,NO,95,True,0.4093449115753174,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 95
+}",,2026-02-09T21:58:38.723599
+xai/grok-4-1-fast-non-reasoning-latest,system1,10,11,two_year_recid,False,NO,98,True,0.44347214698791504,316,16,332,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 98
+}",,2026-02-09T21:58:39.133243
+xai/grok-4-1-fast-non-reasoning-latest,system1,14,11,two_year_recid,False,YES,78,False,0.4712710380554199,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:58:39.576929
+xai/grok-4-1-fast-non-reasoning-latest,system1,19,11,two_year_recid,False,NO,92,True,0.4002199172973633,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 92
+}",,2026-02-09T21:58:40.048382
+xai/grok-4-1-fast-non-reasoning-latest,system1,6,11,two_year_recid,True,YES,92,True,0.48421502113342285,315,16,331,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 92
+}",,2026-02-09T21:58:40.449854
+xai/grok-4-1-fast-non-reasoning-latest,system1,27,12,two_year_recid,True,YES,65,True,0.429642915725708,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 65
+}",,2026-02-09T21:58:40.939469
+xai/grok-4-1-fast-non-reasoning-latest,system1,15,12,two_year_recid,True,NO,78,False,0.36146974563598633,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 78
+}",,2026-02-09T21:58:41.369472
+xai/grok-4-1-fast-non-reasoning-latest,system1,23,12,two_year_recid,False,YES,92,False,0.38789987564086914,315,16,331,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 92
+}",,2026-02-09T21:58:41.731227
+xai/grok-4-1-fast-non-reasoning-latest,system1,17,12,two_year_recid,False,NO,85,True,0.3799118995666504,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 85
+}",,2026-02-09T21:58:42.119351
+xai/grok-4-1-fast-non-reasoning-latest,system1,8,12,two_year_recid,True,YES,68,True,0.42665696144104004,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T21:58:42.499476
+xai/grok-4-1-fast-non-reasoning-latest,system1,9,12,two_year_recid,True,YES,95,True,0.4347572326660156,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 95
+}",,2026-02-09T21:58:42.926319
+xai/grok-4-1-fast-non-reasoning-latest,system1,28,12,two_year_recid,False,YES,72,False,0.6142048835754395,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}",,2026-02-09T21:58:43.361326
+xai/grok-4-1-fast-non-reasoning-latest,system1,24,12,two_year_recid,False,NO,95,True,0.449199914932251,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 95
+}",,2026-02-09T21:58:43.975719
+xai/grok-4-1-fast-non-reasoning-latest,system1,12,12,two_year_recid,False,YES,68,False,0.6377830505371094,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T21:58:44.425228
+xai/grok-4-1-fast-non-reasoning-latest,system1,0,12,two_year_recid,False,YES,72,False,0.3855898380279541,315,16,331,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}",,2026-02-09T21:58:45.063494
+xai/grok-4-1-fast-non-reasoning-latest,system1,4,12,two_year_recid,True,YES,68,True,0.464432954788208,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T21:58:45.449257
+xai/grok-4-1-fast-non-reasoning-latest,system1,16,12,two_year_recid,True,YES,95,True,0.3841099739074707,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 95
+}",,2026-02-09T21:58:45.913891
+xai/grok-4-1-fast-non-reasoning-latest,system1,5,12,two_year_recid,False,NO,95,True,0.3932342529296875,316,16,332,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 95
+}",,2026-02-09T21:58:46.298173
+xai/grok-4-1-fast-non-reasoning-latest,system1,13,12,two_year_recid,True,YES,78,True,0.36121606826782227,315,16,331,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:58:46.691568
+xai/grok-4-1-fast-non-reasoning-latest,system1,11,12,two_year_recid,True,YES,92,True,0.5891180038452148,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 92
+}",,2026-02-09T21:58:47.052934
+xai/grok-4-1-fast-non-reasoning-latest,system1,22,12,two_year_recid,False,NO,92,True,0.41621971130371094,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 92
+}",,2026-02-09T21:58:47.642258
+xai/grok-4-1-fast-non-reasoning-latest,system1,1,12,two_year_recid,False,NO,95,True,0.34809398651123047,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 95
+}",,2026-02-09T21:58:48.058687
+xai/grok-4-1-fast-non-reasoning-latest,system1,2,12,two_year_recid,False,NO,92,True,0.41423892974853516,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 92
+}",,2026-02-09T21:58:48.407015
+xai/grok-4-1-fast-non-reasoning-latest,system1,25,12,two_year_recid,True,YES,88,True,0.6182820796966553,315,16,331,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 88
+}",,2026-02-09T21:58:48.821961
+xai/grok-4-1-fast-non-reasoning-latest,system1,3,12,two_year_recid,True,YES,82,True,0.4017939567565918,315,16,331,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T21:58:49.440863
+xai/grok-4-1-fast-non-reasoning-latest,system1,21,12,two_year_recid,False,YES,82,False,0.3313119411468506,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T21:58:49.842947
+xai/grok-4-1-fast-non-reasoning-latest,system1,26,12,two_year_recid,True,YES,92,True,0.4007108211517334,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 92
+}",,2026-02-09T21:58:50.174445
+xai/grok-4-1-fast-non-reasoning-latest,system1,18,12,two_year_recid,False,YES,82,False,0.4717519283294678,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T21:58:50.575385
+xai/grok-4-1-fast-non-reasoning-latest,system1,29,12,two_year_recid,True,YES,92,True,0.3820919990539551,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 92
+}",,2026-02-09T21:58:51.047387
+xai/grok-4-1-fast-non-reasoning-latest,system1,20,12,two_year_recid,True,NO,82,False,0.36122918128967285,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 82
+}",,2026-02-09T21:58:51.430207
+xai/grok-4-1-fast-non-reasoning-latest,system1,7,12,two_year_recid,False,NO,98,True,0.35816168785095215,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 98
+}",,2026-02-09T21:58:51.791666
+xai/grok-4-1-fast-non-reasoning-latest,system1,10,12,two_year_recid,False,NO,95,True,0.39731884002685547,316,16,332,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 95
+}",,2026-02-09T21:58:52.149973
+xai/grok-4-1-fast-non-reasoning-latest,system1,14,12,two_year_recid,False,YES,82,False,0.42765378952026367,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T21:58:52.547479
+xai/grok-4-1-fast-non-reasoning-latest,system1,19,12,two_year_recid,False,NO,92,True,0.3953559398651123,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 92
+}",,2026-02-09T21:58:52.975478
+xai/grok-4-1-fast-non-reasoning-latest,system1,6,12,two_year_recid,True,YES,92,True,0.39985013008117676,315,16,331,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 92
+}",,2026-02-09T21:58:53.371704
+xai/grok-4-1-fast-non-reasoning-latest,system1,27,13,two_year_recid,True,YES,68,True,0.3891026973724365,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T21:58:53.776674
+xai/grok-4-1-fast-non-reasoning-latest,system1,15,13,two_year_recid,True,NO,78,False,0.42679905891418457,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 78
+}",,2026-02-09T21:58:54.165937
+xai/grok-4-1-fast-non-reasoning-latest,system1,23,13,two_year_recid,False,YES,92,False,0.45984911918640137,315,16,331,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 92
+}",,2026-02-09T21:58:54.592889
+xai/grok-4-1-fast-non-reasoning-latest,system1,17,13,two_year_recid,False,NO,82,True,0.39037609100341797,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 82
+}",,2026-02-09T21:58:55.052921
+xai/grok-4-1-fast-non-reasoning-latest,system1,8,13,two_year_recid,True,YES,68,True,0.3749558925628662,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T21:58:55.443486
+xai/grok-4-1-fast-non-reasoning-latest,system1,9,13,two_year_recid,True,YES,95,True,0.39765095710754395,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 95
+}",,2026-02-09T21:58:55.818760
+xai/grok-4-1-fast-non-reasoning-latest,system1,28,13,two_year_recid,False,YES,78,False,0.4474160671234131,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:58:56.216593
+xai/grok-4-1-fast-non-reasoning-latest,system1,24,13,two_year_recid,False,NO,95,True,0.3834538459777832,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 95
+}",,2026-02-09T21:58:56.664347
+xai/grok-4-1-fast-non-reasoning-latest,system1,12,13,two_year_recid,False,YES,68,False,0.4597749710083008,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T21:58:57.048066
+xai/grok-4-1-fast-non-reasoning-latest,system1,0,13,two_year_recid,False,YES,68,False,0.39227914810180664,315,16,331,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T21:58:57.508681
+xai/grok-4-1-fast-non-reasoning-latest,system1,4,13,two_year_recid,True,YES,68,True,0.4441661834716797,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T21:58:57.901236
+xai/grok-4-1-fast-non-reasoning-latest,system1,16,13,two_year_recid,True,YES,95,True,0.6262881755828857,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 95
+}",,2026-02-09T21:58:58.345615
+xai/grok-4-1-fast-non-reasoning-latest,system1,5,13,two_year_recid,False,NO,98,True,0.4534311294555664,316,16,332,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 98
+}",,2026-02-09T21:58:58.972192
+xai/grok-4-1-fast-non-reasoning-latest,system1,13,13,two_year_recid,True,YES,72,True,0.5834591388702393,315,16,331,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}",,2026-02-09T21:58:59.425945
+xai/grok-4-1-fast-non-reasoning-latest,system1,11,13,two_year_recid,True,YES,92,True,0.3824310302734375,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 92
+}",,2026-02-09T21:59:00.009567
+xai/grok-4-1-fast-non-reasoning-latest,system1,22,13,two_year_recid,False,NO,92,True,0.40240001678466797,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 92
+}",,2026-02-09T21:59:00.392193
+xai/grok-4-1-fast-non-reasoning-latest,system1,1,13,two_year_recid,False,NO,95,True,0.6443490982055664,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 95
+}",,2026-02-09T21:59:00.794893
+xai/grok-4-1-fast-non-reasoning-latest,system1,2,13,two_year_recid,False,NO,92,True,0.5875542163848877,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 92
+}",,2026-02-09T21:59:01.439506
+xai/grok-4-1-fast-non-reasoning-latest,system1,25,13,two_year_recid,True,YES,88,True,0.3645470142364502,315,16,331,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 88
+}",,2026-02-09T21:59:02.027363
+xai/grok-4-1-fast-non-reasoning-latest,system1,3,13,two_year_recid,True,YES,82,True,0.4259061813354492,315,16,331,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T21:59:02.392642
+xai/grok-4-1-fast-non-reasoning-latest,system1,21,13,two_year_recid,False,YES,82,False,0.402202844619751,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T21:59:02.818730
+xai/grok-4-1-fast-non-reasoning-latest,system1,26,13,two_year_recid,True,YES,92,True,0.3765850067138672,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 92
+}",,2026-02-09T21:59:03.221111
+xai/grok-4-1-fast-non-reasoning-latest,system1,18,13,two_year_recid,False,YES,82,False,0.37084484100341797,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T21:59:03.597860
+xai/grok-4-1-fast-non-reasoning-latest,system1,29,13,two_year_recid,True,YES,95,True,0.5291781425476074,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 95
+}",,2026-02-09T21:59:03.968885
+xai/grok-4-1-fast-non-reasoning-latest,system1,20,13,two_year_recid,True,NO,82,False,0.4537787437438965,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 82
+}",,2026-02-09T21:59:04.498234
+xai/grok-4-1-fast-non-reasoning-latest,system1,7,13,two_year_recid,False,NO,98,True,0.4179518222808838,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 98
+}",,2026-02-09T21:59:04.952191
+xai/grok-4-1-fast-non-reasoning-latest,system1,10,13,two_year_recid,False,NO,98,True,0.3938581943511963,316,16,332,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 98
+}",,2026-02-09T21:59:05.370298
+xai/grok-4-1-fast-non-reasoning-latest,system1,14,13,two_year_recid,False,YES,82,False,0.6420269012451172,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T21:59:05.764336
+xai/grok-4-1-fast-non-reasoning-latest,system1,19,13,two_year_recid,False,NO,95,True,0.42282867431640625,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 95
+}",,2026-02-09T21:59:06.406577
+xai/grok-4-1-fast-non-reasoning-latest,system1,6,13,two_year_recid,True,YES,92,True,0.7134010791778564,315,16,331,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 92
+}",,2026-02-09T21:59:06.830413
+xai/grok-4-1-fast-non-reasoning-latest,system1,27,14,two_year_recid,True,YES,68,True,0.36941099166870117,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T21:59:07.549430
+xai/grok-4-1-fast-non-reasoning-latest,system1,15,14,two_year_recid,True,NO,78,False,0.4442110061645508,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 78
+}",,2026-02-09T21:59:07.919217
+xai/grok-4-1-fast-non-reasoning-latest,system1,23,14,two_year_recid,False,YES,92,False,0.4307529926300049,315,16,331,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 92
+}",,2026-02-09T21:59:08.363763
+xai/grok-4-1-fast-non-reasoning-latest,system1,17,14,two_year_recid,False,NO,85,True,0.3708789348602295,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 85
+}",,2026-02-09T21:59:08.794900
+xai/grok-4-1-fast-non-reasoning-latest,system1,8,14,two_year_recid,True,YES,68,True,0.36067819595336914,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T21:59:09.166008
+xai/grok-4-1-fast-non-reasoning-latest,system1,9,14,two_year_recid,True,YES,95,True,0.3546319007873535,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 95
+}",,2026-02-09T21:59:09.526911
+xai/grok-4-1-fast-non-reasoning-latest,system1,28,14,two_year_recid,False,YES,72,False,0.3835480213165283,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}",,2026-02-09T21:59:09.882034
+xai/grok-4-1-fast-non-reasoning-latest,system1,24,14,two_year_recid,False,NO,95,True,0.3750588893890381,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 95
+}",,2026-02-09T21:59:10.265799
+xai/grok-4-1-fast-non-reasoning-latest,system1,12,14,two_year_recid,False,YES,68,False,0.40526509284973145,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T21:59:10.641157
+xai/grok-4-1-fast-non-reasoning-latest,system1,0,14,two_year_recid,False,YES,68,False,0.43702077865600586,315,16,331,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T21:59:11.047394
+xai/grok-4-1-fast-non-reasoning-latest,system1,4,14,two_year_recid,True,YES,68,True,0.3896172046661377,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T21:59:11.484746
+xai/grok-4-1-fast-non-reasoning-latest,system1,16,14,two_year_recid,True,YES,92,True,0.49666523933410645,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 92
+}",,2026-02-09T21:59:11.874764
+xai/grok-4-1-fast-non-reasoning-latest,system1,5,14,two_year_recid,False,NO,98,True,0.42367100715637207,316,16,332,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 98
+}",,2026-02-09T21:59:12.371702
+xai/grok-4-1-fast-non-reasoning-latest,system1,13,14,two_year_recid,True,YES,72,True,0.4156641960144043,315,16,331,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}",,2026-02-09T21:59:12.796004
+xai/grok-4-1-fast-non-reasoning-latest,system1,11,14,two_year_recid,True,YES,88,True,0.43883299827575684,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 88
+}",,2026-02-09T21:59:13.211938
+xai/grok-4-1-fast-non-reasoning-latest,system1,22,14,two_year_recid,False,NO,92,True,0.4311058521270752,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 92
+}",,2026-02-09T21:59:13.650951
+xai/grok-4-1-fast-non-reasoning-latest,system1,1,14,two_year_recid,False,NO,95,True,0.4338369369506836,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 95
+}",,2026-02-09T21:59:14.082391
+xai/grok-4-1-fast-non-reasoning-latest,system1,2,14,two_year_recid,False,NO,92,True,0.6453371047973633,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 92
+}",,2026-02-09T21:59:14.516546
+xai/grok-4-1-fast-non-reasoning-latest,system1,25,14,two_year_recid,True,YES,88,True,0.4252626895904541,315,16,331,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 88
+}",,2026-02-09T21:59:15.162209
+xai/grok-4-1-fast-non-reasoning-latest,system1,3,14,two_year_recid,True,YES,82,True,0.3612358570098877,315,16,331,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T21:59:15.588459
+xai/grok-4-1-fast-non-reasoning-latest,system1,21,14,two_year_recid,False,YES,78,False,0.4608020782470703,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:59:15.950037
+xai/grok-4-1-fast-non-reasoning-latest,system1,26,14,two_year_recid,True,YES,92,True,0.43768882751464844,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 92
+}",,2026-02-09T21:59:16.411056
+xai/grok-4-1-fast-non-reasoning-latest,system1,18,14,two_year_recid,False,YES,82,False,0.35628390312194824,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T21:59:16.849008
+xai/grok-4-1-fast-non-reasoning-latest,system1,29,14,two_year_recid,True,YES,95,True,0.47080183029174805,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 95
+}",,2026-02-09T21:59:17.205502
+xai/grok-4-1-fast-non-reasoning-latest,system1,20,14,two_year_recid,True,NO,82,False,0.6220459938049316,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 82
+}",,2026-02-09T21:59:17.676465
+xai/grok-4-1-fast-non-reasoning-latest,system1,7,14,two_year_recid,False,NO,95,True,0.4018290042877197,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 95
+}",,2026-02-09T21:59:18.298666
+xai/grok-4-1-fast-non-reasoning-latest,system1,10,14,two_year_recid,False,NO,95,True,0.39758992195129395,316,16,332,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 95
+}",,2026-02-09T21:59:18.700804
+xai/grok-4-1-fast-non-reasoning-latest,system1,14,14,two_year_recid,False,YES,82,False,0.3831148147583008,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T21:59:19.098864
+xai/grok-4-1-fast-non-reasoning-latest,system1,19,14,two_year_recid,False,NO,92,True,0.5263302326202393,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 92
+}",,2026-02-09T21:59:19.482267
+xai/grok-4-1-fast-non-reasoning-latest,system1,6,14,two_year_recid,True,YES,92,True,0.44780898094177246,315,16,331,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 92
+}",,2026-02-09T21:59:20.009002
+xai/grok-4-1-fast-non-reasoning-latest,system1,27,15,two_year_recid,True,YES,65,True,0.36206984519958496,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 65
+}",,2026-02-09T21:59:20.462867
+xai/grok-4-1-fast-non-reasoning-latest,system1,15,15,two_year_recid,True,NO,78,False,0.4074716567993164,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 78
+}",,2026-02-09T21:59:20.825225
+xai/grok-4-1-fast-non-reasoning-latest,system1,23,15,two_year_recid,False,YES,92,False,0.454265832901001,315,16,331,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 92
+}",,2026-02-09T21:59:21.232902
+xai/grok-4-1-fast-non-reasoning-latest,system1,17,15,two_year_recid,False,NO,82,True,0.3292732238769531,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 82
+}",,2026-02-09T21:59:21.687433
+xai/grok-4-1-fast-non-reasoning-latest,system1,8,15,two_year_recid,True,YES,68,True,0.512667179107666,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T21:59:22.016947
+xai/grok-4-1-fast-non-reasoning-latest,system1,9,15,two_year_recid,True,YES,95,True,0.4114491939544678,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 95
+}",,2026-02-09T21:59:22.530008
+xai/grok-4-1-fast-non-reasoning-latest,system1,28,15,two_year_recid,False,YES,78,False,0.6371700763702393,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:59:22.941788
+xai/grok-4-1-fast-non-reasoning-latest,system1,24,15,two_year_recid,False,NO,95,True,0.4512138366699219,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 95
+}",,2026-02-09T21:59:23.579220
+xai/grok-4-1-fast-non-reasoning-latest,system1,12,15,two_year_recid,False,YES,68,False,0.45371127128601074,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T21:59:24.030818
+xai/grok-4-1-fast-non-reasoning-latest,system1,0,15,two_year_recid,False,YES,72,False,0.37128186225891113,315,16,331,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}",,2026-02-09T21:59:24.485123
+xai/grok-4-1-fast-non-reasoning-latest,system1,4,15,two_year_recid,True,YES,68,True,0.41931629180908203,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T21:59:24.856693
+xai/grok-4-1-fast-non-reasoning-latest,system1,16,15,two_year_recid,True,YES,95,True,0.43370914459228516,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 95
+}",,2026-02-09T21:59:25.276177
+xai/grok-4-1-fast-non-reasoning-latest,system1,5,15,two_year_recid,False,NO,95,True,0.5219929218292236,316,16,332,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 95
+}",,2026-02-09T21:59:25.710251
+xai/grok-4-1-fast-non-reasoning-latest,system1,13,15,two_year_recid,True,YES,78,True,0.38797998428344727,315,16,331,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:59:26.232455
+xai/grok-4-1-fast-non-reasoning-latest,system1,11,15,two_year_recid,True,YES,92,True,0.39536309242248535,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 92
+}",,2026-02-09T21:59:26.620624
+xai/grok-4-1-fast-non-reasoning-latest,system1,22,15,two_year_recid,False,NO,92,True,0.7659239768981934,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 92
+}",,2026-02-09T21:59:27.016156
+xai/grok-4-1-fast-non-reasoning-latest,system1,1,15,two_year_recid,False,NO,95,True,0.48896312713623047,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 95
+}",,2026-02-09T21:59:27.782232
+xai/grok-4-1-fast-non-reasoning-latest,system1,2,15,two_year_recid,False,NO,92,True,0.5695009231567383,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 92
+}",,2026-02-09T21:59:28.271343
+xai/grok-4-1-fast-non-reasoning-latest,system1,25,15,two_year_recid,True,YES,88,True,0.3990919589996338,315,16,331,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 88
+}",,2026-02-09T21:59:28.840986
+xai/grok-4-1-fast-non-reasoning-latest,system1,3,15,two_year_recid,True,YES,82,True,0.45959997177124023,315,16,331,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T21:59:29.240543
+xai/grok-4-1-fast-non-reasoning-latest,system1,21,15,two_year_recid,False,YES,82,False,0.41167402267456055,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T21:59:29.700454
+xai/grok-4-1-fast-non-reasoning-latest,system1,26,15,two_year_recid,True,YES,92,True,0.5918371677398682,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 92
+}",,2026-02-09T21:59:30.112459
+xai/grok-4-1-fast-non-reasoning-latest,system1,18,15,two_year_recid,False,YES,82,False,0.47478294372558594,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T21:59:30.704676
+xai/grok-4-1-fast-non-reasoning-latest,system1,29,15,two_year_recid,True,YES,95,True,0.3841569423675537,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 95
+}",,2026-02-09T21:59:31.179690
+xai/grok-4-1-fast-non-reasoning-latest,system1,20,15,two_year_recid,True,NO,82,False,0.4184861183166504,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 82
+}",,2026-02-09T21:59:31.564039
+xai/grok-4-1-fast-non-reasoning-latest,system1,7,15,two_year_recid,False,NO,98,True,0.6072189807891846,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 98
+}",,2026-02-09T21:59:31.982719
+xai/grok-4-1-fast-non-reasoning-latest,system1,10,15,two_year_recid,False,NO,98,True,0.3803389072418213,316,16,332,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 98
+}",,2026-02-09T21:59:32.590101
+xai/grok-4-1-fast-non-reasoning-latest,system1,14,15,two_year_recid,False,YES,82,False,0.40524888038635254,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T21:59:32.970754
+xai/grok-4-1-fast-non-reasoning-latest,system1,19,15,two_year_recid,False,NO,92,True,0.37044715881347656,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 92
+}",,2026-02-09T21:59:33.376213
+xai/grok-4-1-fast-non-reasoning-latest,system1,6,15,two_year_recid,True,YES,92,True,0.35347700119018555,315,16,331,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 92
+}",,2026-02-09T21:59:33.747330
+xai/grok-4-1-fast-non-reasoning-latest,system1,27,16,two_year_recid,True,YES,68,True,0.341616153717041,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T21:59:34.106447
+xai/grok-4-1-fast-non-reasoning-latest,system1,15,16,two_year_recid,True,NO,78,False,0.38400983810424805,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 78
+}",,2026-02-09T21:59:34.448252
+xai/grok-4-1-fast-non-reasoning-latest,system1,23,16,two_year_recid,False,YES,92,False,0.4608948230743408,315,16,331,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 92
+}",,2026-02-09T21:59:34.832514
+xai/grok-4-1-fast-non-reasoning-latest,system1,17,16,two_year_recid,False,NO,82,True,0.5500991344451904,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 82
+}",,2026-02-09T21:59:35.293598
+xai/grok-4-1-fast-non-reasoning-latest,system1,8,16,two_year_recid,True,YES,68,True,0.4195709228515625,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T21:59:35.843881
+xai/grok-4-1-fast-non-reasoning-latest,system1,9,16,two_year_recid,True,YES,95,True,0.3926699161529541,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 95
+}",,2026-02-09T21:59:36.263726
+xai/grok-4-1-fast-non-reasoning-latest,system1,28,16,two_year_recid,False,YES,72,False,0.5213906764984131,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}",,2026-02-09T21:59:36.656663
+xai/grok-4-1-fast-non-reasoning-latest,system1,24,16,two_year_recid,False,NO,95,True,0.42116618156433105,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 95
+}",,2026-02-09T21:59:37.178256
+xai/grok-4-1-fast-non-reasoning-latest,system1,12,16,two_year_recid,False,YES,68,False,0.36619997024536133,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T21:59:37.599605
+xai/grok-4-1-fast-non-reasoning-latest,system1,0,16,two_year_recid,False,YES,72,False,0.3780248165130615,315,16,331,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}",,2026-02-09T21:59:37.966211
+xai/grok-4-1-fast-non-reasoning-latest,system1,4,16,two_year_recid,True,YES,68,True,0.5195629596710205,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T21:59:38.344422
+xai/grok-4-1-fast-non-reasoning-latest,system1,16,16,two_year_recid,True,YES,92,True,9.862187147140503,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 92
+}",,2026-02-09T21:59:38.864172
+xai/grok-4-1-fast-non-reasoning-latest,system1,5,16,two_year_recid,False,NO,95,True,0.4490981101989746,316,16,332,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 95
+}",,2026-02-09T21:59:48.726648
+xai/grok-4-1-fast-non-reasoning-latest,system1,13,16,two_year_recid,True,YES,78,True,0.40477490425109863,315,16,331,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:59:49.176069
+xai/grok-4-1-fast-non-reasoning-latest,system1,11,16,two_year_recid,True,YES,92,True,0.4502859115600586,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 92
+}",,2026-02-09T21:59:49.581101
+xai/grok-4-1-fast-non-reasoning-latest,system1,22,16,two_year_recid,False,NO,88,True,0.5448780059814453,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 88
+}",,2026-02-09T21:59:50.031749
+xai/grok-4-1-fast-non-reasoning-latest,system1,1,16,two_year_recid,False,NO,95,True,0.432279109954834,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 95
+}",,2026-02-09T21:59:50.576923
+xai/grok-4-1-fast-non-reasoning-latest,system1,2,16,two_year_recid,False,NO,92,True,0.4192337989807129,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 92
+}",,2026-02-09T21:59:51.009552
+xai/grok-4-1-fast-non-reasoning-latest,system1,25,16,two_year_recid,True,YES,88,True,0.3638269901275635,315,16,331,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 88
+}",,2026-02-09T21:59:51.428962
+xai/grok-4-1-fast-non-reasoning-latest,system1,3,16,two_year_recid,True,YES,78,True,0.3565230369567871,315,16,331,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:59:51.793515
+xai/grok-4-1-fast-non-reasoning-latest,system1,21,16,two_year_recid,False,YES,82,False,0.4420630931854248,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T21:59:52.150424
+xai/grok-4-1-fast-non-reasoning-latest,system1,26,16,two_year_recid,True,YES,92,True,0.3636949062347412,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 92
+}",,2026-02-09T21:59:52.592757
+xai/grok-4-1-fast-non-reasoning-latest,system1,18,16,two_year_recid,False,YES,82,False,0.35322093963623047,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T21:59:52.956724
+xai/grok-4-1-fast-non-reasoning-latest,system1,29,16,two_year_recid,True,YES,95,True,0.41268205642700195,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 95
+}",,2026-02-09T21:59:53.310234
+xai/grok-4-1-fast-non-reasoning-latest,system1,20,16,two_year_recid,True,NO,78,False,0.5008020401000977,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 78
+}",,2026-02-09T21:59:53.723126
+xai/grok-4-1-fast-non-reasoning-latest,system1,7,16,two_year_recid,False,NO,98,True,0.5090150833129883,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 98
+}",,2026-02-09T21:59:54.224291
+xai/grok-4-1-fast-non-reasoning-latest,system1,10,16,two_year_recid,False,NO,98,True,0.40061092376708984,316,16,332,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 98
+}",,2026-02-09T21:59:54.733777
+xai/grok-4-1-fast-non-reasoning-latest,system1,14,16,two_year_recid,False,YES,82,False,0.40333008766174316,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T21:59:55.134860
+xai/grok-4-1-fast-non-reasoning-latest,system1,19,16,two_year_recid,False,NO,92,True,0.4152367115020752,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 92
+}",,2026-02-09T21:59:55.538457
+xai/grok-4-1-fast-non-reasoning-latest,system1,6,16,two_year_recid,True,YES,92,True,0.4038660526275635,315,16,331,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 92
+}",,2026-02-09T21:59:55.954402
+xai/grok-4-1-fast-non-reasoning-latest,system1,27,17,two_year_recid,True,YES,68,True,0.4493067264556885,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T21:59:56.361805
+xai/grok-4-1-fast-non-reasoning-latest,system1,15,17,two_year_recid,True,NO,78,False,0.499190092086792,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 78
+}",,2026-02-09T21:59:56.811419
+xai/grok-4-1-fast-non-reasoning-latest,system1,23,17,two_year_recid,False,YES,92,False,0.40388989448547363,315,16,331,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 92
+}",,2026-02-09T21:59:57.310905
+xai/grok-4-1-fast-non-reasoning-latest,system1,17,17,two_year_recid,False,NO,82,True,0.3745148181915283,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 82
+}",,2026-02-09T21:59:57.715048
+xai/grok-4-1-fast-non-reasoning-latest,system1,8,17,two_year_recid,True,YES,68,True,0.4085047245025635,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T21:59:58.089855
+xai/grok-4-1-fast-non-reasoning-latest,system1,9,17,two_year_recid,True,YES,95,True,0.4270651340484619,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 95
+}",,2026-02-09T21:59:58.498575
+xai/grok-4-1-fast-non-reasoning-latest,system1,28,17,two_year_recid,False,YES,78,False,0.4825761318206787,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T21:59:58.926030
+xai/grok-4-1-fast-non-reasoning-latest,system1,24,17,two_year_recid,False,NO,95,True,1.1643691062927246,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 95
+}",,2026-02-09T21:59:59.408834
+xai/grok-4-1-fast-non-reasoning-latest,system1,12,17,two_year_recid,False,YES,68,False,0.6179389953613281,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T22:00:00.573433
+xai/grok-4-1-fast-non-reasoning-latest,system1,0,17,two_year_recid,False,YES,72,False,0.4522101879119873,315,16,331,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}",,2026-02-09T22:00:01.192428
+xai/grok-4-1-fast-non-reasoning-latest,system1,4,17,two_year_recid,True,YES,65,True,0.5106089115142822,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 65
+}",,2026-02-09T22:00:01.644859
+xai/grok-4-1-fast-non-reasoning-latest,system1,16,17,two_year_recid,True,YES,92,True,0.42686891555786133,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 92
+}",,2026-02-09T22:00:02.155748
+xai/grok-4-1-fast-non-reasoning-latest,system1,5,17,two_year_recid,False,NO,95,True,0.3945121765136719,316,16,332,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 95
+}",,2026-02-09T22:00:02.582790
+xai/grok-4-1-fast-non-reasoning-latest,system1,13,17,two_year_recid,True,YES,78,True,0.4720311164855957,315,16,331,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T22:00:02.977524
+xai/grok-4-1-fast-non-reasoning-latest,system1,11,17,two_year_recid,True,YES,92,True,0.3994438648223877,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 92
+}",,2026-02-09T22:00:03.449737
+xai/grok-4-1-fast-non-reasoning-latest,system1,22,17,two_year_recid,False,NO,92,True,0.4537239074707031,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 92
+}",,2026-02-09T22:00:03.849426
+xai/grok-4-1-fast-non-reasoning-latest,system1,1,17,two_year_recid,False,NO,95,True,0.3750948905944824,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 95
+}",,2026-02-09T22:00:04.303453
+xai/grok-4-1-fast-non-reasoning-latest,system1,2,17,two_year_recid,False,NO,92,True,0.5005979537963867,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 92
+}",,2026-02-09T22:00:04.678776
+xai/grok-4-1-fast-non-reasoning-latest,system1,25,17,two_year_recid,True,YES,88,True,0.4141502380371094,315,16,331,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 88
+}",,2026-02-09T22:00:05.179749
+xai/grok-4-1-fast-non-reasoning-latest,system1,3,17,two_year_recid,True,YES,78,True,0.5111522674560547,315,16,331,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T22:00:05.594757
+xai/grok-4-1-fast-non-reasoning-latest,system1,21,17,two_year_recid,False,YES,78,False,0.4347193241119385,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T22:00:06.106134
+xai/grok-4-1-fast-non-reasoning-latest,system1,26,17,two_year_recid,True,YES,92,True,0.3632540702819824,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 92
+}",,2026-02-09T22:00:06.541029
+xai/grok-4-1-fast-non-reasoning-latest,system1,18,17,two_year_recid,False,YES,82,False,0.4400012493133545,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T22:00:06.904444
+xai/grok-4-1-fast-non-reasoning-latest,system1,29,17,two_year_recid,True,YES,95,True,0.5109519958496094,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 95
+}",,2026-02-09T22:00:07.344834
+xai/grok-4-1-fast-non-reasoning-latest,system1,20,17,two_year_recid,True,NO,82,False,0.40750813484191895,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 82
+}",,2026-02-09T22:00:07.856143
+xai/grok-4-1-fast-non-reasoning-latest,system1,7,17,two_year_recid,False,NO,95,True,0.39322400093078613,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 95
+}",,2026-02-09T22:00:08.264017
+xai/grok-4-1-fast-non-reasoning-latest,system1,10,17,two_year_recid,False,NO,95,True,0.4226870536804199,316,16,332,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 95
+}",,2026-02-09T22:00:08.657463
+xai/grok-4-1-fast-non-reasoning-latest,system1,14,17,two_year_recid,False,YES,82,False,0.35153913497924805,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T22:00:09.080315
+xai/grok-4-1-fast-non-reasoning-latest,system1,19,17,two_year_recid,False,NO,95,True,0.4052152633666992,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 95
+}",,2026-02-09T22:00:09.431989
+xai/grok-4-1-fast-non-reasoning-latest,system1,6,17,two_year_recid,True,YES,92,True,0.45652198791503906,315,16,331,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 92
+}",,2026-02-09T22:00:09.837630
+xai/grok-4-1-fast-non-reasoning-latest,system1,27,18,two_year_recid,True,YES,68,True,0.38254427909851074,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T22:00:10.297568
+xai/grok-4-1-fast-non-reasoning-latest,system1,15,18,two_year_recid,True,YES,68,True,0.396726131439209,315,16,331,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T22:00:10.680290
+xai/grok-4-1-fast-non-reasoning-latest,system1,23,18,two_year_recid,False,YES,92,False,0.3922581672668457,315,16,331,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 92
+}",,2026-02-09T22:00:11.077226
+xai/grok-4-1-fast-non-reasoning-latest,system1,17,18,two_year_recid,False,NO,82,True,0.3843090534210205,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 82
+}",,2026-02-09T22:00:11.469652
+xai/grok-4-1-fast-non-reasoning-latest,system1,8,18,two_year_recid,True,YES,68,True,0.44075918197631836,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T22:00:11.854252
+xai/grok-4-1-fast-non-reasoning-latest,system1,9,18,two_year_recid,True,YES,95,True,0.3681347370147705,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 95
+}",,2026-02-09T22:00:12.295211
+xai/grok-4-1-fast-non-reasoning-latest,system1,28,18,two_year_recid,False,YES,72,False,0.3897068500518799,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}",,2026-02-09T22:00:12.663595
+xai/grok-4-1-fast-non-reasoning-latest,system1,24,18,two_year_recid,False,NO,98,True,0.378633975982666,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 98
+}",,2026-02-09T22:00:13.053558
+xai/grok-4-1-fast-non-reasoning-latest,system1,12,18,two_year_recid,False,YES,68,False,0.352611780166626,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T22:00:13.432376
+xai/grok-4-1-fast-non-reasoning-latest,system1,0,18,two_year_recid,False,YES,72,False,0.41820597648620605,315,16,331,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}",,2026-02-09T22:00:13.785569
+xai/grok-4-1-fast-non-reasoning-latest,system1,4,18,two_year_recid,True,YES,68,True,0.364238977432251,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T22:00:14.204061
+xai/grok-4-1-fast-non-reasoning-latest,system1,16,18,two_year_recid,True,YES,95,True,0.3768150806427002,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 95
+}",,2026-02-09T22:00:14.568487
+xai/grok-4-1-fast-non-reasoning-latest,system1,5,18,two_year_recid,False,NO,98,True,0.6258339881896973,316,16,332,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 98
+}",,2026-02-09T22:00:14.945579
+xai/grok-4-1-fast-non-reasoning-latest,system1,13,18,two_year_recid,True,YES,78,True,0.38355088233947754,315,16,331,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T22:00:15.571612
+xai/grok-4-1-fast-non-reasoning-latest,system1,11,18,two_year_recid,True,YES,92,True,0.4767160415649414,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 92
+}",,2026-02-09T22:00:15.955358
+xai/grok-4-1-fast-non-reasoning-latest,system1,22,18,two_year_recid,False,NO,88,True,0.36043214797973633,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 88
+}",,2026-02-09T22:00:16.432229
+xai/grok-4-1-fast-non-reasoning-latest,system1,1,18,two_year_recid,False,NO,95,True,0.4015657901763916,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 95
+}",,2026-02-09T22:00:16.792871
+xai/grok-4-1-fast-non-reasoning-latest,system1,2,18,two_year_recid,False,NO,92,True,0.3753390312194824,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 92
+}",,2026-02-09T22:00:17.194624
+xai/grok-4-1-fast-non-reasoning-latest,system1,25,18,two_year_recid,True,YES,88,True,0.40885376930236816,315,16,331,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 88
+}",,2026-02-09T22:00:17.570184
+xai/grok-4-1-fast-non-reasoning-latest,system1,3,18,two_year_recid,True,YES,82,True,0.4139540195465088,315,16,331,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T22:00:17.979777
+xai/grok-4-1-fast-non-reasoning-latest,system1,21,18,two_year_recid,False,YES,82,False,0.5562238693237305,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T22:00:18.394088
+xai/grok-4-1-fast-non-reasoning-latest,system1,26,18,two_year_recid,True,YES,92,True,0.46210789680480957,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 92
+}",,2026-02-09T22:00:18.950545
+xai/grok-4-1-fast-non-reasoning-latest,system1,18,18,two_year_recid,False,YES,82,False,0.3323640823364258,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T22:00:19.412996
+xai/grok-4-1-fast-non-reasoning-latest,system1,29,18,two_year_recid,True,YES,92,True,0.48551511764526367,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 92
+}",,2026-02-09T22:00:19.745566
+xai/grok-4-1-fast-non-reasoning-latest,system1,20,18,two_year_recid,True,NO,78,False,0.39179182052612305,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 78
+}",,2026-02-09T22:00:20.231313
+xai/grok-4-1-fast-non-reasoning-latest,system1,7,18,two_year_recid,False,NO,98,True,0.43871283531188965,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 98
+}",,2026-02-09T22:00:20.623325
+xai/grok-4-1-fast-non-reasoning-latest,system1,10,18,two_year_recid,False,NO,98,True,0.37325596809387207,316,16,332,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 98
+}",,2026-02-09T22:00:21.062333
+xai/grok-4-1-fast-non-reasoning-latest,system1,14,18,two_year_recid,False,YES,82,False,0.5293989181518555,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T22:00:21.435799
+xai/grok-4-1-fast-non-reasoning-latest,system1,19,18,two_year_recid,False,NO,95,True,0.4120290279388428,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 95
+}",,2026-02-09T22:00:21.965373
+xai/grok-4-1-fast-non-reasoning-latest,system1,6,18,two_year_recid,True,YES,92,True,0.5216560363769531,315,16,331,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 92
+}",,2026-02-09T22:00:22.377828
+xai/grok-4-1-fast-non-reasoning-latest,system1,27,19,two_year_recid,True,YES,68,True,0.33901000022888184,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T22:00:22.903747
+xai/grok-4-1-fast-non-reasoning-latest,system1,15,19,two_year_recid,True,NO,78,False,0.3753669261932373,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 78
+}",,2026-02-09T22:00:23.242977
+xai/grok-4-1-fast-non-reasoning-latest,system1,23,19,two_year_recid,False,YES,92,False,0.3793630599975586,315,16,331,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 92
+}",,2026-02-09T22:00:23.618611
+xai/grok-4-1-fast-non-reasoning-latest,system1,17,19,two_year_recid,False,NO,82,True,0.3558919429779053,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 82
+}",,2026-02-09T22:00:23.998294
+xai/grok-4-1-fast-non-reasoning-latest,system1,8,19,two_year_recid,True,YES,68,True,0.4368760585784912,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T22:00:24.354488
+xai/grok-4-1-fast-non-reasoning-latest,system1,9,19,two_year_recid,True,YES,95,True,0.3635718822479248,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 95
+}",,2026-02-09T22:00:24.791591
+xai/grok-4-1-fast-non-reasoning-latest,system1,28,19,two_year_recid,False,YES,78,False,0.385695219039917,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T22:00:25.155421
+xai/grok-4-1-fast-non-reasoning-latest,system1,24,19,two_year_recid,False,NO,98,True,0.49118900299072266,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 98
+}",,2026-02-09T22:00:25.541363
+xai/grok-4-1-fast-non-reasoning-latest,system1,12,19,two_year_recid,False,YES,68,False,0.5476000308990479,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T22:00:26.032753
+xai/grok-4-1-fast-non-reasoning-latest,system1,0,19,two_year_recid,False,YES,72,False,0.4201042652130127,315,16,331,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}",,2026-02-09T22:00:26.581057
+xai/grok-4-1-fast-non-reasoning-latest,system1,4,19,two_year_recid,True,YES,68,True,0.575584888458252,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}",,2026-02-09T22:00:27.001404
+xai/grok-4-1-fast-non-reasoning-latest,system1,16,19,two_year_recid,True,YES,95,True,0.43866705894470215,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 95
+}",,2026-02-09T22:00:27.577156
+xai/grok-4-1-fast-non-reasoning-latest,system1,5,19,two_year_recid,False,NO,95,True,0.511526346206665,316,16,332,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 95
+}",,2026-02-09T22:00:28.016040
+xai/grok-4-1-fast-non-reasoning-latest,system1,13,19,two_year_recid,True,YES,72,True,0.4131758213043213,315,16,331,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}",,2026-02-09T22:00:28.527935
+xai/grok-4-1-fast-non-reasoning-latest,system1,11,19,two_year_recid,True,YES,92,True,0.405245304107666,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 92
+}",,2026-02-09T22:00:28.941455
+xai/grok-4-1-fast-non-reasoning-latest,system1,22,19,two_year_recid,False,NO,92,True,0.8895082473754883,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 92
+}",,2026-02-09T22:00:29.347008
+xai/grok-4-1-fast-non-reasoning-latest,system1,1,19,two_year_recid,False,NO,95,True,0.631274938583374,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 95
+}",,2026-02-09T22:00:30.236736
+xai/grok-4-1-fast-non-reasoning-latest,system1,2,19,two_year_recid,False,NO,92,True,0.41661596298217773,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 92
+}",,2026-02-09T22:00:30.868247
+xai/grok-4-1-fast-non-reasoning-latest,system1,25,19,two_year_recid,True,YES,88,True,0.37983202934265137,315,16,331,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 88
+}",,2026-02-09T22:00:31.285109
+xai/grok-4-1-fast-non-reasoning-latest,system1,3,19,two_year_recid,True,YES,78,True,0.42021703720092773,315,16,331,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T22:00:31.665456
+xai/grok-4-1-fast-non-reasoning-latest,system1,21,19,two_year_recid,False,YES,78,False,0.41107892990112305,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-09T22:00:32.085893
+xai/grok-4-1-fast-non-reasoning-latest,system1,26,19,two_year_recid,True,YES,92,True,0.3652217388153076,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 92
+}",,2026-02-09T22:00:32.497264
+xai/grok-4-1-fast-non-reasoning-latest,system1,18,19,two_year_recid,False,YES,82,False,0.42249393463134766,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T22:00:32.862837
+xai/grok-4-1-fast-non-reasoning-latest,system1,29,19,two_year_recid,True,YES,95,True,0.3905510902404785,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 95
+}",,2026-02-09T22:00:33.285621
+xai/grok-4-1-fast-non-reasoning-latest,system1,20,19,two_year_recid,True,NO,82,False,0.48259592056274414,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 82
+}",,2026-02-09T22:00:33.676507
+xai/grok-4-1-fast-non-reasoning-latest,system1,7,19,two_year_recid,False,NO,98,True,0.34993624687194824,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 98
+}",,2026-02-09T22:00:34.159481
+xai/grok-4-1-fast-non-reasoning-latest,system1,10,19,two_year_recid,False,NO,95,True,0.4124131202697754,316,16,332,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 95
+}",,2026-02-09T22:00:34.509665
+xai/grok-4-1-fast-non-reasoning-latest,system1,14,19,two_year_recid,False,YES,82,False,0.37915802001953125,316,16,332,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-09T22:00:34.922438
+xai/grok-4-1-fast-non-reasoning-latest,system1,19,19,two_year_recid,False,NO,92,True,0.3915987014770508,315,16,331,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 92
+}",,2026-02-09T22:00:35.301855
+xai/grok-4-1-fast-non-reasoning-latest,system1,6,19,two_year_recid,True,YES,92,True,0.43050718307495117,315,16,331,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 92
+}",,2026-02-09T22:00:35.694090

@@ -1,16 +1,90 @@
 ========================================================================================================================
 AGENTICSIMLAW EXPERIMENT COST, TIMING & RESOURCE REPORT
-Generated: 2026-02-15 02:03:09
+Generated: 2026-02-09 18:12:53
 ========================================================================================================================
 
 1. EXPERIMENT SUMMARY TABLE
 ------------------------------------------------------------------------------------------------------------------------
 Experiment                                           Dataset  Type        Models  Debates  API Calls       Tokens   Est Cost  Wall Time  s/debate
 ------------------------------------------------------------------------------------------------------------------------
+transcripts_ver26_compas_20260209-114748             COMPAS   commercial       1        1         13       16,900 $    0.00        N/A       N/A
+transcripts_ver26_compas_20260209-124320             COMPAS   commercial       4      600      8,008   17,203,554 $   14.46        N/A       N/A
+transcripts_ver26_nlsy97_20260209-124319             NLSY97   commercial       4      580      7,772   17,726,879 $   14.63        N/A       N/A
+transcripts_ver26_compas_20260209-161924             COMPAS   oss             10     1500     19,564   27,604,588 $    2.68     1h 50m       4.4
+transcripts_ver26_nlsy97_20260209-161924             NLSY97   oss             10     1450     18,893   27,957,240 $    2.72     1h 47m       4.4
 ------------------------------------------------------------------------------------------------------------------------
 
 2. PER-MODEL BREAKDOWN
 ========================================================================================================================
+
+  Experiment: transcripts_ver26_compas_20260209-114748
+  Dataset: COMPAS | Type: commercial
+  ────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+  Model                                                    Debates  API Calls    Input Tok   Output Tok   Est Cost  Avg Resp
+  ────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+  gpt-4o-mini                                                    1         13       11,700        5,200 $  0.0049     4.50s
+  ────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+  SUBTOTAL                                                       1         13       11,700        5,200 $  0.0049
+
+  Experiment: transcripts_ver26_compas_20260209-124320
+  Dataset: COMPAS | Type: commercial
+  ────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+  Model                                                    Debates  API Calls    Input Tok   Output Tok   Est Cost  Avg Resp
+  ────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+  gemini/gemini-2.5-flash                                      150      2,015    1,098,345    1,836,097 $  1.2664     4.81s
+  gpt-4.1-mini                                                 150        143      161,969       35,333 $  0.1213     4.06s
+  gpt-4o-mini                                                  150      1,950    1,755,000      780,000 $  0.7312     4.50s
+  xai/grok-4-1-fast-non-reasoning-latest                       150      3,900    9,942,262    1,594,548 $ 12.3435     5.10s
+  ────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+  SUBTOTAL                                                     600      8,008   12,957,576    4,245,978 $ 14.4625
+
+  Experiment: transcripts_ver26_nlsy97_20260209-124319
+  Dataset: NLSY97 | Type: commercial
+  ────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+  Model                                                    Debates  API Calls    Input Tok   Output Tok   Est Cost  Avg Resp
+  ────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+  gemini/gemini-2.5-flash                                      145      1,974    1,250,872    1,941,777 $  1.3527     5.19s
+  gpt-4.1-mini                                                 145        143      197,892       38,335 $  0.1405     4.39s
+  gpt-4o-mini                                                  145      1,885    1,696,500      754,000 $  0.7069     4.50s
+  xai/grok-4-1-fast-non-reasoning-latest                       145      3,770   10,282,140    1,565,363 $ 12.4307     5.21s
+  ────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+  SUBTOTAL                                                     580      7,772   13,427,404    4,299,475 $ 14.6308
+
+  Experiment: transcripts_ver26_compas_20260209-161924
+  Dataset: COMPAS | Type: oss
+  ────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+  Model                                                    Debates  API Calls    Input Tok   Output Tok   Est Cost  Avg Resp
+  ────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+  openrouter/allenai/olmo-2-0325-32b-instruct                  150      1,950    3,034,851      478,762 $  0.7027    12.69s
+  ...outer/cognitivecomputations/dolphin3.0-mistral-24b        150      1,950    1,755,000      780,000 $  0.3549     4.50s
+  openrouter/cohere/aya-expanse-8b                             150      1,950    1,755,000      780,000 $  0.1648     4.50s
+  openrouter/deepseek/deepseek-r1-distill-llama-8b             150      1,950    1,755,000      780,000 $  0.1648     4.50s
+  openrouter/google/gemma-2-9b-it                              150      1,950    1,461,562      492,067 $  0.1270     2.61s
+  openrouter/meta-llama/llama-3.1-8b-instruct                  150      2,009    1,408,566      379,827 $  0.1162     3.21s
+  openrouter/microsoft/phi-4                                   150      1,954    2,305,956      696,395 $  0.4203     9.81s
+  openrouter/mistralai/mistral-7b-instruct                     150      1,951    4,108,330    1,170,927 $  0.3432     7.68s
+  openrouter/nousresearch/hermes-3-llama-3.1-8b                150      1,950    1,755,000      780,000 $  0.1648     4.50s
+  openrouter/qwen/qwen-2.5-7b-instruct                         150      1,950    1,551,855      375,490 $  0.1253     3.52s
+  ────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+  SUBTOTAL                                                    1500     19,564   20,891,120    6,713,468 $  2.6839
+
+  Experiment: transcripts_ver26_nlsy97_20260209-161924
+  Dataset: NLSY97 | Type: oss
+  ────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+  Model                                                    Debates  API Calls    Input Tok   Output Tok   Est Cost  Avg Resp
+  ────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+  openrouter/allenai/olmo-2-0325-32b-instruct                  145      1,885    3,107,839      464,600 $  0.7145    12.89s
+  ...outer/cognitivecomputations/dolphin3.0-mistral-24b        145      1,885    1,696,500      754,000 $  0.3431     4.50s
+  openrouter/cohere/aya-expanse-8b                             145      1,885    1,696,500      754,000 $  0.1593     4.50s
+  openrouter/deepseek/deepseek-r1-distill-llama-8b             145      1,885    1,696,500      754,000 $  0.1593     4.50s
+  openrouter/google/gemma-2-9b-it                              145      1,886    1,513,525      487,959 $  0.1301     2.67s
+  openrouter/meta-llama/llama-3.1-8b-instruct                  145      1,923    1,553,990      360,121 $  0.1244     3.13s
+  openrouter/microsoft/phi-4                                   145      1,888    2,505,407      673,875 $  0.4451     9.94s
+  openrouter/mistralai/mistral-7b-instruct                     145      1,886    4,274,079    1,224,936 $  0.3574     8.28s
+  openrouter/nousresearch/hermes-3-llama-3.1-8b                145      1,885    1,696,500      754,000 $  0.1593     4.50s
+  openrouter/qwen/qwen-2.5-7b-instruct                         145      1,885    1,610,291      378,618 $  0.1293     3.68s
+  ────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+  SUBTOTAL                                                    1450     18,893   21,351,131    6,606,109 $  2.7217
 
 
 3. AGGREGATE TOTALS
@@ -18,26 +92,63 @@ Experiment                                           Dataset  Type        Models
 
   Metric                                        Commercial             OSS     Grand Total
   ──────────────────────────────────────────────────────────────────────────────────────────
-  Total Debates                                          0               0               0
-  Total API Calls                                        0               0               0
-  Est. Input Tokens                                      0               0               0
-  Est. Output Tokens                                     0               0               0
-  Est. Total Tokens                                      0               0               0
-  Est. Cost (USD)                          $          0.00 $          0.00 $          0.00
-  Total API Duration                                  0.0s            0.0s            0.0s
+  Total Debates                                      1,181           2,950           4,131
+  Total API Calls                                   15,793          38,457          54,250
+  Est. Input Tokens                             26,396,680      42,242,251      68,638,931
+  Est. Output Tokens                             8,550,653      13,319,577      21,870,230
+  Est. Total Tokens                             34,947,333      55,561,828      90,509,161
+  Est. Cost (USD)                          $         29.10 $          5.41 $         34.50
+  Total API Duration                               21h 40m         61h 56m         83h 36m
 
-  Cumulative API compute time: 0.0 hours
-  Estimated total wall-clock time (all experiments): ~0.0 hours
+  Cumulative API compute time: 83.6 hours
+  Estimated total wall-clock time (all experiments): ~20.9 hours
     (API time / ~4 for concurrency of 30 parallel debates)
 
 
 4. PER-DATASET SUMMARY
 ========================================================================================================================
 
+  Dataset: NLSY97
+  ──────────────────────────────────────────────────────────────────────────────────────────
+    Experiments: 2
+    Unique models: 14
+    Total debates: 2,030
+    Total API calls: 26,665
+    Total tokens: 45,684,119
+    Estimated cost: $17.35
+    Models: gemini/gemini-2.5-flash, gpt-4.1-mini, gpt-4o-mini, openrouter/allenai/olmo-2-0325-32b-instruct, openrouter/cognitivecomputations/dolphin3.0-mistral-24b, openrouter/cohere/aya-expanse-8b, openrouter/deepseek/deepseek-r1-distill-llama-8b, openrouter/google/gemma-2-9b-it, openrouter/meta-llama/llama-3.1-8b-instruct, openrouter/microsoft/phi-4, openrouter/mistralai/mistral-7b-instruct, openrouter/nousresearch/hermes-3-llama-3.1-8b, openrouter/qwen/qwen-2.5-7b-instruct, xai/grok-4-1-fast-non-reasoning-latest
+
+  Dataset: COMPAS
+  ──────────────────────────────────────────────────────────────────────────────────────────
+    Experiments: 3
+    Unique models: 14
+    Total debates: 2,101
+    Total API calls: 27,585
+    Total tokens: 44,825,042
+    Estimated cost: $17.15
+    Models: gemini/gemini-2.5-flash, gpt-4.1-mini, gpt-4o-mini, openrouter/allenai/olmo-2-0325-32b-instruct, openrouter/cognitivecomputations/dolphin3.0-mistral-24b, openrouter/cohere/aya-expanse-8b, openrouter/deepseek/deepseek-r1-distill-llama-8b, openrouter/google/gemma-2-9b-it, openrouter/meta-llama/llama-3.1-8b-instruct, openrouter/microsoft/phi-4, openrouter/mistralai/mistral-7b-instruct, openrouter/nousresearch/hermes-3-llama-3.1-8b, openrouter/qwen/qwen-2.5-7b-instruct, xai/grok-4-1-fast-non-reasoning-latest
+
 
 5. MONITOR LOG TIMING ANALYSIS
 ========================================================================================================================
-  No monitor logs found.
+
+  OSS-COMPAS
+  ────────────────────────────────────────────────────────────
+    Source: /tmp/monitor_oss_3b.log
+    Wall-clock time logged: 1h 50m
+    Throughput at end: 2 debates/min
+    Avg seconds/debate: 4.4s
+    Progress at end: 1500/1500 (100.0%)
+    Estimated total if completed: ~1h 50m
+
+  OSS-NLSY97
+  ────────────────────────────────────────────────────────────
+    Source: /tmp/monitor_oss_3a.log
+    Wall-clock time logged: 1h 47m
+    Throughput at end: 5 debates/min
+    Avg seconds/debate: 4.4s
+    Progress at end: 1450/1450 (100.0%)
+    Estimated total if completed: ~1h 47m
 
 
 6. HARDWARE & INFRASTRUCTURE
@@ -78,8 +189,12 @@ Experiment                                           Dataset  Type        Models
   \toprule
   Dataset & Models & Debates & API Calls & Tokens (M) & Est. Cost (\$) & s/call & s/debate$^\dagger$ \\
   \midrule
+  COMPAS (Commercial) & 4 & 601 & 8,021 & 17.22 & 14.47 & 4.9 & $\approx$2.5 \\
+  COMPAS (OSS) & 10 & 1,500 & 19,564 & 27.60 & 2.68 & 5.7 & 4.4 \\
+  NLSY97 (Commercial) & 4 & 580 & 7,772 & 17.73 & 14.63 & 5.0 & $\approx$2.6 \\
+  NLSY97 (OSS) & 10 & 1,450 & 18,893 & 27.96 & 2.72 & 5.9 & 4.4 \\
   \midrule
-  \textbf{Total} & & \textbf{0} & \textbf{0} & \textbf{0.00} & \textbf{0.00} & 0.0 & \\
+  \textbf{Total} & & \textbf{4,131} & \textbf{54,250} & \textbf{90.51} & \textbf{34.50} & 5.5 & \\
   \bottomrule
   \end{tabular}
   \vspace{2pt}

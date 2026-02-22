@@ -1,9 +1,16 @@
 # Commercial models — direct API access via LiteLLM
+# NOTE: gpt-4o-mini API sunset Feb 27, 2026. Keep for bridging experiments only.
 commercial_models:
   - model_id: "gpt-4o-mini"
     display_name: "GPT-4o Mini"
     provider: "openai"
     max_tokens: 1024
+    # reasoning_effort: ""  # standard model, supports temperature
+  - model_id: "gpt-5-mini"
+    display_name: "GPT-5 Mini"
+    provider: "openai"
+    max_tokens: 1024
+    reasoning_effort: "minimal"  # thinking model — no temperature support
   - model_id: "gpt-4.1-mini"
     display_name: "GPT-4.1 Mini"
     provider: "openai"

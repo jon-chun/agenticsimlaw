@@ -175,12 +175,29 @@ class LiteLLMClient:
     RATE_LIMIT_BACKOFF_BASE = 10.0
     RATE_LIMIT_BACKOFF_MAX = 120.0
 
+    # OpenAI reasoning/thinking models that reject temperature and max_tokens
+    THINKING_MODELS = frozenset({
+        "gpt-5-mini", "gpt-5", "gpt-5.1", "gpt-5.2", "gpt-5-nano",
+        "gpt-5-pro", "gpt-5.1-pro", "gpt-5.2-pro",
+        "o3", "o3-pro", "o4-mini", "o1", "o1-pro",
+    })
+    # Thinking models need higher token budget: max_completion_tokens covers
+    # BOTH reasoning tokens and output tokens. 1024 is far too low.
+    THINKING_MODEL_TOKEN_MULTIPLIER = 16
+
     def __init__(self, model_name: str, temperature: float = 0.7,
-                 max_tokens: int = 1024, timeout: float = 900.0):
+                 max_tokens: int = 1024, timeout: float = 900.0,
+                 reasoning_effort: Optional[str] = None):
         self.model_name = model_name
         self.temperature = temperature
         self.max_tokens = max_tokens
         self.timeout = timeout
+        self.reasoning_effort = reasoning_effort
+
+    @classmethod
+    def _is_thinking_model(cls, model_name: str) -> bool:
+        """Check if model is a thinking/reasoning model that rejects sampling params."""
+        return model_name in cls.THINKING_MODELS
 
     @staticmethod
     def _is_rate_limit(exc: Exception) -> bool:
@@ -199,21 +216,46 @@ class LiteLLMClient:
         effective_model = model or self.model_name
         last_err = None
 
+        # Build kwargs based on model type
+        if self._is_thinking_model(effective_model):
+            # max_completion_tokens covers BOTH reasoning + output tokens.
+            # Use a multiplier so the model has room for visible output.
+            thinking_budget = self.max_tokens * self.THINKING_MODEL_TOKEN_MULTIPLIER
+            call_kwargs = {
+                "model": effective_model,
+                "messages": messages,
+                "max_completion_tokens": thinking_budget,
+            }
+            if self.reasoning_effort:
+                call_kwargs["reasoning_effort"] = self.reasoning_effort
+        else:
+            call_kwargs = {
+                "model": effective_model,
+                "messages": messages,
+                "temperature": self.temperature,
+                "max_tokens": self.max_tokens,
+            }
+
         for attempt in range(self.MAX_RETRIES):
             try:
                 start_time = time.time()
                 response = await asyncio.wait_for(
-                    litellm.acompletion(
-                        model=effective_model,
-                        messages=messages,
-                        temperature=self.temperature,
-                        max_tokens=self.max_tokens,
-                    ),
+                    litellm.acompletion(**call_kwargs),
                     timeout=self.timeout,
                 )
                 duration = time.time() - start_time
 
-                content = response.choices[0].message.content or ""
+                msg = response.choices[0].message
+                content = msg.content or ""
+                # Reasoning models may put output in reasoning_content
+                if not content:
+                    reasoning = getattr(msg, "reasoning_content", None)
+                    if reasoning:
+                        content = reasoning
+                        logger.debug(
+                            f"Using reasoning_content as content for {effective_model} "
+                            f"({len(reasoning)} chars)"
+                        )
                 usage = getattr(response, "usage", None)
 
                 return LLMResponse(
@@ -261,9 +303,11 @@ def _is_ollama_model(model_name: str) -> bool:
 
 
 def create_client(model_name: str, temperature: float = 0.7,
-                  max_tokens: int = 1024, timeout: float = 900.0):
+                  max_tokens: int = 1024, timeout: float = 900.0,
+                  reasoning_effort: Optional[str] = None):
     """Factory: returns OllamaClient for local Ollama models, else LiteLLMClient."""
     if _is_ollama_model(model_name):
         return OllamaClient(model_name, temperature, max_tokens, timeout)
     else:
-        return LiteLLMClient(model_name, temperature, max_tokens, timeout)
+        return LiteLLMClient(model_name, temperature, max_tokens, timeout,
+                             reasoning_effort=reasoning_effort)
