@@ -1,0 +1,931 @@
+model_name,prompt_type,case_id,repeat_id,dataset,ground_truth,prediction,confidence,is_correct,response_time_sec,prompt_tokens,completion_tokens,total_tokens,raw_response,error,timestamp
+gpt-5-mini,system1,83,0,two_year_recid,False,YES,92,False,2.7276930809020996,157,281,438,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 92
+}",,2026-02-15T09:21:06.302722
+gpt-5-mini,system1,53,0,two_year_recid,False,NO,90,True,2.202143907546997,156,217,373,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 90
+}",,2026-02-15T09:21:09.030866
+gpt-5-mini,system1,70,0,two_year_recid,False,NO,90,True,2.4774200916290283,156,274,430,"{""prediction"":""NO"",""confidence"":90}",,2026-02-15T09:21:11.233332
+gpt-5-mini,system1,45,0,two_year_recid,False,NO,70,True,3.1791019439697266,157,402,559,"{""prediction"":""NO"",""confidence"":70}",,2026-02-15T09:21:13.711152
+gpt-5-mini,system1,44,0,two_year_recid,False,NO,93,True,2.1454830169677734,157,210,367,"{""prediction"":""NO"",""confidence"":93}",,2026-02-15T09:21:16.890666
+gpt-5-mini,system1,39,0,two_year_recid,False,NO,92,True,2.7718758583068848,156,281,437,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 92
+}",,2026-02-15T09:21:19.036411
+gpt-5-mini,system1,22,0,two_year_recid,True,NO,80,False,3.447025775909424,157,409,566,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 80
+}",,2026-02-15T09:21:21.809346
+gpt-5-mini,system1,80,0,two_year_recid,False,NO,80,True,2.983297109603882,156,274,430,"{""prediction"":""NO"",""confidence"":80}",,2026-02-15T09:21:25.256726
+gpt-5-mini,system1,10,0,two_year_recid,False,YES,70,False,3.187772274017334,157,402,559,"{""prediction"":""YES"",""confidence"":70}",,2026-02-15T09:21:28.240295
+gpt-5-mini,system1,0,0,two_year_recid,True,YES,85,True,2.610501766204834,157,211,368,"{""prediction"":""YES"", ""confidence"":85}",,2026-02-15T09:21:31.429022
+gpt-5-mini,system1,18,0,two_year_recid,True,NO,80,False,2.5421149730682373,157,274,431,"{""prediction"":""NO"",""confidence"":80}",,2026-02-15T09:21:34.039721
+gpt-5-mini,system1,30,0,two_year_recid,True,YES,90,True,2.95780611038208,157,409,566,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 90
+}",,2026-02-15T09:21:36.582041
+gpt-5-mini,system1,73,0,two_year_recid,True,YES,85,True,2.6449551582336426,157,281,438,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 85
+}",,2026-02-15T09:21:39.540016
+gpt-5-mini,system1,33,0,two_year_recid,True,YES,80,True,2.6582930088043213,157,281,438,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 80
+}",,2026-02-15T09:21:42.185237
+gpt-5-mini,system1,90,0,two_year_recid,False,YES,82,False,2.505613088607788,157,274,431,"{""prediction"":""YES"",""confidence"":82}",,2026-02-15T09:21:44.843951
+gpt-5-mini,system1,4,0,two_year_recid,False,NO,92,True,2.6105141639709473,157,217,374,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 92
+}",,2026-02-15T09:21:47.350244
+gpt-5-mini,system1,76,0,two_year_recid,True,YES,88,True,2.46419620513916,157,281,438,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 88
+}",,2026-02-15T09:21:49.961018
+gpt-5-mini,system1,77,0,two_year_recid,False,YES,75,False,2.861576795578003,157,345,502,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 75
+}",,2026-02-15T09:21:52.425480
+gpt-5-mini,system1,12,0,two_year_recid,False,NO,65,True,5.111763000488281,157,658,815,"{""prediction"":""NO"",""confidence"":65}",,2026-02-15T09:21:55.287288
+gpt-5-mini,system1,31,0,two_year_recid,False,NO,90,True,2.3627657890319824,157,217,374,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 90
+}",,2026-02-15T09:22:00.399519
+gpt-5-mini,system1,55,0,two_year_recid,True,YES,90,True,2.929763078689575,157,281,438,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 90
+}",,2026-02-15T09:22:02.762537
+gpt-5-mini,system1,88,0,two_year_recid,True,YES,85,True,3.557878017425537,157,345,502,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 85
+}",,2026-02-15T09:22:05.692875
+gpt-5-mini,system1,26,0,two_year_recid,False,NO,70,True,2.996767997741699,157,281,438,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 70
+}",,2026-02-15T09:22:09.251071
+gpt-5-mini,system1,42,0,two_year_recid,True,YES,92,True,2.6783759593963623,157,274,431,"{""prediction"":""YES"",""confidence"":92}",,2026-02-15T09:22:12.248073
+gpt-5-mini,system1,69,0,two_year_recid,False,YES,90,False,2.641880750656128,157,281,438,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 90
+}",,2026-02-15T09:22:14.926727
+gpt-5-mini,system1,15,0,two_year_recid,False,NO,95,True,3.0497539043426514,157,281,438,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 95
+}",,2026-02-15T09:22:17.568829
+gpt-5-mini,system1,40,0,two_year_recid,False,NO,85,True,2.4591002464294434,157,281,438,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 85
+}",,2026-02-15T09:22:20.621237
+gpt-5-mini,system1,96,0,two_year_recid,True,NO,85,False,2.1912598609924316,156,210,366,"{""prediction"":""NO"",""confidence"":85}",,2026-02-15T09:22:23.080896
+gpt-5-mini,system1,9,0,two_year_recid,True,NO,70,False,2.49098801612854,157,281,438,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 70
+}",,2026-02-15T09:22:25.272452
+gpt-5-mini,system1,72,0,two_year_recid,False,NO,65,True,3.216729164123535,157,345,502,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 65
+}",,2026-02-15T09:22:27.764676
+gpt-5-mini,system1,11,0,two_year_recid,False,NO,80,True,2.849134922027588,157,274,431,"{""prediction"":""NO"",""confidence"":80}",,2026-02-15T09:22:30.981821
+gpt-5-mini,system1,47,0,two_year_recid,False,NO,75,True,3.4104361534118652,157,274,431,"{""prediction"":""NO"",""confidence"":75}",,2026-02-15T09:22:33.831153
+gpt-5-mini,system1,85,0,two_year_recid,False,NO,75,True,3.4083058834075928,157,409,566,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 75
+}",,2026-02-15T09:22:37.241755
+gpt-5-mini,system1,28,0,two_year_recid,False,NO,85,True,3.0407161712646484,157,338,495,"{""prediction"":""NO"",""confidence"":85}",,2026-02-15T09:22:40.650222
+gpt-5-mini,system1,93,0,two_year_recid,True,NO,78,False,2.385626792907715,157,281,438,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 78
+}",,2026-02-15T09:22:43.691758
+gpt-5-mini,system1,5,0,two_year_recid,True,NO,75,False,7.998258829116821,157,345,502,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 75
+}",,2026-02-15T09:22:46.077656
+gpt-5-mini,system1,66,0,two_year_recid,False,NO,80,True,6.812513113021851,157,850,1007,"{""prediction"":""NO"",""confidence"":80}",,2026-02-15T09:22:54.078865
+gpt-5-mini,system1,65,0,two_year_recid,False,YES,75,False,2.865198850631714,157,345,502,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 75
+}",,2026-02-15T09:23:00.893642
+gpt-5-mini,system1,35,0,two_year_recid,False,NO,95,True,2.485102891921997,157,210,367,"{""prediction"":""NO"",""confidence"":95}",,2026-02-15T09:23:03.759358
+gpt-5-mini,system1,16,0,two_year_recid,True,YES,78,True,3.1887969970703125,157,274,431,"{""prediction"":""YES"",""confidence"":78}",,2026-02-15T09:23:06.245203
+gpt-5-mini,system1,49,0,two_year_recid,False,YES,70,False,4.857228994369507,157,601,758,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 70
+}",,2026-02-15T09:23:09.434675
+gpt-5-mini,system1,34,0,two_year_recid,True,YES,88,True,2.157985210418701,157,217,374,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 88
+}",,2026-02-15T09:23:14.292337
+gpt-5-mini,system1,7,0,two_year_recid,False,NO,92,True,2.513500928878784,156,281,437,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 92
+}",,2026-02-15T09:23:16.450487
+gpt-5-mini,system1,95,0,two_year_recid,True,NO,75,False,2.928358793258667,156,281,437,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 75
+}",,2026-02-15T09:23:18.964115
+gpt-5-mini,system1,27,0,two_year_recid,False,NO,85,True,2.61110520362854,157,281,438,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 85
+}",,2026-02-15T09:23:21.901167
+gpt-5-mini,system1,19,0,two_year_recid,False,NO,90,True,2.342741012573242,157,217,374,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 90
+}",,2026-02-15T09:23:24.513531
+gpt-5-mini,system1,81,0,two_year_recid,False,NO,75,True,2.9908878803253174,157,345,502,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 75
+}",,2026-02-15T09:23:26.856480
+gpt-5-mini,system1,25,0,two_year_recid,False,NO,95,True,2.112391948699951,157,217,374,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 95
+}",,2026-02-15T09:23:29.847792
+gpt-5-mini,system1,62,0,two_year_recid,False,NO,85,True,2.8535900115966797,157,274,431,"{""prediction"":""NO"",""confidence"":85}",,2026-02-15T09:23:31.961268
+gpt-5-mini,system1,13,0,two_year_recid,False,NO,95,True,2.038665771484375,156,153,309,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 95
+}",,2026-02-15T09:23:34.816049
+gpt-5-mini,system1,24,0,two_year_recid,True,YES,88,True,2.2949607372283936,157,153,310,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 88
+}",,2026-02-15T09:23:36.855152
+gpt-5-mini,system1,3,0,two_year_recid,True,YES,85,True,2.2607438564300537,157,217,374,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 85
+}",,2026-02-15T09:23:39.150302
+gpt-5-mini,system1,17,0,two_year_recid,True,NO,72,False,2.8729968070983887,157,274,431,"{""prediction"":""NO"",""confidence"":72}",,2026-02-15T09:23:41.411363
+gpt-5-mini,system1,38,0,two_year_recid,False,NO,90,True,2.1067190170288086,157,146,303,"{""prediction"":""NO"",""confidence"":90}",,2026-02-15T09:23:44.284617
+gpt-5-mini,system1,8,0,two_year_recid,False,NO,82,True,2.6902480125427246,157,281,438,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 82
+}",,2026-02-15T09:23:46.391631
+gpt-5-mini,system1,78,0,two_year_recid,True,YES,88,True,2.5731780529022217,157,210,367,"{""prediction"":""YES"",""confidence"":88}",,2026-02-15T09:23:49.082070
+gpt-5-mini,system1,6,0,two_year_recid,False,NO,95,True,1.8971240520477295,157,153,310,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 95
+}",,2026-02-15T09:23:51.655620
+gpt-5-mini,system1,64,0,two_year_recid,False,YES,82,False,3.345561981201172,157,338,495,"{""prediction"":""YES"",""confidence"":82}",,2026-02-15T09:23:53.552975
+gpt-5-mini,system1,36,0,two_year_recid,False,YES,90,False,2.4940929412841797,157,281,438,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 90
+}",,2026-02-15T09:23:56.899375
+gpt-5-mini,system1,89,0,two_year_recid,True,NO,70,False,2.8559317588806152,157,281,438,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 70
+}",,2026-02-15T09:23:59.394040
+gpt-5-mini,system1,56,0,two_year_recid,False,NO,90,True,2.364300012588501,157,217,374,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 90
+}",,2026-02-15T09:24:02.250251
+gpt-5-mini,system1,99,0,two_year_recid,True,NO,75,False,2.586024284362793,156,281,437,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 75
+}",,2026-02-15T09:24:04.614967
+gpt-5-mini,system1,54,0,two_year_recid,False,NO,75,True,4.117457151412964,157,409,566,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 75
+}",,2026-02-15T09:24:07.201298
+gpt-5-mini,system1,43,0,two_year_recid,False,NO,95,True,2.8047688007354736,157,217,374,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 95
+}",,2026-02-15T09:24:11.319058
+gpt-5-mini,system1,50,0,two_year_recid,False,NO,92,True,2.4664697647094727,156,217,373,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 92
+}",,2026-02-15T09:24:14.124879
+gpt-5-mini,system1,67,0,two_year_recid,False,NO,92,True,2.9437620639801025,157,274,431,"{""prediction"":""NO"",""confidence"":92}",,2026-02-15T09:24:16.591739
+gpt-5-mini,system1,46,0,two_year_recid,True,NO,88,False,3.893951177597046,157,210,367,"{""prediction"":""NO"",""confidence"":88}",,2026-02-15T09:24:19.543132
+gpt-5-mini,system1,68,0,two_year_recid,False,NO,85,True,3.8039259910583496,156,409,565,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 85
+}",,2026-02-15T09:24:23.445789
+gpt-5-mini,system1,61,0,two_year_recid,True,YES,85,True,3.4384348392486572,157,345,502,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 85
+}",,2026-02-15T09:24:27.250929
+gpt-5-mini,system1,97,0,two_year_recid,True,YES,88,True,2.906442403793335,157,274,431,"{""prediction"":""YES"",""confidence"":88}",,2026-02-15T09:24:30.690856
+gpt-5-mini,system1,79,0,two_year_recid,True,YES,75,True,3.322744846343994,157,345,502,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 75
+}",,2026-02-15T09:24:33.597617
+gpt-5-mini,system1,41,0,two_year_recid,False,NO,92,True,2.5200388431549072,157,217,374,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 92
+}",,2026-02-15T09:24:36.920749
+gpt-5-mini,system1,58,0,two_year_recid,True,NO,70,False,3.098625898361206,156,345,501,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 70
+}",,2026-02-15T09:24:39.441658
+gpt-5-mini,system1,48,0,two_year_recid,True,NO,90,False,2.4250922203063965,157,274,431,"{""prediction"":""NO"",""confidence"":90}",,2026-02-15T09:24:42.540705
+gpt-5-mini,system1,98,0,two_year_recid,True,YES,88,True,3.1195669174194336,157,281,438,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 88
+}",,2026-02-15T09:24:44.966125
+gpt-5-mini,system1,57,0,two_year_recid,True,NO,80,False,3.452118158340454,157,281,438,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 80
+}",,2026-02-15T09:24:48.089637
+gpt-5-mini,system1,75,0,two_year_recid,False,NO,90,True,2.509028196334839,157,281,438,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 90
+}",,2026-02-15T09:24:51.542522
+gpt-5-mini,system1,32,0,two_year_recid,False,YES,70,False,8.06833004951477,157,1049,1206,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 70
+}",,2026-02-15T09:24:54.051900
+gpt-5-mini,system1,94,0,two_year_recid,True,YES,90,True,1.7369589805603027,157,146,303,"{""prediction"":""YES"",""confidence"":90}",,2026-02-15T09:25:02.120559
+gpt-5-mini,system1,59,0,two_year_recid,True,NO,80,False,2.814426898956299,157,274,431,"{""prediction"":""NO"",""confidence"":80}",,2026-02-15T09:25:03.858996
+gpt-5-mini,system1,63,0,two_year_recid,False,NO,90,True,2.3972811698913574,157,217,374,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 90
+}",,2026-02-15T09:25:06.673862
+gpt-5-mini,system1,84,0,two_year_recid,True,NO,80,False,6.136238098144531,156,729,885,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 80
+}",,2026-02-15T09:25:09.071484
+gpt-5-mini,system1,37,0,two_year_recid,True,YES,85,True,2.7436060905456543,157,281,438,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 85
+}",,2026-02-15T09:25:15.207900
+gpt-5-mini,system1,29,0,two_year_recid,False,YES,92,False,2.730884075164795,157,274,431,"{""prediction"":""YES"",""confidence"":92}",,2026-02-15T09:25:17.953510
+gpt-5-mini,system1,1,0,two_year_recid,True,YES,85,True,3.049471855163574,157,281,438,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 85
+}",,2026-02-15T09:25:20.685817
+gpt-5-mini,system1,52,0,two_year_recid,True,NO,70,False,2.6639468669891357,157,281,438,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 70
+}",,2026-02-15T09:25:23.738287
+gpt-5-mini,system1,21,0,two_year_recid,True,NO,75,False,3.727619171142578,157,345,502,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 75
+}",,2026-02-15T09:25:26.402516
+gpt-5-mini,system1,2,0,two_year_recid,True,YES,90,True,3.188167095184326,157,274,431,"{""prediction"":""YES"",""confidence"":90}",,2026-02-15T09:25:30.130634
+gpt-5-mini,system1,23,0,two_year_recid,True,YES,80,True,3.307621955871582,157,409,566,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 80
+}",,2026-02-15T09:25:33.319785
+gpt-5-mini,system1,87,0,two_year_recid,False,NO,85,True,3.5848138332366943,157,345,502,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 85
+}",,2026-02-15T09:25:36.627750
+gpt-5-mini,system1,91,0,two_year_recid,True,YES,92,True,2.773519277572632,157,281,438,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 92
+}",,2026-02-15T09:25:40.212863
+gpt-5-mini,system1,74,0,two_year_recid,False,NO,70,True,3.7439138889312744,157,409,566,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 70
+}",,2026-02-15T09:25:42.986719
+gpt-5-mini,system1,86,0,two_year_recid,False,NO,95,True,2.2334611415863037,157,153,310,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 95
+}",,2026-02-15T09:25:46.732415
+gpt-5-mini,system1,82,0,two_year_recid,False,NO,85,True,3.076380968093872,157,217,374,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 85
+}",,2026-02-15T09:25:48.966514
+gpt-5-mini,system1,20,0,two_year_recid,False,NO,88,True,2.579688787460327,157,281,438,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 88
+}",,2026-02-15T09:25:52.043209
+gpt-5-mini,system1,60,0,two_year_recid,False,NO,95,True,2.2992560863494873,156,210,366,"{""prediction"":""NO"",""confidence"":95}",,2026-02-15T09:25:54.623090
+gpt-5-mini,system1,71,0,two_year_recid,True,YES,80,True,5.165259838104248,157,601,758,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 80
+}",,2026-02-15T09:25:56.922694
+gpt-5-mini,system1,14,0,two_year_recid,True,YES,75,True,2.9184088706970215,157,345,502,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 75
+}",,2026-02-15T09:26:02.089845
+gpt-5-mini,system1,92,0,two_year_recid,True,NO,80,False,3.025081157684326,157,281,438,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 80
+}",,2026-02-15T09:26:05.008945
+gpt-5-mini,system1,51,0,two_year_recid,True,YES,85,True,2.441253662109375,157,217,374,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 85
+}",,2026-02-15T09:26:08.035648
+gpt-5-mini,system1,83,1,two_year_recid,False,YES,92,False,2.437638998031616,157,217,374,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 92
+}",,2026-02-15T09:26:10.490220
+gpt-5-mini,system1,53,1,two_year_recid,False,NO,95,True,2.204892873764038,156,217,373,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 95
+}",,2026-02-15T09:26:12.928213
+gpt-5-mini,system1,70,1,two_year_recid,False,NO,90,True,2.5962839126586914,156,217,373,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 90
+}",,2026-02-15T09:26:15.134023
+gpt-5-mini,system1,45,1,two_year_recid,False,NO,70,True,3.6101229190826416,157,409,566,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 70
+}",,2026-02-15T09:26:17.730653
+gpt-5-mini,system1,44,1,two_year_recid,False,NO,95,True,2.4363389015197754,157,217,374,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 95
+}",,2026-02-15T09:26:21.343446
+gpt-5-mini,system1,39,1,two_year_recid,False,NO,90,True,3.1764979362487793,156,345,501,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 90
+}",,2026-02-15T09:26:23.780137
+gpt-5-mini,system1,22,1,two_year_recid,True,NO,85,False,2.688603162765503,157,274,431,"{""prediction"":""NO"",""confidence"":85}",,2026-02-15T09:26:26.956779
+gpt-5-mini,system1,80,1,two_year_recid,False,NO,70,True,3.1328048706054688,156,345,501,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 70
+}",,2026-02-15T09:26:29.646559
+gpt-5-mini,system1,10,1,two_year_recid,False,NO,65,True,3.988780975341797,157,473,630,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 65
+}",,2026-02-15T09:26:32.779729
+gpt-5-mini,system1,0,1,two_year_recid,True,YES,87,True,2.1691489219665527,157,210,367,"{""prediction"":""YES"",""confidence"":87}",,2026-02-15T09:26:36.769234
+gpt-5-mini,system1,18,1,two_year_recid,True,NO,80,False,2.5333611965179443,157,281,438,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 80
+}",,2026-02-15T09:26:38.938644
+gpt-5-mini,system1,30,1,two_year_recid,True,YES,90,True,2.971228837966919,157,409,566,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 90
+}",,2026-02-15T09:26:41.472529
+gpt-5-mini,system1,73,1,two_year_recid,True,YES,85,True,2.4367778301239014,157,274,431,"{""prediction"":""YES"",""confidence"":85}",,2026-02-15T09:26:44.443985
+gpt-5-mini,system1,33,1,two_year_recid,True,YES,85,True,2.975113868713379,157,345,502,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 85
+}",,2026-02-15T09:26:46.880911
+gpt-5-mini,system1,90,1,two_year_recid,False,YES,82,False,3.35898494720459,157,281,438,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-15T09:26:49.856210
+gpt-5-mini,system1,4,1,two_year_recid,False,NO,95,True,3.003999948501587,157,281,438,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 95
+}",,2026-02-15T09:26:53.215344
+gpt-5-mini,system1,76,1,two_year_recid,True,YES,88,True,2.524777889251709,157,274,431,"{""prediction"":""YES"",""confidence"":88}",,2026-02-15T09:26:56.220151
+gpt-5-mini,system1,77,1,two_year_recid,False,YES,72,False,3.0990257263183594,157,345,502,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}",,2026-02-15T09:26:58.745156
+gpt-5-mini,system1,12,1,two_year_recid,False,NO,70,True,3.0182509422302246,157,338,495,"{""prediction"":""NO"",""confidence"":70}",,2026-02-15T09:27:01.844316
+gpt-5-mini,system1,31,1,two_year_recid,False,NO,95,True,2.3418450355529785,157,217,374,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 95
+}",,2026-02-15T09:27:04.863033
+gpt-5-mini,system1,55,1,two_year_recid,True,YES,88,True,2.4542698860168457,157,281,438,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 88
+}",,2026-02-15T09:27:07.205045
+gpt-5-mini,system1,88,1,two_year_recid,True,YES,85,True,2.5288617610931396,157,210,367,"{""prediction"":""YES"",""confidence"":85}",,2026-02-15T09:27:09.659536
+gpt-5-mini,system1,26,1,two_year_recid,False,NO,70,True,3.3341431617736816,157,281,438,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 70
+}",,2026-02-15T09:27:12.188950
+gpt-5-mini,system1,42,1,two_year_recid,True,YES,90,True,2.785205841064453,157,281,438,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 90
+}",,2026-02-15T09:27:15.523300
+gpt-5-mini,system1,69,1,two_year_recid,False,YES,92,False,1.6747031211853027,157,146,303,"{""prediction"":""YES"",""confidence"":92}",,2026-02-15T09:27:18.308665
+gpt-5-mini,system1,15,1,two_year_recid,False,NO,92,True,1.8599638938903809,157,153,310,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 92
+}",,2026-02-15T09:27:19.983513
+gpt-5-mini,system1,40,1,two_year_recid,False,NO,85,True,2.3880319595336914,157,274,431,"{""prediction"":""NO"",""confidence"":85}",,2026-02-15T09:27:21.843690
+gpt-5-mini,system1,96,1,two_year_recid,True,NO,0,False,8.703746795654297,156,1177,1333,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 0
+}",,2026-02-15T09:27:24.232257
+gpt-5-mini,system1,9,1,two_year_recid,True,NO,70,False,2.935845136642456,157,345,502,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 70
+}",,2026-02-15T09:27:32.936271
+gpt-5-mini,system1,72,1,two_year_recid,False,NO,72,True,5.42977499961853,157,530,687,"{""prediction"":""NO"",""confidence"":72}",,2026-02-15T09:27:35.872839
+gpt-5-mini,system1,11,1,two_year_recid,False,NO,88,True,3.63883900642395,157,345,502,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 88
+}",,2026-02-15T09:27:41.302861
+gpt-5-mini,system1,47,1,two_year_recid,False,NO,75,True,3.041314125061035,157,345,502,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 75
+}",,2026-02-15T09:27:44.941869
+gpt-5-mini,system1,85,1,two_year_recid,False,NO,70,True,3.719482183456421,157,467,624,"{""prediction"":""NO"",""confidence"":70}",,2026-02-15T09:27:47.983344
+gpt-5-mini,system1,28,1,two_year_recid,False,NO,85,True,2.5882790088653564,157,281,438,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 85
+}",,2026-02-15T09:27:51.703381
+gpt-5-mini,system1,93,1,two_year_recid,True,NO,70,False,3.372692108154297,157,409,566,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 70
+}",,2026-02-15T09:27:54.292051
+gpt-5-mini,system1,5,1,two_year_recid,True,NO,80,False,4.061877965927124,157,466,623,"{""prediction"":""NO"",""confidence"":80}",,2026-02-15T09:27:57.664951
+gpt-5-mini,system1,66,1,two_year_recid,False,NO,80,True,2.2044410705566406,157,217,374,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 80
+}",,2026-02-15T09:28:01.727005
+gpt-5-mini,system1,65,1,two_year_recid,False,YES,78,False,4.333950996398926,157,530,687,"{""prediction"":""YES"",""confidence"":78}",,2026-02-15T09:28:03.931594
+gpt-5-mini,system1,35,1,two_year_recid,False,NO,92,True,2.590909957885742,157,281,438,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 92
+}",,2026-02-15T09:28:08.266352
+gpt-5-mini,system1,16,1,two_year_recid,True,YES,80,True,2.6514229774475098,157,281,438,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 80
+}",,2026-02-15T09:28:10.857752
+gpt-5-mini,system1,49,1,two_year_recid,False,YES,70,False,6.803905010223389,157,786,943,"{""prediction"":""YES"",""confidence"":70}",,2026-02-15T09:28:13.509382
+gpt-5-mini,system1,34,1,two_year_recid,True,YES,90,True,3.6651599407196045,157,281,438,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 90
+}",,2026-02-15T09:28:20.317535
+gpt-5-mini,system1,7,1,two_year_recid,False,NO,92,True,2.550539016723633,156,217,373,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 92
+}",,2026-02-15T09:28:23.982995
+gpt-5-mini,system1,95,1,two_year_recid,True,NO,85,False,3.03737211227417,156,210,366,"{""prediction"":""NO"",""confidence"":85}",,2026-02-15T09:28:26.533756
+gpt-5-mini,system1,27,1,two_year_recid,False,NO,85,True,2.9428820610046387,157,281,438,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 85
+}",,2026-02-15T09:28:29.571649
+gpt-5-mini,system1,19,1,two_year_recid,False,NO,90,True,2.4727699756622314,157,217,374,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 90
+}",,2026-02-15T09:28:32.514792
+gpt-5-mini,system1,81,1,two_year_recid,False,NO,75,True,5.753663063049316,157,722,879,"{""prediction"":""NO"",""confidence"":75}",,2026-02-15T09:28:34.987714
+gpt-5-mini,system1,25,1,two_year_recid,False,NO,95,True,1.7444736957550049,157,146,303,"{""prediction"":""NO"",""confidence"":95}",,2026-02-15T09:28:40.743922
+gpt-5-mini,system1,62,1,two_year_recid,False,NO,85,True,2.292776107788086,157,281,438,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 85
+}",,2026-02-15T09:28:42.489470
+gpt-5-mini,system1,13,1,two_year_recid,False,NO,95,True,2.7244648933410645,156,217,373,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 95
+}",,2026-02-15T09:28:44.782782
+gpt-5-mini,system1,24,1,two_year_recid,True,YES,85,True,3.2122890949249268,157,281,438,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 85
+}",,2026-02-15T09:28:47.507553
+gpt-5-mini,system1,3,1,two_year_recid,True,YES,85,True,2.355818033218384,157,281,438,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 85
+}",,2026-02-15T09:28:50.720065
+gpt-5-mini,system1,17,1,two_year_recid,True,NO,80,False,3.2776389122009277,157,345,502,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 80
+}",,2026-02-15T09:28:53.076067
+gpt-5-mini,system1,38,1,two_year_recid,False,NO,90,True,3.358538866043091,157,274,431,"{""prediction"":""NO"",""confidence"":90}",,2026-02-15T09:28:56.353941
+gpt-5-mini,system1,8,1,two_year_recid,False,NO,70,True,2.6601991653442383,157,281,438,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 70
+}",,2026-02-15T09:28:59.712915
+gpt-5-mini,system1,78,1,two_year_recid,True,YES,88,True,1.9036579132080078,157,217,374,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 88
+}",,2026-02-15T09:29:02.374264
+gpt-5-mini,system1,6,1,two_year_recid,False,NO,95,True,2.1757678985595703,157,153,310,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 95
+}",,2026-02-15T09:29:04.278259
+gpt-5-mini,system1,64,1,two_year_recid,False,YES,80,False,2.956735372543335,157,338,495,"{""prediction"":""YES"",""confidence"":80}",,2026-02-15T09:29:06.454224
+gpt-5-mini,system1,36,1,two_year_recid,False,YES,90,False,2.7912707328796387,157,345,502,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 90
+}",,2026-02-15T09:29:09.411209
+gpt-5-mini,system1,89,1,two_year_recid,True,YES,65,True,2.8284389972686768,157,345,502,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 65
+}",,2026-02-15T09:29:12.203013
+gpt-5-mini,system1,56,1,two_year_recid,False,NO,90,True,2.600309133529663,157,217,374,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 90
+}",,2026-02-15T09:29:15.031599
+gpt-5-mini,system1,99,1,two_year_recid,True,NO,70,False,3.7112247943878174,156,338,494,"{""prediction"":""NO"",""confidence"":70}",,2026-02-15T09:29:17.632173
+gpt-5-mini,system1,54,1,two_year_recid,False,NO,75,True,3.477475166320801,157,338,495,"{""prediction"":""NO"",""confidence"":75}",,2026-02-15T09:29:21.346627
+gpt-5-mini,system1,43,1,two_year_recid,False,NO,95,True,2.327632188796997,157,217,374,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 95
+}",,2026-02-15T09:29:24.824437
+gpt-5-mini,system1,50,1,two_year_recid,False,NO,92,True,2.271336078643799,156,217,373,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 92
+}",,2026-02-15T09:29:27.152236
+gpt-5-mini,system1,67,1,two_year_recid,False,NO,88,True,4.4753737449646,157,217,374,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 88
+}",,2026-02-15T09:29:29.423749
+gpt-5-mini,system1,46,1,two_year_recid,True,NO,92,False,2.507858991622925,157,217,374,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 92
+}",,2026-02-15T09:29:33.899359
+gpt-5-mini,system1,68,1,two_year_recid,False,NO,80,True,2.807178020477295,156,281,437,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 80
+}",,2026-02-15T09:29:36.407619
+gpt-5-mini,system1,61,1,two_year_recid,True,YES,90,True,2.7364699840545654,157,281,438,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 90
+}",,2026-02-15T09:29:39.214986
+gpt-5-mini,system1,97,1,two_year_recid,True,YES,90,True,3.6163697242736816,157,345,502,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 90
+}",,2026-02-15T09:29:41.952076
+gpt-5-mini,system1,79,1,two_year_recid,True,YES,75,True,3.264793872833252,157,281,438,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 75
+}",,2026-02-15T09:29:45.568640
+gpt-5-mini,system1,41,1,two_year_recid,False,NO,92,True,2.932692050933838,157,274,431,"{""prediction"":""NO"",""confidence"":92}",,2026-02-15T09:29:48.833616
+gpt-5-mini,system1,58,1,two_year_recid,True,NO,80,False,2.2969799041748047,156,210,366,"{""prediction"":""NO"",""confidence"":80}",,2026-02-15T09:29:51.766572
+gpt-5-mini,system1,48,1,two_year_recid,True,NO,90,False,2.5117061138153076,157,274,431,"{""prediction"":""NO"",""confidence"":90}",,2026-02-15T09:29:54.063723
+gpt-5-mini,system1,98,1,two_year_recid,True,YES,88,True,3.1595468521118164,157,281,438,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 88
+}",,2026-02-15T09:29:56.575577
+gpt-5-mini,system1,57,1,two_year_recid,True,NO,80,False,3.5137951374053955,157,338,495,"{""prediction"":""NO"",""confidence"":80}",,2026-02-15T09:29:59.736372
+gpt-5-mini,system1,75,1,two_year_recid,False,NO,92,True,3.236772060394287,157,217,374,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 92
+}",,2026-02-15T09:30:03.250501
+gpt-5-mini,system1,32,1,two_year_recid,False,YES,75,False,3.142559051513672,157,281,438,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 75
+}",,2026-02-15T09:30:06.487469
+gpt-5-mini,system1,94,1,two_year_recid,True,YES,90,True,2.5075008869171143,157,210,367,"{""prediction"":""YES"",""confidence"":90}",,2026-02-15T09:30:09.630246
+gpt-5-mini,system1,59,1,two_year_recid,True,NO,85,False,3.0631699562072754,157,338,495,"{""prediction"":""NO"",""confidence"":85}",,2026-02-15T09:30:12.138209
+gpt-5-mini,system1,63,1,two_year_recid,False,NO,92,True,3.4108660221099854,157,281,438,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 92
+}",,2026-02-15T09:30:15.201914
+gpt-5-mini,system1,84,1,two_year_recid,True,NO,90,False,2.312628984451294,156,210,366,"{""prediction"":""NO"",""confidence"":90}",,2026-02-15T09:30:18.613032
+gpt-5-mini,system1,37,1,two_year_recid,True,YES,80,True,3.049990177154541,157,281,438,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 80
+}",,2026-02-15T09:30:20.931489
+gpt-5-mini,system1,29,1,two_year_recid,False,YES,90,False,2.4498329162597656,157,217,374,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 90
+}",,2026-02-15T09:30:23.982516
+gpt-5-mini,system1,1,1,two_year_recid,True,YES,85,True,3.245023012161255,157,274,431,"{""prediction"":""YES"",""confidence"":85}",,2026-02-15T09:30:26.432588
+gpt-5-mini,system1,52,1,two_year_recid,True,NO,70,False,3.3358359336853027,157,338,495,"{""prediction"":""NO"",""confidence"":70}",,2026-02-15T09:30:29.678018
+gpt-5-mini,system1,21,1,two_year_recid,True,NO,75,False,3.9093191623687744,157,409,566,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 75
+}",,2026-02-15T09:30:33.014005
+gpt-5-mini,system1,2,1,two_year_recid,True,YES,92,True,2.146019220352173,157,153,310,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 92
+}",,2026-02-15T09:30:36.923493
+gpt-5-mini,system1,23,1,two_year_recid,True,YES,80,True,3.016942024230957,157,345,502,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 80
+}",,2026-02-15T09:30:39.069683
+gpt-5-mini,system1,87,1,two_year_recid,False,NO,80,True,3.8830509185791016,157,345,502,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 80
+}",,2026-02-15T09:30:42.087291
+gpt-5-mini,system1,91,1,two_year_recid,True,YES,90,True,4.3595991134643555,157,537,694,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 90
+}",,2026-02-15T09:30:45.970521
+gpt-5-mini,system1,74,1,two_year_recid,False,NO,70,True,4.43314003944397,157,473,630,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 70
+}",,2026-02-15T09:30:50.330322
+gpt-5-mini,system1,86,1,two_year_recid,False,NO,95,True,2.9509267807006836,157,217,374,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 95
+}",,2026-02-15T09:30:54.763673
+gpt-5-mini,system1,82,1,two_year_recid,False,NO,85,True,2.9475560188293457,157,274,431,"{""prediction"":""NO"",""confidence"":85}",,2026-02-15T09:30:57.714777
+gpt-5-mini,system1,20,1,two_year_recid,False,NO,88,True,3.249068021774292,157,274,431,"{""prediction"":""NO"",""confidence"":88}",,2026-02-15T09:31:00.662480
+gpt-5-mini,system1,60,1,two_year_recid,False,NO,92,True,2.207472324371338,156,153,309,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 92
+}",,2026-02-15T09:31:03.911737
+gpt-5-mini,system1,71,1,two_year_recid,True,YES,75,True,4.094497919082642,157,402,559,"{""prediction"":""YES"",""confidence"":75}",,2026-02-15T09:31:06.120169
+gpt-5-mini,system1,14,1,two_year_recid,True,YES,70,True,3.974890947341919,157,473,630,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 70
+}",,2026-02-15T09:31:10.214976
+gpt-5-mini,system1,92,1,two_year_recid,True,NO,80,False,2.468644142150879,157,281,438,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 80
+}",,2026-02-15T09:31:14.190024
+gpt-5-mini,system1,51,1,two_year_recid,True,YES,85,True,3.0265259742736816,157,281,438,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 85
+}",,2026-02-15T09:31:16.659239
+gpt-5-mini,system1,83,2,two_year_recid,False,YES,90,False,5.027815818786621,157,473,630,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 90
+}",,2026-02-15T09:31:19.714193
+gpt-5-mini,system1,53,2,two_year_recid,False,NO,95,True,2.8876140117645264,156,217,373,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 95
+}",,2026-02-15T09:31:24.742380
+gpt-5-mini,system1,70,2,two_year_recid,False,NO,90,True,2.331178903579712,156,210,366,"{""prediction"":""NO"",""confidence"":90}",,2026-02-15T09:31:27.630540
+gpt-5-mini,system1,45,2,two_year_recid,False,NO,72,True,3.192976951599121,157,338,495,"{""prediction"":""NO"",""confidence"":72}",,2026-02-15T09:31:29.961966
+gpt-5-mini,system1,44,2,two_year_recid,False,NO,95,True,2.270570993423462,157,217,374,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 95
+}",,2026-02-15T09:31:33.155182
+gpt-5-mini,system1,39,2,two_year_recid,False,NO,90,True,3.185755729675293,156,281,437,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 90
+}",,2026-02-15T09:31:35.425952
+gpt-5-mini,system1,22,2,two_year_recid,True,NO,80,False,3.368424892425537,157,217,374,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 80
+}",,2026-02-15T09:31:38.611911
+gpt-5-mini,system1,80,2,two_year_recid,False,NO,75,True,3.6474969387054443,156,281,437,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 75
+}",,2026-02-15T09:31:41.980505
+gpt-5-mini,system1,10,2,two_year_recid,False,NO,70,True,3.1776528358459473,157,345,502,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 70
+}",,2026-02-15T09:31:45.628212
+gpt-5-mini,system1,0,2,two_year_recid,True,YES,82,True,2.253342390060425,157,210,367,"{""prediction"":""YES"",""confidence"":82}",,2026-02-15T09:31:48.806864
+gpt-5-mini,system1,18,2,two_year_recid,True,NO,80,False,3.696669101715088,157,338,495,"{""prediction"":""NO"",""confidence"":80}",,2026-02-15T09:31:51.060427
+gpt-5-mini,system1,30,2,two_year_recid,True,YES,90,True,2.4814107418060303,157,217,374,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 90
+}",,2026-02-15T09:31:54.757650
+gpt-5-mini,system1,73,2,two_year_recid,True,YES,85,True,3.060328245162964,157,281,438,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 85
+}",,2026-02-15T09:31:57.239245
+gpt-5-mini,system1,33,2,two_year_recid,True,YES,80,True,3.1478021144866943,157,217,374,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 80
+}",,2026-02-15T09:32:00.299918
+gpt-5-mini,system1,90,2,two_year_recid,False,YES,80,False,3.2733407020568848,157,274,431,"{""prediction"":""YES"",""confidence"":80}",,2026-02-15T09:32:03.448077
+gpt-5-mini,system1,4,2,two_year_recid,False,NO,95,True,3.1930439472198486,157,345,502,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 95
+}",,2026-02-15T09:32:06.721635
+gpt-5-mini,system1,76,2,two_year_recid,True,YES,85,True,4.070041179656982,157,409,566,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 85
+}",,2026-02-15T09:32:09.914918
+gpt-5-mini,system1,77,2,two_year_recid,False,YES,85,False,3.2248220443725586,157,338,495,"{""prediction"":""YES"",""confidence"":85}",,2026-02-15T09:32:13.985162
+gpt-5-mini,system1,12,2,two_year_recid,False,YES,70,False,2.849381685256958,157,274,431,"{""prediction"":""YES"",""confidence"":70}",,2026-02-15T09:32:17.215167
+gpt-5-mini,system1,31,2,two_year_recid,False,NO,90,True,3.3214218616485596,157,281,438,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 90
+}",,2026-02-15T09:32:20.067264
+gpt-5-mini,system1,55,2,two_year_recid,True,YES,88,True,2.8912620544433594,157,217,374,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 88
+}",,2026-02-15T09:32:23.388917
+gpt-5-mini,system1,88,2,two_year_recid,True,YES,82,True,3.353111743927002,157,338,495,"{""prediction"":""YES"",""confidence"":82}",,2026-02-15T09:32:26.280356
+gpt-5-mini,system1,26,2,two_year_recid,False,NO,70,True,3.06846284866333,157,345,502,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 70
+}",,2026-02-15T09:32:29.633890
+gpt-5-mini,system1,42,2,two_year_recid,True,YES,88,True,3.3081018924713135,157,345,502,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 88
+}",,2026-02-15T09:32:32.702543
+gpt-5-mini,system1,69,2,two_year_recid,False,YES,90,False,3.065497875213623,157,281,438,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 90
+}",,2026-02-15T09:32:36.010815
+gpt-5-mini,system1,15,2,two_year_recid,False,NO,95,True,2.4219839572906494,157,217,374,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 95
+}",,2026-02-15T09:32:39.076539
+gpt-5-mini,system1,40,2,two_year_recid,False,NO,90,True,3.2146430015563965,157,345,502,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 90
+}",,2026-02-15T09:32:41.498866
+gpt-5-mini,system1,96,2,two_year_recid,True,NO,80,False,3.2350211143493652,156,281,437,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 80
+}",,2026-02-15T09:32:44.714022
+gpt-5-mini,system1,9,2,two_year_recid,True,YES,65,True,3.8614559173583984,157,345,502,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 65
+}",,2026-02-15T09:32:47.949242
+gpt-5-mini,system1,72,2,two_year_recid,False,NO,72,True,4.073478937149048,157,345,502,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 72
+}",,2026-02-15T09:32:51.811090
+gpt-5-mini,system1,11,2,two_year_recid,False,NO,85,True,3.153379201889038,157,217,374,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 85
+}",,2026-02-15T09:32:55.885108
+gpt-5-mini,system1,47,2,two_year_recid,False,NO,85,True,3.802290201187134,157,345,502,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 85
+}",,2026-02-15T09:32:59.038719
+gpt-5-mini,system1,85,2,two_year_recid,False,NO,70,True,4.315176963806152,157,537,694,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 70
+}",,2026-02-15T09:33:02.841147
+gpt-5-mini,system1,28,2,two_year_recid,False,NO,80,True,3.156416893005371,157,210,367,"{""prediction"":""NO"",""confidence"":80}",,2026-02-15T09:33:07.156493
+gpt-5-mini,system1,93,2,two_year_recid,True,NO,75,False,2.6777467727661133,157,274,431,"{""prediction"":""NO"",""confidence"":75}",,2026-02-15T09:33:10.313107
+gpt-5-mini,system1,5,2,two_year_recid,True,NO,75,False,3.769700050354004,157,473,630,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 75
+}",,2026-02-15T09:33:12.991271
+gpt-5-mini,system1,66,2,two_year_recid,False,NO,88,True,3.40553617477417,157,281,438,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 88
+}",,2026-02-15T09:33:16.761244
+gpt-5-mini,system1,65,2,two_year_recid,False,YES,70,False,4.706408977508545,157,601,758,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 70
+}",,2026-02-15T09:33:20.182571
+gpt-5-mini,system1,35,2,two_year_recid,False,NO,95,True,2.741236925125122,157,281,438,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 95
+}",,2026-02-15T09:33:24.889806
+gpt-5-mini,system1,16,2,two_year_recid,True,YES,78,True,4.08461594581604,157,402,559,"{""prediction"":""YES"",""confidence"":78}",,2026-02-15T09:33:27.631880
+gpt-5-mini,system1,49,2,two_year_recid,False,YES,80,False,4.409992218017578,157,409,566,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 80
+}",,2026-02-15T09:33:31.716716
+gpt-5-mini,system1,34,2,two_year_recid,True,YES,92,True,1.9518966674804688,157,153,310,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 92
+}",,2026-02-15T09:33:36.127050
+gpt-5-mini,system1,7,2,two_year_recid,False,NO,90,True,2.5556728839874268,156,217,373,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 90
+}",,2026-02-15T09:33:38.079245
+gpt-5-mini,system1,95,2,two_year_recid,True,NO,85,False,2.767103910446167,156,281,437,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 85
+}",,2026-02-15T09:33:40.635141
+gpt-5-mini,system1,27,2,two_year_recid,False,NO,85,True,2.891633987426758,157,217,374,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 85
+}",,2026-02-15T09:33:43.402404
+gpt-5-mini,system1,19,2,two_year_recid,False,NO,92,True,2.9069979190826416,157,345,502,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 92
+}",,2026-02-15T09:33:46.297563
+gpt-5-mini,system1,81,2,two_year_recid,False,NO,70,True,2.9583001136779785,157,281,438,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 70
+}",,2026-02-15T09:33:49.204849
+gpt-5-mini,system1,25,2,two_year_recid,False,NO,92,True,3.0607359409332275,157,345,502,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 92
+}",,2026-02-15T09:33:52.163682
+gpt-5-mini,system1,62,2,two_year_recid,False,NO,80,True,2.756932020187378,157,281,438,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 80
+}",,2026-02-15T09:33:55.224595
+gpt-5-mini,system1,13,2,two_year_recid,False,NO,92,True,2.2017152309417725,156,217,373,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 92
+}",,2026-02-15T09:33:57.982198
+gpt-5-mini,system1,24,2,two_year_recid,True,YES,90,True,2.8212130069732666,157,281,438,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 90
+}",,2026-02-15T09:34:00.184102
+gpt-5-mini,system1,3,2,two_year_recid,True,YES,85,True,3.1772968769073486,157,274,431,"{""prediction"":""YES"",""confidence"":85}",,2026-02-15T09:34:03.005808
+gpt-5-mini,system1,17,2,two_year_recid,True,NO,75,False,2.7838521003723145,157,281,438,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 75
+}",,2026-02-15T09:34:06.183379
+gpt-5-mini,system1,38,2,two_year_recid,False,NO,90,True,2.379394054412842,157,210,367,"{""prediction"":""NO"",""confidence"":90}",,2026-02-15T09:34:08.967502
+gpt-5-mini,system1,8,2,two_year_recid,False,NO,75,True,3.7274670600891113,157,345,502,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 75
+}",,2026-02-15T09:34:11.347092
+gpt-5-mini,system1,78,2,two_year_recid,True,YES,90,True,2.3949942588806152,157,210,367,"{""prediction"":""YES"",""confidence"":90}",,2026-02-15T09:34:15.076682
+gpt-5-mini,system1,6,2,two_year_recid,False,NO,95,True,3.4266350269317627,157,217,374,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 95
+}",,2026-02-15T09:34:17.471994
+gpt-5-mini,system1,64,2,two_year_recid,False,YES,78,False,3.34903883934021,157,281,438,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-15T09:34:20.899501
+gpt-5-mini,system1,36,2,two_year_recid,False,YES,75,False,4.0355730056762695,157,537,694,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 75
+}",,2026-02-15T09:34:24.248827
+gpt-5-mini,system1,89,2,two_year_recid,True,NO,70,False,2.9074578285217285,157,338,495,"{""prediction"":""NO"",""confidence"":70}",,2026-02-15T09:34:28.284987
+gpt-5-mini,system1,56,2,two_year_recid,False,NO,92,True,2.1799559593200684,157,217,374,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 92
+}",,2026-02-15T09:34:31.192625
+gpt-5-mini,system1,99,2,two_year_recid,True,NO,80,False,2.9602019786834717,156,345,501,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 80
+}",,2026-02-15T09:34:33.373185
+gpt-5-mini,system1,54,2,two_year_recid,False,NO,75,True,3.243364095687866,157,402,559,"{""prediction"":""NO"",""confidence"":75}",,2026-02-15T09:34:36.333704
+gpt-5-mini,system1,43,2,two_year_recid,False,NO,90,True,2.176300048828125,157,281,438,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 90
+}",,2026-02-15T09:34:39.577265
+gpt-5-mini,system1,50,2,two_year_recid,False,NO,95,True,2.1045420169830322,156,217,373,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 95
+}",,2026-02-15T09:34:41.753694
+gpt-5-mini,system1,67,2,two_year_recid,False,NO,90,True,2.27829909324646,157,274,431,"{""prediction"":""NO"",""confidence"":90}",,2026-02-15T09:34:43.858365
+gpt-5-mini,system1,46,2,two_year_recid,True,NO,90,False,2.278877019882202,157,210,367,"{""prediction"":""NO"",""confidence"":90}",,2026-02-15T09:34:46.136849
+gpt-5-mini,system1,68,2,two_year_recid,False,NO,80,True,2.7912189960479736,156,274,430,"{""prediction"":""NO"",""confidence"":80}",,2026-02-15T09:34:48.416006
+gpt-5-mini,system1,61,2,two_year_recid,True,YES,85,True,3.617478847503662,157,409,566,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 85
+}",,2026-02-15T09:34:51.207456
+gpt-5-mini,system1,97,2,two_year_recid,True,YES,90,True,2.7750139236450195,157,281,438,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 90
+}",,2026-02-15T09:34:54.825578
+gpt-5-mini,system1,79,2,two_year_recid,True,YES,72,True,2.245413064956665,157,274,431,"{""prediction"":""YES"",""confidence"":72}",,2026-02-15T09:34:57.600805
+gpt-5-mini,system1,41,2,two_year_recid,False,NO,92,True,2.3897111415863037,157,281,438,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 92
+}",,2026-02-15T09:34:59.846389
+gpt-5-mini,system1,58,2,two_year_recid,True,NO,80,False,3.624160051345825,156,345,501,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 80
+}",,2026-02-15T09:35:02.236235
+gpt-5-mini,system1,48,2,two_year_recid,True,NO,90,False,2.8965859413146973,157,274,431,"{""prediction"":""NO"",""confidence"":90}",,2026-02-15T09:35:05.860551
+gpt-5-mini,system1,98,2,two_year_recid,True,YES,92,True,3.5001637935638428,157,345,502,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 92
+}",,2026-02-15T09:35:08.757653
+gpt-5-mini,system1,57,2,two_year_recid,True,NO,80,False,3.2935521602630615,157,345,502,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 80
+}",,2026-02-15T09:35:12.257997
+gpt-5-mini,system1,75,2,two_year_recid,False,NO,92,True,2.328500986099243,157,217,374,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 92
+}",,2026-02-15T09:35:15.551734
+gpt-5-mini,system1,32,2,two_year_recid,False,YES,78,False,2.9301998615264893,157,281,438,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-15T09:35:17.880462
+gpt-5-mini,system1,94,2,two_year_recid,True,YES,90,True,2.522773027420044,157,281,438,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 90
+}",,2026-02-15T09:35:20.811673
+gpt-5-mini,system1,59,2,two_year_recid,True,NO,82,False,3.799484968185425,157,345,502,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 82
+}",,2026-02-15T09:35:23.334994
+gpt-5-mini,system1,63,2,two_year_recid,False,NO,88,True,3.5438930988311768,157,409,566,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 88
+}",,2026-02-15T09:35:27.134662
+gpt-5-mini,system1,84,2,two_year_recid,True,NO,90,False,2.399454116821289,156,281,437,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 90
+}",,2026-02-15T09:35:30.678773
+gpt-5-mini,system1,37,2,two_year_recid,True,YES,80,True,1.932837724685669,157,210,367,"{""prediction"":""YES"",""confidence"":80}",,2026-02-15T09:35:33.078406
+gpt-5-mini,system1,29,2,two_year_recid,False,YES,94,False,2.76192569732666,157,217,374,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 94
+}",,2026-02-15T09:35:35.011467
+gpt-5-mini,system1,1,2,two_year_recid,True,YES,88,True,3.474231004714966,157,345,502,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 88
+}",,2026-02-15T09:35:37.773998
+gpt-5-mini,system1,52,2,two_year_recid,True,NO,70,False,4.786900997161865,157,530,687,"{""prediction"":""NO"",""confidence"":70}",,2026-02-15T09:35:41.248481
+gpt-5-mini,system1,21,2,two_year_recid,True,NO,75,False,2.5960299968719482,157,274,431,"{""prediction"":""NO"",""confidence"":75}",,2026-02-15T09:35:46.036679
+gpt-5-mini,system1,2,2,two_year_recid,True,YES,88,True,2.1927359104156494,157,217,374,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 88
+}",,2026-02-15T09:35:48.633015
+gpt-5-mini,system1,23,2,two_year_recid,True,YES,85,True,3.534557342529297,157,409,566,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 85
+}",,2026-02-15T09:35:50.826057
+gpt-5-mini,system1,87,2,two_year_recid,False,NO,88,True,2.2879180908203125,157,210,367,"{""prediction"":""NO"",""confidence"":88}",,2026-02-15T09:35:54.361095
+gpt-5-mini,system1,91,2,two_year_recid,True,YES,90,True,2.9737372398376465,157,281,438,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 90
+}",,2026-02-15T09:35:56.649518
+gpt-5-mini,system1,74,2,two_year_recid,False,NO,75,True,3.9252328872680664,157,409,566,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 75
+}",,2026-02-15T09:35:59.623576
+gpt-5-mini,system1,86,2,two_year_recid,False,NO,92,True,2.665151834487915,157,217,374,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 92
+}",,2026-02-15T09:36:03.549076
+gpt-5-mini,system1,82,2,two_year_recid,False,NO,75,True,2.9815831184387207,157,281,438,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 75
+}",,2026-02-15T09:36:06.214398
+gpt-5-mini,system1,20,2,two_year_recid,False,NO,88,True,3.0866942405700684,157,338,495,"{""prediction"":""NO"",""confidence"":88}",,2026-02-15T09:36:09.196320
+gpt-5-mini,system1,60,2,two_year_recid,False,NO,95,True,2.251500129699707,156,217,373,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 95
+}",,2026-02-15T09:36:12.283531
+gpt-5-mini,system1,71,2,two_year_recid,True,YES,80,True,3.4249322414398193,157,473,630,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 80
+}",,2026-02-15T09:36:14.535212
+gpt-5-mini,system1,14,2,two_year_recid,True,YES,72,True,2.900486946105957,157,402,559,"{""prediction"":""YES"",""confidence"":72}",,2026-02-15T09:36:17.960305
+gpt-5-mini,system1,92,2,two_year_recid,True,NO,75,False,3.2566771507263184,157,409,566,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 75
+}",,2026-02-15T09:36:20.862115
+gpt-5-mini,system1,51,2,two_year_recid,True,YES,88,True,2.2595839500427246,157,281,438,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 88
+}",,2026-02-15T09:36:24.119575

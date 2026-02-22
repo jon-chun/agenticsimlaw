@@ -40,14 +40,10 @@ aggregate_reports*/
 
 # Raw downloaded data (re-downloaded by scripts)
 data/compas_raw.csv
-data/topn_datasets/
 
 # Non-essential artifacts
 CLAUDE.md
 papers/
-
-# Per-model SC log directories
-results/standardllm/sc_*/
 
 # Claude Code session transcripts
 *-implement-the-following-plan.txt

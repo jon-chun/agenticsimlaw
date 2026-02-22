@@ -1,0 +1,577 @@
+=====[ 20250124-0055]=====
+
+###INPUT_ROOT_DIR:
+(venv) jonc@jonc-MS-7C35:~/code/ollama-structured-output$ ls -altr evaluation_reports_manual/
+total 376
+-rw-rw-r--  1 jonc jonc  1356 Jan 23 23:44 metrics_athene-v2:72b-q4_K_M_system1_20250109_105829.json
+-rw-rw-r--  1 jonc jonc  1368 Jan 23 23:44 metrics_athene-v2:72b-q4_K_M_cot_20250109_124209.json
+-rw-rw-r--  1 jonc jonc  1408 Jan 23 23:44 metrics_athene-v2:72b-q4_K_M_cot-nshot_20250109_142315.json
+-rw-rw-r--  1 jonc jonc  1361 Jan 23 23:44 metrics_aya-expanse:8b-q4_K_M_system1_20250108_041647.json
+-rw-rw-r--  1 jonc jonc  1361 Jan 23 23:44 metrics_aya-expanse:8b-q4_K_M_cot-nshot_20250108_042557.json
+-rw-rw-r--  1 jonc jonc  1368 Jan 23 23:44 metrics_aya-expanse:8b-q4_K_M_cot_20250108_042046.json
+-rw-rw-r--  1 jonc jonc  1383 Jan 23 23:44 metrics_command-r:35b-08-2024-q4_K_M_system1_20250108_050140.json
+-rw-rw-r--  1 jonc jonc  1371 Jan 23 23:44 metrics_command-r:35b-08-2024-q4_K_M_cot-nshot_20250108_053412.json
+-rw-rw-r--  1 jonc jonc  1376 Jan 23 23:44 metrics_command-r:35b-08-2024-q4_K_M_cot_20250108_051824.json
+-rw-rw-r--  1 jonc jonc  1383 Jan 23 23:44 metrics_dolphin3:8b-llama3.1-q4_K_M_system1_20250108_053444.json
+-rw-rw-r--  1 jonc jonc  1369 Jan 23 23:44 metrics_dolphin3:8b-llama3.1-q4_K_M_cot-nshot_20250108_054354.json
+-rw-rw-r--  1 jonc jonc  1373 Jan 23 23:44 metrics_dolphin3:8b-llama3.1-q4_K_M_cot_20250108_053935.json
+...
+
+
+###INPUT_SYSTEM!_FILE_CONTENTS: (e.g. metrics_athene-v2:72b-q4_K_M_system1_20250109_105829.json)
+{
+  "prompt_type": "PromptType.SYSTEM1",
+  "model_name": "athene-v2:72b-q4_K_M",
+  "start_time": "2025-01-09 10:52:40.608732",
+  "end_time": "2025-01-09 10:58:29.836502",
+  "total_attempts": 100,
+  "successful_attempts": 100,
+  "failed_attempts": 0,
+  "timeout_attempts": 0,
+  "avg_execution_time": 3.4656481552124023,
+  "median_execution_time": 2.99935519695282,
+  "sd_execution_time": 4.634826238400708,
+  "timeout_stats": {
+    "total_timeouts": 0,
+    "avg_timeout_duration": 0.0,
+    "max_timeout_duration": 0.0,
+    "total_timeout_duration": 0.0
+  },
+  "meta_data_averages": {
+    "done": 1.0,
+    "total_duration": 3463868814.58,
+    "load_duration": 476478605.0,
+    "prompt_eval_count": 251.95,
+    "prompt_eval_duration": 496280000.0,
+    "eval_count": 18.0,
+    "eval_duration": 2480600000.0
+  },
+  "meta_data_sd": {
+    "done": 0.0,
+    "total_duration": 4634803742.407762,
+    "load_duration": 4550750283.802975,
+    "prompt_eval_count": 8.681077762070279,
+    "prompt_eval_duration": 38582478.88313653,
+    "eval_count": 0.0,
+    "eval_duration": 57125946.271144934
+  },
+  "prediction_accuracy": 65.0,
+  "prediction_distribution": {
+    "NO": 51,
+    "YES": 49
+  },
+  "actual_distribution": {
+    "NO": 74,
+    "YES": 26
+  },
+  "confusion_matrix": {
+    "tp": 20,
+    "tn": 45,
+    "fp": 29,
+    "fn": 6
+  },
+  "auc_roc": 0.6496881496881496
+}
+
+###INPUT_COT_FILE_CONTENTS: (e.g. metrics_athene-v2:72b-q4_K_M_cot_20250109_124209.json)
+{
+  "prompt_type": "PromptType.COT",
+  "model_name": "athene-v2:72b-q4_K_M",
+  "start_time": "2025-01-09 10:58:33.875378",
+  "end_time": "2025-01-09 12:42:09.507460",
+  "total_attempts": 100,
+  "successful_attempts": 100,
+  "failed_attempts": 0,
+  "timeout_attempts": 0,
+  "avg_execution_time": 62.12971167564392,
+  "median_execution_time": 62.02094542980194,
+  "sd_execution_time": 6.611031971496379,
+  "timeout_stats": {
+    "total_timeouts": 0,
+    "avg_timeout_duration": 0.0,
+    "max_timeout_duration": 0.0,
+    "total_timeout_duration": 0.0
+  },
+  "meta_data_averages": {
+    "done": 1.0,
+    "total_duration": 62127847044.42,
+    "load_duration": 21222812.93,
+    "prompt_eval_count": 330.6,
+    "prompt_eval_duration": 634590000.0,
+    "eval_count": 425.93,
+    "eval_duration": 61464570000.0
+  },
+  "meta_data_sd": {
+    "done": 0.0,
+    "total_duration": 6611018249.627314,
+    "load_duration": 5780894.085105869,
+    "prompt_eval_count": 8.430344421831593,
+    "prompt_eval_duration": 36973672.04163557,
+    "eval_count": 45.46355072411794,
+    "eval_duration": 6599425896.755541
+  },
+  "prediction_accuracy": 60.0,
+  "prediction_distribution": {
+    "YES": 58,
+    "NO": 42
+  },
+  "actual_distribution": {
+    "NO": 70,
+    "YES": 30
+  },
+  "confusion_matrix": {
+    "tp": 24,
+    "tn": 36,
+    "fp": 34,
+    "fn": 6
+  },
+  "auc_roc": 0.5040476190476191
+}
+
+###INPUT_COT-NSHOT_FILE_CONTENTS: (e.g. metrics_athene-v2:72b-q4_K_M_cot-nshot_20250109_142315.json)
+{
+  "prompt_type": "PromptType.COT_NSHOT",
+  "model_name": "athene-v2:72b-q4_K_M",
+  "start_time": "2025-01-09 13:12:59.562683",
+  "end_time": "2025-01-09 14:23:15.660747",
+  "total_attempts": 72,
+  "successful_attempts": 72,
+  "failed_attempts": 0,
+  "timeout_attempts": 0,
+  "avg_execution_time": 58.529864854282806,
+  "median_execution_time": 58.532861828804016,
+  "sd_execution_time": 7.509692119399419,
+  "timeout_stats": {
+    "total_timeouts": 0,
+    "avg_timeout_duration": 0.0,
+    "max_timeout_duration": 0.0,
+    "total_timeout_duration": 0.0
+  },
+  "meta_data_averages": {
+    "done": 1.0,
+    "total_duration": 58527805427.27778,
+    "load_duration": 23019353.736111112,
+    "prompt_eval_count": 2048.0,
+    "prompt_eval_duration": 4390652777.777778,
+    "eval_count": 362.7638888888889,
+    "eval_duration": 54082708333.333336
+  },
+  "meta_data_sd": {
+    "done": 0.0,
+    "total_duration": 7509858180.211873,
+    "load_duration": 6584188.083747469,
+    "prompt_eval_count": 0.0,
+    "prompt_eval_duration": 11968455.866871284,
+    "eval_count": 50.30988284049268,
+    "eval_duration": 7509024291.819866
+  },
+  "prediction_accuracy": 63.888888888888886,
+  "prediction_distribution": {
+    "NO": 38,
+    "YES": 34
+  },
+  "actual_distribution": {
+    "NO": 48,
+    "YES": 24
+  },
+  "confusion_matrix": {
+    "tp": 16,
+    "tn": 30,
+    "fp": 18,
+    "fn": 8
+  },
+  "auc_roc": 0.4657118055555556
+}
+
+###OUTPUT_CSV:
+
+model_name,prompt_type,total_attempts,successful_attempts,failed_attempts,timeout_attempts,execution_time_mean,execution_time_median,execution_time_sd,prediction_accuracy,auc_roc,txt_accuracy,txt_auc_roc,total_duration_mean,total_duration_median,total_duration_sd,load_duration_mean,load_duration_median,load_duration_sd,prompt_eval_duration_mean,prompt_eval_duration_median,prompt_eval_duration_sd,eval_duration_mean,eval_duration_median,eval_duration_sd,prompt_eval_count_mean,prompt_eval_count_median,prompt_eval_count_sd,eval_count_mean,eval_count_median,eval_count_sd,true_positives,true_negatives,false_positives,false_negatives,precision,recall,f1_score,model_dir,model_params,model_quantization,total_duration_sec_missing_count,load_duration_sec_missing_count,prompt_eval_duration_sec_missing_count,eval_duration_sec_missing_count,python_api_duration_sec_missing_count,confidence_txt_missing_count,prompt_eval_count_missing_count,eval_count_missing_count
+athene-v2:72b-q4_K_M,system1,149,149,0,0,35.27190747442282,34.709590111,2.8611504811558013,63.758389261744966,,63.758389261744966,,35.27190747442282,34.709590111,2.8611504811558013,7.757937964825504,7.804124643,0.24495467059524512,1.1704765100671142,1.182,0.0756335032201979,25.826758389261744,25.505,2.822385117598346,788.261744966443,783.0,39.54511552390993,422.5503355704698,416.0,46.05628698486862,95,0,54,0,0.6375838926174496,1.0,0.7786885245901639,athene-v2_72b-q4_K_M,1,q4,0,0,0,0,0,0,0,0
+athene-v2:72b-q4_K_M,cot,149,149,0,0,35.27190747442282,34.709590111,2.8611504811558013,63.758389261744966,,63.758389261744966,,35.27190747442282,34.709590111,2.8611504811558013,7.757937964825504,7.804124643,0.24495467059524512,1.1704765100671142,1.182,0.0756335032201979,25.826758389261744,25.505,2.822385117598346,788.261744966443,783.0,39.54511552390993,422.5503355704698,416.0,46.05628698486862,95,0,54,0,0.6375838926174496,1.0,0.7786885245901639,athene-v2_72b-q4_K_M,1,q4,0,0,0,0,0,0,0,0
+athene-v2:72b-q4_K_M,cot-nshot,149,149,0,0,35.27190747442282,34.709590111,2.8611504811558013,63.758389261744966,,63.758389261744966,,35.27190747442282,34.709590111,2.8611504811558013,7.757937964825504,7.804124643,0.24495467059524512,1.1704765100671142,1.182,0.0756335032201979,25.826758389261744,25.505,2.822385117598346,788.261744966443,783.0,39.54511552390993,422.5503355704698,416.0,46.05628698486862,95,0,54,0,0.6375838926174496,1.0,0.7786885245901639,athene-v2_72b-q4_K_M,1,q4,0,0,0,0,0,0,0,0
+aya-expanse:8b-q4_K_M,system1,60,60,0,0,4.0463551825,3.9533854325,0.6231177798391149,53.333333333333336,,53.333333333333336,,4.0463551825,3.9533854325,0.6231177798391149,0.0561234744,0.056586724500000005,0.007314490501996379,0.08671666666666668,0.084,0.012269697641995446,3.8914666666666666,3.8135000000000003,0.6154935037084832,764.5333333333333,763.0,34.166326303940636,360.51666666666665,359.0,41.01694220712459,32,0,28,0,0.5333333333333333,1.0,0.6956521739130436,aya-expanse_8b-q4_K_M,1,q4,0,0,0,0,0,0,0,0
+aya-expanse:8b-q4_K_M,cot,60,60,0,0,4.0463551825,3.9533854325,0.6231177798391149,53.333333333333336,,53.333333333333336,,4.0463551825,3.9533854325,0.6231177798391149,0.0561234744,0.056586724500000005,0.007314490501996379,0.08671666666666668,0.084,0.012269697641995446,3.8914666666666666,3.8135000000000003,0.6154935037084832,764.5333333333333,763.0,34.166326303940636,360.51666666666665,359.0,41.01694220712459,32,0,28,0,0.5333333333333333,1.0,0.6956521739130436,aya-expanse_8b-q4_K_M,1,q4,0,0,0,0,0,0,0,0
+aya-expanse:8b-q4_K_M,cot-nshot,60,60,0,0,4.0463551825,3.9533854325,0.6231177798391149,53.333333333333336,,53.333333333333336,,4.0463551825,3.9533854325,0.6231177798391149,0.0561234744,0.056586724500000005,0.007314490501996379,0.08671666666666668,0.084,0.012269697641995446,3.8914666666666666,3.8135000000000003,0.6154935037084832,764.5333333333333,763.0,34.166326303940636,360.51666666666665,359.0,41.01694220712459,32,0,28,0,0.5333333333333333,1.0,0.6956521739130436,aya-expanse_8b-q4_K_M,1,q4,0,0,0,0,0,0,0,0
+...
+
+###INSTRUCTIONS:
+Please write a python program step2_aggregate_reports_manual_ver1.py that does the following:
+
+1. Defines the global variables:
+1.a. INPUT_ROOT_DIR = os.path.join('evaluation_reports_manual')
+1.b. OUTPUT_ROOT_DIR = os.path.join('evaluation_reports_summary')
+1.c. MODEL_LS = ["athene-v2:72b-q4_K_M","aya-expanse:8b-q4_K_M","command-r:35b-08-2024-q4_K_M"]
+1.d. ENSEMBLE_NAME = "test-20250124-0053"
+1.e. PROMPT_TYPE_LS = ['_cot_','_cot-nshot_','_system1_']
+
+2. Iterates over INPUT_ROOT_DIR and processes the set of *.json files containg the substrings in PROMPT_TYPE_LS that correspond to each model_name in MODEL_LS
+
+3. contains specialized functions to process each of the PROMPT_TYPE_LS *.json files which for now include thes functions and input file examples:
+3.a. process_cot(): ###INPUT_COT_FILE_CONTENTS
+3.b. process_cot-nshot(): ###INPUT_COT-NSHOT_FILE_CONTENTS
+3.c. process_system1(): ###INPUT_SYSTEM1_FILE_CONTENTS
+
+4. Aggregates all the info from each input file (unique combination of model_name and prompt_type) into a cumulative output file in os.path.join(OUTPUT_ROOT_DIR, f'summary_all_{ENSEMBLE_NAME}') as demostrated in ###OUTPUT_CSV
+
+==========================
+
+
+
+
+<CODE>
+</CODE>
+
+###CODE
+(attached)
+
+###INSTRUCTIONS:
+Please carefully analyze this code and make the following changes:
+1. add descriptive print/logging statements at any place important error could occur and need to be localized
+2. have the summary report only analyze the models listed in one of the four chosen ensemble types
+3. make sure there is one row in the summary report for each unique pair of *.txt and *.json input files with the same root filename with two new first columns in summary report *.csv  for (a) the model_name and (b) the ver_no  
+
+
+
+=====
+
+</CODE_ABBREVIATED>
+
+<INSTRUCTIONS>
+Please closely analyze this <CODE_ABBREVIATED> to throughly understand how it works as well as deeply critique it to identify the sources of the following errors:
+
+1. The output files under ../transcripts/{model_name} always print blanks after "PREVIOUS ARGUMENTS" generated by line "PREVIOUS DEBATE HISTORY: {chr(10).join(self.debate_history)}"
+
+2. When the last judge API call to get the final decision times out with:
+
+2025-01-20 12:14:18,464 | WARNING | Timeout for agent Judge
+2025-01-20 12:14:18,465 | DEBUG | judge_response=None
+2025-01-20 12:14:18,465 | DEBUG | Judge response is None -> final_ruling stays 'No decision'.
+
+2.a. The /transcript output file *.txt incorrectly outputs "correctness: True" when it should pass through the API response "No decision"
+
+2.b. The /transcript output file *.json incorrectly outputs '"prediction_accurate": "True"' when it should pass through the API response "No decision" 
+
+3. If the ollama API model is not installed, the program should just skip it with an error message f"ERROR: Skipping model: {model_name} which is either mispelled or needs to be installed via ollama" instead of creating a bunch of empty files under ../transcripts/{model_name}
+
+4. The program should be restartable in the sense that when looping over a model for the first time
+4.a. first calculates the total number of the max_number of output files that should exist in the output subdir ../transcripts/{model_name} as max_output_model_files_ct = CASE_CT * REPEAT_CT * 2 # 2 = *.json + *.txt file for each simluation
+4.b. second calculates the current number of output simlulation files as cur_output_model_files_ct = total count(*.json and *.txt files in the output model subdir) NOTE: (if odd, then first delete any unpaired *.txt or *.json file)
+4.c. third calculates the remaining_simluation_ct = (max_output_model_file_ct - cur_output_model_file_ct)/2  
+4.d. temporarily (for the current model we're using) modify the loop over REPEAT_CT to use reamining_simluations_ct instead (restore it to REPEAT_CT for the next model iteration if the output subdir is empty or does not exist) (LINE: "for attempt_i in range(REPEAT_CT):")
+
+Think carefully to identify all the lines of code that need modifcation and print out the complete functions/objects of only those that need to be updated.
+
+</INSTRUCTIONS>
+
+=====
+
+
+
+
+
+
+<VALID_FILE_TXT>  
+COURT TRANSCRIPT
+==================================================
+
+CASE SUMMARY
+Summary: N/A
+Age: 19
+Prior Arrests: 3
+
+PROCEEDINGS
+==================================================
+
+[2025-01-19 15:21:11] Prosecutor
+--------------------------------------------------
+Based on the provided case facts and statistical evidence, it is highly likely that the defendant will be rearrested within the next three years. The defendant has a history of multiple prior arrests, specifically 3 within the last five years, which is a significant risk factor for future criminal behavior.
+
+Metadata:
+  metadata_api: {'model': 'marco-o1:7b-q4_K_M', 'created_at': '2025-01-19T15:21:11.269894013Z', 'done': True, 'total_duration_ns': 2.994702089, 'load_duration_ns': 0.040964873, 'prompt_eval_count': 807, 'prompt_eval_duration_ns': 0.077, 'eval_count': 334, 'eval_duration_ns': 2853000000.0, 'total_duration_sec': 2.994702089, 'load_duration_sec': 0.040964873, 'prompt_eval_duration_sec': 0.077, 'eval_duration_sec': 2.853, 'python_api_duration_sec': 2.998444}
+  prediction: YES
+  confidence: 85.0
+  reasoning: ["The defendant's age of 19 falls into a demographic known to have higher rates of recidivism, especially when combined with prior arrest patterns.", 'With three prior arrests in the past five years, the statistical likelihood of reoffending increases. Studies indicate that individuals with multiple arrests are more likely to commit crimes again compared to those with fewer or no criminal records.', "The defendant's lack of employment (0 jobs in the last year) and urban resident locale can contribute to increased exposure to criminal opportunities and a higher risk environment.", 'While there is no history of violent crime victimization, the combination of prior arrests and other factors suggests ongoing involvement with criminal activities.', 'The fact that the defendant does not believe in God but asks God for help could indicate internal struggles or external support systems that may influence future behavior. However, this factor alone does not significantly impact recidivism rates.']
+
+==================================================
+
+
+Metadata API:
+  metadata_api: {'model': 'marco-o1:7b-q4_K_M', 'created_at': '2025-01-19T15:21:11.269894013Z', 'done': True, 'total_duration_ns': 2.994702089, 'load_duration_ns': 0.040964873, 'prompt_eval_count': 807, 'prompt_eval_duration_ns': 0.077, 'eval_count': 334, 'eval_duration_ns': 2853000000.0, 'total_duration_sec': 2.994702089, 'load_duration_sec': 0.040964873, 'prompt_eval_duration_sec': 0.077, 'eval_duration_sec': 2.853, 'python_api_duration_sec': 2.998444}
+  prediction: YES
+  confidence: 85.0
+  reasoning: ["The defendant's age of 19 falls into a demographic known to have higher rates of recidivism, especially when combined with prior arrest patterns.", 'With three prior arrests in the past five years, the statistical likelihood of reoffending increases. Studies indicate that individuals with multiple arrests are more likely to commit crimes again compared to those with fewer or no criminal records.', "The defendant's lack of employment (0 jobs in the last year) and urban resident locale can contribute to increased exposure to criminal opportunities and a higher risk environment.", 'While there is no history of violent crime victimization, the combination of prior arrests and other factors suggests ongoing involvement with criminal activities.', 'The fact that the defendant does not believe in God but asks God for help could indicate internal struggles or external support systems that may influence future behavior. However, this factor alone does not significantly impact recidivism rates.']
+
+==================================================
+
+[2025-01-19 15:21:15] Defense Attorney
+--------------------------------------------------
+While the defendant has a history of three prior arrests within the last five years, I argue that this does not necessarily predict a high likelihood of reoffending within the next three years. Several factors mitigate against such an outcome.
+
+Metadata:
+  metadata_api: {'model': 'marco-o1:7b-q4_K_M', 'created_at': '2025-01-19T15:21:15.779806853Z', 'done': True, 'total_duration_ns': 3.83727122, 'load_duration_ns': 0.035988087, 'prompt_eval_count': 850, 'prompt_eval_duration_ns': 0.084, 'eval_count': 421, 'eval_duration_ns': 3696000000.0, 'total_duration_sec': 3.83727122, 'load_duration_sec': 0.035988087, 'prompt_eval_duration_sec': 0.084, 'eval_duration_sec': 3.696, 'python_api_duration_sec': 3.84169}
+  prediction: NO
+  confidence: 85.0
+  reasoning: ["The defendant's age is 19, which suggests they are still in a developmental stage where rehabilitation and positive change can occur more effectively compared to older individuals.", "Despite having multiple prior arrests, there have been no convictions in the past five years. This indicates that while there has been involvement with the legal system, it hasn't resulted in formal charges or judgments, possibly due to intervention or changes in behavior.", 'The defendant reports asking God for help, which may indicate a desire for support and redemption, highlighting a potential willingness to engage in rehabilitation programs.', 'There is no evidence of violent behavior or involvement with drugs, specifically cocaine, within the last four years. This absence reduces concerns about underlying factors that might drive reoffending.', "The defendant's family structure includes both biological parents at age 12, and there are no records of other adult family members being in jail over the past five years. A stable family environment can provide necessary support for rehabilitation.", 'Residing in an urban area with access to various resources may offer opportunities for employment and education that can serve as deterrents to future criminal behavior.', 'The absence of homelessness and food stamp usage suggests financial stability, which is a protective factor against recidivism.', 'The defendant does not believe in God but acknowledges asking for help, indicating a flexible approach to seeking support, which can be beneficial during rehabilitation efforts.']
+
+==================================================
+
+
+Metadata API:
+  metadata_api: {'model': 'marco-o1:7b-q4_K_M', 'created_at': '2025-01-19T15:21:15.779806853Z', 'done': True, 'total_duration_ns': 3.83727122, 'load_duration_ns': 0.035988087, 'prompt_eval_count': 850, 'prompt_eval_duration_ns': 0.084, 'eval_count': 421, 'eval_duration_ns': 3696000000.0, 'total_duration_sec': 3.83727122, 'load_duration_sec': 0.035988087, 'prompt_eval_duration_sec': 0.084, 'eval_duration_sec': 3.696, 'python_api_duration_sec': 3.84169}
+  prediction: NO
+  confidence: 85.0
+  reasoning: ["The defendant's age is 19, which suggests they are still in a developmental stage where rehabilitation and positive change can occur more effectively compared to older individuals.", "Despite having multiple prior arrests, there have been no convictions in the past five years. This indicates that while there has been involvement with the legal system, it hasn't resulted in formal charges or judgments, possibly due to intervention or changes in behavior.", 'The defendant reports asking God for help, which may indicate a desire for support and redemption, highlighting a potential willingness to engage in rehabilitation programs.', 'There is no evidence of violent behavior or involvement with drugs, specifically cocaine, within the last four years. This absence reduces concerns about underlying factors that might drive reoffending.', "The defendant's family structure includes both biological parents at age 12, and there are no records of other adult family members being in jail over the past five years. A stable family environment can provide necessary support for rehabilitation.", 'Residing in an urban area with access to various resources may offer opportunities for employment and education that can serve as deterrents to future criminal behavior.', 'The absence of homelessness and food stamp usage suggests financial stability, which is a protective factor against recidivism.', 'The defendant does not believe in God but acknowledges asking for help, indicating a flexible approach to seeking support, which can be beneficial during rehabilitation efforts.']
+
+==================================================
+
+[2025-01-19 15:21:20] Prosecutor
+--------------------------------------------------
+Based on the presented evidence and statistical recidivism data, it is highly probable that the defendant will be rearrested within the next three years. The defendant's history of multiple prior arrests—specifically 3 within the last five years—establishes a clear pattern that significantly increases the risk of reoffending. Additionally, factors such as living in an urban environment, lack of employment, and a previous relationship with parents both biological at age 12 contribute to this heightened likelihood. These patterns align with criminological research indicating that individuals with multiple prior arrests are more prone to recidivism due to underlying behavioral and environmental risk factors.
+
+Metadata:
+  metadata_api: {'model': 'marco-o1:7b-q4_K_M', 'created_at': '2025-01-19T15:21:20.204151922Z', 'done': True, 'total_duration_ns': 3.797424354, 'load_duration_ns': 0.03954843, 'prompt_eval_count': 915, 'prompt_eval_duration_ns': 0.077, 'eval_count': 426, 'eval_duration_ns': 3658000000.0, 'total_duration_sec': 3.797424354, 'load_duration_sec': 0.03954843, 'prompt_eval_duration_sec': 0.077, 'eval_duration_sec': 3.658, 'python_api_duration_sec': 3.802138}
+  prediction: YES
+  confidence: 85.0
+  reasoning: ['Multiple Prior Arrests: A history of three or more arrests within a five-year period is a strong indicator of future criminal behavior, as it suggests a pattern of lawlessness and potential underlying issues that may not have been addressed.', 'Urban Residence: Urban areas often present greater exposure to crime and less access to resources, increasing the likelihood of reoffending due to environmental factors.', "Employment Status: The defendant's lack of employment in the past year indicates financial instability and potentially a higher reliance on criminal activities for income or survival.", 'Parental Relationships: Having both biological parents at age 12 may influence behavioral patterns, but in this case, it does not appear to mitigate risk factors associated with reoffending.', 'Lack of Religious Belief: While the defendant does not believe in God and asks God for help, these factors individually do not strongly predict recidivism unless they indicate underlying mental health issues or social support systems that are absent.']
+
+==================================================
+
+
+Metadata API:
+  metadata_api: {'model': 'marco-o1:7b-q4_K_M', 'created_at': '2025-01-19T15:21:20.204151922Z', 'done': True, 'total_duration_ns': 3.797424354, 'load_duration_ns': 0.03954843, 'prompt_eval_count': 915, 'prompt_eval_duration_ns': 0.077, 'eval_count': 426, 'eval_duration_ns': 3658000000.0, 'total_duration_sec': 3.797424354, 'load_duration_sec': 0.03954843, 'prompt_eval_duration_sec': 0.077, 'eval_duration_sec': 3.658, 'python_api_duration_sec': 3.802138}
+  prediction: YES
+  confidence: 85.0
+  reasoning: ['Multiple Prior Arrests: A history of three or more arrests within a five-year period is a strong indicator of future criminal behavior, as it suggests a pattern of lawlessness and potential underlying issues that may not have been addressed.', 'Urban Residence: Urban areas often present greater exposure to crime and less access to resources, increasing the likelihood of reoffending due to environmental factors.', "Employment Status: The defendant's lack of employment in the past year indicates financial instability and potentially a higher reliance on criminal activities for income or survival.", 'Parental Relationships: Having both biological parents at age 12 may influence behavioral patterns, but in this case, it does not appear to mitigate risk factors associated with reoffending.', 'Lack of Religious Belief: While the defendant does not believe in God and asks God for help, these factors individually do not strongly predict recidivism unless they indicate underlying mental health issues or social support systems that are absent.']
+
+==================================================
+
+[2025-01-19 15:21:24] Defense Attorney
+--------------------------------------------------
+Despite the defendant's history of three prior arrests within the last five years, I argue that it is not highly likely she will be rearrested within the next three years. Several mitigating factors and positive life indicators suggest a pathway towards rehabilitation and desistance from criminal behavior.
+
+Metadata:
+  metadata_api: {'model': 'marco-o1:7b-q4_K_M', 'created_at': '2025-01-19T15:21:24.853325987Z', 'done': True, 'total_duration_ns': 4.186061879, 'load_duration_ns': 0.01643506, 'prompt_eval_count': 1029, 'prompt_eval_duration_ns': 0.081, 'eval_count': 444, 'eval_duration_ns': 4077000000.0, 'total_duration_sec': 4.186061879, 'load_duration_sec': 0.01643506, 'prompt_eval_duration_sec': 0.081, 'eval_duration_sec': 4.077, 'python_api_duration_sec': 4.190193}
+  prediction: NO
+  confidence: 75.0
+  reasoning: ["The defendant has expressed a strong reliance on seeking divine guidance ('asks God for help' is True), which can serve as a protective factor against reoffending by providing moral support and accountability.", "Her lack of employment in the last year ('total job in last year is 0') may stem from factors beyond her control, such as limited opportunities or personal challenges, rather than an inherent inclination towards criminal behavior.", "Living in an urban environment ('resident locale is urban') does not necessarily correlate with higher recidivism rates; it can provide access to resources and support systems that aid rehabilitation.", "The defendant's lack of belief in God ('does not believe in God is False') indicates a diverse set of beliefs, which may influence her decision-making processes positively or negatively. However, this factor alone does not predict future criminal behavior.", 'Her history with both biological parents at age 12 suggests a stable family background, which can contribute to better social skills and decision-making abilities in adulthood, reducing the likelihood of reoffending.', "The absence of recent drug use ('used cocaine in past 4 years is False') and lack of food stamp usage ('used food stamps in last year is False') indicates financial stability or responsible behavior that may prevent future involvement with criminal activities.", 'While there have been multiple prior arrests, the current case presents an opportunity for rehabilitation through specialized programs tailored to her specific needs, which can address underlying issues contributing to past behaviors.']
+
+==================================================
+
+
+Metadata API:
+  metadata_api: {'model': 'marco-o1:7b-q4_K_M', 'created_at': '2025-01-19T15:21:24.853325987Z', 'done': True, 'total_duration_ns': 4.186061879, 'load_duration_ns': 0.01643506, 'prompt_eval_count': 1029, 'prompt_eval_duration_ns': 0.081, 'eval_count': 444, 'eval_duration_ns': 4077000000.0, 'total_duration_sec': 4.186061879, 'load_duration_sec': 0.01643506, 'prompt_eval_duration_sec': 0.081, 'eval_duration_sec': 4.077, 'python_api_duration_sec': 4.190193}
+  prediction: NO
+  confidence: 75.0
+  reasoning: ["The defendant has expressed a strong reliance on seeking divine guidance ('asks God for help' is True), which can serve as a protective factor against reoffending by providing moral support and accountability.", "Her lack of employment in the last year ('total job in last year is 0') may stem from factors beyond her control, such as limited opportunities or personal challenges, rather than an inherent inclination towards criminal behavior.", "Living in an urban environment ('resident locale is urban') does not necessarily correlate with higher recidivism rates; it can provide access to resources and support systems that aid rehabilitation.", "The defendant's lack of belief in God ('does not believe in God is False') indicates a diverse set of beliefs, which may influence her decision-making processes positively or negatively. However, this factor alone does not predict future criminal behavior.", 'Her history with both biological parents at age 12 suggests a stable family background, which can contribute to better social skills and decision-making abilities in adulthood, reducing the likelihood of reoffending.', "The absence of recent drug use ('used cocaine in past 4 years is False') and lack of food stamp usage ('used food stamps in last year is False') indicates financial stability or responsible behavior that may prevent future involvement with criminal activities.", 'While there have been multiple prior arrests, the current case presents an opportunity for rehabilitation through specialized programs tailored to her specific needs, which can address underlying issues contributing to past behaviors.']
+
+==================================================
+
+[2025-01-19 15:21:28] Judge
+--------------------------------------------------
+Based on the provided case facts and statistical evidence, it is reasonably likely that the defendant will reoffend within the next three years.
+
+Metadata:
+  metadata_api: {'model': 'marco-o1:7b-q4_K_M', 'created_at': '2025-01-19T15:21:28.325233137Z', 'done': True, 'total_duration_ns': 2.719131273, 'load_duration_ns': 0.037737074, 'prompt_eval_count': 688, 'prompt_eval_duration_ns': 0.074, 'eval_count': 299, 'eval_duration_ns': 2586000000.0, 'total_duration_sec': 2.719131273, 'load_duration_sec': 0.037737074, 'prompt_eval_duration_sec': 0.074, 'eval_duration_sec': 2.586, 'python_api_duration_sec': 2.723754}
+  prediction: YES
+  confidence: 75.0
+  reasoning: ['The defendant has a history of multiple prior arrests—specifically three within the last five years—which establishes a significant pattern that increases the risk of future criminal behavior.', 'Living in an urban environment and lacking stable employment are recognized risk factors for recidivism, as these conditions can provide opportunities for criminal activity and hinder rehabilitation efforts.', 'While the defendant does not have a history of homelessness or utilizing public assistance programs like food stamps, these mitigating factors do not sufficiently outweigh the established pattern of multiple prior arrests.', 'The lack of employment over the past year suggests limited access to legitimate income sources and potential financial strain that might drive criminal behavior as a means of survival or resource acquisition.', "However, it's important to note that the defendant does seek help from God, which may indicate a desire for rehabilitation and a commitment to positive change."]
+
+==================================================
+
+
+Metadata API:
+  metadata_api: {'model': 'marco-o1:7b-q4_K_M', 'created_at': '2025-01-19T15:21:28.325233137Z', 'done': True, 'total_duration_ns': 2.719131273, 'load_duration_ns': 0.037737074, 'prompt_eval_count': 688, 'prompt_eval_duration_ns': 0.074, 'eval_count': 299, 'eval_duration_ns': 2586000000.0, 'total_duration_sec': 2.719131273, 'load_duration_sec': 0.037737074, 'prompt_eval_duration_sec': 0.074, 'eval_duration_sec': 2.586, 'python_api_duration_sec': 2.723754}
+  prediction: YES
+  confidence: 75.0
+  reasoning: ['The defendant has a history of multiple prior arrests—specifically three within the last five years—which establishes a significant pattern that increases the risk of future criminal behavior.', 'Living in an urban environment and lacking stable employment are recognized risk factors for recidivism, as these conditions can provide opportunities for criminal activity and hinder rehabilitation efforts.', 'While the defendant does not have a history of homelessness or utilizing public assistance programs like food stamps, these mitigating factors do not sufficiently outweigh the established pattern of multiple prior arrests.', 'The lack of employment over the past year suggests limited access to legitimate income sources and potential financial strain that might drive criminal behavior as a means of survival or resource acquisition.', "However, it's important to note that the defendant does seek help from God, which may indicate a desire for rehabilitation and a commitment to positive change."]
+
+==================================================
+
+
+</VALID_FILE_TXT>
+
+<INVALID_FILE_TXT>
+COURT TRANSCRIPT
+==================================================
+
+CASE SUMMARY
+Summary: highest degree is not enrolled, high school degree, and parent/guardian relationship at age 12 is both biological parents, and married/cohabitation status is never married, not cohabiting, and resident locale is urban, and other adult family member in jail previous 5 years is False, and total job in last year is 0, and homeless for 2+ days in past 5 years is False, and asks God for help is True, and sex is female, and used food stamps in last year is False
+Age: 19
+Prior Arrests: N/A
+
+PROCEEDINGS
+==================================================
+
+[2025-01-18 20:13:52] System
+--------------------------------------------------
+Judge Prediction: False
+Actual reoffended: False
+Prediction accurate: True
+
+Metadata:
+  correctness: True
+
+==================================================
+
+
+Metadata API:
+  correctness: True
+
+==================================================
+
+</INVALID_FILE_TXT>
+
+<VALID_FILE_JSON>
+{
+  "case": {
+    "ntop_text_summary": "highest degree is not enrolled, high school degree, and parent/guardian relationship at age 12 is both biological parents, and married/cohabitation status is never married, not cohabiting, and resident locale is urban, and other adult family member in jail previous 5 years is False, and total job in last year is 0, and homeless for 2+ days in past 5 years is False, and asks God for help is True, and sex is female, and used food stamps in last year is False",
+    "age": 19,
+    "numberofarrestsby2002": 3,
+    "y_arrestedafter2002": false
+  },
+  "debate_history": [
+    "Prosecutor: Based on the provided case facts and statistical evidence, it is highly likely that the defendant will be rearrested within the next three years. The defendant has a history of multiple prior arrests, specifically 3 within the last five years, which is a significant risk factor for future criminal behavior.",
+    "Defense: While the defendant has a history of three prior arrests within the last five years, I argue that this does not necessarily predict a high likelihood of reoffending within the next three years. Several factors mitigate against such an outcome.",
+    "Prosecutor: Based on the presented evidence and statistical recidivism data, it is highly probable that the defendant will be rearrested within the next three years. The defendant's history of multiple prior arrests\u2014specifically 3 within the last five years\u2014establishes a clear pattern that significantly increases the risk of reoffending. Additionally, factors such as living in an urban environment, lack of employment, and a previous relationship with parents both biological at age 12 contribute to this heightened likelihood. These patterns align with criminological research indicating that individuals with multiple prior arrests are more prone to recidivism due to underlying behavioral and environmental risk factors.",
+    "Defense: Despite the defendant's history of three prior arrests within the last five years, I argue that it is not highly likely she will be rearrested within the next three years. Several mitigating factors and positive life indicators suggest a pathway towards rehabilitation and desistance from criminal behavior.",
+    "Judge's Ruling: Based on the provided case facts and statistical evidence, it is reasonably likely that the defendant will reoffend within the next three years.\n==============================\n=============================="
+  ],
+  "judge_opinion_evolution": [
+    {
+      "timestamp": "2025-01-19T15:21:20.664251",
+      "after_speaker": "Prosecutor",
+      "prediction": "YES",
+      "confidence": 82
+    }
+  ],
+  "final_ruling": {
+    "prediction": "YES",
+    "confidence": 75.0,
+    "content": "Based on the provided case facts and statistical evidence, it is reasonably likely that the defendant will reoffend within the next three years.",
+    "reasoning": [
+      "The defendant has a history of multiple prior arrests\u2014specifically three within the last five years\u2014which establishes a significant pattern that increases the risk of future criminal behavior.",
+      "Living in an urban environment and lacking stable employment are recognized risk factors for recidivism, as these conditions can provide opportunities for criminal activity and hinder rehabilitation efforts.",
+      "While the defendant does not have a history of homelessness or utilizing public assistance programs like food stamps, these mitigating factors do not sufficiently outweigh the established pattern of multiple prior arrests.",
+      "The lack of employment over the past year suggests limited access to legitimate income sources and potential financial strain that might drive criminal behavior as a means of survival or resource acquisition.",
+      "However, it's important to note that the defendant does seek help from God, which may indicate a desire for rehabilitation and a commitment to positive change."
+    ],
+    "critique": "Both sides have presented compelling arguments. The prosecution effectively highlighted statistical recidivism data and environmental risk factors, while the defense emphasized mitigating circumstances such as seeking divine assistance and lack of certain negative indicators like homelessness. Ultimately, the historical pattern of multiple arrests significantly influences the prediction towards reoffending."
+  },
+  "transcript_path": "transcripts/court_transcript_row-51_ver-1_20250119_152128.txt",
+  "timestamp": "2025-01-19T15:21:28.339335",
+  "prediction_accurate": "False"
+}
+</VALID_FILE_JSON>
+
+<INVALID_FILE_JSON>
+{
+  "case": {
+    "ntop_text_summary": "highest degree is not enrolled, high school degree, and parent/guardian relationship at age 12 is both biological parents, and married/cohabitation status is never married, not cohabiting, and resident locale is urban, and other adult family member in jail previous 5 years is False, and total job in last year is 0, and homeless for 2+ days in past 5 years is False, and asks God for help is True, and sex is female, and used food stamps in last year is False",
+    "age": 19,
+    "numberofarrestsby2002": 3,
+    "y_arrestedafter2002": false
+  },
+  "debate_history": [],
+  "judge_opinion_evolution": [],
+  "final_ruling": {
+    "prediction": "No decision",
+    "confidence": 0,
+    "content": "",
+    "reasoning": [],
+    "critique": null
+  },
+  "transcript_path": null,
+  "timestamp": "2025-01-18T20:13:52.450621",
+  "prediction_accurate": "True"
+}
+</INVALID_FILE_JSON>
+
+<INSTRUCTIONS>
+Please write a python program step2_aggregate_report_files_ver1.py that processes output files with info from ollama API prompts and response text by doing the following:
+
+1. sets global variarbles:
+- INPUT_ROOT_DIR = os.path.join('..','transcripts')
+- INPUT_MODEL_LS = [
+    "llama3_2_1b_instruct_q4_k_m",
+    "llama3_2_3b_instruct_q4_k_m",
+]
+
+2. iterates over all the subdirs listed in INPUT_MODEL_LS under INPUT_ROOT_DIR and within that loop iterate over pairs of files with the same filename root but different extensions *.txt and *.json (log and skip unpaired filenames)
+
+3. for each *.txt and *.json filename pair with a common filename root, start with FLAG_INVALID_REPONSE=False and try parsing as f"transcrip-row-{row_no}_ver-{ver_no}" to extract out the values into the vars row_no and ver_no and then process each *.txt and *.json separately to extract info for a common case uniquely identified by row_no and ver_no
+
+4. for the *.txt file:
+
+4.a. start by segmenting the file contents into sections based upon the variable separator string = f"""
+==================================================
+
+[{datetime_str}]] {role_name}
+--------------------------------------------------
+"""
+where role_name in ['Prosecutor','Defense Attorney','Judge','System'] and datetime_str in YYYY-MM-DD HH:MM:SS (e.g. '2025-01-19 15:21:28')
+
+4.b. IF you can only parse one segment with the role_name == 'System', there is no valid info in the *.txt file so set FLAG_INVALID_REPONSE=True then skip to processing all info from the *.json file
+
+4.c. ELSE extract from the last section with role_name == 'Judge' the following info immediately after the line "Metadata API:" and assign them to vars metadata_api, prediction, and confidence
+
+metadata_api.model
+metadata_api.created_at
+metadata_api.total_duration_ns
+metadata_api.load_duration_ns
+metadata_api.prompt_eval_count
+metadata_api.prompt_eval_duration_ns
+metadata_api.eval_count
+metadata_api.eval_duration_ns
+metadata_api.total_duration_sec
+metadata_api.load_duration_sec
+metadata_api.prompt_eval_duration_sec
+metadata_api.eval_duration_sec
+metadata_api.python_api_duration_sec
+prediction (save as prediction_txt)
+confidence (save as confidence_txt)
+
+5. for the *.json file associated with the *.txt file in step 4, if FLAG_INVALID_REPONSE==True then for now have an if-then test on FLAG_INVALID_REPONSE that executes the same code in (==True) processs_valid_json() or (==False) process_invalid_json() these will be different in future upgrades
+
+5.a. many *.json files may be malformed so have a robust regex parse method instead of using json imports (json or pandas)
+
+5.b. always regex parse *.json for these key words and extract the following strings as corresponding values into varaibles with the same name unless noted with (save as...):
+"case"
+"age"
+"numberofarrestsby2002"
+"y_arrestedafter2002"
+"prediction" (save as prediction_json)
+"confidence" (save as confidence_json)
+"transcript_path"
+"timestamp"
+"prediction_accurate"
+
+6. save all the variables into an internal Pandas DataFrame summary_df with one row for each pair of *.txt and *.json files and all extracted values under these column names unless noted with (save as...). NOTE: leave content empty if value is invalid or unknown.
+
+"row_no"
+"ver_no"
+"case"
+"age"
+"numberofarrestsby2002"
+"y_arrestedafter2002"
+"prediction_json" ("prediction" from *.json file)
+"confidence_json" ("confidence" from *.json file)
+"transcript_path"
+"timestamp"
+"prediction_accurate"
+metadata_api.model (save as "model")
+metadata_api.created_at (save as "create_at")
+metadata_api.total_duration_ns (save as "total_duration_ns")
+metadata_api.load_duration_ns (save as "load_duration_ns")
+metadata_api.prompt_eval_count (save as "prompt_eval_count)
+metadata_api.prompt_eval_duration_ns (save as "prompt_eval_duration_ns)
+metadata_api.eval_count (save as "eval_count")
+metadata_api.eval_duration_ns (save as "eval_duration_ns")
+metadata_api.total_duration_sec (save as "total_duration_sec")
+metadata_api.load_duration_sec (save as "load_duration_sec")
+metadata_api.prompt_eval_duration_sec (save as "prompt_eval_duration_sec")
+metadata_api.eval_duration_sec (save as "eval_duration_sec")
+metadata_api.python_api_duration_sec (savew as "python_api_duration_sec")
+"prediction_txt" ("prediction" from *.json file)
+"confidence_txt" ("confidence" from *.txt file)
+
+</INSTRUCTIONS>

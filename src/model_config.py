@@ -22,12 +22,13 @@ class ModelSpec:
     provider: str  # "ollama", "openai", "google", "xai", "openrouter"
     max_tokens: int = 1024
     temperature: float = 0.7
+    reasoning_effort: str = ""  # For thinking models: "minimal", "low", "medium", "high"
 
 
-# Commercial models (hard-coded)
+# Commercial models (hard-coded fallback)
 COMMERCIAL_MODELS: List[ModelSpec] = [
     ModelSpec("gpt-4o-mini", "GPT-4o Mini", "openai"),
-    ModelSpec("gpt-5-mini", "GPT-5 Mini", "openai"),
+    ModelSpec("gpt-5-mini", "GPT-5 Mini", "openai", reasoning_effort="minimal"),
     ModelSpec("gemini/gemini-2.5-flash", "Gemini 2.5 Flash", "google"),
     ModelSpec("xai/grok-4.1-fast", "Grok 4.1 Fast", "xai"),
 ]
@@ -69,6 +70,7 @@ def load_commercial_models_from_yaml() -> List[ModelSpec]:
             display_name=m.get("display_name", m["model_id"]),
             provider=m.get("provider", "unknown"),
             max_tokens=m.get("max_tokens", 1024),
+            reasoning_effort=m.get("reasoning_effort", ""),
         )
         for m in models
     ]

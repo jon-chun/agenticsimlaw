@@ -1,0 +1,2 @@
+model_name,prompt_type,total_cases,valid_responses,success_rate,accuracy,precision,recall,f1_score,true_positive,true_negative,false_positive,false_negative,avg_confidence,avg_response_time,avg_tokens
+openai/gpt-4o-mini,system1,600,600,1.0,0.7183333333333334,0.7681159420289855,0.5678571428571428,0.6529774127310061,159,272,48,121,79.62833333333333,0.5420446606477102,173.83333333333334

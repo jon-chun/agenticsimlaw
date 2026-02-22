@@ -98,6 +98,8 @@ def main():
             model_name = "gpt-4o-mini"
         elif dir_name == "gpt_4_1_mini":
             model_name = "gpt-4.1-mini"
+        elif dir_name == "gpt_5_mini":
+            model_name = "gpt-5-mini"
         elif dir_name.startswith("gemini_"):
             # gemini_gemini_2_5_flash -> gemini/gemini-2.5-flash
             parts = dir_name.split("_", 1)  # ['gemini', 'gemini_2_5_flash']

@@ -1,0 +1,57 @@
+# CODE PROMPTS:
+
+## OpenAI o1 
+* 20250116
+
+### PROMPT #1: (4o)
+
+<CODE>
+(inserted)
+</CODE>
+
+<INSTRUCTIONS>
+Please think step by step to carefully analyze and deeply understand ###CODE to create a concise but detailed technical description for experienced programmers joining  the team including configuration, input/output files, data structures, functions, objects, all signatures, control flow, instructions on how to extend as well as future possible improvements
+</INSTRUCTIONS>
+
+
+### PROMPT #2: (4o)
+
+<INPUT_SUBDIR_VIGNETTES_CSV>
+../data/topn_datasets
+├── vignettes_lofo_top10.csv
+├── vignettes_lofo_top5.csv
+├── vignettes_lofo_topall.csv
+├── vignettes_mi_top10.csv
+├── vignettes_mi_top5.csv
+├── vignettes_mi_topall.csv
+├── vignettes_permutation_top10.csv
+├── vignettes_permutation_top5.csv
+├── vignettes_permutation_topall.csv
+├── vignettes_shap_top10.csv
+├── vignettes_shap_top5.csv
+├── vignettes_shap_topall.csv
+├── vignettes_xgboost_top10.csv
+├── vignettes_xgboost_top5.csv
+└── vignettes_xgboost_topall.csv
+</INPUT_SUBDIR_VIGNETTES_CSV>
+
+<INSTRUCTIONS>
+Great! Now carefully analyze <CODE> and your technical overview to brainstorm the best way to extend and modify <CODE> so it can accommodate the following changes:
+1. instead of just reading in one input file INPUT_VIGNETTES_CSV = "vignette_top14_mi_features.csv" it iterates over reading a series of *.csv files in INPUT_VIGNETTES_SUBDIR = os.path.join('..','data','topn_datasets') as seen here in <INPUT_SUBDIR_VIGNETTES_CSV>
+2. each of the input files in <INPUT_SUBDIR_VIGNETTES_CSV> may have a different size and/or order of columns with only 2 guaranteed to be in all *.csv input files: TARGET_COL='y_arrestedafter2002' and SUMMARY_TEXT = 'nshot_summary_text'
+3. the predictors feature column SUMMARY_TEXT='nshot_summary_text' replaces 'short_text_summary'
+4. the true outcome prediction column TARGET_COL='y_arrestedafter2002' replaces 'target'
+5. all columns/features that may be missing in any current input vignette *.csv file can be found in INPUT_VIGNETTES_REFERENCE=os.path.join('..','data','vignettes_final_clean.csv') like age (as column 'age'), arrests (as column 'numberofarrestsby2002')
+6. each input filename has the format f"vignettes_{algo_name}_top{n}.csv" and after processings the results should be written to output subdir os.path.join('..','transcripts',algo_name,output_filename) where output_filename = f"transcript_{algo_name}_top{n}_{datetime_stamp}.csv
+</INSTRUCTIONS>
+
+### PROMPT #3: (o1)
+
+Great! Now deeply analyze the code, new program requirements and your last proposal to carefully critique and brainstorm and more through, complete, and correct plan for revising and expanding the original code.
+
+### PROMPT #4: (o1)
+
+Super job! Now please remain focused and concentrate on providing a correct and complete implementation of this plan before them providing a complete printout of the new working version of the code with these new features including detailed  print/logging statements to debug and help track down errors
+
+### PROMPT #5: (o1)
+
