@@ -167,6 +167,14 @@ DATASET_CONFIGS = {
         'outcome_yes': 'YES (recidivated)',
         'outcome_no': 'NO (did not recidivate)',
     },
+    'credit_default': {
+        'vignettes_path': '../data/credit_default_vignettes.csv',
+        'target_col': 'default_payment_next_month',
+        'exclude_cols': ['id', 'default_payment_next_month'],
+        'recidivism_desc': 'credit card default',
+        'outcome_yes': 'YES (defaulted)',
+        'outcome_no': 'NO (did not default)',
+    },
 }
 
 

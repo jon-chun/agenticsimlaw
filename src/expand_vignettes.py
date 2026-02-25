@@ -40,6 +40,16 @@ COMPAS_FEATURE_COLS = [
 ]
 COMPAS_TARGET = "two_year_recid"
 
+# Credit Default
+CREDIT_FULL_PATH = DATA_DIR / "credit_default_full_filtered.csv"
+CREDIT_100_DST = DATA_DIR / "credit_default_vignettes_100.csv"
+CREDIT_100_FEATURE_PATH = DATA_DIR / "credit_default_100_topn_feature_by_algo.json"
+CREDIT_FEATURE_COLS = [
+    "LIMIT_BAL", "SEX", "EDUCATION", "MARRIAGE", "AGE",
+    "PAY_0", "PAY_2", "BILL_AMT1", "PAY_AMT1", "PAY_AMT2",
+]
+CREDIT_TARGET = "default_payment_next_month"
+
 
 # ---------------------------------------------------------------------------
 # NLSY97
@@ -167,6 +177,63 @@ def expand_compas() -> None:
 
 
 # ---------------------------------------------------------------------------
+# Credit Default
+# ---------------------------------------------------------------------------
+
+def compute_credit_lofo(df: pd.DataFrame) -> dict:
+    """LOFO for credit default features."""
+    X = df[CREDIT_FEATURE_COLS].copy()
+    for col in X.select_dtypes(include="object"):
+        X[col] = X[col].astype("category").cat.codes
+    y = df[CREDIT_TARGET]
+
+    base_scores = cross_val_score(
+        RandomForestClassifier(n_estimators=100, random_state=SEED),
+        X, y, cv=4, scoring="neg_log_loss",
+    )
+    base_mean = base_scores.mean()
+
+    importance = {}
+    for feat in CREDIT_FEATURE_COLS:
+        X_drop = X.drop(columns=[feat])
+        drop_scores = cross_val_score(
+            RandomForestClassifier(n_estimators=100, random_state=SEED),
+            X_drop, y, cv=4, scoring="neg_log_loss",
+        )
+        importance[feat] = base_mean - drop_scores.mean()
+
+    ranked = sorted(importance.items(), key=lambda x: -x[1])
+    return {str(i + 1): [feat, round(score, 6)] for i, (feat, score) in enumerate(ranked)}
+
+
+def expand_credit():
+    """Expand credit default vignettes from 30 to 100 cases."""
+    if not CREDIT_FULL_PATH.exists():
+        print(f"  [SKIP] {CREDIT_FULL_PATH} not found — run prepare_credit_dataset.py first")
+        return
+
+    print("Expanding Credit Default to 100 cases...")
+    df = pd.read_csv(CREDIT_FULL_PATH)
+    keep = CREDIT_FEATURE_COLS + [CREDIT_TARGET]
+    df = df[keep].dropna().reset_index(drop=True)
+
+    sss = StratifiedShuffleSplit(n_splits=1, train_size=SAMPLE_N, random_state=SEED)
+    idx, _ = next(sss.split(df, df[CREDIT_TARGET]))
+    sample = df.iloc[idx].reset_index(drop=True)
+    sample.insert(0, "id", range(1, len(sample) + 1))
+
+    sample.to_csv(CREDIT_100_DST, index=False)
+    print(f"  Saved {len(sample)} vignettes → {CREDIT_100_DST}")
+    print(f"  Base rate: {sample[CREDIT_TARGET].mean():.1%}")
+
+    # Recompute LOFO on 100-case sample
+    lofo = compute_credit_lofo(sample.drop(columns=["id"]))
+    with open(CREDIT_100_FEATURE_PATH, "w") as f:
+        json.dump({"lofo": lofo}, f, indent=2)
+    print(f"  Saved feature importance → {CREDIT_100_FEATURE_PATH}")
+
+
+# ---------------------------------------------------------------------------
 # Main
 # ---------------------------------------------------------------------------
 
@@ -174,6 +241,7 @@ def main() -> None:
     DATA_DIR.mkdir(parents=True, exist_ok=True)
     expand_nlsy97()
     expand_compas()
+    expand_credit()
 
     print("\n" + "=" * 60)
     print("Done! Generated files:")
@@ -181,6 +249,8 @@ def main() -> None:
     print(f"  {NLSY97_100_DST}")
     print(f"  {COMPAS_100_DST}")
     print(f"  {COMPAS_100_FEATURE_PATH}")
+    print(f"  {CREDIT_100_DST}")
+    print(f"  {CREDIT_100_FEATURE_PATH}")
     print("=" * 60)
 
 

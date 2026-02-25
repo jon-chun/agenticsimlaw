@@ -27,7 +27,7 @@ TOTAL_ALL=$(( (W1_PER_DS + W2_PER_DS) * 2 ))  # 49,000 per dataset x 2
 # Model lists
 DEBATE_MODELS="gpt-4o-mini,gpt-4.1-mini,gemini/gemini-2.5-flash"
 SC_MODEL_LIST=(gpt-4o-mini gpt-4.1-mini "gemini/gemini-2.5-flash" "xai/grok-4-1-fast-non-reasoning-latest")
-DATASETS=(nlsy97 compas)
+DATASETS=(nlsy97 compas credit_default)
 
 # ---- PID tracking and cleanup ----
 ALL_PIDS=()
@@ -340,3 +340,23 @@ echo "       --debate-csv <step2_aggregate.csv> \\"
 echo "       --sc-per-case <sc_majority_vote_per_case.csv> \\"
 echo "       --sc-raw <sc_merged.csv> \\"
 echo "       --dataset nlsy97"
+
+# ================================================================
+# W3 — Cooperative debate (C5 ablation)
+# ================================================================
+echo ""
+echo "========================================"
+echo "W3: Cooperative debate ablation"
+echo "========================================"
+
+COOP_MODELS="gpt-4o-mini,gpt-4.1-mini"
+
+for ds in "${DATASETS[@]}"; do
+    echo "  W3: cooperative debate on $ds ..."
+    python src/step1_cooperative_debate_ver26.py \
+        --dataset "$ds" \
+        --vignettes "$PROJECT_ROOT/data/${ds}_vignettes_100.csv" \
+        --ensemble "$COOP_MODELS" \
+        --cases 100 --repeats 3 --concurrency 30
+done
+echo "W3 complete."

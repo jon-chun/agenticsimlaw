@@ -1,0 +1,101 @@
+id,LIMIT_BAL,SEX,EDUCATION,MARRIAGE,AGE,PAY_0,PAY_2,BILL_AMT1,PAY_AMT1,PAY_AMT2,default_payment_next_month
+1,40000,female,university,married,23,2 month(s) late,3 month(s) late,31772,0,3000,0
+2,80000,male,university,single,23,2 month(s) late,2 month(s) late,71528,0,2131,0
+3,90000,male,university,married,30,1 month(s) late,2 month(s) late,45271,0,2055,0
+4,320000,female,graduate school,married,34,on time,on time,800,18873,0,1
+5,480000,female,university,married,35,on time,on time,227221,51000,10000,0
+6,270000,female,university,married,25,on time,on time,184560,6061,6081,0
+7,150000,male,university,single,36,on time,on time,149931,5500,5513,0
+8,300000,male,university,married,36,1 month(s) late,2 month(s) late,54977,2500,1800,1
+9,330000,male,university,married,52,on time,on time,120212,5000,5000,0
+10,280000,female,university,married,26,on time,on time,6056,1200,4720,0
+11,50000,female,high school,married,53,on time,on time,46778,1770,2009,1
+12,320000,male,university,married,32,on time,on time,43265,1528,3019,0
+13,260000,female,high school,married,59,on time,on time,258885,10000,11000,0
+14,100000,female,university,single,56,on time,on time,390,780,0,0
+15,400000,female,graduate school,single,37,1 month(s) late,on time,6914,73036,42386,0
+16,80000,female,university,married,35,on time,on time,9647,1206,1131,0
+17,170000,male,university,married,52,3 month(s) late,2 month(s) late,2184,0,0,0
+18,250000,female,graduate school,single,43,on time,on time,93163,4409,3023,0
+19,200000,male,graduate school,single,31,on time,on time,0,0,0,0
+20,330000,male,graduate school,single,32,on time,on time,162657,5500,4723,0
+21,120000,female,university,married,41,on time,on time,4591,0,28466,0
+22,200000,female,graduate school,married,37,on time,on time,37958,3023,1600,0
+23,360000,male,graduate school,single,26,on time,on time,11910,1500,5000,0
+24,220000,female,graduate school,married,41,on time,on time,138657,22000,0,0
+25,130000,female,graduate school,single,26,on time,on time,0,0,0,0
+26,150000,female,graduate school,married,35,on time,on time,38484,8000,5175,0
+27,260000,female,university,married,40,on time,on time,138602,4870,6307,0
+28,90000,male,graduate school,single,29,on time,on time,140,0,420,0
+29,60000,male,graduate school,married,33,on time,on time,8308,7565,8373,0
+30,240000,female,university,married,35,on time,on time,5391,7375,4908,0
+31,210000,female,graduate school,single,50,on time,on time,1561,0,0,0
+32,110000,male,university,married,48,2 month(s) late,2 month(s) late,65070,5500,0,1
+33,30000,female,university,married,23,6 month(s) late,5 month(s) late,40439,0,1011,1
+34,360000,male,university,married,47,on time,on time,8289,390,390,0
+35,50000,female,university,single,24,2 month(s) late,2 month(s) late,41500,0,2700,1
+36,20000,female,university,married,28,2 month(s) late,2 month(s) late,17023,2000,0,1
+37,280000,male,graduate school,single,33,on time,on time,281604,10000,10059,0
+38,70000,female,graduate school,single,25,on time,on time,35871,1902,1632,0
+39,170000,female,graduate school,single,35,on time,on time,897,861,3761,0
+40,80000,female,university,married,35,on time,on time,2890,9796,13443,0
+41,60000,male,university,single,28,2 month(s) late,2 month(s) late,61743,2800,0,1
+42,170000,male,university,single,42,on time,on time,102141,4002,5107,0
+43,40000,female,university,single,24,on time,on time,38221,3107,3000,1
+44,180000,female,university,married,30,1 month(s) late,on time,1591,150,8857,0
+45,320000,female,university,single,33,on time,on time,7444,5783,35069,0
+46,50000,male,university,single,30,on time,on time,2496,2254,0,0
+47,100000,male,high school,married,56,1 month(s) late,2 month(s) late,51021,4388,2000,0
+48,180000,female,university,married,62,1 month(s) late,on time,0,0,0,1
+49,200000,female,university,single,29,1 month(s) late,on time,0,0,0,1
+50,100000,female,graduate school,single,26,on time,on time,24459,3000,1016,0
+51,200000,female,high school,single,29,on time,on time,326,326,326,0
+52,70000,female,graduate school,single,37,on time,on time,64860,2200,3000,0
+53,50000,female,university,married,26,on time,on time,1902,782,0,0
+54,120000,female,graduate school,married,37,on time,on time,21128,5020,5000,0
+55,140000,male,graduate school,single,44,on time,on time,72763,3905,4025,0
+56,50000,male,university,married,33,on time,on time,21460,1300,1200,1
+57,50000,female,university,single,29,1 month(s) late,2 month(s) late,22021,1000,2000,0
+58,120000,male,graduate school,married,34,on time,2 month(s) late,1082,0,1350,0
+59,360000,female,graduate school,married,57,on time,on time,-2,0,0,0
+60,20000,female,university,married,35,1 month(s) late,2 month(s) late,16335,0,3200,1
+61,130000,female,university,single,22,on time,on time,34970,2012,2000,0
+62,500000,male,graduate school,married,41,on time,on time,505128,19295,18694,0
+63,500000,female,university,single,34,on time,on time,367463,10584,30232,0
+64,150000,female,graduate school,single,28,on time,on time,12799,1600,1500,0
+65,50000,male,university,single,27,on time,on time,0,0,0,0
+66,380000,female,high school,single,31,on time,on time,3859,9240,15233,0
+67,320000,male,graduate school,married,46,2 month(s) late,4 month(s) late,339202,5000,0,1
+68,220000,male,high school,married,42,on time,on time,285,825,0,0
+69,700000,female,graduate school,married,39,on time,on time,99259,5000,10000,0
+70,120000,female,graduate school,single,29,on time,on time,110488,4000,5000,0
+71,240000,female,graduate school,married,32,2 month(s) late,2 month(s) late,209368,0,22000,1
+72,190000,female,university,single,27,2 month(s) late,2 month(s) late,3902,1000,1000,1
+73,250000,female,university,single,29,on time,on time,46948,2500,10000,0
+74,50000,male,university,married,33,on time,on time,22384,1320,2000,1
+75,210000,male,graduate school,single,41,on time,on time,62261,6615,0,0
+76,100000,female,graduate school,single,36,on time,on time,10672,2355,0,0
+77,90000,female,university,single,26,on time,on time,61982,2000,2100,0
+78,200000,female,graduate school,single,32,on time,on time,219146,7950,7700,0
+79,320000,male,graduate school,married,33,on time,on time,325445,10000,15000,0
+80,180000,male,graduate school,single,38,on time,on time,141510,6700,6000,1
+81,450000,male,university,married,41,on time,on time,1068,1287,911,0
+82,500000,female,graduate school,married,45,on time,on time,36954,0,83000,0
+83,150000,female,university,single,28,on time,on time,326,326,326,0
+84,310000,female,university,single,26,on time,on time,87717,9156,2782,0
+85,30000,female,high school,single,28,2 month(s) late,on time,1946,1000,0,0
+86,610000,female,graduate school,single,36,on time,on time,874,0,1,0
+87,170000,male,graduate school,married,40,on time,on time,2000,2210,3000,1
+88,220000,female,high school,single,33,on time,on time,179430,7041,6921,0
+89,80000,male,university,single,48,on time,on time,74349,3400,4000,0
+90,90000,male,university,single,30,on time,on time,46927,4000,0,0
+91,70000,male,graduate school,single,31,on time,on time,47873,6000,5000,0
+92,110000,female,graduate school,single,37,2 month(s) late,2 month(s) late,600,0,0,1
+93,290000,male,graduate school,single,35,on time,on time,184910,4166,3400,1
+94,50000,female,graduate school,single,23,on time,on time,2332,0,0,0
+95,500000,male,high school,married,43,on time,on time,57313,4060,5014,0
+96,290000,female,university,married,50,on time,on time,272799,10109,10126,0
+97,120000,female,university,married,38,on time,on time,50721,1667,1967,0
+98,150000,female,university,married,30,1 month(s) late,2 month(s) late,36472,0,5035,1
+99,30000,male,university,single,34,on time,on time,390,0,780,0
+100,310000,female,university,single,27,on time,on time,44834,2015,2000,0

@@ -290,12 +290,58 @@ COMPAS_NODECILE_CONFIG = DatasetConfig(
 )
 
 
+# ── Credit Default feature importance ──────────────────
+_CREDIT_LOFO_FALLBACK = [
+    "PAY_0", "PAY_2", "LIMIT_BAL", "PAY_AMT1",
+    "PAY_AMT2", "BILL_AMT1", "AGE", "EDUCATION",
+    "MARRIAGE", "SEX",
+]
+
+
+def _load_credit_feature_importance() -> Dict[str, Dict[int, Tuple[str, float]]]:
+    """Load credit default LOFO importance, with fallback."""
+    json_path = Path(__file__).resolve().parent.parent / "data" / "credit_default_topn_feature_by_algo.json"
+    if json_path.exists():
+        with open(json_path) as f:
+            raw = json.load(f)
+        lofo = raw.get("lofo", {})
+        return {"lofo": {int(k): tuple(v) for k, v in lofo.items()}}
+    # Fallback before prepare_credit_dataset.py has been run
+    return {"lofo": {i + 1: (feat, 0.0) for i, feat in enumerate(_CREDIT_LOFO_FALLBACK)}}
+
+
+CREDIT_DEFAULT_CONFIG = DatasetConfig(
+    name="credit_default",
+    display_name="UCI Credit Default",
+    target_col="default_payment_next_month",
+    vignettes_csv="credit_default_vignettes.csv",
+    feature_descriptions={
+        "LIMIT_BAL": "credit limit amount (TWD)",
+        "SEX": "sex",
+        "EDUCATION": "education level",
+        "MARRIAGE": "marital status",
+        "AGE": "age",
+        "PAY_0": "repayment status last month",
+        "PAY_2": "repayment status 2 months ago",
+        "BILL_AMT1": "most recent bill amount (TWD)",
+        "PAY_AMT1": "most recent payment amount (TWD)",
+        "PAY_AMT2": "payment amount 2 months ago (TWD)",
+    },
+    feature_importance=_load_credit_feature_importance(),
+    key_statistics={"age": "AGE", "credit_limit": "LIMIT_BAL"},
+    key_statistics_labels={"age": "Age", "credit_limit": "Credit Limit (TWD)"},
+    default_topn=10,
+    task_description="default on credit card payment next month",
+)
+
+
 def get_dataset_config(name: str) -> DatasetConfig:
     """Return dataset config by name."""
     configs = {
         "nlsy97": NLSY97_CONFIG,
         "compas": COMPAS_CONFIG,
         "compas_nodecile": COMPAS_NODECILE_CONFIG,
+        "credit_default": CREDIT_DEFAULT_CONFIG,
     }
     if name not in configs:
         raise ValueError(f"Unknown dataset: {name!r}. Choose from: {list(configs.keys())}")

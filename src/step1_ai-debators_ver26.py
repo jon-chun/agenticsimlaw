@@ -1086,7 +1086,7 @@ def parse_args() -> argparse.Namespace:
         description="AgenticSimLaw ver26 — Multi-agent courtroom debate runner"
     )
     parser.add_argument(
-        "--dataset", choices=["nlsy97", "compas", "compas_nodecile"], default="nlsy97",
+        "--dataset", choices=["nlsy97", "compas", "compas_nodecile", "credit_default"], default="nlsy97",
         help="Dataset to use (default: nlsy97)",
     )
     parser.add_argument(

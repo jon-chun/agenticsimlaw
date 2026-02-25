@@ -24,6 +24,7 @@ DATASET_TARGET = {
     "nlsy97": "y_arrestedafter2002",
     "compas": "two_year_recid",
     "compas_nodecile": "two_year_recid",
+    "credit_default": "default_payment_next_month",
 }
 
 
