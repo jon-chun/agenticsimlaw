@@ -76,6 +76,16 @@ python scripts/ablation_random_flip.py
 
 # GPT-5-mini boundary condition analysis (Section 4.5)
 python scripts/compare_bridge_gpt5mini.py
+
+# Cooperative debate ablation (Appendix I)
+python src/step1_ai-debators_ver26.py --dataset nlsy97 --ensemble commercial --cases 100 --repeats 3 --cooperative --concurrency 30
+
+# Sign test across model-dataset pairs
+python scripts/compute_sign_test.py
+
+# Regenerate paper figures
+python scripts/generate_brd_figure.py
+python scripts/generate_cooperative_figure.py
 ```
 
 ## Directory Structure
@@ -92,6 +102,7 @@ agenticsimlaw/
 │   ├── compas_full_filtered.csv      # COMPAS full filtered dataset
 │   ├── compas_vignettes_100.csv      # COMPAS 100-case expanded
 │   ├── compas_vignettes_200.csv      # COMPAS 200-case expanded
+│   ├── credit_default_vignettes_100.csv  # Credit Default 100-case sample
 │   └── topn_datasets/                # Pre-computed feature subsets (5 algos × 3 counts)
 ├── results/              # Pre-computed experiment outputs
 │   ├── *.csv / *.txt                 # Aggregated debate results, statistics
@@ -105,7 +116,7 @@ agenticsimlaw/
 ├── src/                  # Source code
 │   ├── llm_client.py                 # Dual-path LLM client (Ollama / LiteLLM)
 │   ├── model_config.py               # Model ensemble management
-│   ├── dataset_config.py             # Dataset configurations (NLSY97, COMPAS)
+│   ├── dataset_config.py             # Dataset configurations (NLSY97, COMPAS, Credit Default)
 │   ├── step1_ai-debators_ver26.py    # Multi-agent debate engine
 │   ├── standardllm_evaluation.py     # Standard prompting baselines
 │   ├── sc_majority_vote.py           # Self-consistency majority voting
@@ -117,10 +128,11 @@ agenticsimlaw/
 
 ## Datasets
 
-- **NLSY97**: Rearrest prediction (3-year window) using 22 demographic/behavioral features from the National Longitudinal Survey of Youth 1997. The target variable is rearrest, not reconviction or reoffense.
-- **COMPAS**: Two-year recidivism prediction using 9 features from the ProPublica COMPAS dataset. A variant without the algorithmic `decile_score` is also evaluated.
+- **NLSY97**: Rearrest prediction (3-year window) using 22 demographic/behavioral features from the National Longitudinal Survey of Youth 1997. The target variable is rearrest, not reconviction or reoffense. Base rate: 36%.
+- **COMPAS**: Two-year recidivism prediction using 9 features from the ProPublica COMPAS dataset. A variant without the algorithmic `decile_score` is also evaluated. Base rate: 45%.
+- **UCI Credit Default**: Next-month default prediction using 10 LOFO-selected features from the UCI Credit Card Clients dataset (Yeh & Lien, 2009; 30,000 cases). Base rate: 22%.
 
-Only derived vignettes are included. Full NLSY97 data requires a license from the Bureau of Labor Statistics. COMPAS raw data can be re-downloaded via `python src/prepare_compas_dataset.py`.
+Only derived vignettes are included. Full NLSY97 data requires a license from the Bureau of Labor Statistics. COMPAS raw data can be re-downloaded via `python src/prepare_compas_dataset.py`. UCI Credit Default data is publicly available from the UCI Machine Learning Repository.
 
 ## Key Design Decisions
 

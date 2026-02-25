@@ -44,8 +44,13 @@ data/compas_raw.csv
 # Non-essential artifacts
 CLAUDE.md
 papers/
+docs/code_prompts_*.txt
+docs/Documentation - Prompts*.txt
+docs/Documentation - MLOps*.txt
+docs/technical_overview_claude_*.md
+docs/technical_overview_openai_*.md
 
-# Claude Code session transcripts
+# Session transcripts
 *-implement-the-following-plan.txt
 
 # Secrets
