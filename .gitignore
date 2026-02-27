@@ -40,6 +40,15 @@ aggregate_reports*/
 
 # Raw downloaded data (re-downloaded by scripts)
 data/compas_raw.csv
+data/credit_default_raw.xls
+data/topn_datasets/*_topall.csv
+
+# Deprecated code (superseded by ver26/ver4)
+src/step1_ai-debators-openai_ver20-*.py
+src/step5_merge_standard-agenticsim_ver2.py
+
+# Intermediate results (canonical location is results/)
+src/results/
 
 # Non-essential artifacts
 CLAUDE.md
@@ -50,8 +59,9 @@ docs/Documentation - MLOps*.txt
 docs/technical_overview_claude_*.md
 docs/technical_overview_openai_*.md
 
-# Session transcripts
+# Session transcripts and context files
 *-implement-the-following-plan.txt
+*-this-session-is-being-continued-*.txt
 
 # Secrets
 .env
