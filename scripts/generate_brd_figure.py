@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """Generate Figure 3: BRD comparison bar chart with 3 dataset panels."""
+import os
 import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
@@ -72,7 +73,8 @@ fig.legend(
     bbox_to_anchor=(0.5, 0.99)
 )
 
-out = '../agenticsimlaw-main/papers/tmlr2026/images/figure_brd_comparison.pdf'
+out = os.path.join(os.path.dirname(__file__), '..', 'figures', 'figure_brd_comparison.pdf')
+os.makedirs(os.path.dirname(out), exist_ok=True)
 fig.savefig(out, dpi=300, bbox_inches='tight')
 print(f'Saved: {out}')
 plt.close()

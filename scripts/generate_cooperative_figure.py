@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """Generate cooperative vs adversarial BRD bar chart for Appendix I."""
+import os
 import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
@@ -71,7 +72,8 @@ ax.legend(
     loc='upper center', fontsize=10, frameon=True, framealpha=0.9
 )
 
-out = '../agenticsimlaw-main/papers/tmlr2026/images/figure_cooperative_ablation.pdf'
+out = os.path.join(os.path.dirname(__file__), '..', 'figures', 'figure_cooperative_ablation.pdf')
+os.makedirs(os.path.dirname(out), exist_ok=True)
 fig.savefig(out, dpi=300, bbox_inches='tight')
 print(f'Saved: {out}')
 plt.close()

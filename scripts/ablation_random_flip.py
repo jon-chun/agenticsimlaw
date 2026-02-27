@@ -41,9 +41,7 @@ DEBATE_PATHS = {
     "compas": os.path.join(REPO_ROOT, "results", "debate_aggregate_compas_200.csv"),
 }
 OUT_CSV = os.path.join(REPO_ROOT, "results", "ablation_random_flip.csv")
-OUT_FIG = os.path.join(
-    REPO_ROOT, "papers", "tmlr2026", "images", "figure_random_flip_ablation.pdf"
-)
+OUT_FIG = os.path.join(REPO_ROOT, "figures", "figure_random_flip_ablation.pdf")
 
 BASE_RATES = {"nlsy97": 0.36, "compas": 0.45}
 OVERLAPPING_MODELS = ["gpt-4o-mini", "gpt-4.1-mini", "gemini/gemini-2.5-flash"]

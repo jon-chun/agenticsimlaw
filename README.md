@@ -83,10 +83,26 @@ python src/step1_ai-debators_ver26.py --dataset nlsy97 --ensemble commercial --c
 # Sign test across model-dataset pairs
 python scripts/compute_sign_test.py
 
-# Regenerate paper figures
-python scripts/generate_brd_figure.py
-python scripts/generate_cooperative_figure.py
+# Adversarial vs cooperative comparison
+python scripts/compare_adversarial_vs_cooperative.py
 ```
+
+### Regenerating Paper Figures
+
+All four data-driven paper figures can be regenerated from included results:
+
+```bash
+# Generate all figures at once
+python scripts/generate_all_figures.py
+
+# Or individually:
+python scripts/generate_brd_figure.py                    # BRD comparison (3 datasets)
+python scripts/generate_commercial_comparison_figure.py   # Commercial LLM comparison
+python scripts/generate_cooperative_figure.py             # Adversarial vs cooperative
+python scripts/generate_random_flip_figure.py             # Random-flip ablation
+```
+
+Output: `figures/*.pdf`
 
 ## Directory Structure
 
@@ -109,8 +125,14 @@ agenticsimlaw/
 │   ├── baselines*/                   # PyCaret ML baseline results
 │   ├── bridge_gpt5mini_*/            # GPT-5-mini boundary condition results
 │   └── standardllm/                  # Standard LLM prompting + SC results
+├── figures/              # Generated paper figures (from scripts/)
 ├── scripts/              # Reproducibility scripts for paper tables/figures
 │   ├── reproduce_all.sh              # Run all reproducibility scripts
+│   ├── generate_all_figures.py       # Generate all paper figures
+│   ├── generate_brd_figure.py        # BRD comparison bar chart
+│   ├── generate_commercial_comparison_figure.py  # Commercial LLM comparison
+│   ├── generate_cooperative_figure.py # Adversarial vs cooperative
+│   ├── generate_random_flip_figure.py # Random-flip ablation
 │   ├── ablation_random_flip.py       # Random-flip Monte Carlo ablation
 │   └── compare_bridge_gpt5mini.py    # GPT-5-mini bridge analysis
 ├── src/                  # Source code
